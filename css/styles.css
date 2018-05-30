@@ -37,6 +37,26 @@ h4 {
 	text-align: center;
 	width: 100%;
 }
+h5{
+	font-family: "Proxima-Nova-Bold";
+	font-size: 20px;
+	color: #AEDCFF;
+	text-align: center;
+	width: 100%;
+	margin:0;
+	padding:10;
+
+}
+h6{
+	margin:0;
+	padding:0;
+	font-family: "Proxima-Nova-Bold";
+	font-size: 40px;
+	color: #AEDCFF;
+	text-align: center;
+	width: 100%;
+}
+
 .bar{
     background-color: #262626;
     overflow: hidden;
@@ -55,6 +75,7 @@ h4 {
     text-decoration: none;
     font-size: 30px;
 }
+
 .tabcolor {
     background-color: #32A4F9;
 }
@@ -66,7 +87,94 @@ h4 {
 	width: 40px;
 	height: 60px;
 }
-.center_div{
-    margin: 0 auto;
-    width:80% /* value of your choice which suits your alignment */
+
+.black_left {
+		float: left;
+		height: 400px;
+    margin: 10px;
+    width: 500px;
+		margin-top: 30px;
+    margin-left: 50px;
+    margin-right: auto;
+		background-color: #363C42;
+    box-shadow: 10px 10px 5px #8d8d8d;
+		padding: 20px;
+	}
+.black_right {
+	float: right;
+	height: 400px;
+	margin: 10px;
+	width: 500px;
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-right: 20px;
+	background-color: #363C42;
+	box-shadow: 10px 10px 5px #8d8d8d;
+  padding: 20px;
+}
+input {
+	font-family: "Proxima-Nova-Bold";
+	width: 79%;
+	height: 10%;
+	font-size: 30px;
+	}
+
+button {
+		float: right;
+    width: 20%;
+		height: 12%;
+    background: #2196F3;
+    color: white;
+    border-left: none;
+    cursor: pointer;
+}
+
+.dropbtn, .dropbtn a {
+    background-color: #6495ED;
+    color: white;
+    padding: 5px;
+    position: relative;
+    font-size: 20px;
+    min-width: 200px;
+    min-height: 20px;
+    border: none;
+    cursor: pointer;
+    font-family: "Proxima-Nova-Bold";
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    min-height: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: "Proxima-Nova-Bold";
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #4881ea;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 5px 14px;
+    text-decoration: none;
+    display: block;
+    font-family: "Proxima-Nova-Bold";
+
+}
+
+.dropdown-content:hover {
+		background-color: #BABDC0;
 }

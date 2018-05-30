@@ -2,10 +2,37 @@
 <html>
 <body>
 <title> Tweeter </title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript">
+    google.charts.load('current', {'packages':['geochart'],
+
+});
+
+    google.charts.setOnLoadCallback(drawMap);
+
+    function drawMap() {
+      var data = google.visualization.arrayToDataTable([
+        ['Country', 'Popularity'],
+        ['United States', 300],
+        ['Brazil', 400],
+        ['Canada', 500],
+        ['France', 600],
+        ['RU', 700]
+      ]);
+
+      var options = {
+        region: 'world'
+      };
+      options['dataMode'] = 'regions';
+
+      var container = document.getElementById('regions_div');
+      var geochart = new google.visualization.GeoChart(container);
+
+      geochart.draw(data, options);
+    };
+  </script>
 <link rel="stylesheet" href="css/styles.css">
 <div class="bar" id="myBar">
   <a href="index.html">Home</a>
@@ -19,14 +46,26 @@
 <br>
 <br>
 <h2><u> Application: </u></h2>
-<br>
-<h3> To use this application, insert 2 words; separated by commas into the search bar. Once completed,
+<div class="black_left">
+  <br>
+  <h6> <u> Instructions: </u> </h6>
+  <br>
+  <br>
+  <h5> To use this application, insert 2 words; separated by commas into the search bar. Once completed,
   choose a set of demographics you would like to view by choosing the options in the dropdown menu. A graph and map
-  will provide you with information regarding the specific tweets dealign with the topics inserted in the search bar. </h3>
-<div class="col-md-4 col-md-offset-4">
-<form class="form-inline mr-auto">
-    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-    <button class="btn btn-unique btn-rounded btn-sm my-0" type="submit">Search</button>
-</form>
+  will provide you with information regarding the specific tweets dealign with the topics inserted in the search bar. </h5>
+</div>
+<div class="black_right">
+  <h6> <u> Options: </u> </h6>
+  <br>
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+  <br>
+  <br>
+  <div class="dropdown">
+    <div class="dropbtn"> Choose your View: </div>
+    <div class="dropdown-content">
+      <a> World Map </a>
+      <a> Pie Chart </a>
 </div>
 </html>
