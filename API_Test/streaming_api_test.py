@@ -1,3 +1,5 @@
+
+
 try:
     import json
 except ImportError:
@@ -6,10 +8,10 @@ except ImportError:
 from twitter import Twitter, OAuth, TwitterHTTPError, TwitterStream
 
 ACCESS_TOKEN = "917612981311229952-fAzjd6ZXJH55WPIFjBXn3YbGUqthZQW"
-ACCESS_SECRET = ""
+ACCESS_SECRET = "4p0TUtBD6natIqvFkPAw3NKdnuthmLofBPSrwzqlCxIDO"
 
 CONSUMER_KEY = "8tTrc4OOKie2lCxWztVWeheKt"
-CONSUMER_SECRET = ""
+CONSUMER_SECRET = "m1BpwQOP08HQmAUm4BNDZs6luNWmWZLtx6iqatdEZqPWGfXCcG"
 
 oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 
