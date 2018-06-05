@@ -3,8 +3,8 @@
 <body>
 <title> Tweeter </title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="css/styles.css">
+<!--
 <div class="bar" id="myBar">
   <a class="tabcolor" href="index.html">Home</a>
   <a href="about.html">About</a>
@@ -20,7 +20,7 @@
 <h1> Click on the Application section at the top to use our project. </h1>
 <center>
   <h3> <img src="pictures/tweetbird.png" width="50px";> Made through the use of the Twitter API. <img src="pictures/tweetbird.png" width="50px";> </h3>
-  <!-- These are custom elements already implemented through Bootstrap. -->
+   These are custom elements already implemented through Bootstrap.
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -47,4 +47,57 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+</html>
+-->
+<script type="text/javascript">
+  google.charts.load('current', {'packages':['geochart'],
+
+});
+
+  google.charts.setOnLoadCallback(drawMap);
+
+// drawPopularityMap draws the map for population tkaing in 2 parameters.
+// The first parameter represents the country, while the 2nd parameter represents
+// the
+  function drawPopularityMap() {
+    var data = google.visualization.arrayToDataTable([
+      ['Country', 'Popularity'],
+      ['United States', 300],
+      ['Brazil', 400],
+      ['Canada', 500],
+      ['France', 600],
+      ['RU', 700]
+    ]);
+
+    var options = {
+      region: 'world'
+    };
+    options['dataMode'] = 'regions';
+
+    var container = document.getElementById('regions_div');
+    var geochart = new google.visualization.GeoChart(container);
+
+    geochart.draw(data, options);
+  };
+</script>
+<link rel="stylesheet" href="css/styles.css">
+  <h2><img src="pictures/tweetbird.png" width="40px;" height="40px;" display="inline-block;"> </img>
+   Application: <img src="pictures/tweetbird.png" width="40px;" height="40px;" display="inline-block;"> </img> </h2>
+<div class="black_box">
+<form method="GET" action="search.py">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit">
+    <i class="fa fa-arrow-circle-right fa-lg"></i> Submit
+  </button>
+<br>
+<br>
+<h3> Choose a View: </h3>
+<br>
+<select name="chartView">
+  <option value="worldMap"> World Map </option>
+  <option value="piechart"> Pie Chart </option>
+  <option value="barGraph"> Bar Graph </option>
+</select>
+</form>
+</div>
 </html>

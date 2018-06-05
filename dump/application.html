@@ -12,7 +12,10 @@
 
     google.charts.setOnLoadCallback(drawMap);
 
-    function drawMap() {
+// drawPopularityMap draws the map for population tkaing in 2 parameters.
+// The first parameter represents the country, while the 2nd parameter represents
+// the
+    function drawPopularityMap() {
       var data = google.visualization.arrayToDataTable([
         ['Country', 'Popularity'],
         ['United States', 300],
@@ -34,12 +37,6 @@
     };
   </script>
 <link rel="stylesheet" href="css/styles.css">
-<div class="bar" id="myBar">
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a class="tabcolor" href="application.html">Application</a>
-  <a href="contact.html">Contact</a>
-</div>
 <br>
 <br>
 <br>

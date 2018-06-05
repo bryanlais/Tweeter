@@ -8,173 +8,65 @@
 }
 
 body{
-background-color: #f2f2f2;
+background-color: #2E4053  ;
 }
-h1{
-font-family: "Proxima-Nova-Bold";
-font-weight: bold;
-font-size: 30px;
-text-align: center;
-color: #262626;
-}
-h2, ul{
+
+/* Application title words */
+h2 {
 	font-family: "Proxima-Nova-Bold";
 	font-size: 50px;
-	color: #262626;
+	color: #85C1E9;
 	text-align: center;
 }
-h3, li{
+/* Text inside the black box, used for describing options. */
+h3 {
+	float: left;
+	font-size: 29px;
+	color: #85C1E9;
 	font-family: "Proxima-Nova-Bold";
-	font-size: 20px;
-	color: #262626;
-	text-align: center;
-	width: 100%;
-}
-h4 {
-	font-family: "Proxima-Nova-Bold";
-	font-size: 25px;
-	color: #81C3F4;
-	text-align: center;
-	width: 100%;
-}
-h5{
-	font-family: "Proxima-Nova-Bold";
-	font-size: 20px;
-	color: #AEDCFF;
-	text-align: center;
-	width: 100%;
-	margin:0;
-	padding:10;
-
-}
-h6{
-	margin:0;
-	padding:0;
-	font-family: "Proxima-Nova-Bold";
-	font-size: 40px;
-	color: #AEDCFF;
-	text-align: center;
-	width: 100%;
+	display: inline-block;
 }
 
-.bar{
-    background-color: #262626;
-    overflow: hidden;
-    font-family: "Proxima-Nova-Bold";
-    font-weight: bold;
-		top: 0;
-		position: fixed;
-		width: 100%;
-}
-.bar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 30px 39px;
-    text-decoration: none;
-    font-size: 30px;
-}
-
-.tabcolor {
-    background-color: #32A4F9;
-}
-.bar a:hover:not(.tabcolor) {
-    background-color: #404040;
-}
-.carousel-control-next-icon, .carousel-control-prev-icon {
-	background-color: #73C3FF;
-	width: 40px;
-	height: 60px;
-}
-
-.black_left {
-		float: left;
+.black_box {
+		float: middle;
 		height: 400px;
     margin: 10px;
-    width: 500px;
-		margin-top: 30px;
+    width: 1000px;
+		margin-top: 20px;
     margin-left: 50px;
-    margin-right: auto;
-		background-color: #363C42;
-    box-shadow: 10px 10px 5px #8d8d8d;
+    margin-right: 20px;
+		background-color: #34495E;
+    box-shadow: 10px 10px 5px #283747;
 		padding: 20px;
-	}
-.black_right {
-	float: right;
-	height: 400px;
-	margin: 10px;
-	width: 500px;
-	margin-top: 30px;
-	margin-left: 50px;
-	margin-right: 20px;
-	background-color: #363C42;
-	box-shadow: 10px 10px 5px #8d8d8d;
-  padding: 20px;
 }
+
 input {
 	font-family: "Proxima-Nova-Bold";
-	width: 79%;
-	height: 10%;
+	width: 90%;
+	height: 45px;
 	font-size: 30px;
+	color: #2C3E50;
+	display: inline-block;
 	}
 
-button {
-		float: right;
-    width: 20%;
-		height: 12%;
-    background: #2196F3;
-    color: white;
-    border-left: none;
-    cursor: pointer;
-}
-
-.dropbtn, .dropbtn a {
-    background-color: #6495ED;
-    color: white;
-    padding: 5px;
-    position: relative;
-    font-size: 20px;
-    min-width: 200px;
-    min-height: 20px;
-    border: none;
-    cursor: pointer;
-    font-family: "Proxima-Nova-Bold";
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
+select {
     background-color: #f9f9f9;
     min-width: 200px;
     min-height: 50px;
+		margin-left: 10px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     font-family: "Proxima-Nova-Bold";
+		font-size: 30px;
+		color: #2C3E50;
+		display: inline-block;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #4881ea;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 5px 14px;
-    text-decoration: none;
-    display: block;
-    font-family: "Proxima-Nova-Bold";
-
-}
-
-.dropdown-content:hover {
-		background-color: #BABDC0;
+button {
+	float: right;
+	height: 50px;
+	color: #2C3E50;
+	font-family: "Proxima-Nova-Bold";
+	padding: 10px;
+	display: inline-block;
 }
