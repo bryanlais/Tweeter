@@ -27,7 +27,7 @@ html = '''
 <!DOCTYPE html>
 <html>
 	<head></head>
-	<body>{}</body>
+	<body>{body}</body>
 </html>
 '''
 
@@ -42,15 +42,16 @@ def convertToDictionary(fieldStorage):
 def returnTweets(search_value):
 	global twitter_stream
 	tweets = twitter_stream.statuses.filter(track=search_value)
+	output = []
 	for tweet in tweets:
 		tweet_count -= 1
-		output =  json.dumps(tweet)
+		output.append(json.dumps(tweet))
 
 		if tweet_count <= 0:
 			break
-
+	return output 
 def main():
 	search_results = convertToDictionary(cgi.fieldStorage())
-	returnTweets(form["search"])
+	print html.format(body = returnTweets(form["search"]))
 
 main()
