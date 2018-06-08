@@ -116,7 +116,7 @@ def chartManager(chartType):
 def main():
     input = toVar()
     twitterInfo = returnTweets(input["search"])
-    print twitterInf
+    print twitterInfo
     #try:
     #if input["chartView"] == "none":
     #    print errorHandler("You didn't choose a view option.")
