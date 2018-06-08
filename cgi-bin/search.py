@@ -29,8 +29,8 @@ ACCESS_SECRET = "4p0TUtBD6natIqvFkPAw3NKdnuthmLofBPSrwzqlCxIDO"
 
 CONSUMER_KEY = "8tTrc4OOKie2lCxWztVWeheKt"
 CONSUMER_SECRET = "m1BpwQOP08HQmAUm4BNDZs6luNWmWZLtx6iqatdEZqPWGfXCcG"
-#oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
-#twitter_stream = TwitterStream(auth=oauth)
+oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
+twitter_stream = TwitterStream(auth=oauth)
 
 html = '''
 <!DOCTYPE html>
@@ -42,17 +42,21 @@ html = '''
 
 def returnTweets(search_value):
 	global twitter_stream
-	tweets = twitter_stream.statuses.filter(track=search_value)
-	output = []
-	tweet_count = 3
-	for tweet in tweets:
-		tweet_count -= 1
-		output.append(json.dumps(tweet))
-		if tweet_count <= 0:
-			break
-	return output
+	try:
+		tweets = twitter_stream.statuses.filter(track=search_value)
+		output = []
+		tweet_count = 50
+		for tweet in tweets:
+			tweet_count -= 1
+			output.append(json.dumps(tweet))
+			if tweet_count <= 0:
+				break
+		return output
+	except TwitterHTTPError:
+		return twitterOverflow()
 
-
+def twitterOverflow():
+	return html.format(body="No results. Please try again")
 
 '''
   _____                                  __  __
