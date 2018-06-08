@@ -13,13 +13,12 @@
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load('current', {
-        'packages':['geochart'],
+        'packages':['geochart','corechart'],
         // Note: you will need to get a mapsApiKey for your project.
         // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
         'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
       });
-      google.charts.setOnLoadCallback(drawRegionsMap);
-
+      google.charts.setOnLoadCallback(drawRegionsMap,drawPieChart);
       function drawRegionsMap() {
         var data = google.visualization.arrayToDataTable([
           ['Country', 'Popularity'],
@@ -30,18 +29,23 @@
           ['France', 600],
           ['RU', 700]
         ]);
-
         var options = {};
-
         var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
-
         chart.draw(data, options);
+      }
+      function drawPieChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Age Group', 'Popularity'],
+          ['']
+        ])
       }
     </script>
   </head>
   <body>
+    <h2> Information Charts: </h2>
+    <br>
     <div class="black_box">
-    <div id="{chartInput}" style="width: 500px; float: left; height: 400px;"></div>
+    <div id="chartInput" style="width: 500px; float: left; height: 400px;"></div>
   </div>
   </body>
 </html>

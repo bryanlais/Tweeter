@@ -23,27 +23,26 @@ except ImportError:
 from twitter.api import Twitter
 from twitter.oauth import OAuth
 from twitter.stream import TwitterHTTPError, TwitterStream
-
 #These are the keys used to access the Twitter API.
 ACCESS_TOKEN = "917612981311229952-fAzjd6ZXJH55WPIFjBXn3YbGUqthZQW"
 ACCESS_SECRET = "4p0TUtBD6natIqvFkPAw3NKdnuthmLofBPSrwzqlCxIDO"
 
 CONSUMER_KEY = "8tTrc4OOKie2lCxWztVWeheKt"
 CONSUMER_SECRET = "m1BpwQOP08HQmAUm4BNDZs6luNWmWZLtx6iqatdEZqPWGfXCcG"
-oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
-twitter_stream = TwitterStream(auth=oauth)
+#oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
+#twitter_stream = TwitterStream(auth=oauth)
 
-def returnTweets(search_value):
-	global twitter_stream
-	tweets = twitter_stream.statuses.filter(track=search_value)
-	output = []
-	for tweet in tweets:
-		tweet_count -= 1
-		output.append(json.dumps(tweet))
+#def returnTweets(search_value):
+#	global twitter_stream
+#	tweets = twitter_stream.statuses.filter(track=search_value)
+#	output = []
+#	for tweet in tweets:
+#		tweet_count -= 1
+#		output.append(json.dumps(tweet))
 
-		if tweet_count <= 0:
-			break
-	return output
+#		if tweet_count <= 0:
+#			break
+#	return output
 
 
 
@@ -98,11 +97,11 @@ googleChart = open("google.html", "r").read()
 
 def chartManager(chartType):
     if chartType == "worldMap":
-        return googleChart.format(chartInput = "regions_div")
+        return googleChart.replace("chartInput","regions_div")
     if chartType == "piechart":
-        return googleChart.format(chartInput = "pies_div")
+        return googleChart.replace("chartInput","pies_div")
     if chartType == "barGraph":
-        return googleChart.format(chartInput = "bargraph_div")
+        return googleChart.replace("chartInput","bargraph_div")
 
 
 '''
@@ -115,13 +114,13 @@ def chartManager(chartType):
 '''
 def main():
     input = toVar()
-    twitterInfo = returnTweets(input["search"])
-    print twitterInfo
-    #try:
-    #if input["chartView"] == "none":
-    #    print errorHandler("You didn't choose a view option.")
-    #else:
-    #    print chartManager(input["chartView"])
-    #except KeyError:
-    #    print errorHandler("Technical Difficulties.")
+#    twitterInfo = returnTweets(input["search"])
+#    print input
+    try:
+        if input["chartView"] == "none":
+            print errorHandler("You didn't choose a view option.")
+        else:
+            print chartManager(input["chartView"])
+    except KeyError:
+        print errorHandler("Technical Difficulties.")
 main()
