@@ -37,6 +37,7 @@ def returnTweets(search_value):
 	for tweet in tweets:
 		tweet_count -= 1
 		output.append(json.dumps(tweet))
+
 		if tweet_count <= 0:
 			break
 	return output
@@ -112,7 +113,7 @@ def chartManager(chartType):
 def main():
     input = toVar()
     twitterInfo = returnTweets(input["search"])
-    print twitterInfo
+    print twitterInf
     #try:
     #if input["chartView"] == "none":
     #    print errorHandler("You didn't choose a view option.")
