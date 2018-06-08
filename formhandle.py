@@ -27,10 +27,19 @@ ACCESS_SECRET = "4p0TUtBD6natIqvFkPAw3NKdnuthmLofBPSrwzqlCxIDO"
 
 CONSUMER_KEY = "8tTrc4OOKie2lCxWztVWeheKt"
 CONSUMER_SECRET = "m1BpwQOP08HQmAUm4BNDZs6luNWmWZLtx6iqatdEZqPWGfXCcG"
-#oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
-#twitter_stream = TwitterStream(auth=oauth)
+oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
+twitter_stream = TwitterStream(auth=oauth)
 
-
+def returnTweets(search_value):
+	global twitter_stream
+	tweets = twitter_stream.statuses.filter(track=search_value)
+	output = []
+	for tweet in tweets:
+		tweet_count -= 1
+		output.append(json.dumps(tweet))
+		if tweet_count <= 0:
+			break
+	return output
 
 
 
@@ -102,11 +111,13 @@ def chartManager(chartType):
 '''
 def main():
     input = toVar()
+    twitterInfo = returnTweets(input["search"])
+    print twitterInfo
     #try:
-    if input["chartView"] == "none":
-        print errorHandler("You didn't choose a view option.")
-    else:
-        print chartManager(input["chartView"])
+    #if input["chartView"] == "none":
+    #    print errorHandler("You didn't choose a view option.")
+    #else:
+    #    print chartManager(input["chartView"])
     #except KeyError:
     #    print errorHandler("Technical Difficulties.")
 main()
