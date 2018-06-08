@@ -49,7 +49,7 @@ def returnTweets(search_value):
 
 		if tweet_count <= 0:
 			break
-	return output 
+	return output
 def main():
 	search_results = convertToDictionary(cgi.fieldStorage())
 	print html.format(body = returnTweets(form["search"]))

@@ -8,16 +8,29 @@
 }
 
 body{
-background-color: #2E4053  ;
+background-color: #2E4053;
 }
 
+a {
+	color: #D6EAF8;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #D6EAF8;
+}
+
+a:hover {
+	color: #AED6F1;
+}
 /* Application title words */
-h2 {
+h2, h4 {
 	font-family: "Proxima-Nova-Bold";
 	font-size: 50px;
 	color: #85C1E9;
 	text-align: center;
 }
+
 /* Text inside the black box, used for describing options. */
 h3 {
 	float: left;
@@ -26,6 +39,7 @@ h3 {
 	font-family: "Proxima-Nova-Bold";
 	display: inline-block;
 }
+
 
 .black_box {
 		float: middle;
@@ -38,6 +52,19 @@ h3 {
 		background-color: #34495E;
     box-shadow: 10px 10px 5px #283747;
 		padding: 20px;
+}
+
+.big_black_box {
+			float: middle;
+			height: 600px;
+	    margin: 10px;
+	    width: 1000px;
+			margin-top: 20px;
+	    margin-left: 50px;
+	    margin-right: 20px;
+			background-color: #34495E;
+	    box-shadow: 10px 10px 5px #283747;
+			padding: 20px;
 }
 
 input {
