@@ -18,11 +18,13 @@ oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 twitter_stream = TwitterStream(auth=oauth)
 
 iterator = twitter_stream.statuses.sample()
-
-tweet_count = 1
+output = []
+tweet_count = 2
 for tweet in iterator:
     tweet_count -= 1
-    print  json.dumps(tweet)
+    output.append(json.dumps(tweet))
 
     if tweet_count <= 0:
         break
+
+print output

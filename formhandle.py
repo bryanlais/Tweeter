@@ -20,7 +20,10 @@ try:
 except ImportError:
     import simplejson as json
 
-from twitter import Twitter, OAuth, TwitterHTTPError, TwitterStream
+from twitter.api import Twitter
+from twitter.oauth import OAuth
+from twitter.stream import TwitterHTTPError, TwitterStream
+
 #These are the keys used to access the Twitter API.
 ACCESS_TOKEN = "917612981311229952-fAzjd6ZXJH55WPIFjBXn3YbGUqthZQW"
 ACCESS_SECRET = "4p0TUtBD6natIqvFkPAw3NKdnuthmLofBPSrwzqlCxIDO"
