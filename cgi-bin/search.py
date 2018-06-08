@@ -1,4 +1,5 @@
 #!/usr/bin/python
+
 '''
   ___                                      _              ___       _____              _   _     _
  |_ _|  _ __ ___    _ __     ___    _ __  | |_   ___     ( _ )     |_   _| __      __ (_) | |_  | |_    ___   _ __
@@ -7,24 +8,22 @@
  |___| |_| |_| |_| | .__/   \___/  |_|     \__| |___/    \___/\/     |_|     \_/\_/   |_|  \__|  \__|  \___| |_|
                    |_|
 '''
-print "Content-type: text/html\n"
-global input
+
 # We need these library modules to retrieve the user's answers
+
 import cgi
-#help you see errors
+#Helps you see errors
 import cgitb
 cgitb.enable()
 
 try:
-    import json
+	import json
 except ImportError:
-    import simplejson as json
+	import simplejson as json
 
-from twitter.api import Twitter
-from twitter.oauth import OAuth
-from twitter.stream import TwitterHTTPError, TwitterStream
+#Initializing Twitter API
+from twitter import Twitter, OAuth, TwitterHTTPError, TwitterStream
 
-#These are the keys used to access the Twitter API.
 ACCESS_TOKEN = "917612981311229952-fAzjd6ZXJH55WPIFjBXn3YbGUqthZQW"
 ACCESS_SECRET = "4p0TUtBD6natIqvFkPAw3NKdnuthmLofBPSrwzqlCxIDO"
 
@@ -33,14 +32,22 @@ CONSUMER_SECRET = "m1BpwQOP08HQmAUm4BNDZs6luNWmWZLtx6iqatdEZqPWGfXCcG"
 oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 twitter_stream = TwitterStream(auth=oauth)
 
+html = '''
+<!DOCTYPE html>
+<html>
+	<head></head>
+	<body>{body}</body>
+</html>
+'''
+
 def returnTweets(search_value):
 	global twitter_stream
 	tweets = twitter_stream.statuses.filter(track=search_value)
 	output = []
+	tweet_count = 3
 	for tweet in tweets:
 		tweet_count -= 1
 		output.append(json.dumps(tweet))
-
 		if tweet_count <= 0:
 			break
 	return output
@@ -55,10 +62,10 @@ def returnTweets(search_value):
  |_____| |_|    |_|     \___/  |_|      |_|  |_|  \__,_| |_| |_|  \__,_|  \__, |  \___| |_|
                                                                           |___/
 '''
-errorFile = open("error.html", "r").read()
+errorFile = open("../error.html", "r").read()
 
 def errorHandler(message):
-    return errorFile.format(insert = message)
+	return errorFile.format(insert = message)
 
 
 
@@ -74,15 +81,15 @@ def errorHandler(message):
 # I include this function to convert a python cgi field storage to a standard dictionary.
 # This is good enough for 95% of all forms you would want to create!
 def convertToDictionary(fieldStorage):
-   """Get a plain dictionary, rather than a """
-   output = {}
-   for key in fieldStorage.keys():
-     output[key] = fieldStorage[key].value
-   return output
+	"""Get a plain dictionary, rather than a """
+	output = {}
+	for key in fieldStorage.keys():
+		output[key] = fieldStorage[key].value
+	return output
 
 def toVar():
-    form = convertToDictionary(cgi.FieldStorage())
-    return form
+	form = convertToDictionary(cgi.FieldStorage())
+	return form
 
 
 '''
@@ -94,7 +101,7 @@ def toVar():
                           |___/
 '''
 
-googleChart = open("google.html", "r").read()
+googleChart = open("../google.html", "r").read()
 
 def chartManager(chartType):
     if chartType == "worldMap":
@@ -114,14 +121,18 @@ def chartManager(chartType):
                                                         |___/
 '''
 def main():
-    input = toVar()
-    twitterInfo = returnTweets(input["search"])
-    print twitterInfo
-    #try:
-    #if input["chartView"] == "none":
-    #    print errorHandler("You didn't choose a view option.")
-    #else:
-    #    print chartManager(input["chartView"])
-    #except KeyError:
-    #    print errorHandler("Technical Difficulties.")
+	print "Content-type: text/html\n"
+	global html
+	input = toVar()
+	twitterInfo = returnTweets(input["search"])
+	#print input
+	print twitterInfo
+	#try:
+	#if input["chartView"] == "none":
+	#    print errorHandler("You didn't choose a view option.")
+	#else:
+	#    print chartManager(input["chartView"])
+	#except KeyError:
+	#    print errorHandler("Technical Difficulties.")
+
 main()
