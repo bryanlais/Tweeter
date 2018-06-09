@@ -124,7 +124,16 @@ def chartManager(chartType,dict):
         updatedChart = googleChart.replace("chartInput","pies_div")
     if chartType == "barGraph":
         updatedChart = googleChart.replace("chartInput","bargraph_div")
-    print updatedChart
+    idx = 0
+    while idx < len(dict):
+        if idx != len(dict) - 1:
+            updatedChart = updatedChart.replace("tableData",("<tr> <th>" + dict.keys()[idx] + "</th> <th>" + dict[dict.keys()[idx]] + "</th> </tr> tableData"))
+        else:
+            updatedChart = updatedChart.replace("tableData",("<tr> <th>" + dict.keys()[idx] + "</th> <th>" + dict[dict.keys()[idx]] + "</th> </tr>"))
+        idx += 1
+    return updatedChart
+
+
 '''
   __  __           _             ____
  |  \/  |   __ _  (_)  _ __     |  _ \   _ __    ___     __ _   _ __    __ _   _ __ ___
@@ -138,14 +147,13 @@ def main():
 	global html
 	input = toVar()
 	twitterInfo = returnRealtimeTweets(input["search"])
-    #print twitterInfo
     #print input
-	dict = {"coordinates":"[40.620703, -73.995868]"}
+	dict = {"coordinates":"okay","eric":"bryan"}
 	if input["chartView"] == "none":
 	    print errorHandler("You didn't choose a view option.")
 	else:
 	    print chartManager(input["chartView"],dict)
 	#except KeyError:
-	#    print errorHandler("Technical Difficulties.")
+	#    print errorHandler("Technical Difficulties")
 
 main()
