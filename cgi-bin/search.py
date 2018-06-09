@@ -24,13 +24,15 @@ except ImportError:
 #Initializing Twitter API
 from twitter import Twitter, OAuth, TwitterHTTPError, TwitterStream
 
-ACCESS_TOKEN = "917612981311229952-fAzjd6ZXJH55WPIFjBXn3YbGUqthZQW"
-ACCESS_SECRET = "4p0TUtBD6natIqvFkPAw3NKdnuthmLofBPSrwzqlCxIDO"
+ACCESS_TOKEN = "917612981311229952-dtw9nrMFAgkoNvWZgAaKtEicmm1uhBl"
+ACCESS_SECRET = "n8l26NMAXCg7tPM8I2gMM4SwmirY6WEFE4clGTUVMB6m3"
 
-CONSUMER_KEY = "8tTrc4OOKie2lCxWztVWeheKt"
-CONSUMER_SECRET = "m1BpwQOP08HQmAUm4BNDZs6luNWmWZLtx6iqatdEZqPWGfXCcG"
+CONSUMER_KEY = "jVOcJpbFpmEOKnP6PZV19m08R"
+CONSUMER_SECRET = "REQuq2TOjHT3umCIPgHITkDnC3OgOx3CFL8xSZgAsIK4ch8NjL"
+
 oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 twitter_stream = TwitterStream(auth=oauth)
+twitter_search = Twitter(auth=oauth)
 
 html = '''
 <!DOCTYPE html>
@@ -40,23 +42,51 @@ html = '''
 </html>
 '''
 
-def returnTweets(search_value):
-	global twitter_stream
-	try:
-		tweets = twitter_stream.statuses.filter(track=search_value)
-		output = []
-		tweet_count = 50
-		for tweet in tweets:
-			tweet_count -= 1
-			output.append(json.dumps(tweet))
-			if tweet_count <= 0:
-				break
-		return output
-	except TwitterHTTPError:
-		return twitterOverflow()
+def returnFilteredTweets(search_value):
+	global twitter_search
+	twitter_search.search.tweets(q=search_value,count=100)
 
-def twitterOverflow():
-	return html.format(body="No results. Please try again")
+def returnRealtimeTweets(search_value, tweet_count):
+	global twitter_stream
+	locationDataList = []
+
+	tweets = twitter_stream.statuses.filter(track=search_value, language="en", locations="-180,-90,180,90")
+
+	for tweet in tweets:
+		tweetFile = open("tweets.txt","w")
+		tweetFile.write(str(json.dumps(tweet)))
+		tweetFile.close()
+
+		locationDataList.append(returnLocationData())
+
+		tweet_count -= 1
+		if tweet_count <= 0:
+			break
+	return locationDataList
+	
+
+def returnLocationData():
+	# We use the file saved from last step as example
+	tweetFile = open("tweets.txt", "r")
+
+	for line in tweetFile:
+		try:
+			# Read in one line of the file, convert it into a json object 
+			tweet = json.loads(line.strip())
+
+			if 'text' in tweet:
+				name =  str(tweet["place"]["full_name"])
+				text = str(tweet["text"])
+				locationData = tweet["place"]["bounding_box"]["coordinates"][0][0]
+
+				locationData.append(name)
+				locationData.append(text)
+				return locationData
+				
+		except:
+			# Sometimes an error occurs when a line is not in json format
+			continue
+	tweetFile.close()
 
 '''
   _____                                  __  __
@@ -128,9 +158,9 @@ def main():
 	print "Content-type: text/html\n"
 	global html
 	input = toVar()
-	twitterInfo = returnTweets(input["search"])
-	#print input
+	twitterInfo = returnRealtimeTweets(input["search"],100)
 	print twitterInfo
+	#print input
 	#try:
 	#if input["chartView"] == "none":
 	#    print errorHandler("You didn't choose a view option.")
