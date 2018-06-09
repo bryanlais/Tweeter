@@ -9,43 +9,78 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
-      google.charts.load('current', {
-        'packages':['geochart','corechart'],
-        // Note: you will need to get a mapsApiKey for your project.
-        // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
-        'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
-      });
-      google.charts.setOnLoadCallback(drawRegionsMap,drawPieChart);
-      function drawRegionsMap() {
+    google.charts.load('current', { 'packages': ['map','corechart'] });
+    google.charts.setOnLoadCallback(realGoogleMap);
+    google.charts.setOnLoadCallback(pieChart);
+    google.charts.setOnLoadCallback(worldMap);
+
+//    ____                           _            __  __
+//  / ___|   ___     ___     __ _  | |   ___    |  \/  |   __ _   _ __    _
+// | |  _   / _ \   / _ \   / _` | | |  / _ \   | |\/| |  / _` | | '_ \  (_)
+// | |_| | | (_) | | (_) | | (_| | | | |  __/   | |  | | | (_| | | |_) |  _
+//  \____|  \___/   \___/   \__, | |_|  \___|   |_|  |_|  \__,_| | .__/  (_)
+//                          |___/                                |_|
+    function realGoogleMap() {
+    var data = google.visualization.arrayToDataTable([
+      ['Lat', 'Long', 'Name'],
+      {googleMapCoordinates}
+    ]);
+    var options = {
+    showTooltip: true,
+    showInfoWindow: true
+  };
+    var map = new google.visualization.Map(document.getElementById('real_div'));
+    map.draw(data, options);
+};
+//  ____    _             ____   _                      _
+// |  _ \  (_)   ___     / ___| | |__     __ _   _ __  | |_
+// | |_) | | |  / _ \   | |     | '_ \   / _` | | '__| | __|
+// |  __/  | | |  __/   | |___  | | | | | (_| | | |    | |_
+// |_|     |_|  \___|    \____| |_| |_|  \__,_| |_|     \__|
+function pieChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Country', 'Popularity'],
-          ['Germany', 200],
-          ['United States', 300],
-          ['Brazil', 400],
-          ['Canada', 500],
-          ['France', 600],
-          ['RU', 700]
+          ['Task', 'Hours per Day'],
+          ['Work',     11],
+          ['Eat',      2],
+          ['Commute',  2],
+          ['Watch TV', 2],
+          ['Sleep',    7]
         ]);
-        var options = {};
-        var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+        var options = {
+          title: 'My Daily Activities',
+          is3D: true,
+          fontName: "Proxima-Nova-Bold"
+        };
+        var chart = new google.visualization.PieChart(document.getElementById('pies_div'));
         chart.draw(data, options);
-      }
-      function drawPieChart() {
-        var data = google.visualization.arrayToDataTable([
-          ['Age Group', 'Popularity'],
-          ['']
-        ])
       }
     </script>
   </head>
+  <center>
   <body>
     <h2> Information Charts: </h2>
     <br>
     <div class="black_box">
-    <div id="chartInput" style="width: 500px; float: left; height: 400px;"></div>
+    <h2> Tweet Information: </h2>
+      <br>
+    <table>
+      <tr>
+        <th>Keys:</th>
+        <th>Values:</th>
+      </tr>
+      <tr>
+        <th> tableData </th>
+        <th> tableData </th>
+      </tr>
+    </table>
+  </div>
+    <div class="big_black_box">
+    <h2> Chart Requested: </h2>
+    <div id="chartInput" style="width: 800px; float: left; height: 400px;"></div>
   </div>
   </body>
+</center>
 </html>

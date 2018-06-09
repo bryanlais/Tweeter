@@ -24,13 +24,15 @@ except ImportError:
 #Initializing Twitter API
 from twitter import Twitter, OAuth, TwitterHTTPError, TwitterStream
 
-ACCESS_TOKEN = "917612981311229952-fAzjd6ZXJH55WPIFjBXn3YbGUqthZQW"
-ACCESS_SECRET = "4p0TUtBD6natIqvFkPAw3NKdnuthmLofBPSrwzqlCxIDO"
+ACCESS_TOKEN = "908881849962913792-TCiZjs3LLqUxkFAOz4pT2P09MHJcWCD"
+ACCESS_SECRET = "ZMX13DIqztOcjLT9TxpnLV1A4XqVeeeo9OAGDm4OokSUf"
 
-CONSUMER_KEY = "8tTrc4OOKie2lCxWztVWeheKt"
-CONSUMER_SECRET = "m1BpwQOP08HQmAUm4BNDZs6luNWmWZLtx6iqatdEZqPWGfXCcG"
+CONSUMER_KEY = "DDWdLGsClAIJs3oujJ1aEIvbw"
+CONSUMER_SECRET = "Qv1fGDVJcT9eRgfYhS7cJRY5IEu4Kr36oVgNBRDkdkdLxlkUp5"
+
 oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 twitter_stream = TwitterStream(auth=oauth)
+twitter_search = Twitter(auth=oauth)
 
 html = '''
 <!DOCTYPE html>
@@ -40,24 +42,29 @@ html = '''
 </html>
 '''
 
-def returnTweets(search_value):
+def returnRealtimeTweets(search_value):
 	global twitter_stream
-	try:
-		tweets = twitter_stream.statuses.filter(track=search_value)
-		output = []
-		tweet_count = 50
-		for tweet in tweets:
-			tweet_count -= 1
-			output.append(json.dumps(tweet))
-			if tweet_count <= 0:
-				break
-		return output
-	except TwitterHTTPError:
-		return twitterOverflow()
+	tweets = twitter_stream.statuses.filter(track=search_value, language="en", locations="-180,-90,180,90")
+	output = []
+	tweet_count = 1
+	for tweet in tweets:
+		tweet_count -= 1
+		output.append(json.dumps(tweet))
+		if tweet_count <= 0:
+			break
+	return output
 
-def twitterOverflow():
-	return html.format(body="No results. Please try again")
+def returnFilteredTweets(search_value):
+	global twitter_search
+	twitter_search.search.tweets(q=search_value,count=100)
 
+def returnTweetLocation(tweets):
+	output = {}
+	for tweet in tweets:
+		text = tweet["tweet"]["text"]
+		country = tweet["tweet"]["place"]["country"]
+		output[text] = country #Returns country of tweet
+	return output
 '''
   _____                                  __  __
  | ____|  _ __   _ __    ___    _ __    |  \/  |   __ _   _ __     __ _    __ _    ___   _ __
@@ -107,15 +114,17 @@ def toVar():
 
 googleChart = open("../google.html", "r").read()
 
-def chartManager(chartType):
+def chartManager(chartType,dict):
+    updatedChart = ""
+    if chartType == "realMap":
+        updatedChart = googleChart.replace("chartInput","real_div")
     if chartType == "worldMap":
-        return googleChart.replace("chartInput","regions_div")
+        updatedChart = googleChart.replace("chartInput","regions_div")
     if chartType == "piechart":
-        return googleChart.replace("chartInput","pies_div")
+        updatedChart = googleChart.replace("chartInput","pies_div")
     if chartType == "barGraph":
-        return googleChart.replace("chartInput","bargraph_div")
-
-
+        updatedChart = googleChart.replace("chartInput","bargraph_div")
+    print updatedChart
 '''
   __  __           _             ____
  |  \/  |   __ _  (_)  _ __     |  _ \   _ __    ___     __ _   _ __    __ _   _ __ ___
@@ -128,14 +137,14 @@ def main():
 	print "Content-type: text/html\n"
 	global html
 	input = toVar()
-	twitterInfo = returnTweets(input["search"])
-	#print input
-	print twitterInfo
-	#try:
-	#if input["chartView"] == "none":
-	#    print errorHandler("You didn't choose a view option.")
-	#else:
-	#    print chartManager(input["chartView"])
+	twitterInfo = returnRealtimeTweets(input["search"])
+    #print twitterInfo
+    #print input
+	dict = {"coordinates":"[40.620703, -73.995868]"}
+	if input["chartView"] == "none":
+	    print errorHandler("You didn't choose a view option.")
+	else:
+	    print chartManager(input["chartView"],dict)
 	#except KeyError:
 	#    print errorHandler("Technical Difficulties.")
 

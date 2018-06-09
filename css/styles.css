@@ -97,3 +97,124 @@ button {
 	padding: 10px;
 	display: inline-block;
 }
+
+@font-face {
+	font-family: Adam;
+	src: url(fonts/Adam.ttf)
+}
+@font-face {
+	font-family: "Proxima-Nova-Bold";
+	src: url(fonts/ProximaNovaExtrabold.otf)
+}
+
+body{
+background-color: #2E4053;
+}
+
+a {
+	color: #D6EAF8;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #D6EAF8;
+}
+
+a:hover {
+	color: #AED6F1;
+}
+/* Application title words */
+h2, h4 {
+	font-family: "Proxima-Nova-Bold";
+	font-size: 50px;
+	color: #85C1E9;
+	text-align: center;
+}
+
+/* Text inside the black box, used for describing options. */
+h3 {
+	float: left;
+	font-size: 29px;
+	color: #85C1E9;
+	font-family: "Proxima-Nova-Bold";
+	display: inline-block;
+}
+
+
+.black_box {
+		float: middle;
+		height: 400px;
+    margin: 10px;
+    width: 1000px;
+		margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+		background-color: #34495E;
+    box-shadow: 10px 10px 5px #283747;
+		padding: 20px;
+}
+
+.big_black_box {
+			float: middle;
+			height: 600px;
+	    margin: 10px;
+	    width: 1000px;
+			margin-top: 20px;
+	    margin-left: 50px;
+	    margin-right: 20px;
+			background-color: #34495E;
+	    box-shadow: 10px 10px 5px #283747;
+			padding: 20px;
+}
+
+input {
+	font-family: "Proxima-Nova-Bold";
+	width: 90%;
+	height: 45px;
+	font-size: 30px;
+	color: #2C3E50;
+	display: inline-block;
+	}
+
+select {
+    background-color: #f9f9f9;
+    min-width: 200px;
+    min-height: 50px;
+		margin-left: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: "Proxima-Nova-Bold";
+		font-size: 30px;
+		color: #2C3E50;
+		display: inline-block;
+		float: left;
+}
+
+button {
+	float: right;
+	height: 50px;
+	color: #2C3E50;
+	font-family: "Proxima-Nova-Bold";
+	padding: 10px;
+	display: inline-block;
+}
+
+table {
+    font-family: "Proxima-Nova-Bold";
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #2E86C1;
+    color: white;
+		text-align: center;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+		text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #85C1E9;
+}
