@@ -21,7 +21,7 @@ from googlemaps import convert
 
 
 def places(client, query, location=None, radius=None, language=None,
-           min_price=None, max_price=None, open_now=False, type=None, region=None,
+           min_price=None, max_price=None, open_now=False, type=None,
            page_token=None):
     """
     Places search.
@@ -57,10 +57,6 @@ def places(client, query, location=None, radius=None, language=None,
         The full list of supported types is available here:
         https://developers.google.com/places/supported_types
     :type type: string
-    
-    :param region: The region code, optional parameter.
-        See more @ https://developers.google.com/places/web-service/search
-    :type region: string
 
     :param page_token: Token from a previous search that when provided will
         returns the next page of results for the same search.
@@ -73,13 +69,13 @@ def places(client, query, location=None, radius=None, language=None,
     """
     return _places(client, "text", query=query, location=location,
                    radius=radius, language=language, min_price=min_price,
-                   max_price=max_price, open_now=open_now, type=type, region=region,
+                   max_price=max_price, open_now=open_now, type=type,
                    page_token=page_token)
 
 
-def places_nearby(client, location=None, radius=None, keyword=None,
-                  language=None, min_price=None, max_price=None, name=None,
-                  open_now=False, rank_by=None, type=None, page_token=None):
+def places_nearby(client, location, radius=None, keyword=None, language=None,
+                  min_price=None, max_price=None, name=None, open_now=False,
+                  rank_by=None, type=None, page_token=None):
     """
     Performs nearby search for places.
 
@@ -89,10 +85,6 @@ def places_nearby(client, location=None, radius=None, keyword=None,
 
     :param radius: Distance in meters within which to bias results.
     :type radius: int
-    
-    :param region: The region code, optional parameter.
-        See more @ https://developers.google.com/places/web-service/search
-    :type region: string
 
     :param keyword: A term to be matched against all content that Google has
                     indexed for this place.
@@ -138,15 +130,13 @@ def places_nearby(client, location=None, radius=None, keyword=None,
             next_page_token: token for retrieving the next page of results
 
     """
-    if not location and not page_token:
-        raise ValueError("either a location or page_token arg is required")
     if rank_by == "distance":
         if not (keyword or name or type):
-            raise ValueError("either a keyword, name, or type arg is required "
-                             "when rank_by is set to distance")
+          raise ValueError("either a keyword, name, or type arg is required "
+                           "when rank_by is set to distance")
         elif radius is not None:
-            raise ValueError("radius cannot be specified when rank_by is set to "
-                             "distance")
+          raise ValueError("radius cannot be specified when rank_by is set to "
+                           "distance")
 
     return _places(client, "nearby", location=location, radius=radius,
                    keyword=keyword, language=language, min_price=min_price,
@@ -212,7 +202,7 @@ def places_radar(client, location, radius, keyword=None, min_price=None,
 
 def _places(client, url_part, query=None, location=None, radius=None,
             keyword=None, language=None, min_price=0, max_price=4, name=None,
-            open_now=False, rank_by=None, type=None, region=None, page_token=None):
+            open_now=False, rank_by=None, type=None, page_token=None):
     """
     Internal handler for ``places``, ``places_nearby``, and ``places_radar``.
     See each method's docs for arg details.
@@ -238,8 +228,6 @@ def _places(client, url_part, query=None, location=None, radius=None,
         params["rankby"] = rank_by
     if type:
         params["type"] = type
-    if region:
-        params["region"] = region
     if page_token:
         params["pagetoken"] = page_token
 
@@ -287,7 +275,7 @@ def places_photo(client, photo_reference, max_width=None, max_height=None):
 
         ```
         f = open(local_filename, 'wb')
-        for chunk in client.places_photo(photo_reference, max_width=100):
+        for chunk in client.photo(photo_reference, max_width=100):
             if chunk:
                 f.write(chunk)
         f.close()
@@ -342,11 +330,11 @@ def places_autocomplete(client, input_text, offset=None, location=None,
     :param types: Restricts the results to places matching the specified type.
         The full list of supported types is available here:
         https://developers.google.com/places/web-service/autocomplete#place_types
-    :type types: string
+    :type type: string
 
-    :param components: A component filter for which you wish to obtain a geocode.
-        Currently, you can use components to filter by up to 5 countries for
-        example: ``{'country': ['US', 'AU']}``
+    :param components: A component filter for which you wish to obtain a geocode,
+                       for example:
+                       ``{'administrative_area': 'TX','country': 'US'}``
     :type components: dict
 
     :param strict_bounds: Returns only those places that are strictly within
@@ -413,11 +401,9 @@ def _autocomplete(client, url_part, input_text, offset=None, location=None,
     if types:
         params["types"] = types
     if components:
-        if len(components) != 1 or list(components.keys())[0] != "country":
-            raise ValueError("Only country components are supported")
         params["components"] = convert.components(components)
     if strict_bounds:
         params["strictbounds"] = "true"
 
     url = "/maps/api/place/%sautocomplete/json" % url_part
-    return client._request(url, params).get("predictions", [])
+    return client._request(url, params)["predictions"]

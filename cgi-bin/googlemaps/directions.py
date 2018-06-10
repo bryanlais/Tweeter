@@ -32,8 +32,7 @@ def directions(client, origin, destination,
     :type origin: string, dict, list, or tuple
 
     :param destination: The address or latitude/longitude value from which
-        you wish to calculate directions. You can use a place_id as destination
-        by putting 'place_id:' as a preffix in the passing parameter.
+        you wish to calculate directions.
     :type destination: string, dict, list, or tuple
 
     :param mode: Specifies the mode of transport to use when calculating
@@ -148,4 +147,4 @@ def directions(client, origin, destination,
     if traffic_model:
         params["traffic_model"] = traffic_model
 
-    return client._request("/maps/api/directions/json", params).get("routes", [])
+    return client._request("/maps/api/directions/json", params)["routes"]

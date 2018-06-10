@@ -4,7 +4,7 @@
     "result": {
         "utc_offset": 330, 
         "name": "Bengaluru", 
-        "reference": "CmRbAAAANBtGjXrxwwQHcoy9ws7-_14jXvc4syNgLXz3kpn0oP08JMbbipXKewk2LbNxOoyoDIbRbHOEsYIcnDqz4BOlQq7Cjt-yYT6IHRMvzH4VE83-koxHdw_B7Ql0I6l6DpyKEhDEKsphCgFq9uIBhW8i9fusGhQpBt9NmvM8UCtY9c9BN1gDHa39Kw", 
+        "reference": "CmRbAAAAFPMK4QLhr-7fO1dQV48R0p8XlKwTy9FxSy0li8QU2rR7oMY35lDsnEX8idr_s3hKAEviUtIzJ0kEKkOYWL2ROiKSvUadlLj6R0OYr9mtdD8WUjzeITE01b3fQZ-DPBWGEhBgkdBECWhGwuMw4c-LwOYKGhT8L7hLmxDDsVmXUvh1KJsvJwiveg", 
         "geometry": {
             "location": {
                 "lat": 12.9715987, 
@@ -26,7 +26,7 @@
         "vicinity": "Bengaluru", 
         "photos": [
             {
-                "photo_reference": "CmRaAAAANz-MB2p3mvzqKrZEhd9QUipU7EabvxSHU-yK4YgWrJMt1CyiKmRJ9jV05tBnb6F3LNEHF1MYRhhXICJFQq0myZTNXl83I_xKY-r53pUfYnF-e6o4PeiDs0P7Cq8164ObEhDmwb45tRyIKZp7Qmkk-2ddGhRFiedffE4KtcXQq7DLofX69jiRzA", 
+                "photo_reference": "CmRaAAAAE7O3RwtXEKNmc17-MeA3CKYsiF7FScX3YpRJliBTZz0iYajj6lGXQKN9NPNYZTpXYrvy1_OGUyzUWSgJT4CEPb7QiuINsKvTs_P2mCnSl1sNPOZ1ZlF7MMHZLQynIy_hEhCiASVUWZrOUwK1N7CYG4OCGhRw77AERc9kcQl1agMgiGE7TbeW8A", 
                 "width": 960, 
                 "html_attributions": [
                     "<a href=\"https://maps.google.com/maps/contrib/113556790042299682720/photos\">Mayur Panchamia</a>"
@@ -34,7 +34,7 @@
                 "height": 720
             }, 
             {
-                "photo_reference": "CmRaAAAA-8lu_seDCGpB64w-VFvItvWNtiTHrRkGtY4wqq-Jl7UDtAXFsQEI84FRGTgIUe41Pazt419TuNOktaszA-P2FzZ7ypvwQBxn9QRt7iOYO72oKMGuAA8OofeHDBycvi_kEhCv6m6e8ySEeiIqXzRFuoALGhR3AfjSqbjhQhgFcmIW_vqqUq5w6g", 
+                "photo_reference": "CmRaAAAANgu7UsuPVR7KsHhYwQ5wpvHgyw-ac_R4uN0lSBIOX2StDyZD1eoiNB0oBV0wyJ2UdkUgJOr0rGWSFa0oqGuL8n8CavsLFQZrek5Ed3oHWAfguk92yVSsIjcjTdMsJtUUEhC_9F0KMb9-hhxJ6Bp1CPGGGhRnObPdk6JAZI6adttR63i8ZGwrKg", 
                 "width": 1620, 
                 "html_attributions": [
                     "<a href=\"https://maps.google.com/maps/contrib/116155377509858103497/photos\">Bregeon Pascal</a>"
@@ -42,7 +42,7 @@
                 "height": 1080
             }, 
             {
-                "photo_reference": "CmRaAAAABdpyRuSSuoYaQLroPo7O3TKIE_gIxdWlDdiRguXQsb-qRiSCpENgxaw6ISDyRu5jYheH4XuDcUwsy5QR2usFFuGjZyKLYesapGiPBTAFCv0a7js-ebtlUlk3g_5EV3pXEhALr-iMdHYvITsLd6T5LLlmGhRea_EZSPk8s5m5Xj1xoDCSIdpHyg", 
+                "photo_reference": "CmRaAAAAFYS71CCkWI_lLujo6hMIZYAoUmx8gcV-WvOvUGscr5lnK17sw5n0621FfeE_aSz0qVBd1DIEkMNdFQSclnODn_f0jRcQrOuQ1BMCaVyVraCojmOIffSP4zVjb3X9kCLKEhCRcZGsqSClrVxgS9pGBO9WGhSs5rEwdJAqxFawhhVjDpFIFr3cZg", 
                 "width": 1137, 
                 "html_attributions": [
                     "<a href=\"https://maps.google.com/maps/contrib/113556790042299682720/photos\">Mayur Panchamia</a>"
@@ -50,7 +50,7 @@
                 "height": 640
             }, 
             {
-                "photo_reference": "CmRaAAAADid3jg4Hk_5tYOVzp8TDlMARXyF2Sb8mH99Hi05L8O6Paxq3_gbsKNKfU1yDSQMnSZgF5MXIU9V5ogKVGIlRBq9igk4x7blIUEKJhiXyf6EnwI5qZEmLU8pPo_iFMX-hEhAkf3uCZ8BA4lE-3oYcMOsgGhR-QpHK5v2FPS916_4iPJFT7Sxh3g", 
+                "photo_reference": "CmRaAAAA1c83OpQJrBgcKQ-Vj0zND9gyFfHsmQ7LFrjI2emAlTi7awKi2ittaTPE-fBVNFAHmIaqbd_LApQ-hY6HBmE2OmaBTLzG2BPXIf31vOUKxQRqHwtxs3m60VeLp0tYwmGLEhDgLnGPxkE0pGpK6cTTKViYGhQBEE-YkP1eyiCQUc-h7SnIB6c2zw", 
                 "width": 1137, 
                 "html_attributions": [
                     "<a href=\"https://maps.google.com/maps/contrib/113556790042299682720/photos\">Mayur Panchamia</a>"
@@ -58,23 +58,39 @@
                 "height": 640
             }, 
             {
-                "photo_reference": "CmRaAAAAg250VK4Zwl1oJqRwwavXvsRY5cHOw40AMIHDC0Jsh5nsoPaj-tNw8be2rw_dnL37Y_4Q4Q6W-CsIHbueHTH91Jfhv_oH3l0FzOZOSvwBgaGpPkEYUV0_NPHfxM2dHLG-EhC0vodjsWhB6V093zo-bbKDGhTdljAhRgeVKlypMcOdc4rtaWDmFw", 
+                "photo_reference": "CmRaAAAAq8lmIOAv8Txunz_aTvbPbS_K-Wjohs3FJkKcubf4MoU4-_310S86Ec1PJ226GmuiVsrAwrYGbctv2n3UpKuYZmEZYL-snSekJnTzo12yte7F_ryYo5h5HLGOoRmv0WR_EhBWLVbIM_jtxO_onuY1XXwyGhSadkVdXRtw3OAfdU99aGsMZa_rZg", 
+                "width": 800, 
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/101136735299100376610/photos\">Amol Hingankar</a>"
+                ], 
+                "height": 600
+            }, 
+            {
+                "photo_reference": "CmRaAAAAyiYjlH1rxaPQEcUcSBbnxMEBXTD4vm9VPhFaJoL_HtGv5mxgniT1U4j5LQG3kcYzOYcSOTvXKpAfK7vK735_Av4Jh_ISv5TtnL64kuedsvvVsojjrod0oxYqVjGRUm3REhDVs_ijudxj-N4ltUxpGtJFGhTGZPfve3i8TW0Q__isxfDGSVz9-A", 
+                "width": 4160, 
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/117716412083195529530/photos\">Palaniyappa Rice oil &amp; Flour mill</a>"
+                ], 
+                "height": 2340
+            }, 
+            {
+                "photo_reference": "CmRaAAAAvp0_Qsab7XiEmWMkgUDbkdaHhgMGXj8Ma_GS_O8dHHubWGGdWS41_1R3oGnFjX7NBIDFn7Mu1NEPtUSzoQCBCkRLptpp29avZF7Wqi0EF2A2wnzOk24pQKJp7nHNxn50EhCHQqYXJgkvpIlXUxwc38OsGhSTsdK73j3F5c-xuOjKXQY8j9o4FA", 
                 "width": 960, 
                 "html_attributions": [
                     "<a href=\"https://maps.google.com/maps/contrib/113556790042299682720/photos\">Mayur Panchamia</a>"
                 ], 
-                "height": 540
+                "height": 720
             }, 
             {
-                "photo_reference": "CmRaAAAAwdu8EyCKmQbGzDdsOyWmCN1jJ4p6tUnCytbAbcmw47hhSnP_Nl_k7suQLapisURh-_9pkusSW9EYLPt30IIfia0GRvAskrabF9UWj0ZmdM4mG--p-x2KkjBMkFDT_JZeEhBDqaegfiu_MG_oiIxOCCUAGhQPAkzveNHj_qzznLMxvvTL1xwqPg", 
-                "width": 2048, 
+                "photo_reference": "CmRaAAAAuB9ItjOAEN9Fadj7-7wp_7OThc50oYXhwsEH000MqHt0VhHkqcgIk8xhQCxV82JN_HX3AXdZ2BoAjxVimX4uymqzZ3nCXakCT_xT32-zGmHUf7OidXyMbRhzcW631HyUEhBLj7pz8jCCbvY6G1viXY4pGhRv53KRGDHtRtt49EEDbsCQe_ov-w", 
+                "width": 1080, 
                 "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/113860657786379706054/photos\">Venkatesh Bhat</a>"
+                    "<a href=\"https://maps.google.com/maps/contrib/113556790042299682720/photos\">Mayur Panchamia</a>"
                 ], 
-                "height": 1536
+                "height": 1080
             }, 
             {
-                "photo_reference": "CmRaAAAAkOrpG5v5-_eMUe49Q3EsApPy6lN760a9M7N20XctwkS430jJ3Wuw7wMBTUIfIKlGHJwY_kHEOHIgq0z4md9bXXglG-QruaRUrXK3Txly_erzN9vZsD8mu9csC7XnX583EhBJ-kyNYaarYU6xCpJ8pUczGhTF1ve2rE4YObXYIpp7pkHHe0u6OQ", 
+                "photo_reference": "CmRaAAAAxVChZmsYaxO3VA4iRMHDBbvR1oFnF1nXNrg9GpJ0NyTgAUegap3NrlH0CxXMv7k3OnvCzkNKqeX1lh51LhqNumUqNufh-2C9l1-KDTDMdUjr6U5tuHYxn7XMZP59wzxGEhAyAnZqcbYAUdeqh5ndyHNQGhQxt2H2LMsvk98oLwehaG_QkpU73g", 
                 "width": 4000, 
                 "html_attributions": [
                     "<a href=\"https://maps.google.com/maps/contrib/112498085624177345553/photos\">David Sinclair</a>"
@@ -82,28 +98,12 @@
                 "height": 2248
             }, 
             {
-                "photo_reference": "CmRaAAAA5Bj_S39B7Nz8KYufEp68fGy5--36CaKoGOaalPuzOMJBpzRKjMTlSbxoUInbJtQN7jXmLY96krsys3eTT003BEuQcGtemPyM644ZbO7OfS6swp1jwacPt4c6M4NAyESREhC_PgoR97wyyNE6jKj5yAFVGhR0VyavE_9D0eYyvh0AXV0PJI59dA", 
-                "width": 1137, 
+                "photo_reference": "CmRaAAAAIOkyx0FQ1ifaN6vRtZgptLdvrMzJXdV1HrydeTfXds5kUEhf2uL-x3v3xOG4PB1iBC6tpuXUlpInp0AyxbkSQTQ5u_KI6Ck5E7fOzzf8mZdo65DqNzHgrKVWNG2hyBS3EhAjI64CW4rIMJBIlAwqFAj0GhRZG48WAruER8NebMm06bijy1GTwg", 
+                "width": 1440, 
                 "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/113556790042299682720/photos\">Mayur Panchamia</a>"
+                    "<a href=\"https://maps.google.com/maps/contrib/100704994499449724758/photos\">Sudar Aravindh</a>"
                 ], 
-                "height": 640
-            }, 
-            {
-                "photo_reference": "CmRaAAAAaKEMXSkEestRRzABLRFbUUmcpOoz94jInaRBg5ZaRVk8qEDF5FDbtOZOEr9QqUIDwwuvHoYiiCr4kQbR2m40SWJfp_TngdTYyhoIZR3BxEwkSP7MIw21xNJV2FnmSRG8EhBrcuHcU1JWa61OeRBVYX3qGhTAJrVrFaJXzI8bztzQNL2J0WHhVw", 
-                "width": 5312, 
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/103611520045186372298/photos\">zeav barad</a>"
-                ], 
-                "height": 2988
-            }, 
-            {
-                "photo_reference": "CmRaAAAAjbn_A9VAS0P0TAkxBc3H8xkI-MiMEIMpQxoMZ4Zu0BZkqny9eRmiIFPOZV63eoWkmAE-MCHwvl1_VWtQR6a9-MnmSYEmSVDGUhry2rsCkzmV24Hsh-LERWPImAheFFm_EhDee4veGGtmNU0qG-NzZ1pNGhSN1BEOzklBTX3eFz3VL7tA_4cXCg", 
-                "width": 1137, 
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/113556790042299682720/photos\">Mayur Panchamia</a>"
-                ], 
-                "height": 640
+                "height": 1080
             }
         ], 
         "url": "https://maps.google.com/?q=Bengaluru,+Karnataka,+India&ftid=0x3bae1670c9b44e6d:0xf8dfc3e8517e4fe0", 

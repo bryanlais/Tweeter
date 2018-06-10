@@ -30,15 +30,13 @@ def _geolocation_extract(response):
     body = response.json()
     if response.status_code in (200, 404):
         return body
-
-    try:
-        error = body["error"]["errors"][0]["reason"]
-    except KeyError:
-        error = None
-
-    if response.status_code == 403:
-        raise exceptions._OverQueryLimit(response.status_code, error)
+    elif response.status_code == 403:
+        raise exceptions._RetriableRequest()
     else:
+        try:
+            error = body["error"]["errors"][0]["reason"]
+        except KeyError:
+            error = None
         raise exceptions.ApiError(response.status_code, error)
 
 
