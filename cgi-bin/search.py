@@ -120,14 +120,14 @@ def returnTweetLocations(search_value, tweet_count):
 	return filter(None, output)
 
 def interestByTime(search_value, tweet_count, date):
-    global twitter
-    output = []
-    for x in range(1,10):
-        tweets = twitter.search.tweets(q=search_value,count = tweet_count, until = date, result_type="popular")
-        jsonData = dumpToJSON("json-bin/twitter_interest_by_time_timestamps.json", tweets)
-        for el in jsonData["statuses"]:
-            output.append(str(el["created_at"]))
-    return output
+	global twitter
+	output = []
+	for x in range(1,10):
+		tweets = twitter.search.tweets(q=search_value,count = tweet_count, until = date, result_type="popular")
+		jsonData = dumpToJSON("json-bin/twitter_interest_by_time_timestamps.json", tweets)
+		for el in jsonData["statuses"]:
+			output.append(str(el["created_at"]))
+	return output
 
 def geocodeTweets(tweets):
 	global gmaps
@@ -141,8 +141,8 @@ def geocodeTweets(tweets):
 		geoJSON = dumpToJSON("json-bin/geodata.json", jsonData)
 
 		try:
-			placeID = geoJSN[0]["place_id"].encode('utf-8')
-			country = geoJSN[0]["terms"][-1]
+			placeID = geoJSON[0]["place_id"].encode('utf-8')
+			country = geoJSON[0]["terms"][-1]
 			geocodes.append([placeID, tweet[1] + " , " + tweet[0], country])
 		except IndexError:
 			continue
@@ -168,8 +168,8 @@ def removeCountryCodes(locationArray):
 	return output
 
 def grabYesterday():
-    yesterday = date.today() - timedelta(1)
-    return str(yesterday.year) + "-" + str(yesterday.month) + "-" + str(yesterday.day)
+	yesterday = date.today() - timedelta(1)
+	return str(yesterday.year) + "-" + str(yesterday.month) + "-" + str(yesterday.day)
 '''
   _____                                  __  __
  | ____|  _ __   _ __    ___    _ __    |  \/  |   __ _   _ __     __ _    __ _    ___   _ __
@@ -220,22 +220,22 @@ def toVar():
 googleChart = open("../google.html", "r").read()
 
 def previousDaysManager(input):
-    if input == "today":
-        return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day)
-    if input == "yesterday":
-        grabYesterday()
-    if input == "2daysago":
-        return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 2)
-    if input == "3daysago":
-        return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 3)
-    if input == "4daysago":
-        return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 4)
-    if input == "5daysago":
-        return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 5)
-    if input == "6daysago":
-        return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 6)
-    if input == "week":
-        return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 7)
+	if input == "today":
+		return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day)
+	if input == "yesterday":
+		grabYesterday()
+	if input == "2daysago":
+		return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 2)
+	if input == "3daysago":
+		return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 3)
+	if input == "4daysago":
+		return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 4)
+	if input == "5daysago":
+		return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 5)
+	if input == "6daysago":
+		return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 6)
+	if input == "week":
+		return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 7)
 
 
 def createCountryDictionary(matrix):
@@ -250,66 +250,66 @@ def createCountryDictionary(matrix):
 	return output
 
 def dateToDict(arr):
-    output = {}
-    idx = 0
-    while idx < len(arr):
-        if arr[idx][0:10] not in output:
-            output[arr[idx][0:10]] = 1
-        else:
-            output[arr[idx][0:10]] += 1
-        idx += 1
-    return output
+	output = {}
+	idx = 0
+	while idx < len(arr):
+		if arr[idx][0:10] not in output:
+			output[arr[idx][0:10]] = 1
+		else:
+			output[arr[idx][0:10]] += 1
+		idx += 1
+	return output
 def dictToMatrix(dict):
-    output = []
-    sum = 0.0
-    for val in dict.itervalues():
-        sum += val
-    for key in dict.keys():
-        output.append([key,((dict[key] / sum) * 10)])
-    return output
+	output = []
+	sum = 0.0
+	for val in dict.itervalues():
+		sum += val
+	for key in dict.keys():
+		output.append([key,((dict[key] / sum) * 10)])
+	return output
 def chartManager(chartType,countryArray,locationArray,interestArray):
-    updatedChart = ""
-    if chartType == "realMap":
-        updatedChart = googleChart.replace("chartInput","real_div")
-        updatedChart = updatedChart.replace("requestedChart","Google Map:")
-        updatedChart = updatedChart.replace("lineChartInterest","['hello',3]")
-        idx = 0
-        while idx < len(locationArray):
-            if idx != len(locationArray) - 1:
-                updatedChart = updatedChart.replace("googleMapCoordinates",str(locationArray[idx]) + "," + "googleMapCoordinates")
-            else:
-                updatedChart = updatedChart.replace("googleMapCoordinates",str(locationArray[idx]))
-            idx += 1
-    if chartType == "worldMap":
-        updatedChart = googleChart.replace("chartInput","regions_div")
-        updatedChart = updatedChart.replace("requestedChart","Regions Map:")
-    if chartType == "piechart":
-        updatedChart = googleChart.replace("chartInput","pies_div")
-        updatedChart = updatedChart.replace("requestedChart","Pie Chart:")
-    if chartType == "barGraph":
-        updatedChart = googleChart.replace("chartInput","bargraph_div")
-        updatedChart = updatedChart.replace("requestedChart","Bar Graph:")
-    if chartType == "lineGraph":
-        updatedChart = googleChart.replace("chartInput","line_div")
-        updatedChart = updatedChart.replace("requestedChart","Line Graph:")
-        matrixOfDates = dictToMatrix(dateToDict(interestArray))
-        idx = 0
-        while idx < len(matrixOfDates):
-            if idx != len(matrixOfDates) - 1:
-                updatedChart = updatedChart.replace("lineChartInterest",str(matrixOfDates[idx]) + "," + "lineChartInterest")
-            else:
-                updatedChart = updatedChart.replace("lineChartInterest",str(matrixOfDates[idx]) + ",")
-            idx += 1
+	updatedChart = ""
+	if chartType == "realMap":
+		updatedChart = googleChart.replace("chartInput","real_div")
+		updatedChart = updatedChart.replace("requestedChart","Google Map:")
+		updatedChart = updatedChart.replace("lineChartInterest","['hello',3]")
+		idx = 0
+		while idx < len(locationArray):
+			if idx != len(locationArray) - 1:
+				updatedChart = updatedChart.replace("googleMapCoordinates",str(locationArray[idx]) + "," + "googleMapCoordinates")
+			else:
+				updatedChart = updatedChart.replace("googleMapCoordinates",str(locationArray[idx]))
+			idx += 1
+	if chartType == "worldMap":
+		updatedChart = googleChart.replace("chartInput","regions_div")
+		updatedChart = updatedChart.replace("requestedChart","Regions Map:")
+	if chartType == "piechart":
+		updatedChart = googleChart.replace("chartInput","pies_div")
+		updatedChart = updatedChart.replace("requestedChart","Pie Chart:")
+	if chartType == "barGraph":
+		updatedChart = googleChart.replace("chartInput","bargraph_div")
+		updatedChart = updatedChart.replace("requestedChart","Bar Graph:")
+	if chartType == "lineGraph":
+		updatedChart = googleChart.replace("chartInput","line_div")
+		updatedChart = updatedChart.replace("requestedChart","Line Graph:")
+		matrixOfDates = dictToMatrix(dateToDict(interestArray))
+		idx = 0
+		while idx < len(matrixOfDates):
+			if idx != len(matrixOfDates) - 1:
+				updatedChart = updatedChart.replace("lineChartInterest",str(matrixOfDates[idx]) + "," + "lineChartInterest")
+			else:
+				updatedChart = updatedChart.replace("lineChartInterest",str(matrixOfDates[idx]) + ",")
+			idx += 1
 
-    #Below is used for taking in a dictionary and using it.
-    idx = 0
-    while idx < len(countryArray):
-        if idx != len(countryArray) - 1:
-            updatedChart = updatedChart.replace("tableData",("<tr> <th>" + countryArray.keys()[idx] + "</th> <th>" + countryArray[countryArray.keys()[idx]] + "</th> </tr> tableData"))
-        else:
-            updatedChart = updatedChart.replace("tableData",("<tr> <th>" + countryArray.keys()[idx] + "</th> <th>" + countryArray[countryArray.keys()[idx]] + "</th> </tr>"))
-        idx += 1
-    return updatedChart
+	#Below is used for taking in a dictionary and using it.
+	idx = 0
+	while idx < len(countryArray):
+		if idx != len(countryArray) - 1:
+			updatedChart = updatedChart.replace("tableData",("<tr> <th>" + countryArray.keys()[idx] + "</th> <th>" + countryArray[countryArray.keys()[idx]] + "</th> </tr> tableData"))
+		else:
+			updatedChart = updatedChart.replace("tableData",("<tr> <th>" + countryArray.keys()[idx] + "</th> <th>" + countryArray[countryArray.keys()[idx]] + "</th> </tr>"))
+		idx += 1
+	return updatedChart
 
 
 '''
@@ -322,20 +322,20 @@ def chartManager(chartType,countryArray,locationArray,interestArray):
 '''
 
 def main():
-    print "Content-type: text/html\n"
-    global html
-    input = toVar()
-    locationArray = geocodeTweets(returnTweetLocations(input["search"],int(input["tweetNumber"])))
+	print "Content-type: text/html\n"
+	global html
+	input = toVar()
+	locationArray = geocodeTweets(returnTweetLocations(input["search"],int(input["tweetNumber"])))
 	locationArray = removeCountryCodes(locationArray)
-    countryArray = {"coordinates":"okay","eric":"bryan"}
-    interestArray = interestByTime(input["search"],input["tweetNumber"],previousDaysManager(input["timeSelector"]))
-    try:
-        if input["chartView"] == "none":
-            print errorHandler("You didn't choose a view option.")
-        elif input["tweetNumber"] == 0:
-            print errorHandler("You only entered 0 tweets.")
-        else:
-            print chartManager(input["chartView"],countryArray,locationArray,interestArray)
-    except KeyError:
-        print errorHandler("You didn't enter a search option.")
+	countryArray = {"coordinates":"okay","eric":"bryan"}
+	interestArray = interestByTime(input["search"],input["tweetNumber"],previousDaysManager(input["timeSelector"]))
+	try:
+		if input["chartView"] == "none":
+			print errorHandler("You didn't choose a view option.")
+		elif input["tweetNumber"] == 0:
+			print errorHandler("You only entered 0 tweets.")
+		else:
+			print chartManager(input["chartView"],countryArray,locationArray,interestArray)
+	except KeyError:
+		print errorHandler("You didn't enter a search option.")
 main()
