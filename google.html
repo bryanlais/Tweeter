@@ -66,17 +66,14 @@
 
       function lineChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Days', 'Interest'],
-          ['June 1st, 2018',  50],
-          ['June 2nd, 2018',  30],
-          ['June 3rd, 2018',  20],
-          ['June 4th, 2018',  10]
+          ['Days', '% Interest'],
+          lineChartInterest
         ]);
         var options = {
           title: 'Interest Over Time',
           curveType: 'function',
           legend: { position: 'bottom' },
-          fontName: "Proxima-Nova-Bold"
+          fontName: "Proxima-Nova-Bold",
         };
         var linechart = new google.visualization.LineChart(document.getElementById('line_div'));
         linechart.draw(data, options);

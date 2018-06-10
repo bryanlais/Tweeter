@@ -42,7 +42,6 @@ html = '''
 </html>
 '''
 
-
 def returnRealtimeTweets(search_value, tweet_count):
 	global twitter_stream
 	locationDataList = []
@@ -61,33 +60,7 @@ def returnRealtimeTweets(search_value, tweet_count):
 			break
 	return filter(None, locationDataList)
 
-def returnTweetLocations(search_value, tweet_count):
-	global twitter_search
-	output = []
-	for x in range(1):
-		tweets = twitter.search.tweets(q=search_value,count = tweet_count, geocode="0.781157,0.398720,8000mi")
 
-		jsonFile = open("tweets.json", "w")
-		jsonFile.write(json.dumps(tweets, indent = 4))
-		#print tweets[0]
-
-		jsonFile.close()
-
-		jsonFile = open("tweets.json", "r")
-		jsonStr = jsonFile.read()
-		jsonData = json.loads(jsonStr)
-		
-		for el in jsonData["statuses"]:
-			if el["place"] != None:
-				str(output.append(el["place"]["name"]))
-			elif el["user"]["location"] != None:
-				try:
-					output.append(str(el["user"]["location"]))
-				except:
-					continue
-		jsonFile.close()
-	return filter(None, output)
-	
 def returnLocationData():
 	# We use the file saved from last step as example
 	tweetFile = open("tweets.txt", "r")
@@ -111,29 +84,25 @@ def returnLocationData():
 	tweetFile.close()
 
 def interestByTime(search_value, tweet_count, date):
-	global twitter_search
-	output = []
-	for x in range(1):
-		tweets = twitter.search.tweets(q=search_value,count = tweet_count, until = date, result_type="popular")
-
-		jsonFile = open("tweets.json", "w")
-		jsonFile.write(json.dumps(tweets, indent = 4))
+    global twitter
+    output = []
+    for x in range(1,10):
+        tweets = twitter.search.tweets(q=search_value,count = tweet_count, until = date, result_type="popular")
+        jsonFile = open("tweets.json", "w")
+        jsonFile.write(json.dumps(tweets, indent = 4))
 		#print tweets[0]
+        jsonFile.close()
+        jsonFile = open("tweets.json", "r")
+        jsonStr = jsonFile.read()
+        jsonData = json.loads(jsonStr)
+        for el in jsonData["statuses"]:
+            output.append(str(el["created_at"]))
+        jsonFile.close()
+    return output
 
-		jsonFile.close()
-
-		jsonFile = open("tweets.json", "r")
-		jsonStr = jsonFile.read()
-		jsonData = json.loads(jsonStr)
-		print len(jsonData["statuses"])
-		for el in jsonData["statuses"]:
-			output.append(el["created_at")]
-		jsonFile.close()
-	return output
-    
 def grabYesterday():
-    today = date.today()
-    return today - timedelta(1)
+    yesterday = date.today() - timedelta(1)
+    return str(yesterday.year) + "-" + str(yesterday.month) + "-" + str(yesterday.day)
 '''
   _____                                  __  __
  | ____|  _ __   _ __    ___    _ __    |  \/  |   __ _   _ __     __ _    __ _    ___   _ __
@@ -183,6 +152,25 @@ def toVar():
 
 googleChart = open("../google.html", "r").read()
 
+def previousDaysManager(input):
+    if input == "today":
+        return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day)
+    if input == "yesterday":
+        grabYesterday()
+    if input == "2daysago":
+        return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 2)
+    if input == "3daysago":
+        return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 3)
+    if input == "4daysago":
+        return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 4)
+    if input == "5daysago":
+        return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 5)
+    if input == "6daysago":
+        return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 6)
+    if input == "week":
+        return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 7)
+
+
 def createCountryDictionary(matrix):
     idx = 0
     output = {}
@@ -194,7 +182,25 @@ def createCountryDictionary(matrix):
         idx += 1
     return output
 
-def chartManager(chartType,countryArray,locationArray):
+def dateToDict(arr):
+    output = {}
+    idx = 0
+    while idx < len(arr):
+        if arr[idx][0:10] not in output:
+            output[arr[idx][0:10]] = 1
+        else:
+            output[arr[idx][0:10]] += 1
+        idx += 1
+    return output
+def dictToMatrix(dict):
+    output = []
+    sum = 0.0
+    for val in dict.itervalues():
+        sum += val
+    for key in dict.keys():
+        output.append([key,((dict[key] / sum) * 10)])
+    return output
+def chartManager(chartType,countryArray,locationArray,interestArray):
     updatedChart = ""
     if chartType == "realMap":
         updatedChart = googleChart.replace("chartInput","real_div")
@@ -218,6 +224,15 @@ def chartManager(chartType,countryArray,locationArray):
     if chartType == "lineGraph":
         updatedChart = googleChart.replace("chartInput","line_div")
         updatedChart = updatedChart.replace("requestedChart","Line Graph:")
+        matrixOfDates = dictToMatrix(dateToDict(interestArray))
+        idx = 0
+        while idx < len(matrixOfDates):
+            if idx != len(matrixOfDates) - 1:
+                updatedChart = updatedChart.replace("lineChartInterest",str(matrixOfDates[idx]) + "," + "lineChartInterest")
+            else:
+                updatedChart = updatedChart.replace("lineChartInterest",str(matrixOfDates[idx]) + ",")
+            idx += 1
+
     #Below is used for taking in a dictionary and using it.
     idx = 0
     while idx < len(countryArray):
@@ -244,13 +259,14 @@ def main():
     input = toVar()
     locationArray = returnRealtimeTweets(input["search"],int(input["tweetNumber"]))
     countryArray = {"coordinates":"okay","eric":"bryan"}
+    interestArray = interestByTime(input["search"],input["tweetNumber"],previousDaysManager(input["timeSelector"]))
     try:
         if input["chartView"] == "none":
             print errorHandler("You didn't choose a view option.")
         elif input["tweetNumber"] == 0:
             print errorHandler("You only entered 0 tweets.")
         else:
-            print chartManager(input["chartView"],countryArray,locationArray)
-    except Keyerror:
+            print chartManager(input["chartView"],countryArray,locationArray,interestArray)
+    except KeyError:
         print errorHandler("You didn't enter a search option.")
 main()
