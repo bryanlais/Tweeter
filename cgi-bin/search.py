@@ -102,16 +102,16 @@ def returnLocationData():
 	tweetFile.close()
 
 def returnTweetLocations(search_value, tweet_count):
-	global twitter_search
+	global twitter
 	output = []
 	for x in range(1):
-		tweets = twitter.search.tweets(q=search_value,count = tweet_count, geocode="0.781157,0.398720,8000mi")
+		tweets = twitter.search.tweets(q=search_value,count = tweet_count, geocode="40.730610,73.935242,8000mi")
 
 		jsonData = dumpToJSON("json-bin/tweet_location_names.json", tweets)
 		
 		for el in jsonData["statuses"]:
 			if el["place"] != None:
-				output.append([str(el["place"]["name"]),str(el["text"])])
+				output.append([el["place"]["name"].encode('utf-8'), el["text"].encode('utf-8')])
 			elif el["user"]["location"] != None:
 				try:
 					output.append([str(el["user"]["location"]),str(el["text"])])
@@ -133,10 +133,9 @@ def geocodeTweets(tweets):
 	global gmaps
 	geocodes = []
 	for tweet in tweets:
-		print tweet[0]
 		try:
 			jsonData = gmaps.places_autocomplete(tweet[0])
-		except googlemaps.exceptions.ApiError:
+		except:
 			continue
 			
 		geoJSON = dumpToJSON("json-bin/geodata.json", jsonData)
@@ -266,6 +265,7 @@ def chartManager(chartType,countryArray,locationArray,interestArray):
     if chartType == "realMap":
         updatedChart = googleChart.replace("chartInput","real_div")
         updatedChart = updatedChart.replace("requestedChart","Google Map:")
+        updatedChart = updatedChart.replace("lineChartInterest","['hello',3]")
         idx = 0
         while idx < len(locationArray):
             if idx != len(locationArray) - 1:

@@ -1,186 +1,160 @@
 {
     "search_metadata": {
         "count": 100, 
-        "completed_in": 0.027, 
+        "completed_in": 0.12, 
         "max_id_str": "0", 
         "since_id_str": "0", 
         "since_id": 0, 
-        "query": "hello+until%3A2018-6-8", 
+        "query": "pokemon+until%3A2018-6-8", 
         "max_id": 0
     }, 
     "statuses": [
         {
             "contributors": null, 
-            "truncated": false, 
-            "text": "Hello from the other side \ud83d\ude33 @elonmusk https://t.co/pRTnyptZ1N", 
-            "is_quote_status": true, 
+            "truncated": true, 
+            "text": "Pok\u00e9mon GO \u3092\u697d\u3057\u304f\u516c\u5e73\u306b\u904a\u3093\u3067\u3044\u305f\u3060\u3051\u308b\u74b0\u5883\u3092\u6574\u3048\u308b\u305f\u3081\u3001\u5229\u7528\u898f\u7d04\u9055\u53cd\u3092\u3057\u3066\u3044\u308b\u975e\u516c\u5f0f\u30b5\u30fc\u30d3\u30b9\u3092\u5229\u7528\u3057\u305f\u3001\u901a\u5e38\u306e\u30b2\u30fc\u30e0\u30d7\u30ec\u30a4\u3078\u5f71\u97ff\u3092\u53ca\u307c\u3059\u884c\u70ba\u3078\u306e\u5bfe\u7b56\u3092\u7d9a\u3051\u3066\u3044\u307e\u3059\u3002\u3053\u306e\u3088\u3046\u306a\u30b5\u30fc\u30d3\u30b9\u3092\u5229\u7528\u3057\u3066\u6355\u307e\u3048\u305f\u30dd\u30b1\u30e2\u30f3\u306b\u306f\u300c\u8d64\u2026 https://t.co/KDOL2mNsEv", 
+            "is_quote_status": false, 
             "in_reply_to_status_id": null, 
-            "id": 1002171917208641536, 
-            "favorite_count": 168788, 
+            "id": 1002444670381776896, 
+            "favorite_count": 5910, 
             "entities": {
                 "symbols": [], 
-                "user_mentions": [
-                    {
-                        "id": 44196397, 
-                        "indices": [
-                            28, 
-                            37
-                        ], 
-                        "id_str": "44196397", 
-                        "screen_name": "elonmusk", 
-                        "name": "Elon Musk"
-                    }
-                ], 
+                "user_mentions": [], 
                 "hashtags": [], 
                 "urls": [
                     {
-                        "url": "https://t.co/pRTnyptZ1N", 
+                        "url": "https://t.co/KDOL2mNsEv", 
                         "indices": [
-                            38, 
-                            61
+                            117, 
+                            140
                         ], 
-                        "expanded_url": "https://twitter.com/clickhole/status/1001887654294773760", 
-                        "display_url": "twitter.com/clickhole/stat\u2026"
+                        "expanded_url": "https://twitter.com/i/web/status/1002444670381776896", 
+                        "display_url": "twitter.com/i/web/status/1\u2026"
                     }
                 ]
             }, 
-            "quoted_status_id": 1001887654294773760, 
             "retweeted": false, 
             "coordinates": null, 
-            "quoted_status": {
-                "contributors": null, 
-                "truncated": true, 
-                "text": "More Bad Press For Elon: The Car Elon Musk Launched Into Orbit Has Fallen Back Down To Earth And Crushed Malala You\u2026 https://t.co/9OBky3utPM", 
-                "is_quote_status": false, 
-                "in_reply_to_status_id": null, 
-                "id": 1001887654294773760, 
-                "favorite_count": 24421, 
-                "entities": {
-                    "symbols": [], 
-                    "user_mentions": [], 
-                    "hashtags": [], 
-                    "urls": [
-                        {
-                            "url": "https://t.co/9OBky3utPM", 
-                            "indices": [
-                                117, 
-                                140
-                            ], 
-                            "expanded_url": "https://twitter.com/i/web/status/1001887654294773760", 
-                            "display_url": "twitter.com/i/web/status/1\u2026"
-                        }
-                    ]
-                }, 
-                "retweeted": false, 
-                "coordinates": null, 
-                "source": "<a href=\"http://www.socialflow.com\" rel=\"nofollow\">SocialFlow</a>", 
-                "in_reply_to_screen_name": null, 
-                "in_reply_to_user_id": null, 
-                "retweet_count": 5271, 
-                "id_str": "1001887654294773760", 
-                "favorited": false, 
-                "user": {
-                    "follow_request_sent": false, 
-                    "has_extended_profile": false, 
-                    "profile_use_background_image": true, 
-                    "default_profile_image": false, 
-                    "id": 2377815434, 
-                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
-                    "verified": true, 
-                    "translator_type": "none", 
-                    "profile_text_color": "333333", 
-                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/875375967895560192/peLGlXVI_normal.jpg", 
-                    "profile_sidebar_fill_color": "DDEEF6", 
-                    "entities": {
-                        "url": {
-                            "urls": [
-                                {
-                                    "url": "http://t.co/o9QKdXXcxf", 
-                                    "indices": [
-                                        0, 
-                                        22
-                                    ], 
-                                    "expanded_url": "http://www.clickhole.com", 
-                                    "display_url": "clickhole.com"
-                                }
-                            ]
-                        }, 
-                        "description": {
-                            "urls": []
-                        }
-                    }, 
-                    "followers_count": 409493, 
-                    "profile_sidebar_border_color": "C0DEED", 
-                    "id_str": "2377815434", 
-                    "profile_background_color": "C0DEED", 
-                    "listed_count": 2249, 
-                    "is_translation_enabled": false, 
-                    "utc_offset": null, 
-                    "statuses_count": 33768, 
-                    "description": "Because all content deserves to go viral.", 
-                    "friends_count": 26, 
-                    "location": "", 
-                    "profile_link_color": "1DA1F2", 
-                    "profile_image_url": "http://pbs.twimg.com/profile_images/875375967895560192/peLGlXVI_normal.jpg", 
-                    "following": false, 
-                    "geo_enabled": true, 
-                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/2377815434/1495207913", 
-                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
-                    "screen_name": "ClickHole", 
-                    "lang": "en", 
-                    "profile_background_tile": false, 
-                    "favourites_count": 2701, 
-                    "name": "ClickHole", 
-                    "notifications": false, 
-                    "url": "http://t.co/o9QKdXXcxf", 
-                    "created_at": "Fri Mar 07 23:51:23 +0000 2014", 
-                    "contributors_enabled": false, 
-                    "time_zone": null, 
-                    "protected": false, 
-                    "default_profile": true, 
-                    "is_translator": false
-                }, 
-                "geo": null, 
-                "in_reply_to_user_id_str": null, 
-                "possibly_sensitive": false, 
-                "lang": "en", 
-                "created_at": "Wed May 30 18:06:45 +0000 2018", 
-                "in_reply_to_status_id_str": null, 
-                "place": null, 
-                "metadata": {
-                    "iso_language_code": "en", 
-                    "result_type": "popular"
-                }
-            }, 
-            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+            "source": "<a href=\"http://www.falcon.io\" rel=\"nofollow\">Falcon Social Media Management </a>", 
             "in_reply_to_screen_name": null, 
             "in_reply_to_user_id": null, 
-            "retweet_count": 26746, 
-            "id_str": "1002171917208641536", 
+            "retweet_count": 3813, 
+            "id_str": "1002444670381776896", 
             "favorited": false, 
             "user": {
                 "follow_request_sent": false, 
                 "has_extended_profile": false, 
-                "profile_use_background_image": false, 
+                "profile_use_background_image": true, 
                 "default_profile_image": false, 
-                "id": 937499232, 
+                "id": 745131593392488449, 
+                "profile_background_image_url_https": null, 
+                "verified": true, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/750744855341518848/fElW45pA_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 381887, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "745131593392488449", 
+                "profile_background_color": "F5F8FA", 
+                "listed_count": 3358, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 402, 
+                "description": "\u30b9\u30de\u30fc\u30c8\u30d5\u30a9\u30f3\u5411\u3051\u30ea\u30a2\u30eb\u30ef\u30fc\u30eb\u30c9\u30b2\u30fc\u30e0\u3001Pok\u00e9mon GO\u306e\u65e5\u672c\u516c\u5f0f\u30a2\u30ab\u30a6\u30f3\u30c8\u3067\u3059\u3002Pok\u00e9mon GO\u306e\u6700\u65b0\u60c5\u5831\u3092\u3053\u3061\u3089\u304b\u3089\u304a\u4f1d\u3048\u3044\u305f\u3057\u307e\u3059\u3002", 
+                "friends_count": 2, 
+                "location": "", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/750744855341518848/fElW45pA_normal.jpg", 
+                "following": false, 
+                "geo_enabled": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/745131593392488449/1525199729", 
+                "profile_background_image_url": null, 
+                "screen_name": "PokemonGOAppJP", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 2, 
+                "name": "Pok\u00e9mon GO Japan", 
+                "notifications": false, 
+                "url": null, 
+                "created_at": "Tue Jun 21 05:49:50 +0000 2016", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "lang": "ja", 
+            "created_at": "Fri Jun 01 07:00:08 +0000 2018", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "ja", 
+                "result_type": "popular"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": true, 
+            "text": "7/25\u306b47\u679a\u76ee\u306e\u30b7\u30f3\u30b0\u30eb\u300c\u30d6\u30ec\u30b9\u300d\u30ea\u30ea\u30fc\u30b9\u6c7a\u5b9a\uff01\u8868\u984c\u66f2\u306e\u300c\u30d6\u30ec\u30b9\u300d\u306f7/13\u516c\u958b\u306e\u300c\u5287\u5834\u7248\u30dd\u30b1\u30c3\u30c8\u30e2\u30f3\u30b9\u30bf\u30fc \u307f\u3093\u306a\u306e\u7269\u8a9e\u300d\u306e\u4e3b\u984c\u6b4c\u3068\u306a\u3063\u3066\u304a\u308a\u307e\u3059\uff01\u300c\u30d6\u30ec\u30b9\u300d\u3092\u4f7f\u7528\u3057\u305f\u6620\u753b\u306e\u30d7\u30ed\u30e2\u30fc\u30b7\u30e7\u30f3\u6620\u50cf\u3092\u516c\u958b\u4e2d\uff01\u2026 https://t.co/1NkfUibsdX", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 1004528374365093888, 
+            "favorite_count": 8654, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [], 
+                "urls": [
+                    {
+                        "url": "https://t.co/1NkfUibsdX", 
+                        "indices": [
+                            106, 
+                            129
+                        ], 
+                        "expanded_url": "https://twitter.com/i/web/status/1004528374365093888", 
+                        "display_url": "twitter.com/i/web/status/1\u2026"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 5994, 
+            "id_str": "1004528374365093888", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": true, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 2889307669, 
                 "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
                 "verified": true, 
                 "translator_type": "none", 
-                "profile_text_color": "000000", 
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/972091218883526656/ElSdbAsZ_normal.jpg", 
-                "profile_sidebar_fill_color": "000000", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/786138712396619776/NPZtpsyt_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
                 "entities": {
                     "url": {
                         "urls": [
                             {
-                                "url": "https://t.co/BefUhq7u88", 
+                                "url": "http://t.co/bLp1lcgK4g", 
                                 "indices": [
                                     0, 
-                                    23
+                                    22
                                 ], 
-                                "expanded_url": "http://malala.org", 
-                                "display_url": "malala.org"
+                                "expanded_url": "http://www.pornograffitti.jp", 
+                                "display_url": "pornograffitti.jp"
                             }
                         ]
                     }, 
@@ -188,31 +162,146 @@
                         "urls": []
                     }
                 }, 
-                "followers_count": 1301085, 
-                "profile_sidebar_border_color": "000000", 
-                "id_str": "937499232", 
-                "profile_background_color": "000000", 
-                "listed_count": 3028, 
+                "followers_count": 91660, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "2889307669", 
+                "profile_background_color": "C0DEED", 
+                "listed_count": 931, 
                 "is_translation_enabled": false, 
                 "utc_offset": null, 
-                "statuses_count": 318, 
-                "description": "20 years old | advocate for girls\u2019 education and women's equality | UN Messenger of Peace | founder @MalalaFund", 
-                "friends_count": 207, 
+                "statuses_count": 1581, 
+                "description": "\u30dd\u30eb\u30ce\u30b0\u30e9\u30d5\u30a3\u30c6\u30a3\u516c\u5f0f\u30a2\u30ab\u30a6\u30f3\u30c8\u3067\u3059\u3002\n\u203b\u30dd\u30eb\u30ce\u30b0\u30e9\u30d5\u30a3\u30c6\u30a3\u306e\u5168\u3066\u306e\u60c5\u5831\u3092\u63b2\u8f09\u3057\u3066\u3044\u308b\u308f\u3051\u3067\u306f\u3042\u308a\u307e\u305b\u3093\u3002\u5fc5\u305a\u30aa\u30d5\u30a3\u30b7\u30e3\u30eb\u30b5\u30a4\u30c8\u306b\u3066\u3054\u78ba\u8a8d\u4e0b\u3055\u3044\u3002\u203b\u30aa\u30f3\u30a8\u30a2\u60c5\u5831\u306a\u3069\u306f\u3001\u5730\u57df\u306b\u3088\u3063\u3066\u65e5\u6642\u304c\u7570\u306a\u308b\u5834\u5408\u304c\u3042\u308a\u307e\u3059\u3002\n\u203b\u6df1\u591c\u306b\u66f4\u65b0\u3059\u308b\u5834\u5408\u3082\u3042\u308a\u307e\u3059\u306e\u3067\u3001\u3054\u4e86\u627f\u4e0b\u3055\u3044\u3002\u203b\u3053\u3061\u3089\u306b\u304a\u554f\u3044\u5408\u308f\u305b\u3092\u9802\u3044\u3066\u3082\u3001\u304a\u7b54\u3048\u306f\u3067\u304d\u307e\u305b\u3093\u3002", 
+                "friends_count": 3, 
                 "location": "", 
-                "profile_link_color": "E0005B", 
-                "profile_image_url": "http://pbs.twimg.com/profile_images/972091218883526656/ElSdbAsZ_normal.jpg", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/786138712396619776/NPZtpsyt_normal.jpg", 
                 "following": false, 
                 "geo_enabled": false, 
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/937499232/1522520075", 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2889307669/1519355184", 
                 "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
-                "screen_name": "Malala", 
+                "screen_name": "pg_koushiki", 
+                "lang": "ja", 
+                "profile_background_tile": false, 
+                "favourites_count": 0, 
+                "name": "\u30dd\u30eb\u30ce\u30b0\u30e9\u30d5\u30a3\u30c6\u30a3 \u516c\u5f0f", 
+                "notifications": false, 
+                "url": "http://t.co/bLp1lcgK4g", 
+                "created_at": "Tue Nov 04 02:52:29 +0000 2014", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "ja", 
+            "created_at": "Thu Jun 07 01:00:02 +0000 2018", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "ja", 
+                "result_type": "popular"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": true, 
+            "text": "Serebii Update: Speaking to Famitsu, Ishihara reconfirms that 2019's game is coming in the second half of 2019 and\u2026 https://t.co/MeFXM6xaKC", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 1004241040742735873, 
+            "favorite_count": 7325, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [], 
+                "urls": [
+                    {
+                        "url": "https://t.co/MeFXM6xaKC", 
+                        "indices": [
+                            116, 
+                            139
+                        ], 
+                        "expanded_url": "https://twitter.com/i/web/status/1004241040742735873", 
+                        "display_url": "twitter.com/i/web/status/1\u2026"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 2421, 
+            "id_str": "1004241040742735873", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": false, 
+                "default_profile_image": false, 
+                "id": 38857814, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "verified": true, 
+                "translator_type": "none", 
+                "profile_text_color": "000000", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/701075499238473728/o7zfQqHy_normal.png", 
+                "profile_sidebar_fill_color": "507C36", 
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/eHMPE5ZZHB", 
+                                "indices": [
+                                    0, 
+                                    22
+                                ], 
+                                "expanded_url": "http://www.serebii.net/", 
+                                "display_url": "serebii.net"
+                            }
+                        ]
+                    }, 
+                    "description": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/1qqfO1wVne", 
+                                "indices": [
+                                    21, 
+                                    44
+                                ], 
+                                "expanded_url": "http://Serebii.net", 
+                                "display_url": "Serebii.net"
+                            }
+                        ]
+                    }
+                }, 
+                "followers_count": 376837, 
+                "profile_sidebar_border_color": "000000", 
+                "id_str": "38857814", 
+                "profile_background_color": "383838", 
+                "listed_count": 1268, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 7670, 
+                "description": "Official twitter for https://t.co/1qqfO1wVne, the massive Pok\u00e9mon website", 
+                "friends_count": 2, 
+                "location": "Earth", 
+                "profile_link_color": "000000", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/701075499238473728/o7zfQqHy_normal.png", 
+                "following": false, 
+                "geo_enabled": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/38857814/1398234432", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "screen_name": "SerebiiNet", 
                 "lang": "en", 
                 "profile_background_tile": false, 
-                "favourites_count": 841, 
-                "name": "Malala", 
+                "favourites_count": 1, 
+                "name": "Serebii.net", 
                 "notifications": false, 
-                "url": "https://t.co/BefUhq7u88", 
-                "created_at": "Fri Nov 09 18:34:52 +0000 2012", 
+                "url": "http://t.co/eHMPE5ZZHB", 
+                "created_at": "Sat May 09 14:06:54 +0000 2009", 
                 "contributors_enabled": false, 
                 "time_zone": null, 
                 "protected": false, 
@@ -223,8 +312,7 @@
             "in_reply_to_user_id_str": null, 
             "possibly_sensitive": false, 
             "lang": "en", 
-            "created_at": "Thu May 31 12:56:19 +0000 2018", 
-            "quoted_status_id_str": "1001887654294773760", 
+            "created_at": "Wed Jun 06 05:58:16 +0000 2018", 
             "in_reply_to_status_id_str": null, 
             "place": null, 
             "metadata": {
@@ -234,451 +322,116 @@
         }, 
         {
             "contributors": null, 
-            "truncated": false, 
-            "text": "hello i\u2019m crying https://t.co/xXri181GSt", 
+            "truncated": true, 
+            "text": "In #PokemonLetsGo Pikachu and #PokemonLetsGo Eevee, you\u2019ll capture Pok\u00e9mon in a whole new way! Instead of random en\u2026 https://t.co/EEKqcSeEMM", 
             "is_quote_status": false, 
             "in_reply_to_status_id": null, 
-            "id": 1004818191078457344, 
-            "favorite_count": 96479, 
+            "id": 1004090577779134464, 
+            "favorite_count": 5869, 
             "entities": {
                 "symbols": [], 
                 "user_mentions": [], 
-                "hashtags": [], 
-                "urls": [], 
-                "media": [
+                "hashtags": [
                     {
-                        "expanded_url": "https://twitter.com/ArianaGrande/status/1004818191078457344/video/1", 
-                        "display_url": "pic.twitter.com/xXri181GSt", 
-                        "url": "https://t.co/xXri181GSt", 
-                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1004817949251678208/pu/img/Floc4j8CKvCKpVJv.jpg", 
-                        "id_str": "1004817949251678208", 
-                        "sizes": {
-                            "small": {
-                                "h": 680, 
-                                "resize": "fit", 
-                                "w": 680
-                            }, 
-                            "large": {
-                                "h": 720, 
-                                "resize": "fit", 
-                                "w": 720
-                            }, 
-                            "medium": {
-                                "h": 720, 
-                                "resize": "fit", 
-                                "w": 720
-                            }, 
-                            "thumb": {
-                                "h": 150, 
-                                "resize": "crop", 
-                                "w": 150
-                            }
-                        }, 
                         "indices": [
-                            17, 
-                            40
+                            3, 
+                            17
                         ], 
-                        "type": "photo", 
-                        "id": 1004817949251678208, 
-                        "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1004817949251678208/pu/img/Floc4j8CKvCKpVJv.jpg"
+                        "text": "PokemonLetsGo"
+                    }, 
+                    {
+                        "indices": [
+                            30, 
+                            44
+                        ], 
+                        "text": "PokemonLetsGo"
+                    }
+                ], 
+                "urls": [
+                    {
+                        "url": "https://t.co/EEKqcSeEMM", 
+                        "indices": [
+                            117, 
+                            140
+                        ], 
+                        "expanded_url": "https://twitter.com/i/web/status/1004090577779134464", 
+                        "display_url": "twitter.com/i/web/status/1\u2026"
                     }
                 ]
             }, 
             "retweeted": false, 
             "coordinates": null, 
-            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+            "source": "<a href=\"https://www.tracx.com/\" rel=\"nofollow\">App1 Tracx</a>", 
             "in_reply_to_screen_name": null, 
             "in_reply_to_user_id": null, 
-            "retweet_count": 13536, 
-            "id_str": "1004818191078457344", 
+            "retweet_count": 1072, 
+            "id_str": "1004090577779134464", 
             "favorited": false, 
             "user": {
                 "follow_request_sent": false, 
                 "has_extended_profile": false, 
                 "profile_use_background_image": true, 
                 "default_profile_image": false, 
-                "id": 34507480, 
-                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme13/bg.gif", 
+                "id": 5162861, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme18/bg.gif", 
                 "verified": true, 
-                "translator_type": "regular", 
-                "profile_text_color": "D8A0C1", 
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1004810374967799808/fXH7KPii_normal.jpg", 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/848542652245069824/JZnSq5yM_normal.jpg", 
                 "profile_sidebar_fill_color": "F6F6F6", 
                 "entities": {
                     "url": {
                         "urls": [
                             {
-                                "url": "https://t.co/2RDNfUXcVY", 
+                                "url": "https://t.co/cMLmFbyXaL", 
                                 "indices": [
                                     0, 
                                     23
                                 ], 
-                                "expanded_url": "http://arianagrande.lnk.to/notears", 
-                                "display_url": "arianagrande.lnk.to/notears"
+                                "expanded_url": "http://www.nintendo.com/", 
+                                "display_url": "nintendo.com"
                             }
                         ]
                     }, 
                     "description": {
-                        "urls": []
-                    }
-                }, 
-                "followers_count": 57500939, 
-                "profile_sidebar_border_color": "000000", 
-                "id_str": "34507480", 
-                "profile_background_color": "000000", 
-                "listed_count": 57836, 
-                "is_translation_enabled": true, 
-                "utc_offset": null, 
-                "statuses_count": 40921, 
-                "description": "\u028e\u0279\u0254 o\u0287 \u0287\u025f\u01ddl s\u0279\u0250\u01dd\u0287 ou | \u028dou \u0287no", 
-                "friends_count": 64446, 
-                "location": "\u01dd\u028c\u0250 uoo\u026f\u028e\u01dduo\u0265", 
-                "profile_link_color": "AD92D1", 
-                "profile_image_url": "http://pbs.twimg.com/profile_images/1004810374967799808/fXH7KPii_normal.jpg", 
-                "following": false, 
-                "geo_enabled": true, 
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/34507480/1528264869", 
-                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme13/bg.gif", 
-                "screen_name": "ArianaGrande", 
-                "lang": "en", 
-                "profile_background_tile": true, 
-                "favourites_count": 32986, 
-                "name": "Ariana Grande", 
-                "notifications": false, 
-                "url": "https://t.co/2RDNfUXcVY", 
-                "created_at": "Thu Apr 23 02:56:31 +0000 2009", 
-                "contributors_enabled": false, 
-                "time_zone": null, 
-                "protected": false, 
-                "default_profile": false, 
-                "is_translator": false
-            }, 
-            "geo": null, 
-            "in_reply_to_user_id_str": null, 
-            "possibly_sensitive": false, 
-            "lang": "en", 
-            "created_at": "Thu Jun 07 20:11:40 +0000 2018", 
-            "in_reply_to_status_id_str": null, 
-            "place": null, 
-            "extended_entities": {
-                "media": [
-                    {
-                        "additional_media_info": {
-                            "monetizable": false
-                        }, 
-                        "expanded_url": "https://twitter.com/ArianaGrande/status/1004818191078457344/video/1", 
-                        "display_url": "pic.twitter.com/xXri181GSt", 
-                        "url": "https://t.co/xXri181GSt", 
-                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1004817949251678208/pu/img/Floc4j8CKvCKpVJv.jpg", 
-                        "video_info": {
-                            "aspect_ratio": [
-                                1, 
-                                1
-                            ], 
-                            "duration_millis": 30772, 
-                            "variants": [
-                                {
-                                    "url": "https://video.twimg.com/ext_tw_video/1004817949251678208/pu/vid/480x480/GtwmzgYJnq4gsU74.mp4?tag=3", 
-                                    "bitrate": 832000, 
-                                    "content_type": "video/mp4"
-                                }, 
-                                {
-                                    "url": "https://video.twimg.com/ext_tw_video/1004817949251678208/pu/pl/iJxQI3ltSfE5QnVt.m3u8?tag=3", 
-                                    "content_type": "application/x-mpegURL"
-                                }, 
-                                {
-                                    "url": "https://video.twimg.com/ext_tw_video/1004817949251678208/pu/vid/240x240/Vnat_8Ukjj2raM_z.mp4?tag=3", 
-                                    "bitrate": 256000, 
-                                    "content_type": "video/mp4"
-                                }, 
-                                {
-                                    "url": "https://video.twimg.com/ext_tw_video/1004817949251678208/pu/vid/720x720/9Wi3arjj_clZiUjb.mp4?tag=3", 
-                                    "bitrate": 1280000, 
-                                    "content_type": "video/mp4"
-                                }
-                            ]
-                        }, 
-                        "id_str": "1004817949251678208", 
-                        "sizes": {
-                            "small": {
-                                "h": 680, 
-                                "resize": "fit", 
-                                "w": 680
-                            }, 
-                            "large": {
-                                "h": 720, 
-                                "resize": "fit", 
-                                "w": 720
-                            }, 
-                            "medium": {
-                                "h": 720, 
-                                "resize": "fit", 
-                                "w": 720
-                            }, 
-                            "thumb": {
-                                "h": 150, 
-                                "resize": "crop", 
-                                "w": 150
-                            }
-                        }, 
-                        "indices": [
-                            17, 
-                            40
-                        ], 
-                        "type": "video", 
-                        "id": 1004817949251678208, 
-                        "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1004817949251678208/pu/img/Floc4j8CKvCKpVJv.jpg"
-                    }
-                ]
-            }, 
-            "metadata": {
-                "iso_language_code": "en", 
-                "result_type": "popular"
-            }
-        }, 
-        {
-            "contributors": null, 
-            "truncated": true, 
-            "text": "@B_hundred_Hyun Oh hello! \ud83d\udc4b\ud83c\udffd \uc5ec\ubcf4\uc138\uc694! Welcome to Twitter, Baekhyun! \u2764\ufe0f#WelcomeToTwitterBaekhyun #Baekhyun #Exo #Exol\u2026 https://t.co/NZSFY9yMj0", 
-            "is_quote_status": false, 
-            "in_reply_to_status_id": 1002609388534657024, 
-            "id": 1002625247424675840, 
-            "favorite_count": 18153, 
-            "entities": {
-                "symbols": [], 
-                "user_mentions": [
-                    {
-                        "id": 1000214682530074624, 
-                        "indices": [
-                            0, 
-                            15
-                        ], 
-                        "id_str": "1000214682530074624", 
-                        "screen_name": "B_hundred_Hyun", 
-                        "name": "Baekhyun_EXO"
-                    }
-                ], 
-                "hashtags": [
-                    {
-                        "indices": [
-                            67, 
-                            92
-                        ], 
-                        "text": "WelcomeToTwitterBaekhyun"
-                    }, 
-                    {
-                        "indices": [
-                            93, 
-                            102
-                        ], 
-                        "text": "Baekhyun"
-                    }, 
-                    {
-                        "indices": [
-                            103, 
-                            107
-                        ], 
-                        "text": "Exo"
-                    }, 
-                    {
-                        "indices": [
-                            108, 
-                            113
-                        ], 
-                        "text": "Exol"
-                    }
-                ], 
-                "urls": [
-                    {
-                        "url": "https://t.co/NZSFY9yMj0", 
-                        "indices": [
-                            115, 
-                            138
-                        ], 
-                        "expanded_url": "https://twitter.com/i/web/status/1002625247424675840", 
-                        "display_url": "twitter.com/i/web/status/1\u2026"
-                    }
-                ]
-            }, 
-            "retweeted": false, 
-            "coordinates": null, 
-            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
-            "in_reply_to_screen_name": "B_hundred_Hyun", 
-            "in_reply_to_user_id": 1000214682530074624, 
-            "retweet_count": 19037, 
-            "id_str": "1002625247424675840", 
-            "favorited": false, 
-            "user": {
-                "follow_request_sent": false, 
-                "has_extended_profile": false, 
-                "profile_use_background_image": true, 
-                "default_profile_image": false, 
-                "id": 234399791, 
-                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif", 
-                "verified": true, 
-                "translator_type": "none", 
-                "profile_text_color": "333333", 
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/894508681236238336/sbivKluQ_normal.jpg", 
-                "profile_sidebar_fill_color": "EFEFEF", 
-                "entities": {
-                    "url": {
                         "urls": [
                             {
-                                "url": "https://t.co/Z3lKroqpSV", 
+                                "url": "https://t.co/OgSR65P8OY", 
                                 "indices": [
-                                    0, 
-                                    23
+                                    103, 
+                                    126
                                 ], 
-                                "expanded_url": "http://www.paralympic.org", 
-                                "display_url": "paralympic.org"
+                                "expanded_url": "http://esrb.org", 
+                                "display_url": "esrb.org"
                             }
                         ]
-                    }, 
-                    "description": {
-                        "urls": []
                     }
                 }, 
-                "followers_count": 238970, 
+                "followers_count": 9454160, 
                 "profile_sidebar_border_color": "FFFFFF", 
-                "id_str": "234399791", 
-                "profile_background_color": "131516", 
-                "listed_count": 1593, 
+                "id_str": "5162861", 
+                "profile_background_color": "ACDED6", 
+                "listed_count": 12362, 
                 "is_translation_enabled": false, 
                 "utc_offset": null, 
-                "statuses_count": 27413, 
-                "description": "Official Twitter page of the International Paralympic Committee (IPC), the global governing body of the Paralympic Movement.", 
-                "friends_count": 2811, 
+                "statuses_count": 14854, 
+                "description": "Welcome to the official Nintendo profile for gaming news! We\u2019re listening, too. For ESRB ratings go to https://t.co/OgSR65P8OY", 
+                "friends_count": 272, 
                 "location": "", 
-                "profile_link_color": "008542", 
-                "profile_image_url": "http://pbs.twimg.com/profile_images/894508681236238336/sbivKluQ_normal.jpg", 
+                "profile_link_color": "038543", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/848542652245069824/JZnSq5yM_normal.jpg", 
                 "following": false, 
                 "geo_enabled": true, 
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/234399791/1477470123", 
-                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif", 
-                "screen_name": "Paralympics", 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/5162861/1528326741", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme18/bg.gif", 
+                "screen_name": "NintendoAmerica", 
                 "lang": "en", 
                 "profile_background_tile": false, 
-                "favourites_count": 4405, 
-                "name": "Paralympic Games", 
+                "favourites_count": 287, 
+                "name": "Nintendo of America", 
                 "notifications": false, 
-                "url": "https://t.co/Z3lKroqpSV", 
-                "created_at": "Wed Jan 05 15:28:57 +0000 2011", 
-                "contributors_enabled": false, 
-                "time_zone": null, 
-                "protected": false, 
-                "default_profile": false, 
-                "is_translator": false
-            }, 
-            "geo": null, 
-            "in_reply_to_user_id_str": "1000214682530074624", 
-            "possibly_sensitive": false, 
-            "lang": "ko", 
-            "created_at": "Fri Jun 01 18:57:41 +0000 2018", 
-            "in_reply_to_status_id_str": "1002609388534657024", 
-            "place": null, 
-            "metadata": {
-                "iso_language_code": "ko", 
-                "result_type": "popular"
-            }
-        }, 
-        {
-            "contributors": null, 
-            "truncated": true, 
-            "text": "Hello all you analysts. Mohan Bhagwat and @CitiznMukherjee pretty much said the same thing. One in Hindi and one in\u2026 https://t.co/XZLWmW79a0", 
-            "is_quote_status": false, 
-            "in_reply_to_status_id": null, 
-            "id": 1004747615622311936, 
-            "favorite_count": 9511, 
-            "entities": {
-                "symbols": [], 
-                "user_mentions": [
-                    {
-                        "id": 885490328232382464, 
-                        "indices": [
-                            42, 
-                            58
-                        ], 
-                        "id_str": "885490328232382464", 
-                        "screen_name": "CitiznMukherjee", 
-                        "name": "Pranab Mukherjee"
-                    }
-                ], 
-                "hashtags": [], 
-                "urls": [
-                    {
-                        "url": "https://t.co/XZLWmW79a0", 
-                        "indices": [
-                            117, 
-                            140
-                        ], 
-                        "expanded_url": "https://twitter.com/i/web/status/1004747615622311936", 
-                        "display_url": "twitter.com/i/web/status/1\u2026"
-                    }
-                ]
-            }, 
-            "retweeted": false, 
-            "coordinates": null, 
-            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
-            "in_reply_to_screen_name": null, 
-            "in_reply_to_user_id": null, 
-            "retweet_count": 3399, 
-            "id_str": "1004747615622311936", 
-            "favorited": false, 
-            "user": {
-                "follow_request_sent": false, 
-                "has_extended_profile": true, 
-                "profile_use_background_image": true, 
-                "default_profile_image": false, 
-                "id": 37168231, 
-                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme12/bg.gif", 
-                "verified": true, 
-                "translator_type": "none", 
-                "profile_text_color": "0C3E53", 
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/3271633610/3dce6613c7ec66f27662f822950f3590_normal.jpeg", 
-                "profile_sidebar_fill_color": "FFF7CC", 
-                "entities": {
-                    "url": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/qlKCFDSaOC", 
-                                "indices": [
-                                    0, 
-                                    23
-                                ], 
-                                "expanded_url": "http://www.suhelseth.com", 
-                                "display_url": "suhelseth.com"
-                            }
-                        ]
-                    }, 
-                    "description": {
-                        "urls": []
-                    }
-                }, 
-                "followers_count": 4863753, 
-                "profile_sidebar_border_color": "F2E195", 
-                "id_str": "37168231", 
-                "profile_background_color": "BADFCD", 
-                "listed_count": 1696, 
-                "is_translation_enabled": false, 
-                "utc_offset": null, 
-                "statuses_count": 42202, 
-                "description": "bon vivant, traveller, author, marketing maven...", 
-                "friends_count": 1035, 
-                "location": "\u00dcT: 28.59669,77.191123", 
-                "profile_link_color": "FF0000", 
-                "profile_image_url": "http://pbs.twimg.com/profile_images/3271633610/3dce6613c7ec66f27662f822950f3590_normal.jpeg", 
-                "following": false, 
-                "geo_enabled": true, 
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/37168231/1401193209", 
-                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme12/bg.gif", 
-                "screen_name": "suhelseth", 
-                "lang": "en", 
-                "profile_background_tile": false, 
-                "favourites_count": 81, 
-                "name": "SUHEL SETH", 
-                "notifications": false, 
-                "url": "https://t.co/qlKCFDSaOC", 
-                "created_at": "Sat May 02 08:44:45 +0000 2009", 
+                "url": "https://t.co/cMLmFbyXaL", 
+                "created_at": "Wed Apr 18 22:43:15 +0000 2007", 
                 "contributors_enabled": false, 
                 "time_zone": null, 
                 "protected": false, 
@@ -687,8 +440,9 @@
             }, 
             "geo": null, 
             "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
             "lang": "en", 
-            "created_at": "Thu Jun 07 15:31:13 +0000 2018", 
+            "created_at": "Tue Jun 05 20:00:23 +0000 2018", 
             "in_reply_to_status_id_str": null, 
             "place": null, 
             "metadata": {
@@ -699,23 +453,453 @@
         {
             "contributors": null, 
             "truncated": true, 
-            "text": "hello, here is my favorite piece of art i've seen all year:\n\n\u201cfrog\u201d by matsumoto hoji. edo period. 1814.\n\ni love th\u2026 https://t.co/YMqFoudqAT", 
+            "text": "Our Water Festival\ud83d\udca7is coming back with a wave of Water-type Pok\u00e9mon appearing more frequently all over the world. G\u2026 https://t.co/b1WbQp7Fq0", 
             "is_quote_status": false, 
             "in_reply_to_status_id": null, 
-            "id": 1004793418617241600, 
-            "favorite_count": 28853, 
+            "id": 1004740252551049216, 
+            "favorite_count": 8292, 
             "entities": {
                 "symbols": [], 
                 "user_mentions": [], 
                 "hashtags": [], 
                 "urls": [
                     {
-                        "url": "https://t.co/YMqFoudqAT", 
+                        "url": "https://t.co/b1WbQp7Fq0", 
                         "indices": [
                             117, 
                             140
                         ], 
-                        "expanded_url": "https://twitter.com/i/web/status/1004793418617241600", 
+                        "expanded_url": "https://twitter.com/i/web/status/1004740252551049216", 
+                        "display_url": "twitter.com/i/web/status/1\u2026"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://www.falcon.io\" rel=\"nofollow\">Falcon Social Media Management </a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 2115, 
+            "id_str": "1004740252551049216", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 2839430431, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "verified": true, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/750741005175959552/c6fEtZH4_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/WjeReR0qiP", 
+                                "indices": [
+                                    0, 
+                                    23
+                                ], 
+                                "expanded_url": "http://www.pokemongo.com", 
+                                "display_url": "pokemongo.com"
+                            }
+                        ]
+                    }, 
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 2662011, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "2839430431", 
+                "profile_background_color": "C0DEED", 
+                "listed_count": 3887, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 684, 
+                "description": "Step outside and discover @Pokemon in the real world!  Follow for official updates.  Get up and GO!", 
+                "friends_count": 19, 
+                "location": "", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/750741005175959552/c6fEtZH4_normal.jpg", 
+                "following": false, 
+                "geo_enabled": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2839430431/1525199684", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "screen_name": "PokemonGoApp", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 150, 
+                "name": "Pok\u00e9mon GO", 
+                "notifications": false, 
+                "url": "https://t.co/WjeReR0qiP", 
+                "created_at": "Fri Oct 03 22:04:17 +0000 2014", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "en", 
+            "created_at": "Thu Jun 07 15:01:58 +0000 2018", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "popular"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": true, 
+            "text": "Hey, Trainers! A new batch of Field Research is now available, and I need your help! This time, I\u2019m focusing on res\u2026 https://t.co/Bnlyi7iDqb", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 1002674450029039616, 
+            "favorite_count": 4402, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [], 
+                "urls": [
+                    {
+                        "url": "https://t.co/Bnlyi7iDqb", 
+                        "indices": [
+                            117, 
+                            140
+                        ], 
+                        "expanded_url": "https://twitter.com/i/web/status/1002674450029039616", 
+                        "display_url": "twitter.com/i/web/status/1\u2026"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://www.falcon.io\" rel=\"nofollow\">Falcon Social Media Management </a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 675, 
+            "id_str": "1002674450029039616", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 2839430431, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "verified": true, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/750741005175959552/c6fEtZH4_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/WjeReR0qiP", 
+                                "indices": [
+                                    0, 
+                                    23
+                                ], 
+                                "expanded_url": "http://www.pokemongo.com", 
+                                "display_url": "pokemongo.com"
+                            }
+                        ]
+                    }, 
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 2662011, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "2839430431", 
+                "profile_background_color": "C0DEED", 
+                "listed_count": 3887, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 684, 
+                "description": "Step outside and discover @Pokemon in the real world!  Follow for official updates.  Get up and GO!", 
+                "friends_count": 19, 
+                "location": "", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/750741005175959552/c6fEtZH4_normal.jpg", 
+                "following": false, 
+                "geo_enabled": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2839430431/1525199684", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "screen_name": "PokemonGoApp", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 150, 
+                "name": "Pok\u00e9mon GO", 
+                "notifications": false, 
+                "url": "https://t.co/WjeReR0qiP", 
+                "created_at": "Fri Oct 03 22:04:17 +0000 2014", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "en", 
+            "created_at": "Fri Jun 01 22:13:12 +0000 2018", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "popular"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": true, 
+            "text": "6\u670816\u65e5\uff08\u571f\uff09\u3001\u30a6\u30a7\u30c7\u30a3\u30f3\u30b0\u30c9\u30ec\u30b9\u59ff\u3068\u30bf\u30ad\u30b7\u30fc\u30c9\u59ff\u306e\u30d4\u30ab\u30c1\u30e5\u30a6\u304c\u3001\u6c38\u9060\u306e\u611b\u3092\u304a\u795d\u3044\u3059\u308b\u30b0\u30c3\u30ba\u306b\u306a\u3063\u3066\u3001\u30dd\u30b1\u30e2\u30f3\u30bb\u30f3\u30bf\u30fc\u306b\u767b\u5834\uff01 \u30da\u30a2\u306c\u3044\u3050\u308b\u307f\u3084\u672c\u683c\u7684\u306a\u30ea\u30f3\u30b0\u3001\u30d5\u30a9\u30c8\u30d5\u30ec\u30fc\u30e0\u3082\u3042\u308b\u3088\uff01\u2026 https://t.co/nxi0PVZQwB", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 1003199642165764097, 
+            "favorite_count": 4822, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [], 
+                "urls": [
+                    {
+                        "url": "https://t.co/nxi0PVZQwB", 
+                        "indices": [
+                            95, 
+                            118
+                        ], 
+                        "expanded_url": "https://twitter.com/i/web/status/1003199642165764097", 
+                        "display_url": "twitter.com/i/web/status/1\u2026"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://www.radian6.com\" rel=\"nofollow\">Radian6 -Social Media Management</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 1929, 
+            "id_str": "1003199642165764097", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 323091128, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "verified": true, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/875568149554274307/dC3miYeA_normal.jpg", 
+                "profile_sidebar_fill_color": "FFF9CF", 
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/fpHgcccZIk", 
+                                "indices": [
+                                    0, 
+                                    22
+                                ], 
+                                "expanded_url": "http://www.pokemon.co.jp/", 
+                                "display_url": "pokemon.co.jp"
+                            }
+                        ]
+                    }, 
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 628153, 
+                "profile_sidebar_border_color": "FFFFFF", 
+                "id_str": "323091128", 
+                "profile_background_color": "FFE017", 
+                "listed_count": 6151, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 9500, 
+                "description": "\u682a\u5f0f\u4f1a\u793e\u30dd\u30b1\u30e2\u30f3\u306e\u516c\u5f0f\u30a2\u30ab\u30a6\u30f3\u30c8\u3088\u308a\u3001\u300c\u30dd\u30b1\u30c3\u30c8\u30e2\u30f3\u30b9\u30bf\u30fc\u30aa\u30d5\u30a3\u30b7\u30e3\u30eb\u30b5\u30a4\u30c8\u300d\u6700\u65b0\u60c5\u5831\u3092\u304a\u5c4a\u3051\u3057\u307e\u3059\u3002\r\n\u304a\u5ba2\u69d8\u304b\u3089\u306e\u500b\u5225\u306e\u30e1\u30c3\u30bb\u30fc\u30b8\u306a\u3069\u306f\u3001Twitter\u4e0a\u3067\u306f\u3054\u8fd4\u7b54\u3067\u304d\u304b\u306d\u307e\u3059\u306e\u3067\u3054\u4e86\u627f\u4e0b\u3055\u3044\u3002\r\n\u300c\u30dd\u30b1\u30c3\u30c8\u30e2\u30f3\u30b9\u30bf\u30fc\u30aa\u30d5\u30a3\u30b7\u30e3\u30eb\u30b5\u30a4\u30c8\u300d\u306e\u304a\u554f\u3044\u5408\u308f\u305b\u7a93\u53e3\u3088\u308a\u3054\u9023\u7d61\u4e0b\u3055\u3044\u3002", 
+                "friends_count": 5, 
+                "location": "\u6771\u4eac\u90fd", 
+                "profile_link_color": "0088CC", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/875568149554274307/dC3miYeA_normal.jpg", 
+                "following": false, 
+                "geo_enabled": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/323091128/1527645256", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "screen_name": "Pokemon_cojp", 
+                "lang": "ja", 
+                "profile_background_tile": true, 
+                "favourites_count": 0, 
+                "name": "\u30dd\u30b1\u30e2\u30f3\u516c\u5f0f\u30c4\u30a4\u30c3\u30bf\u30fc", 
+                "notifications": false, 
+                "url": "http://t.co/fpHgcccZIk", 
+                "created_at": "Fri Jun 24 07:12:45 +0000 2011", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": false, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "ja", 
+            "created_at": "Sun Jun 03 09:00:07 +0000 2018", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "ja", 
+                "result_type": "popular"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": true, 
+            "text": "Wedding bells are ringing! \ud83c\udf8a The 1,000th US episode of Pok\u00e9mon the Series featured a beautiful wedding between Prof\u2026 https://t.co/tZ9DFqoiOj", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 1004438712246099968, 
+            "favorite_count": 8545, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [], 
+                "urls": [
+                    {
+                        "url": "https://t.co/tZ9DFqoiOj", 
+                        "indices": [
+                            117, 
+                            140
+                        ], 
+                        "expanded_url": "https://twitter.com/i/web/status/1004438712246099968", 
+                        "display_url": "twitter.com/i/web/status/1\u2026"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Media Studio</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 1655, 
+            "id_str": "1004438712246099968", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": false, 
+                "default_profile_image": false, 
+                "id": 96879107, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "verified": true, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/980544485108064256/jfiHHXbR_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/ZfbDdDkxF2", 
+                                "indices": [
+                                    0, 
+                                    22
+                                ], 
+                                "expanded_url": "http://www.pokemon.com", 
+                                "display_url": "pokemon.com"
+                            }
+                        ]
+                    }, 
+                    "description": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/zHZhbsScWI", 
+                                "indices": [
+                                    134, 
+                                    157
+                                ], 
+                                "expanded_url": "http://Pokemon.com/Support", 
+                                "display_url": "Pokemon.com/Support"
+                            }
+                        ]
+                    }
+                }, 
+                "followers_count": 5180791, 
+                "profile_sidebar_border_color": "FFFFFF", 
+                "id_str": "96879107", 
+                "profile_background_color": "FFFFFF", 
+                "listed_count": 4019, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 89187, 
+                "description": "The official international Pok\u00e9mon Twitter account. Get the latest Pok\u00e9mon news straight from the source! For customer service, visit https://t.co/zHZhbsScWI", 
+                "friends_count": 8, 
+                "location": "Alola Region", 
+                "profile_link_color": "28C6DB", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/980544485108064256/jfiHHXbR_normal.jpg", 
+                "following": false, 
+                "geo_enabled": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/96879107/1527653300", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "screen_name": "Pokemon", 
+                "lang": "en", 
+                "profile_background_tile": true, 
+                "favourites_count": 7, 
+                "name": "Pok\u00e9mon", 
+                "notifications": false, 
+                "url": "http://t.co/ZfbDdDkxF2", 
+                "created_at": "Tue Dec 15 00:53:03 +0000 2009", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": false, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "en", 
+            "created_at": "Wed Jun 06 19:03:45 +0000 2018", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "popular"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": true, 
+            "text": "Shiny Zygarde is ready to join your team! From now until June 24, head to your local GameStop to pick up this Legen\u2026 https://t.co/w7osCCXUe3", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 1003703244739055617, 
+            "favorite_count": 3133, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [], 
+                "urls": [
+                    {
+                        "url": "https://t.co/w7osCCXUe3", 
+                        "indices": [
+                            117, 
+                            140
+                        ], 
+                        "expanded_url": "https://twitter.com/i/web/status/1003703244739055617", 
                         "display_url": "twitter.com/i/web/status/1\u2026"
                     }
                 ]
@@ -725,399 +909,74 @@
             "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>", 
             "in_reply_to_screen_name": null, 
             "in_reply_to_user_id": null, 
-            "retweet_count": 7416, 
-            "id_str": "1004793418617241600", 
+            "retweet_count": 667, 
+            "id_str": "1003703244739055617", 
             "favorited": false, 
             "user": {
                 "follow_request_sent": false, 
-                "has_extended_profile": true, 
+                "has_extended_profile": false, 
                 "profile_use_background_image": false, 
                 "default_profile_image": false, 
-                "id": 26259576, 
-                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif", 
+                "id": 96879107, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
                 "verified": true, 
                 "translator_type": "none", 
-                "profile_text_color": "2B2B2B", 
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/932660941124243456/cBQXIFUb_normal.jpg", 
-                "profile_sidebar_fill_color": "E8E8E8", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/980544485108064256/jfiHHXbR_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
                 "entities": {
                     "url": {
                         "urls": [
                             {
-                                "url": "https://t.co/oEEqs0CTIj", 
+                                "url": "http://t.co/ZfbDdDkxF2", 
                                 "indices": [
                                     0, 
-                                    23
+                                    22
                                 ], 
-                                "expanded_url": "http://jomnysun.com", 
-                                "display_url": "jomnysun.com"
+                                "expanded_url": "http://www.pokemon.com", 
+                                "display_url": "pokemon.com"
                             }
                         ]
                     }, 
                     "description": {
                         "urls": [
                             {
-                                "url": "https://t.co/LeKyIq2dWV", 
+                                "url": "https://t.co/zHZhbsScWI", 
                                 "indices": [
-                                    73, 
-                                    96
+                                    134, 
+                                    157
                                 ], 
-                                "expanded_url": "http://jomnybook.com", 
-                                "display_url": "jomnybook.com"
-                            }, 
-                            {
-                                "url": "https://t.co/5JdB1zLoqh", 
-                                "indices": [
-                                    102, 
-                                    125
-                                ], 
-                                "expanded_url": "http://byjomnysun.com", 
-                                "display_url": "byjomnysun.com"
+                                "expanded_url": "http://Pokemon.com/Support", 
+                                "display_url": "Pokemon.com/Support"
                             }
                         ]
                     }
                 }, 
-                "followers_count": 559326, 
+                "followers_count": 5180791, 
                 "profile_sidebar_border_color": "FFFFFF", 
-                "id_str": "26259576", 
-                "profile_background_color": "2E2E2E", 
-                "listed_count": 3148, 
+                "id_str": "96879107", 
+                "profile_background_color": "FFFFFF", 
+                "listed_count": 4019, 
                 "is_translation_enabled": false, 
                 "utc_offset": null, 
-                "statuses_count": 49498, 
-                "description": "writer, illustrator, student, aliebn confuesed abt humabn lamgauge. book https://t.co/LeKyIq2dWV shop https://t.co/5JdB1zLoqh bots @tinycarebot @tinydotblot (he/him)", 
-                "friends_count": 1886, 
-                "location": "jonnysunwrites@gmail.com", 
-                "profile_link_color": "000000", 
-                "profile_image_url": "http://pbs.twimg.com/profile_images/932660941124243456/cBQXIFUb_normal.jpg", 
+                "statuses_count": 89187, 
+                "description": "The official international Pok\u00e9mon Twitter account. Get the latest Pok\u00e9mon news straight from the source! For customer service, visit https://t.co/zHZhbsScWI", 
+                "friends_count": 8, 
+                "location": "Alola Region", 
+                "profile_link_color": "28C6DB", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/980544485108064256/jfiHHXbR_normal.jpg", 
                 "following": false, 
                 "geo_enabled": false, 
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/26259576/1525740197", 
-                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif", 
-                "screen_name": "jonnysun", 
-                "lang": "en", 
-                "profile_background_tile": false, 
-                "favourites_count": 260843, 
-                "name": "jomny sun", 
-                "notifications": false, 
-                "url": "https://t.co/oEEqs0CTIj", 
-                "created_at": "Tue Mar 24 15:42:07 +0000 2009", 
-                "contributors_enabled": false, 
-                "time_zone": null, 
-                "protected": false, 
-                "default_profile": false, 
-                "is_translator": false
-            }, 
-            "geo": null, 
-            "in_reply_to_user_id_str": null, 
-            "possibly_sensitive": false, 
-            "lang": "en", 
-            "created_at": "Thu Jun 07 18:33:13 +0000 2018", 
-            "in_reply_to_status_id_str": null, 
-            "place": null, 
-            "metadata": {
-                "iso_language_code": "en", 
-                "result_type": "popular"
-            }
-        }, 
-        {
-            "contributors": null, 
-            "truncated": false, 
-            "text": "This is illegal - Trump gets the numbers in advance.  He tipped off the market.  Hello SEC! https://t.co/0lLtvyMkiA", 
-            "is_quote_status": true, 
-            "in_reply_to_status_id": null, 
-            "id": 1002530363061735425, 
-            "favorite_count": 11416, 
-            "entities": {
-                "symbols": [], 
-                "user_mentions": [], 
-                "hashtags": [], 
-                "urls": [
-                    {
-                        "url": "https://t.co/0lLtvyMkiA", 
-                        "indices": [
-                            92, 
-                            115
-                        ], 
-                        "expanded_url": "https://twitter.com/realdonaldtrump/status/1002510522032541701", 
-                        "display_url": "twitter.com/realdonaldtrum\u2026"
-                    }
-                ]
-            }, 
-            "quoted_status_id": 1002510522032541701, 
-            "retweeted": false, 
-            "coordinates": null, 
-            "quoted_status": {
-                "contributors": null, 
-                "truncated": false, 
-                "text": "Looking forward to seeing the employment numbers at 8:30 this morning.", 
-                "is_quote_status": false, 
-                "in_reply_to_status_id": null, 
-                "id": 1002510522032541701, 
-                "favorite_count": 76408, 
-                "entities": {
-                    "symbols": [], 
-                    "user_mentions": [], 
-                    "hashtags": [], 
-                    "urls": []
-                }, 
-                "retweeted": false, 
-                "coordinates": null, 
-                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
-                "in_reply_to_screen_name": null, 
-                "in_reply_to_user_id": null, 
-                "retweet_count": 11587, 
-                "id_str": "1002510522032541701", 
-                "favorited": false, 
-                "user": {
-                    "follow_request_sent": false, 
-                    "has_extended_profile": false, 
-                    "profile_use_background_image": true, 
-                    "default_profile_image": false, 
-                    "id": 25073877, 
-                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
-                    "verified": true, 
-                    "translator_type": "regular", 
-                    "profile_text_color": "333333", 
-                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg", 
-                    "profile_sidebar_fill_color": "C5CEC0", 
-                    "entities": {
-                        "url": {
-                            "urls": [
-                                {
-                                    "url": "https://t.co/OMxB0xp8tD", 
-                                    "indices": [
-                                        0, 
-                                        23
-                                    ], 
-                                    "expanded_url": "http://www.Instagram.com/realDonaldTrump", 
-                                    "display_url": "Instagram.com/realDonaldTrump"
-                                }
-                            ]
-                        }, 
-                        "description": {
-                            "urls": []
-                        }
-                    }, 
-                    "followers_count": 52557379, 
-                    "profile_sidebar_border_color": "BDDCAD", 
-                    "id_str": "25073877", 
-                    "profile_background_color": "6D5C18", 
-                    "listed_count": 88836, 
-                    "is_translation_enabled": true, 
-                    "utc_offset": null, 
-                    "statuses_count": 37808, 
-                    "description": "45th President of the United States of America\ud83c\uddfa\ud83c\uddf8", 
-                    "friends_count": 46, 
-                    "location": "Washington, DC", 
-                    "profile_link_color": "1B95E0", 
-                    "profile_image_url": "http://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg", 
-                    "following": false, 
-                    "geo_enabled": true, 
-                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1528585804", 
-                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
-                    "screen_name": "realDonaldTrump", 
-                    "lang": "en", 
-                    "profile_background_tile": true, 
-                    "favourites_count": 25, 
-                    "name": "Donald J. Trump", 
-                    "notifications": false, 
-                    "url": "https://t.co/OMxB0xp8tD", 
-                    "created_at": "Wed Mar 18 13:46:38 +0000 2009", 
-                    "contributors_enabled": false, 
-                    "time_zone": null, 
-                    "protected": false, 
-                    "default_profile": false, 
-                    "is_translator": false
-                }, 
-                "geo": null, 
-                "in_reply_to_user_id_str": null, 
-                "lang": "en", 
-                "created_at": "Fri Jun 01 11:21:48 +0000 2018", 
-                "in_reply_to_status_id_str": null, 
-                "place": null, 
-                "metadata": {
-                    "iso_language_code": "en", 
-                    "result_type": "popular"
-                }
-            }, 
-            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
-            "in_reply_to_screen_name": null, 
-            "in_reply_to_user_id": null, 
-            "retweet_count": 4478, 
-            "id_str": "1002530363061735425", 
-            "favorited": false, 
-            "user": {
-                "follow_request_sent": false, 
-                "has_extended_profile": true, 
-                "profile_use_background_image": true, 
-                "default_profile_image": false, 
-                "id": 15976705, 
-                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme4/bg.gif", 
-                "verified": true, 
-                "translator_type": "none", 
-                "profile_text_color": "3C3940", 
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/964147245682774016/eiFYWVo-_normal.jpg", 
-                "profile_sidebar_fill_color": "95E8EC", 
-                "entities": {
-                    "url": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/SC4oCHc104", 
-                                "indices": [
-                                    0, 
-                                    23
-                                ], 
-                                "expanded_url": "http://www.thenewagenda.net/", 
-                                "display_url": "thenewagenda.net"
-                            }
-                        ]
-                    }, 
-                    "description": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/tMr9QbCrKm", 
-                                "indices": [
-                                    132, 
-                                    155
-                                ], 
-                                "expanded_url": "https://theweeklylist.org/", 
-                                "display_url": "theweeklylist.org"
-                            }
-                        ]
-                    }
-                }, 
-                "followers_count": 287954, 
-                "profile_sidebar_border_color": "5ED4DC", 
-                "id_str": "15976705", 
-                "profile_background_color": "0099B9", 
-                "listed_count": 2951, 
-                "is_translation_enabled": false, 
-                "utc_offset": null, 
-                "statuses_count": 40804, 
-                "description": "President of The New Agenda. Advocate for women's, LGBTQ rights and equality. Fmr Wall Street exec. POLITICO 50. Author of THE LIST https://t.co/tMr9QbCrKm", 
-                "friends_count": 298, 
-                "location": "New York", 
-                "profile_link_color": "0099B9", 
-                "profile_image_url": "http://pbs.twimg.com/profile_images/964147245682774016/eiFYWVo-_normal.jpg", 
-                "following": false, 
-                "geo_enabled": true, 
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/15976705/1528502349", 
-                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme4/bg.gif", 
-                "screen_name": "Amy_Siskind", 
-                "lang": "en", 
-                "profile_background_tile": false, 
-                "favourites_count": 32002, 
-                "name": "Amy Siskind", 
-                "notifications": false, 
-                "url": "https://t.co/SC4oCHc104", 
-                "created_at": "Mon Aug 25 02:52:25 +0000 2008", 
-                "contributors_enabled": false, 
-                "time_zone": null, 
-                "protected": false, 
-                "default_profile": false, 
-                "is_translator": false
-            }, 
-            "geo": null, 
-            "in_reply_to_user_id_str": null, 
-            "possibly_sensitive": false, 
-            "lang": "en", 
-            "created_at": "Fri Jun 01 12:40:39 +0000 2018", 
-            "quoted_status_id_str": "1002510522032541701", 
-            "in_reply_to_status_id_str": null, 
-            "place": null, 
-            "metadata": {
-                "iso_language_code": "en", 
-                "result_type": "popular"
-            }
-        }, 
-        {
-            "contributors": null, 
-            "truncated": false, 
-            "text": "I'm in Russia testing a SCHEDULED TWEET! Hello from yesterday! Did this work? What is the future like? \ud83d\udd2e", 
-            "is_quote_status": false, 
-            "in_reply_to_status_id": null, 
-            "id": 1003682797410705408, 
-            "favorite_count": 42902, 
-            "entities": {
-                "symbols": [], 
-                "user_mentions": [], 
-                "hashtags": [], 
-                "urls": []
-            }, 
-            "retweeted": false, 
-            "coordinates": null, 
-            "source": "<a href=\"https://ads-api.twitter.com\" rel=\"nofollow\">Twitter Ads Composer</a>", 
-            "in_reply_to_screen_name": null, 
-            "in_reply_to_user_id": null, 
-            "retweet_count": 3592, 
-            "id_str": "1003682797410705408", 
-            "favorited": false, 
-            "user": {
-                "follow_request_sent": false, 
-                "has_extended_profile": true, 
-                "profile_use_background_image": true, 
-                "default_profile_image": false, 
-                "id": 14631115, 
-                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme4/bg.gif", 
-                "verified": true, 
-                "translator_type": "none", 
-                "profile_text_color": "3C3940", 
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/993596006775377921/nU-S7R4d_normal.jpg", 
-                "profile_sidebar_fill_color": "A8BCFF", 
-                "entities": {
-                    "url": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/34smT8C6sc", 
-                                "indices": [
-                                    0, 
-                                    23
-                                ], 
-                                "expanded_url": "http://www.danandphiltour.com", 
-                                "display_url": "danandphiltour.com"
-                            }
-                        ]
-                    }, 
-                    "description": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/srfVhmskLp", 
-                                "indices": [
-                                    0, 
-                                    23
-                                ], 
-                                "expanded_url": "http://youtube.com/amazingphil", 
-                                "display_url": "youtube.com/amazingphil"
-                            }
-                        ]
-                    }
-                }, 
-                "followers_count": 7666602, 
-                "profile_sidebar_border_color": "5ED4DC", 
-                "id_str": "14631115", 
-                "profile_background_color": "0099B9", 
-                "listed_count": 8180, 
-                "is_translation_enabled": true, 
-                "utc_offset": null, 
-                "statuses_count": 36582, 
-                "description": "https://t.co/srfVhmskLp", 
-                "friends_count": 346, 
-                "location": "Dan and Phil 2018 WORLD TOUR!", 
-                "profile_link_color": "1B95E0", 
-                "profile_image_url": "http://pbs.twimg.com/profile_images/993596006775377921/nU-S7R4d_normal.jpg", 
-                "following": false, 
-                "geo_enabled": true, 
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/14631115/1527501734", 
-                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme4/bg.gif", 
-                "screen_name": "AmazingPhil", 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/96879107/1527653300", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "screen_name": "Pokemon", 
                 "lang": "en", 
                 "profile_background_tile": true, 
-                "favourites_count": 4165, 
-                "name": "Phil Lester", 
+                "favourites_count": 7, 
+                "name": "Pok\u00e9mon", 
                 "notifications": false, 
-                "url": "https://t.co/34smT8C6sc", 
-                "created_at": "Fri May 02 21:07:29 +0000 2008", 
+                "url": "http://t.co/ZfbDdDkxF2", 
+                "created_at": "Tue Dec 15 00:53:03 +0000 2009", 
                 "contributors_enabled": false, 
                 "time_zone": null, 
                 "protected": false, 
@@ -1126,8 +985,9 @@
             }, 
             "geo": null, 
             "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
             "lang": "en", 
-            "created_at": "Mon Jun 04 17:00:01 +0000 2018", 
+            "created_at": "Mon Jun 04 18:21:16 +0000 2018", 
             "in_reply_to_status_id_str": null, 
             "place": null, 
             "metadata": {
@@ -1138,84 +998,181 @@
         {
             "contributors": null, 
             "truncated": true, 
-            "text": "[#MONSTA_X]\nHello to the #MostRequestedLive worldwide listeners.  Here's our exclusive @AskAnythingChat we did for\u2026 https://t.co/XBQakzRbuB", 
+            "text": "We know how Ash usually handles this problem, but now it\u2019s your turn, Trainers! Which Pok\u00e9mon would you use to batt\u2026 https://t.co/tPMwzE6Mu4", 
             "is_quote_status": false, 
             "in_reply_to_status_id": null, 
-            "id": 1002897686654169088, 
-            "favorite_count": 22887, 
+            "id": 1002623899299930112, 
+            "favorite_count": 3115, 
             "entities": {
                 "symbols": [], 
-                "user_mentions": [
+                "user_mentions": [], 
+                "hashtags": [], 
+                "urls": [
                     {
-                        "id": 450186253, 
+                        "url": "https://t.co/tPMwzE6Mu4", 
                         "indices": [
-                            87, 
-                            103
+                            117, 
+                            140
                         ], 
-                        "id_str": "450186253", 
-                        "screen_name": "AskAnythingChat", 
-                        "name": "Ask Anything"
+                        "expanded_url": "https://twitter.com/i/web/status/1002623899299930112", 
+                        "display_url": "twitter.com/i/web/status/1\u2026"
                     }
-                ], 
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 339, 
+            "id_str": "1002623899299930112", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": false, 
+                "default_profile_image": false, 
+                "id": 96879107, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "verified": true, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/980544485108064256/jfiHHXbR_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/ZfbDdDkxF2", 
+                                "indices": [
+                                    0, 
+                                    22
+                                ], 
+                                "expanded_url": "http://www.pokemon.com", 
+                                "display_url": "pokemon.com"
+                            }
+                        ]
+                    }, 
+                    "description": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/zHZhbsScWI", 
+                                "indices": [
+                                    134, 
+                                    157
+                                ], 
+                                "expanded_url": "http://Pokemon.com/Support", 
+                                "display_url": "Pokemon.com/Support"
+                            }
+                        ]
+                    }
+                }, 
+                "followers_count": 5180791, 
+                "profile_sidebar_border_color": "FFFFFF", 
+                "id_str": "96879107", 
+                "profile_background_color": "FFFFFF", 
+                "listed_count": 4019, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 89187, 
+                "description": "The official international Pok\u00e9mon Twitter account. Get the latest Pok\u00e9mon news straight from the source! For customer service, visit https://t.co/zHZhbsScWI", 
+                "friends_count": 8, 
+                "location": "Alola Region", 
+                "profile_link_color": "28C6DB", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/980544485108064256/jfiHHXbR_normal.jpg", 
+                "following": false, 
+                "geo_enabled": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/96879107/1527653300", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "screen_name": "Pokemon", 
+                "lang": "en", 
+                "profile_background_tile": true, 
+                "favourites_count": 7, 
+                "name": "Pok\u00e9mon", 
+                "notifications": false, 
+                "url": "http://t.co/ZfbDdDkxF2", 
+                "created_at": "Tue Dec 15 00:53:03 +0000 2009", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": false, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "en", 
+            "created_at": "Fri Jun 01 18:52:20 +0000 2018", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "popular"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": true, 
+            "text": "\u660e\u65e5\u3001 #\u30dd\u30b1\u30e2\u30f3\u30bb\u30f3\u30bf\u30fc \u306b20\u5468\u5e74\u3092\u8a18\u5ff5\u3057\u305f\u30b0\u30c3\u30ba\u306e\u7b2c\u4e8c\u5f3e\u304c\u767b\u5834\u3059\u308b\u3088\uff01 \u30d4\u30ab\u30c1\u30e5\u30a6\u306e\u30d5\u30a3\u30ae\u30e5\u30a2\u304c\u4ed8\u3044\u305f\u30dc\u30fc\u30eb\u30da\u30f3\u306f\u6301\u3063\u3066\u3044\u308b\u3060\u3051\u3067\u3046\u308c\u3057\u304f\u306a\u308a\u305d\u3046\uff01 \u305f\u304f\u3055\u3093\u306e\u30dd\u30b1\u30e2\u30f3\u305f\u3061\u304c\u63cf\u304b\u308c\u305f\u3001\u3068\u3063\u3066\u3082\u304b\u308f\u3044\u3044\u30b0\u30c3\u30ba\u3092\u30b2\u30c3\u30c8\u3057\u3066\u306d\uff01\u2026 https://t.co/rOg2Y0KgwV", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 1002475355935072258, 
+            "favorite_count": 3233, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
                 "hashtags": [
                     {
                         "indices": [
-                            1, 
-                            10
+                            4, 
+                            13
                         ], 
-                        "text": "MONSTA_X"
-                    }, 
-                    {
-                        "indices": [
-                            25, 
-                            43
-                        ], 
-                        "text": "MostRequestedLive"
+                        "text": "\u30dd\u30b1\u30e2\u30f3\u30bb\u30f3\u30bf\u30fc"
                     }
                 ], 
                 "urls": [
                     {
-                        "url": "https://t.co/XBQakzRbuB", 
+                        "url": "https://t.co/rOg2Y0KgwV", 
                         "indices": [
                             116, 
                             139
                         ], 
-                        "expanded_url": "https://twitter.com/i/web/status/1002897686654169088", 
+                        "expanded_url": "https://twitter.com/i/web/status/1002475355935072258", 
                         "display_url": "twitter.com/i/web/status/1\u2026"
                     }
                 ]
             }, 
             "retweeted": false, 
             "coordinates": null, 
-            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+            "source": "<a href=\"http://www.radian6.com\" rel=\"nofollow\">Radian6 -Social Media Management</a>", 
             "in_reply_to_screen_name": null, 
             "in_reply_to_user_id": null, 
-            "retweet_count": 6056, 
-            "id_str": "1002897686654169088", 
+            "retweet_count": 984, 
+            "id_str": "1002475355935072258", 
             "favorited": false, 
             "user": {
                 "follow_request_sent": false, 
                 "has_extended_profile": false, 
-                "profile_use_background_image": false, 
+                "profile_use_background_image": true, 
                 "default_profile_image": false, 
-                "id": 3030158859, 
+                "id": 323091128, 
                 "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
                 "verified": true, 
                 "translator_type": "none", 
-                "profile_text_color": "000000", 
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/971734193938907136/jMQXoLyG_normal.jpg", 
-                "profile_sidebar_fill_color": "000000", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/875568149554274307/dC3miYeA_normal.jpg", 
+                "profile_sidebar_fill_color": "FFF9CF", 
                 "entities": {
                     "url": {
                         "urls": [
                             {
-                                "url": "https://t.co/W1WiodFvqy", 
+                                "url": "http://t.co/fpHgcccZIk", 
                                 "indices": [
                                     0, 
-                                    23
+                                    22
                                 ], 
-                                "expanded_url": "http://www.monstax-e.com", 
-                                "display_url": "monstax-e.com"
+                                "expanded_url": "http://www.pokemon.co.jp/", 
+                                "display_url": "pokemon.co.jp"
                             }
                         ]
                     }, 
@@ -1223,512 +1180,31 @@
                         "urls": []
                     }
                 }, 
-                "followers_count": 2515804, 
-                "profile_sidebar_border_color": "000000", 
-                "id_str": "3030158859", 
-                "profile_background_color": "000000", 
-                "listed_count": 5568, 
-                "is_translation_enabled": false, 
-                "utc_offset": null, 
-                "statuses_count": 5176, 
-                "description": "\ubaac\uc2a4\ud0c0\uc5d1\uc2a4 \uacf5\uc2dd\ud2b8\uc704\ud130. MONSTA X Official Twitter.", 
-                "friends_count": 29, 
-                "location": "", 
-                "profile_link_color": "DD2E44", 
-                "profile_image_url": "http://pbs.twimg.com/profile_images/971734193938907136/jMQXoLyG_normal.jpg", 
-                "following": false, 
-                "geo_enabled": false, 
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/3030158859/1520514462", 
-                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
-                "screen_name": "OfficialMonstaX", 
-                "lang": "ko", 
-                "profile_background_tile": false, 
-                "favourites_count": 114, 
-                "name": "\ubaac\uc2a4\ud0c0\uc5d1\uc2a4_MONSTA X", 
-                "notifications": false, 
-                "url": "https://t.co/W1WiodFvqy", 
-                "created_at": "Wed Feb 11 12:25:12 +0000 2015", 
-                "contributors_enabled": false, 
-                "time_zone": null, 
-                "protected": false, 
-                "default_profile": false, 
-                "is_translator": false
-            }, 
-            "geo": null, 
-            "in_reply_to_user_id_str": null, 
-            "possibly_sensitive": false, 
-            "lang": "en", 
-            "created_at": "Sat Jun 02 13:00:16 +0000 2018", 
-            "in_reply_to_status_id_str": null, 
-            "place": null, 
-            "metadata": {
-                "iso_language_code": "en", 
-                "result_type": "popular"
-            }
-        }, 
-        {
-            "contributors": null, 
-            "truncated": false, 
-            "text": "Bye Bye, Litchfield. Hello, #OITNBs6 - coming July 27. \ud83c\udf4a#OITNB https://t.co/MaHeT2C2ko", 
-            "is_quote_status": false, 
-            "in_reply_to_status_id": null, 
-            "id": 1004028404415397888, 
-            "favorite_count": 16169, 
-            "entities": {
-                "symbols": [], 
-                "user_mentions": [], 
-                "hashtags": [
-                    {
-                        "indices": [
-                            28, 
-                            36
-                        ], 
-                        "text": "OITNBs6"
-                    }, 
-                    {
-                        "indices": [
-                            56, 
-                            62
-                        ], 
-                        "text": "OITNB"
-                    }
-                ], 
-                "urls": [], 
-                "media": [
-                    {
-                        "expanded_url": "https://twitter.com/LauraPrepon/status/1004028404415397888/photo/1", 
-                        "display_url": "pic.twitter.com/MaHeT2C2ko", 
-                        "url": "https://t.co/MaHeT2C2ko", 
-                        "media_url_https": "https://pbs.twimg.com/media/De8GgeMXkAcqVKr.jpg", 
-                        "id_str": "1004028396857430023", 
-                        "sizes": {
-                            "small": {
-                                "h": 680, 
-                                "resize": "fit", 
-                                "w": 680
-                            }, 
-                            "large": {
-                                "h": 2048, 
-                                "resize": "fit", 
-                                "w": 2048
-                            }, 
-                            "medium": {
-                                "h": 1200, 
-                                "resize": "fit", 
-                                "w": 1200
-                            }, 
-                            "thumb": {
-                                "h": 150, 
-                                "resize": "crop", 
-                                "w": 150
-                            }
-                        }, 
-                        "indices": [
-                            63, 
-                            86
-                        ], 
-                        "type": "photo", 
-                        "id": 1004028396857430023, 
-                        "media_url": "http://pbs.twimg.com/media/De8GgeMXkAcqVKr.jpg"
-                    }
-                ]
-            }, 
-            "retweeted": false, 
-            "coordinates": null, 
-            "source": "<a href=\"http://tapbots.com/tweetbot\" rel=\"nofollow\">Tweetbot for i\u039fS</a>", 
-            "in_reply_to_screen_name": null, 
-            "in_reply_to_user_id": null, 
-            "retweet_count": 5591, 
-            "id_str": "1004028404415397888", 
-            "favorited": false, 
-            "user": {
-                "follow_request_sent": false, 
-                "has_extended_profile": false, 
-                "profile_use_background_image": true, 
-                "default_profile_image": false, 
-                "id": 204688509, 
-                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
-                "verified": true, 
-                "translator_type": "none", 
-                "profile_text_color": "333333", 
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/744141621629968384/uJGLvVf9_normal.jpg", 
-                "profile_sidebar_fill_color": "DDEEF6", 
-                "entities": {
-                    "url": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/OyJMdh9Wgo", 
-                                "indices": [
-                                    0, 
-                                    23
-                                ], 
-                                "expanded_url": "http://www.lauraprepon.com", 
-                                "display_url": "lauraprepon.com"
-                            }
-                        ]
-                    }, 
-                    "description": {
-                        "urls": []
-                    }
-                }, 
-                "followers_count": 898199, 
-                "profile_sidebar_border_color": "C0DEED", 
-                "id_str": "204688509", 
-                "profile_background_color": "C0DEED", 
-                "listed_count": 2524, 
-                "is_translation_enabled": false, 
-                "utc_offset": null, 
-                "statuses_count": 1971, 
-                "description": "", 
-                "friends_count": 131, 
-                "location": "", 
-                "profile_link_color": "1DA1F2", 
-                "profile_image_url": "http://pbs.twimg.com/profile_images/744141621629968384/uJGLvVf9_normal.jpg", 
-                "following": false, 
-                "geo_enabled": false, 
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/204688509/1522792793", 
-                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
-                "screen_name": "LauraPrepon", 
-                "lang": "en", 
-                "profile_background_tile": false, 
-                "favourites_count": 1095, 
-                "name": "Laura Prepon", 
-                "notifications": false, 
-                "url": "https://t.co/OyJMdh9Wgo", 
-                "created_at": "Tue Oct 19 07:43:55 +0000 2010", 
-                "contributors_enabled": false, 
-                "time_zone": null, 
-                "protected": false, 
-                "default_profile": true, 
-                "is_translator": false
-            }, 
-            "geo": null, 
-            "in_reply_to_user_id_str": null, 
-            "possibly_sensitive": false, 
-            "lang": "en", 
-            "created_at": "Tue Jun 05 15:53:20 +0000 2018", 
-            "in_reply_to_status_id_str": null, 
-            "place": null, 
-            "extended_entities": {
-                "media": [
-                    {
-                        "expanded_url": "https://twitter.com/LauraPrepon/status/1004028404415397888/photo/1", 
-                        "display_url": "pic.twitter.com/MaHeT2C2ko", 
-                        "url": "https://t.co/MaHeT2C2ko", 
-                        "media_url_https": "https://pbs.twimg.com/media/De8GgeMXkAcqVKr.jpg", 
-                        "id_str": "1004028396857430023", 
-                        "sizes": {
-                            "small": {
-                                "h": 680, 
-                                "resize": "fit", 
-                                "w": 680
-                            }, 
-                            "large": {
-                                "h": 2048, 
-                                "resize": "fit", 
-                                "w": 2048
-                            }, 
-                            "medium": {
-                                "h": 1200, 
-                                "resize": "fit", 
-                                "w": 1200
-                            }, 
-                            "thumb": {
-                                "h": 150, 
-                                "resize": "crop", 
-                                "w": 150
-                            }
-                        }, 
-                        "indices": [
-                            63, 
-                            86
-                        ], 
-                        "type": "photo", 
-                        "id": 1004028396857430023, 
-                        "media_url": "http://pbs.twimg.com/media/De8GgeMXkAcqVKr.jpg"
-                    }
-                ]
-            }, 
-            "metadata": {
-                "iso_language_code": "en", 
-                "result_type": "popular"
-            }
-        }, 
-        {
-            "contributors": null, 
-            "truncated": false, 
-            "text": "Please say hello to baby Wes! https://t.co/B2asdsYlY4", 
-            "is_quote_status": false, 
-            "in_reply_to_status_id": null, 
-            "id": 1003426918778064897, 
-            "favorite_count": 63779, 
-            "entities": {
-                "symbols": [], 
-                "user_mentions": [], 
-                "hashtags": [], 
-                "urls": [], 
-                "media": [
-                    {
-                        "expanded_url": "https://twitter.com/nedfulmer/status/1003426918778064897/photo/1", 
-                        "display_url": "pic.twitter.com/B2asdsYlY4", 
-                        "url": "https://t.co/B2asdsYlY4", 
-                        "media_url_https": "https://pbs.twimg.com/media/DezjdhSUwAAmffe.jpg", 
-                        "id_str": "1003426913287716864", 
-                        "sizes": {
-                            "small": {
-                                "h": 680, 
-                                "resize": "fit", 
-                                "w": 680
-                            }, 
-                            "large": {
-                                "h": 1997, 
-                                "resize": "fit", 
-                                "w": 1997
-                            }, 
-                            "medium": {
-                                "h": 1200, 
-                                "resize": "fit", 
-                                "w": 1200
-                            }, 
-                            "thumb": {
-                                "h": 150, 
-                                "resize": "crop", 
-                                "w": 150
-                            }
-                        }, 
-                        "indices": [
-                            30, 
-                            53
-                        ], 
-                        "type": "photo", 
-                        "id": 1003426913287716864, 
-                        "media_url": "http://pbs.twimg.com/media/DezjdhSUwAAmffe.jpg"
-                    }
-                ]
-            }, 
-            "retweeted": false, 
-            "coordinates": null, 
-            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
-            "in_reply_to_screen_name": null, 
-            "in_reply_to_user_id": null, 
-            "retweet_count": 4758, 
-            "id_str": "1003426918778064897", 
-            "favorited": false, 
-            "user": {
-                "follow_request_sent": false, 
-                "has_extended_profile": false, 
-                "profile_use_background_image": true, 
-                "default_profile_image": false, 
-                "id": 43812483, 
-                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
-                "verified": true, 
-                "translator_type": "none", 
-                "profile_text_color": "333333", 
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/889210808055582720/KF8Tg8R1_normal.jpg", 
-                "profile_sidebar_fill_color": "DDEEF6", 
-                "entities": {
-                    "url": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/GMbKdplmvi", 
-                                "indices": [
-                                    0, 
-                                    23
-                                ], 
-                                "expanded_url": "http://www.figandstoneshop.com/about", 
-                                "display_url": "figandstoneshop.com/about"
-                            }
-                        ]
-                    }, 
-                    "description": {
-                        "urls": []
-                    }
-                }, 
-                "followers_count": 187714, 
-                "profile_sidebar_border_color": "C0DEED", 
-                "id_str": "43812483", 
-                "profile_background_color": "C0DEED", 
-                "listed_count": 244, 
-                "is_translation_enabled": false, 
-                "utc_offset": null, 
-                "statuses_count": 2820, 
-                "description": "The first married Try Guy @buzzfeed", 
-                "friends_count": 666, 
-                "location": "Los Angeles, CA", 
-                "profile_link_color": "1DA1F2", 
-                "profile_image_url": "http://pbs.twimg.com/profile_images/889210808055582720/KF8Tg8R1_normal.jpg", 
-                "following": false, 
-                "geo_enabled": true, 
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/43812483/1500839402", 
-                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
-                "screen_name": "nedfulmer", 
-                "lang": "en", 
-                "profile_background_tile": false, 
-                "favourites_count": 1117, 
-                "name": "Ned Fulmer", 
-                "notifications": false, 
-                "url": "https://t.co/GMbKdplmvi", 
-                "created_at": "Mon Jun 01 02:42:06 +0000 2009", 
-                "contributors_enabled": false, 
-                "time_zone": null, 
-                "protected": false, 
-                "default_profile": true, 
-                "is_translator": false
-            }, 
-            "geo": null, 
-            "in_reply_to_user_id_str": null, 
-            "possibly_sensitive": false, 
-            "lang": "en", 
-            "created_at": "Mon Jun 04 00:03:14 +0000 2018", 
-            "in_reply_to_status_id_str": null, 
-            "place": null, 
-            "extended_entities": {
-                "media": [
-                    {
-                        "expanded_url": "https://twitter.com/nedfulmer/status/1003426918778064897/photo/1", 
-                        "display_url": "pic.twitter.com/B2asdsYlY4", 
-                        "url": "https://t.co/B2asdsYlY4", 
-                        "media_url_https": "https://pbs.twimg.com/media/DezjdhSUwAAmffe.jpg", 
-                        "id_str": "1003426913287716864", 
-                        "sizes": {
-                            "small": {
-                                "h": 680, 
-                                "resize": "fit", 
-                                "w": 680
-                            }, 
-                            "large": {
-                                "h": 1997, 
-                                "resize": "fit", 
-                                "w": 1997
-                            }, 
-                            "medium": {
-                                "h": 1200, 
-                                "resize": "fit", 
-                                "w": 1200
-                            }, 
-                            "thumb": {
-                                "h": 150, 
-                                "resize": "crop", 
-                                "w": 150
-                            }
-                        }, 
-                        "indices": [
-                            30, 
-                            53
-                        ], 
-                        "type": "photo", 
-                        "id": 1003426913287716864, 
-                        "media_url": "http://pbs.twimg.com/media/DezjdhSUwAAmffe.jpg"
-                    }
-                ]
-            }, 
-            "metadata": {
-                "iso_language_code": "en", 
-                "result_type": "popular"
-            }
-        }, 
-        {
-            "contributors": null, 
-            "truncated": false, 
-            "text": "Hello, June \ud83d\ude0e https://t.co/yjw7FsWYIz", 
-            "is_quote_status": false, 
-            "in_reply_to_status_id": null, 
-            "id": 1002542801991667713, 
-            "favorite_count": 14183, 
-            "entities": {
-                "symbols": [], 
-                "user_mentions": [], 
-                "hashtags": [], 
-                "urls": [], 
-                "media": [
-                    {
-                        "expanded_url": "https://twitter.com/Snoopy/status/1002542801991667713/photo/1", 
-                        "display_url": "pic.twitter.com/yjw7FsWYIz", 
-                        "url": "https://t.co/yjw7FsWYIz", 
-                        "media_url_https": "https://pbs.twimg.com/media/Dem_XYFUcAAQNU1.jpg", 
-                        "id_str": "1002542800389304320", 
-                        "sizes": {
-                            "large": {
-                                "h": 612, 
-                                "resize": "fit", 
-                                "w": 612
-                            }, 
-                            "small": {
-                                "h": 612, 
-                                "resize": "fit", 
-                                "w": 612
-                            }, 
-                            "medium": {
-                                "h": 612, 
-                                "resize": "fit", 
-                                "w": 612
-                            }, 
-                            "thumb": {
-                                "h": 150, 
-                                "resize": "crop", 
-                                "w": 150
-                            }
-                        }, 
-                        "indices": [
-                            14, 
-                            37
-                        ], 
-                        "type": "photo", 
-                        "id": 1002542800389304320, 
-                        "media_url": "http://pbs.twimg.com/media/Dem_XYFUcAAQNU1.jpg"
-                    }
-                ]
-            }, 
-            "retweeted": false, 
-            "coordinates": null, 
-            "source": "<a href=\"https://sproutsocial.com\" rel=\"nofollow\">Sprout Social</a>", 
-            "in_reply_to_screen_name": null, 
-            "in_reply_to_user_id": null, 
-            "retweet_count": 6675, 
-            "id_str": "1002542801991667713", 
-            "favorited": false, 
-            "user": {
-                "follow_request_sent": false, 
-                "has_extended_profile": false, 
-                "profile_use_background_image": true, 
-                "default_profile_image": false, 
-                "id": 245548093, 
-                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme19/bg.gif", 
-                "verified": true, 
-                "translator_type": "regular", 
-                "profile_text_color": "333333", 
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/976083886886215680/dkPEMb8q_normal.jpg", 
-                "profile_sidebar_fill_color": "FFE600", 
-                "entities": {
-                    "description": {
-                        "urls": []
-                    }
-                }, 
-                "followers_count": 851802, 
+                "followers_count": 628153, 
                 "profile_sidebar_border_color": "FFFFFF", 
-                "id_str": "245548093", 
-                "profile_background_color": "FFFFFF", 
-                "listed_count": 4822, 
+                "id_str": "323091128", 
+                "profile_background_color": "FFE017", 
+                "listed_count": 6151, 
                 "is_translation_enabled": false, 
                 "utc_offset": null, 
-                "statuses_count": 11887, 
-                "description": "Follow Peanuts everywhere! \nInstagram: Snoopygrams / Snapchat: SnoopysSnaps / Facebook: Snoopy", 
-                "friends_count": 47, 
-                "location": "", 
-                "profile_link_color": "005596", 
-                "profile_image_url": "http://pbs.twimg.com/profile_images/976083886886215680/dkPEMb8q_normal.jpg", 
+                "statuses_count": 9500, 
+                "description": "\u682a\u5f0f\u4f1a\u793e\u30dd\u30b1\u30e2\u30f3\u306e\u516c\u5f0f\u30a2\u30ab\u30a6\u30f3\u30c8\u3088\u308a\u3001\u300c\u30dd\u30b1\u30c3\u30c8\u30e2\u30f3\u30b9\u30bf\u30fc\u30aa\u30d5\u30a3\u30b7\u30e3\u30eb\u30b5\u30a4\u30c8\u300d\u6700\u65b0\u60c5\u5831\u3092\u304a\u5c4a\u3051\u3057\u307e\u3059\u3002\r\n\u304a\u5ba2\u69d8\u304b\u3089\u306e\u500b\u5225\u306e\u30e1\u30c3\u30bb\u30fc\u30b8\u306a\u3069\u306f\u3001Twitter\u4e0a\u3067\u306f\u3054\u8fd4\u7b54\u3067\u304d\u304b\u306d\u307e\u3059\u306e\u3067\u3054\u4e86\u627f\u4e0b\u3055\u3044\u3002\r\n\u300c\u30dd\u30b1\u30c3\u30c8\u30e2\u30f3\u30b9\u30bf\u30fc\u30aa\u30d5\u30a3\u30b7\u30e3\u30eb\u30b5\u30a4\u30c8\u300d\u306e\u304a\u554f\u3044\u5408\u308f\u305b\u7a93\u53e3\u3088\u308a\u3054\u9023\u7d61\u4e0b\u3055\u3044\u3002", 
+                "friends_count": 5, 
+                "location": "\u6771\u4eac\u90fd", 
+                "profile_link_color": "0088CC", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/875568149554274307/dC3miYeA_normal.jpg", 
                 "following": false, 
                 "geo_enabled": false, 
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/245548093/1521551534", 
-                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme19/bg.gif", 
-                "screen_name": "Snoopy", 
-                "lang": "en", 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/323091128/1527645256", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "screen_name": "Pokemon_cojp", 
+                "lang": "ja", 
                 "profile_background_tile": true, 
-                "favourites_count": 575, 
-                "name": "PEANUTS", 
+                "favourites_count": 0, 
+                "name": "\u30dd\u30b1\u30e2\u30f3\u516c\u5f0f\u30c4\u30a4\u30c3\u30bf\u30fc", 
                 "notifications": false, 
-                "url": null, 
-                "created_at": "Mon Jan 31 23:14:17 +0000 2011", 
+                "url": "http://t.co/fpHgcccZIk", 
+                "created_at": "Fri Jun 24 07:12:45 +0000 2011", 
                 "contributors_enabled": false, 
                 "time_zone": null, 
                 "protected": false, 
@@ -1738,191 +1214,35 @@
             "geo": null, 
             "in_reply_to_user_id_str": null, 
             "possibly_sensitive": false, 
-            "lang": "no", 
-            "created_at": "Fri Jun 01 13:30:04 +0000 2018", 
+            "lang": "ja", 
+            "created_at": "Fri Jun 01 09:02:04 +0000 2018", 
             "in_reply_to_status_id_str": null, 
             "place": null, 
-            "extended_entities": {
-                "media": [
-                    {
-                        "expanded_url": "https://twitter.com/Snoopy/status/1002542801991667713/photo/1", 
-                        "display_url": "pic.twitter.com/yjw7FsWYIz", 
-                        "url": "https://t.co/yjw7FsWYIz", 
-                        "media_url_https": "https://pbs.twimg.com/media/Dem_XYFUcAAQNU1.jpg", 
-                        "id_str": "1002542800389304320", 
-                        "sizes": {
-                            "large": {
-                                "h": 612, 
-                                "resize": "fit", 
-                                "w": 612
-                            }, 
-                            "small": {
-                                "h": 612, 
-                                "resize": "fit", 
-                                "w": 612
-                            }, 
-                            "medium": {
-                                "h": 612, 
-                                "resize": "fit", 
-                                "w": 612
-                            }, 
-                            "thumb": {
-                                "h": 150, 
-                                "resize": "crop", 
-                                "w": 150
-                            }
-                        }, 
-                        "indices": [
-                            14, 
-                            37
-                        ], 
-                        "type": "photo", 
-                        "id": 1002542800389304320, 
-                        "media_url": "http://pbs.twimg.com/media/Dem_XYFUcAAQNU1.jpg"
-                    }
-                ]
-            }, 
             "metadata": {
-                "iso_language_code": "no", 
+                "iso_language_code": "ja", 
                 "result_type": "popular"
             }
         }, 
         {
             "contributors": null, 
             "truncated": true, 
-            "text": "haha i did sum insane vocals for 1 of my fave k pop groups @loonatheworld \ud83e\uddda\ud83c\udffb\u200d\u2640\ufe0f\ud83c\udf38 1st time i\u2019ve tried 2 do normal se\u2026 https://t.co/cl7uqBoTti", 
+            "text": "Pok\u00e9mon GO \u306b\u30ed\u30b0\u30a4\u30f3\u3067\u304d\u306a\u3044\u3068\u3044\u3046\u304a\u554f\u3044\u5408\u308f\u305b\u3092\u9802\u304f\u3053\u3068\u304c\u5897\u3048\u3066\u3044\u307e\u3059\u3002\u30ed\u30b0\u30a4\u30f3\u554f\u984c\u306b\u3064\u3044\u3066\u306e\u30b5\u30dd\u30fc\u30c8\u30da\u30fc\u30b8\u306f\u3053\u3061\u3089\u3067\u3059\u3002\u306a\u304a\u3001Pok\u00e9mon GO \u3078\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u4f7f\u3063\u305f\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5fd8\u308c\u3066\u3057\u307e\u3063\u305f\u5834\u5408\u306f\u3001\u30c8\u30ec\u30fc\u30ca\u30fc\u2026 https://t.co/kh3dv747bQ", 
             "is_quote_status": false, 
             "in_reply_to_status_id": null, 
-            "id": 1002224522852876289, 
-            "favorite_count": 8359, 
-            "entities": {
-                "symbols": [], 
-                "user_mentions": [
-                    {
-                        "id": 770959712791597056, 
-                        "indices": [
-                            59, 
-                            73
-                        ], 
-                        "id_str": "770959712791597056", 
-                        "screen_name": "loonatheworld", 
-                        "name": "\uc774\ub2ec\uc758 \uc18c\ub140(LOO\u03a0\u0394)"
-                    }
-                ], 
-                "hashtags": [], 
-                "urls": [
-                    {
-                        "url": "https://t.co/cl7uqBoTti", 
-                        "indices": [
-                            117, 
-                            140
-                        ], 
-                        "expanded_url": "https://twitter.com/i/web/status/1002224522852876289", 
-                        "display_url": "twitter.com/i/web/status/1\u2026"
-                    }
-                ]
-            }, 
-            "retweeted": false, 
-            "coordinates": null, 
-            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
-            "in_reply_to_screen_name": null, 
-            "in_reply_to_user_id": null, 
-            "retweet_count": 3086, 
-            "id_str": "1002224522852876289", 
-            "favorited": false, 
-            "user": {
-                "follow_request_sent": false, 
-                "has_extended_profile": true, 
-                "profile_use_background_image": true, 
-                "default_profile_image": false, 
-                "id": 276540738, 
-                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
-                "verified": true, 
-                "translator_type": "none", 
-                "profile_text_color": "18EB11", 
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/942068923599437824/oUSzou1K_normal.jpg", 
-                "profile_sidebar_fill_color": "252429", 
-                "entities": {
-                    "url": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/9ReXDUp3Lu", 
-                                "indices": [
-                                    0, 
-                                    23
-                                ], 
-                                "expanded_url": "http://Instagram.com/grimes", 
-                                "display_url": "Instagram.com/grimes"
-                            }
-                        ]
-                    }, 
-                    "description": {
-                        "urls": []
-                    }
-                }, 
-                "followers_count": 802561, 
-                "profile_sidebar_border_color": "FFFFFF", 
-                "id_str": "276540738", 
-                "profile_background_color": "000000", 
-                "listed_count": 3013, 
-                "is_translation_enabled": true, 
-                "utc_offset": null, 
-                "statuses_count": 1680, 
-                "description": "\ud83d\udc07 f\u00e6", 
-                "friends_count": 920, 
-                "location": "XO planet ", 
-                "profile_link_color": "DD2E44", 
-                "profile_image_url": "http://pbs.twimg.com/profile_images/942068923599437824/oUSzou1K_normal.jpg", 
-                "following": false, 
-                "geo_enabled": false, 
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/276540738/1526263082", 
-                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
-                "screen_name": "Grimezsz", 
-                "lang": "en", 
-                "profile_background_tile": true, 
-                "favourites_count": 4935, 
-                "name": "Grimes", 
-                "notifications": false, 
-                "url": "https://t.co/9ReXDUp3Lu", 
-                "created_at": "Sun Apr 03 15:32:54 +0000 2011", 
-                "contributors_enabled": false, 
-                "time_zone": null, 
-                "protected": false, 
-                "default_profile": false, 
-                "is_translator": false
-            }, 
-            "geo": null, 
-            "in_reply_to_user_id_str": null, 
-            "possibly_sensitive": false, 
-            "lang": "en", 
-            "created_at": "Thu May 31 16:25:21 +0000 2018", 
-            "in_reply_to_status_id_str": null, 
-            "place": null, 
-            "metadata": {
-                "iso_language_code": "en", 
-                "result_type": "popular"
-            }
-        }, 
-        {
-            "contributors": null, 
-            "truncated": true, 
-            "text": "Congratulations to Alice Johnson and I'm guessing this means more pardons and commutations for African-Americans in\u2026 https://t.co/4lvnK6kiUR", 
-            "is_quote_status": false, 
-            "in_reply_to_status_id": null, 
-            "id": 1004406112051978240, 
-            "favorite_count": 15042, 
+            "id": 1003923889506824192, 
+            "favorite_count": 1037, 
             "entities": {
                 "symbols": [], 
                 "user_mentions": [], 
                 "hashtags": [], 
                 "urls": [
                     {
-                        "url": "https://t.co/4lvnK6kiUR", 
+                        "url": "https://t.co/kh3dv747bQ", 
                         "indices": [
                             117, 
                             140
                         ], 
-                        "expanded_url": "https://twitter.com/i/web/status/1004406112051978240", 
+                        "expanded_url": "https://twitter.com/i/web/status/1003923889506824192", 
                         "display_url": "twitter.com/i/web/status/1\u2026"
                     }
                 ]
@@ -1932,84 +1252,167 @@
             "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>", 
             "in_reply_to_screen_name": null, 
             "in_reply_to_user_id": null, 
-            "retweet_count": 4167, 
-            "id_str": "1004406112051978240", 
+            "retweet_count": 410, 
+            "id_str": "1003923889506824192", 
             "favorited": false, 
             "user": {
                 "follow_request_sent": false, 
                 "has_extended_profile": false, 
                 "profile_use_background_image": true, 
                 "default_profile_image": false, 
-                "id": 33276161, 
-                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif", 
+                "id": 745131593392488449, 
+                "profile_background_image_url_https": null, 
                 "verified": true, 
                 "translator_type": "none", 
                 "profile_text_color": "333333", 
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/618501788518342656/ycqZZrVj_normal.jpg", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/750744855341518848/fElW45pA_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 381887, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "745131593392488449", 
+                "profile_background_color": "F5F8FA", 
+                "listed_count": 3358, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 402, 
+                "description": "\u30b9\u30de\u30fc\u30c8\u30d5\u30a9\u30f3\u5411\u3051\u30ea\u30a2\u30eb\u30ef\u30fc\u30eb\u30c9\u30b2\u30fc\u30e0\u3001Pok\u00e9mon GO\u306e\u65e5\u672c\u516c\u5f0f\u30a2\u30ab\u30a6\u30f3\u30c8\u3067\u3059\u3002Pok\u00e9mon GO\u306e\u6700\u65b0\u60c5\u5831\u3092\u3053\u3061\u3089\u304b\u3089\u304a\u4f1d\u3048\u3044\u305f\u3057\u307e\u3059\u3002", 
+                "friends_count": 2, 
+                "location": "", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/750744855341518848/fElW45pA_normal.jpg", 
+                "following": false, 
+                "geo_enabled": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/745131593392488449/1525199729", 
+                "profile_background_image_url": null, 
+                "screen_name": "PokemonGOAppJP", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 2, 
+                "name": "Pok\u00e9mon GO Japan", 
+                "notifications": false, 
+                "url": null, 
+                "created_at": "Tue Jun 21 05:49:50 +0000 2016", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "ja", 
+            "created_at": "Tue Jun 05 08:58:01 +0000 2018", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "ja", 
+                "result_type": "popular"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": true, 
+            "text": "Attention, Trainers: Our Water Festival starts NOW! Time to set sail and enjoy 3\u00d7 Stardust for catching Water-type\u2026 https://t.co/VIXl7LYjs5", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 1004816487692070912, 
+            "favorite_count": 4709, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [], 
+                "urls": [
+                    {
+                        "url": "https://t.co/VIXl7LYjs5", 
+                        "indices": [
+                            116, 
+                            139
+                        ], 
+                        "expanded_url": "https://twitter.com/i/web/status/1004816487692070912", 
+                        "display_url": "twitter.com/i/web/status/1\u2026"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://www.falcon.io\" rel=\"nofollow\">Falcon Social Media Management </a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 1035, 
+            "id_str": "1004816487692070912", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 2839430431, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "verified": true, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/750741005175959552/c6fEtZH4_normal.jpg", 
                 "profile_sidebar_fill_color": "DDEEF6", 
                 "entities": {
                     "url": {
                         "urls": [
                             {
-                                "url": "https://t.co/zbq9jpXG0e", 
+                                "url": "https://t.co/WjeReR0qiP", 
                                 "indices": [
                                     0, 
                                     23
                                 ], 
-                                "expanded_url": "http://johnfugelsang.com", 
-                                "display_url": "johnfugelsang.com"
+                                "expanded_url": "http://www.pokemongo.com", 
+                                "display_url": "pokemongo.com"
                             }
                         ]
                     }, 
                     "description": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/XuF6MS2VPM", 
-                                "indices": [
-                                    79, 
-                                    102
-                                ], 
-                                "expanded_url": "http://JohnFugelsangStore.com", 
-                                "display_url": "JohnFugelsangStore.com"
-                            }
-                        ]
+                        "urls": []
                     }
                 }, 
-                "followers_count": 402018, 
+                "followers_count": 2662011, 
                 "profile_sidebar_border_color": "C0DEED", 
-                "id_str": "33276161", 
+                "id_str": "2839430431", 
                 "profile_background_color": "C0DEED", 
-                "listed_count": 6795, 
+                "listed_count": 3887, 
                 "is_translation_enabled": false, 
                 "utc_offset": null, 
-                "statuses_count": 59188, 
-                "description": "actor comedian broadcaster writer recovering cynic Sirius/XM #121 M-F 2-5pm ET https://t.co/XuF6MS2VPM merch is 100%made in America", 
-                "friends_count": 18399, 
-                "location": "NYC, LA & The Beautiful South", 
-                "profile_link_color": "981CEB", 
-                "profile_image_url": "http://pbs.twimg.com/profile_images/618501788518342656/ycqZZrVj_normal.jpg", 
+                "statuses_count": 684, 
+                "description": "Step outside and discover @Pokemon in the real world!  Follow for official updates.  Get up and GO!", 
+                "friends_count": 19, 
+                "location": "", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/750741005175959552/c6fEtZH4_normal.jpg", 
                 "following": false, 
                 "geo_enabled": false, 
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/33276161/1410187033", 
-                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif", 
-                "screen_name": "JohnFugelsang", 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2839430431/1525199684", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "screen_name": "PokemonGoApp", 
                 "lang": "en", 
-                "profile_background_tile": true, 
-                "favourites_count": 56447, 
-                "name": "John Fugelsang", 
+                "profile_background_tile": false, 
+                "favourites_count": 150, 
+                "name": "Pok\u00e9mon GO", 
                 "notifications": false, 
-                "url": "https://t.co/zbq9jpXG0e", 
-                "created_at": "Sun Apr 19 18:45:06 +0000 2009", 
+                "url": "https://t.co/WjeReR0qiP", 
+                "created_at": "Fri Oct 03 22:04:17 +0000 2014", 
                 "contributors_enabled": false, 
                 "time_zone": null, 
                 "protected": false, 
-                "default_profile": false, 
+                "default_profile": true, 
                 "is_translator": false
             }, 
             "geo": null, 
             "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
             "lang": "en", 
-            "created_at": "Wed Jun 06 16:54:12 +0000 2018", 
+            "created_at": "Thu Jun 07 20:04:53 +0000 2018", 
             "in_reply_to_status_id_str": null, 
             "place": null, 
             "metadata": {
@@ -2020,122 +1423,101 @@
         {
             "contributors": null, 
             "truncated": true, 
-            "text": "Public Announcement\u203c\ufe0f Where are all the people that attacked Roseanne? \n\nSamantha Bee - @iamsambee called\u2026 https://t.co/f3jRUAj6su", 
+            "text": "Trainers, show off your avatar\u2019s legendary style by checking out the new T-shirts in the in-game shop featuring the\u2026 https://t.co/MfGQhE8Vjl", 
             "is_quote_status": false, 
             "in_reply_to_status_id": null, 
-            "id": 1002268616899878912, 
-            "favorite_count": 9007, 
+            "id": 1003765853941321728, 
+            "favorite_count": 3289, 
             "entities": {
                 "symbols": [], 
-                "user_mentions": [
-                    {
-                        "id": 271725689, 
-                        "indices": [
-                            88, 
-                            98
-                        ], 
-                        "id_str": "271725689", 
-                        "screen_name": "iamsambee", 
-                        "name": "Samantha Bee"
-                    }
-                ], 
+                "user_mentions": [], 
                 "hashtags": [], 
                 "urls": [
                     {
-                        "url": "https://t.co/f3jRUAj6su", 
+                        "url": "https://t.co/MfGQhE8Vjl", 
                         "indices": [
-                            107, 
-                            130
+                            117, 
+                            140
                         ], 
-                        "expanded_url": "https://twitter.com/i/web/status/1002268616899878912", 
+                        "expanded_url": "https://twitter.com/i/web/status/1003765853941321728", 
                         "display_url": "twitter.com/i/web/status/1\u2026"
                     }
                 ]
             }, 
             "retweeted": false, 
             "coordinates": null, 
-            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+            "source": "<a href=\"http://www.falcon.io\" rel=\"nofollow\">Falcon Social Media Management </a>", 
             "in_reply_to_screen_name": null, 
             "in_reply_to_user_id": null, 
-            "retweet_count": 4435, 
-            "id_str": "1002268616899878912", 
+            "retweet_count": 465, 
+            "id_str": "1003765853941321728", 
             "favorited": false, 
             "user": {
                 "follow_request_sent": false, 
-                "has_extended_profile": true, 
+                "has_extended_profile": false, 
                 "profile_use_background_image": true, 
                 "default_profile_image": false, 
-                "id": 47293791, 
+                "id": 2839430431, 
                 "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
                 "verified": true, 
                 "translator_type": "none", 
                 "profile_text_color": "333333", 
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1003932337120440320/LfFiAC0w_normal.jpg", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/750741005175959552/c6fEtZH4_normal.jpg", 
                 "profile_sidebar_fill_color": "DDEEF6", 
                 "entities": {
                     "url": {
                         "urls": [
                             {
-                                "url": "https://t.co/lfc1GuwJxS", 
+                                "url": "https://t.co/WjeReR0qiP", 
                                 "indices": [
                                     0, 
                                     23
                                 ], 
-                                "expanded_url": "http://terrencekwilliams.com", 
-                                "display_url": "terrencekwilliams.com"
+                                "expanded_url": "http://www.pokemongo.com", 
+                                "display_url": "pokemongo.com"
                             }
                         ]
                     }, 
                     "description": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/hbOEL4EThN", 
-                                "indices": [
-                                    35, 
-                                    58
-                                ], 
-                                "expanded_url": "http://www.terrencekwilliams.com/tour", 
-                                "display_url": "terrencekwilliams.com/tour"
-                            }
-                        ]
+                        "urls": []
                     }
                 }, 
-                "followers_count": 209815, 
+                "followers_count": 2662011, 
                 "profile_sidebar_border_color": "C0DEED", 
-                "id_str": "47293791", 
+                "id_str": "2839430431", 
                 "profile_background_color": "C0DEED", 
-                "listed_count": 650, 
+                "listed_count": 3887, 
                 "is_translation_enabled": false, 
                 "utc_offset": null, 
-                "statuses_count": 1829, 
-                "description": "Actor, Comedian & Commentator \u2022\u2022\u2022\u2022 https://t.co/hbOEL4EThN", 
-                "friends_count": 455, 
-                "location": "United States", 
-                "profile_link_color": "0084B4", 
-                "profile_image_url": "http://pbs.twimg.com/profile_images/1003932337120440320/LfFiAC0w_normal.jpg", 
+                "statuses_count": 684, 
+                "description": "Step outside and discover @Pokemon in the real world!  Follow for official updates.  Get up and GO!", 
+                "friends_count": 19, 
+                "location": "", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/750741005175959552/c6fEtZH4_normal.jpg", 
                 "following": false, 
-                "geo_enabled": true, 
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/47293791/1502593957", 
+                "geo_enabled": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2839430431/1525199684", 
                 "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
-                "screen_name": "w_terrence", 
+                "screen_name": "PokemonGoApp", 
                 "lang": "en", 
-                "profile_background_tile": true, 
-                "favourites_count": 2464, 
-                "name": "Terrence K. Williams", 
+                "profile_background_tile": false, 
+                "favourites_count": 150, 
+                "name": "Pok\u00e9mon GO", 
                 "notifications": false, 
-                "url": "https://t.co/lfc1GuwJxS", 
-                "created_at": "Mon Jun 15 08:46:13 +0000 2009", 
+                "url": "https://t.co/WjeReR0qiP", 
+                "created_at": "Fri Oct 03 22:04:17 +0000 2014", 
                 "contributors_enabled": false, 
                 "time_zone": null, 
                 "protected": false, 
-                "default_profile": false, 
+                "default_profile": true, 
                 "is_translator": false
             }, 
             "geo": null, 
             "in_reply_to_user_id_str": null, 
             "possibly_sensitive": false, 
             "lang": "en", 
-            "created_at": "Thu May 31 19:20:34 +0000 2018", 
+            "created_at": "Mon Jun 04 22:30:03 +0000 2018", 
             "in_reply_to_status_id_str": null, 
             "place": null, 
             "metadata": {
@@ -2145,101 +1527,101 @@
         }, 
         {
             "contributors": null, 
-            "truncated": false, 
-            "text": "stranger: hello\nme: sorry", 
+            "truncated": true, 
+            "text": "As part of our commitment to fun and fair gameplay in Pok\u00e9mon GO, we\u2019re continuing to take action against users who\u2026 https://t.co/knYjVoWjU6", 
             "is_quote_status": false, 
             "in_reply_to_status_id": null, 
-            "id": 1003781148802084864, 
-            "favorite_count": 30257, 
+            "id": 1002268027558084608, 
+            "favorite_count": 2683, 
             "entities": {
                 "symbols": [], 
                 "user_mentions": [], 
                 "hashtags": [], 
-                "urls": []
+                "urls": [
+                    {
+                        "url": "https://t.co/knYjVoWjU6", 
+                        "indices": [
+                            117, 
+                            140
+                        ], 
+                        "expanded_url": "https://twitter.com/i/web/status/1002268027558084608", 
+                        "display_url": "twitter.com/i/web/status/1\u2026"
+                    }
+                ]
             }, 
             "retweeted": false, 
             "coordinates": null, 
-            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>", 
             "in_reply_to_screen_name": null, 
             "in_reply_to_user_id": null, 
-            "retweet_count": 4417, 
-            "id_str": "1003781148802084864", 
+            "retweet_count": 472, 
+            "id_str": "1002268027558084608", 
             "favorited": false, 
             "user": {
                 "follow_request_sent": false, 
                 "has_extended_profile": false, 
                 "profile_use_background_image": true, 
                 "default_profile_image": false, 
-                "id": 168778996, 
-                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme17/bg.gif", 
+                "id": 849344094681870336, 
+                "profile_background_image_url_https": null, 
                 "verified": true, 
                 "translator_type": "none", 
                 "profile_text_color": "333333", 
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1004640377398165505/RCYlMyo__normal.jpg", 
-                "profile_sidebar_fill_color": "E6F6F9", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/881121045851193344/rs883Rhq_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
                 "entities": {
                     "url": {
                         "urls": [
                             {
-                                "url": "https://t.co/KNGunx08qF", 
+                                "url": "https://t.co/P2FlMo2IGu", 
                                 "indices": [
                                     0, 
                                     23
                                 ], 
-                                "expanded_url": "https://itunes.apple.com/us/album/satellite-single/1315234183", 
-                                "display_url": "itunes.apple.com/us/album/satel\u2026"
+                                "expanded_url": "http://www.nianticlabs.com", 
+                                "display_url": "nianticlabs.com"
                             }
                         ]
                     }, 
                     "description": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/4PZyWvoGQI", 
-                                "indices": [
-                                    52, 
-                                    75
-                                ], 
-                                "expanded_url": "http://bit.ly/AdultOBook", 
-                                "display_url": "bit.ly/AdultOBook"
-                            }
-                        ]
+                        "urls": []
                     }
                 }, 
-                "followers_count": 2579128, 
-                "profile_sidebar_border_color": "FFFFFF", 
-                "id_str": "168778996", 
-                "profile_background_color": "DBE9ED", 
-                "listed_count": 1581, 
+                "followers_count": 77824, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "849344094681870336", 
+                "profile_background_color": "F5F8FA", 
+                "listed_count": 298, 
                 "is_translation_enabled": false, 
                 "utc_offset": null, 
-                "statuses_count": 18992, 
-                "description": "follow your dreams but also me. BUY MY POETRY BOOK! https://t.co/4PZyWvoGQI", 
-                "friends_count": 4390, 
-                "location": "youtube.com/thegabbieshow", 
-                "profile_link_color": "EBCC34", 
-                "profile_image_url": "http://pbs.twimg.com/profile_images/1004640377398165505/RCYlMyo__normal.jpg", 
+                "statuses_count": 3728, 
+                "description": "Official account of Niantic, Inc. for general support-related news & info for @ingress & @pokemongoapp. For 1:1 support, submit a request on our Help Center.", 
+                "friends_count": 4, 
+                "location": "San Francisco, CA", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/881121045851193344/rs883Rhq_normal.jpg", 
                 "following": false, 
-                "geo_enabled": true, 
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/168778996/1518381528", 
-                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme17/bg.gif", 
-                "screen_name": "TheGabbieShow", 
+                "geo_enabled": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/849344094681870336/1491493089", 
+                "profile_background_image_url": null, 
+                "screen_name": "NianticHelp", 
                 "lang": "en", 
-                "profile_background_tile": true, 
-                "favourites_count": 49797, 
-                "name": "daddy", 
+                "profile_background_tile": false, 
+                "favourites_count": 27, 
+                "name": "Niantic Support", 
                 "notifications": false, 
-                "url": "https://t.co/KNGunx08qF", 
-                "created_at": "Tue Jul 20 19:48:57 +0000 2010", 
+                "url": "https://t.co/P2FlMo2IGu", 
+                "created_at": "Tue Apr 04 19:33:07 +0000 2017", 
                 "contributors_enabled": false, 
                 "time_zone": null, 
                 "protected": false, 
-                "default_profile": false, 
+                "default_profile": true, 
                 "is_translator": false
             }, 
             "geo": null, 
             "in_reply_to_user_id_str": null, 
             "lang": "en", 
-            "created_at": "Mon Jun 04 23:30:49 +0000 2018", 
+            "created_at": "Thu May 31 19:18:13 +0000 2018", 
             "in_reply_to_status_id_str": null, 
             "place": null, 
             "metadata": {

@@ -2,31 +2,90 @@
     {
         "terms": [
             {
-                "value": "Lagos", 
+                "value": "Bengaluru", 
                 "offset": 0
             }, 
             {
-                "value": "Nigeria", 
-                "offset": 7
+                "value": "Karnataka", 
+                "offset": 11
+            }, 
+            {
+                "value": "India", 
+                "offset": 22
             }
         ], 
-        "description": "Lagos, Nigeria", 
-        "reference": "CjQmAAAAbR_j0F2_YmEA6OH1YjnH2rqJ0UEZSsSafL6IOkW24jVT_UL6PkIu4msQJ5xiPr-YEhCsXySWXue_cYGSOmKdTilEGhQr4CdjFzPNVbdzDsaEj56F3_G5GA", 
+        "description": "Bengaluru, Karnataka, India", 
+        "reference": "CkQzAAAAPiqjxO_aOTee__7lSJ62mQtYoM6eTjQ5Nx1nxi5npLtVMSVUGYYmx8fzGkcrtsOz7xn4W66U0NPOZFXtNcv2pxIQTZiLkkcOzTn-UkvHd_RhmBoUNDGOJuP-f_b6cT4e8WiXyTn9Kzc", 
         "structured_formatting": {
             "secondary_text_matched_substrings": [
                 {
-                    "length": 7, 
+                    "length": 5, 
+                    "offset": 11
+                }
+            ], 
+            "secondary_text": "Karnataka, India", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 9, 
                     "offset": 0
                 }
             ], 
-            "secondary_text": "Nigeria", 
+            "main_text": "Bengaluru"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 9, 
+                "offset": 0
+            }, 
+            {
+                "length": 5, 
+                "offset": 22
+            }
+        ], 
+        "place_id": "ChIJbU60yXAWrjsR4E9-UejD3_g", 
+        "id": "0862832923832bfb1e46cbe843cdaa03a9ee8aa1", 
+        "types": [
+            "locality", 
+            "political", 
+            "geocode"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "Indian Express Circle", 
+                "offset": 0
+            }, 
+            {
+                "value": "Vasanth Nagar", 
+                "offset": 23
+            }, 
+            {
+                "value": "Bengaluru", 
+                "offset": 38
+            }, 
+            {
+                "value": "Karnataka", 
+                "offset": 49
+            }
+        ], 
+        "description": "Indian Express Circle, Vasanth Nagar, Bengaluru, Karnataka", 
+        "reference": "CmRSAAAAEasClQIZ52g0m3zxvL_sXaTS1xRgwgMmaYiZJr1ApXl4Oqt3LnlyBOJckqbLD23T5y_VXQMLik85yS2dwJvYJGjt5tKZ5eetg8Ok0Bcu8ymzbCurIpfBX8bAzXO8h_XmEhDb4L_9jTnKjoT7myNNAAkKGhTnPwgiw4nrd3xpXX2zDrY0uiprTg", 
+        "structured_formatting": {
+            "secondary_text_matched_substrings": [
+                {
+                    "length": 9, 
+                    "offset": 15
+                }
+            ], 
+            "secondary_text": "Vasanth Nagar, Bengaluru, Karnataka", 
             "main_text_matched_substrings": [
                 {
                     "length": 5, 
                     "offset": 0
                 }
             ], 
-            "main_text": "Lagos"
+            "main_text": "Indian Express Circle"
         }, 
         "matched_substrings": [
             {
@@ -34,15 +93,185 @@
                 "offset": 0
             }, 
             {
-                "length": 7, 
-                "offset": 7
+                "length": 9, 
+                "offset": 38
             }
         ], 
-        "place_id": "ChIJwYCC5iqLOxARy9nDZ6OHntw", 
-        "id": "f5e45a1cb67f5581896d92388b6402c552e4d5f0", 
+        "place_id": "ChIJ7QK74mUWrjsRp9RaB0GSLjM", 
+        "id": "1515f35da3859001c7b6b71e81976944183aafa5", 
         "types": [
-            "locality", 
-            "political", 
+            "geocode"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "Indian Express", 
+                "offset": 0
+            }, 
+            {
+                "value": "Swamy Shivanandapuram", 
+                "offset": 16
+            }, 
+            {
+                "value": "Shivaji Nagar", 
+                "offset": 39
+            }, 
+            {
+                "value": "Bengaluru", 
+                "offset": 54
+            }, 
+            {
+                "value": "Karnataka", 
+                "offset": 65
+            }
+        ], 
+        "description": "Indian Express, Swamy Shivanandapuram, Shivaji Nagar, Bengaluru, Karnataka", 
+        "reference": "CmRZAAAAjlpqJaFCb2dZKmwOB1twqDhZQ4XGsBTmScQZB0qAcAOce3X-XPdMGRTLjYWlCKtIItrIQ6cGNQ3NQ5j_cM4fOZnJRg-0rVbc90SX39XUYWPeslDPDCn4w8qIrvz3_Zj7EhBuskedtnrOQ5gJJn1CW2w3GhRG1tc9up4n1fp11aptZ5e1Tgw_hw", 
+        "structured_formatting": {
+            "secondary_text_matched_substrings": [
+                {
+                    "length": 9, 
+                    "offset": 38
+                }
+            ], 
+            "secondary_text": "Swamy Shivanandapuram, Shivaji Nagar, Bengaluru, Karnataka", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 5, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Indian Express"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 5, 
+                "offset": 0
+            }, 
+            {
+                "length": 9, 
+                "offset": 54
+            }
+        ], 
+        "place_id": "ChIJ-aJf4GUWrjsRkLwZ5FdpEYs", 
+        "id": "6816a7cc2b8d2492368bb06a08bf02275af67eba", 
+        "types": [
+            "transit_station", 
+            "point_of_interest", 
+            "establishment", 
+            "geocode"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "Indian Express", 
+                "offset": 0
+            }, 
+            {
+                "value": "Vasanth Nagar", 
+                "offset": 16
+            }, 
+            {
+                "value": "Bengaluru", 
+                "offset": 31
+            }, 
+            {
+                "value": "Karnataka", 
+                "offset": 42
+            }
+        ], 
+        "description": "Indian Express, Vasanth Nagar, Bengaluru, Karnataka", 
+        "reference": "ClRCAAAA4VmPWV3nlCb4lwq27yN37mLnfQ0XvhkmitQrnkU3tO0hVPFFoluBk20Jxi19WSUrCsgq3xkZDZ9z9CzZZ208jhi7ZMUL4K9B8IwdGyiDAK4SEAVVZZy5gdFw-MgdYinEgMwaFDG3GLCD8SVNV4de4t8BVV7OBPI0", 
+        "structured_formatting": {
+            "secondary_text_matched_substrings": [
+                {
+                    "length": 9, 
+                    "offset": 15
+                }
+            ], 
+            "secondary_text": "Vasanth Nagar, Bengaluru, Karnataka", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 5, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Indian Express"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 5, 
+                "offset": 0
+            }, 
+            {
+                "length": 9, 
+                "offset": 31
+            }
+        ], 
+        "place_id": "ChIJw3OS-GUWrjsRj0n_WXPbCJI", 
+        "id": "eb6ad82457b040337ae7fbfbbadcc87a9de4dc92", 
+        "types": [
+            "transit_station", 
+            "point_of_interest", 
+            "establishment", 
+            "geocode"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "Indian Express", 
+                "offset": 0
+            }, 
+            {
+                "value": "Shivaji Nagar", 
+                "offset": 16
+            }, 
+            {
+                "value": "Bengaluru", 
+                "offset": 31
+            }, 
+            {
+                "value": "Karnataka", 
+                "offset": 42
+            }
+        ], 
+        "description": "Indian Express, Shivaji Nagar, Bengaluru, Karnataka", 
+        "reference": "ClRBAAAA1n0xWPVt2lQjucS5DvAQ8TRi8huxkkVg5mLK7otwiFUkKlP7_aYkPkbv7GBuoih4SXxPJJJdyPsEjrDL4dz9wXUtbgHbwUYutqpLvjadY6oSEKEkN1Stg7OtMPtcGNpA82oaFHDhHBk6442CXlU4TkTpZjhozohC", 
+        "structured_formatting": {
+            "secondary_text_matched_substrings": [
+                {
+                    "length": 9, 
+                    "offset": 15
+                }
+            ], 
+            "secondary_text": "Shivaji Nagar, Bengaluru, Karnataka", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 5, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Indian Express"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 5, 
+                "offset": 0
+            }, 
+            {
+                "length": 9, 
+                "offset": 31
+            }
+        ], 
+        "place_id": "ChIJV0ih72UWrjsRZt24TbIU4VM", 
+        "id": "44e79e64c4ac46d6084b9ce9c01716e519c05d88", 
+        "types": [
+            "transit_station", 
+            "point_of_interest", 
+            "establishment", 
             "geocode"
         ]
     }
