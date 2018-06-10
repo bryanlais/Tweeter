@@ -33,7 +33,7 @@ def dumpToJSON(filehandle, raw):
 	return JSON
 
 def interestByTime(search_value, tweet_count, date):
-	global twitter_search
+	global twitter
 	output = []
 	for x in range(1):
 		tweets = twitter.search.tweets(q=search_value,count = tweet_count, until = date, result_type="popular")
@@ -44,10 +44,10 @@ def interestByTime(search_value, tweet_count, date):
 	return output
 
 def returnTweetLocations(search_value, tweet_count):
-	global twitter_search
+	global twitter
 	output = []
-	for x in range(1):
-		tweets = twitter.search.tweets(q=search_value,count = tweet_count, geocode="0.781157,0.398720,8000mi")
+	for x in range(2):
+		tweets = twitter.search.tweets(q=search_value,count = tweet_count, lang="en")
 
 		jsonData = dumpToJSON("location_names.json", tweets)
 		
