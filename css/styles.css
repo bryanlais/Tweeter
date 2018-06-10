@@ -1,5 +1,5 @@
 @font-face {
-	font-family: Adam;
+	font-family: "Adam";
 	src: url(fonts/Adam.ttf)
 }
 @font-face {
@@ -24,6 +24,12 @@ a:hover {
 	color: #AED6F1;
 }
 /* Application title words */
+h1 {
+	font-family: "Proxima-Nova-Bold";
+	font-size:80px;
+	color: #85C1E9;
+	text-align: center;
+}
 h2, h4 {
 	font-family: "Proxima-Nova-Bold";
 	font-size: 50px;
@@ -47,7 +53,7 @@ h3 {
     margin: 10px;
     width: 1000px;
 		margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 10px;
     margin-right: 20px;
 		background-color: #34495E;
     box-shadow: 10px 10px 5px #283747;
@@ -80,7 +86,6 @@ select {
     background-color: #f9f9f9;
     min-width: 200px;
     min-height: 50px;
-		margin-left: 10px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     font-family: "Proxima-Nova-Bold";
@@ -115,7 +120,9 @@ a {
 	color: #D6EAF8;
 	text-decoration: none;
 }
-
+u {
+	color: #85C1E9;
+}
 a:visited {
 	color: #D6EAF8;
 }
@@ -167,6 +174,42 @@ h3 {
 			padding: 20px;
 }
 
+.application_box {
+	float: middle;
+	height: 800px;
+	margin: 10px;
+	width: 1000px;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 20px;
+	background-color: #34495E;
+	box-shadow: 10px 10px 5px #283747;
+	padding: 20px;
+}
+
+.left_box {
+	float: left;
+	height: 275px;
+	margin: 10px;
+	width: 400px;
+	margin-top: 20px;
+	margin-right: 20px;
+	background-color: #2C3E50;
+	box-shadow: 10px 10px 5px #283747;
+	padding: 20px;
+}
+
+.right_box {
+		float: right;
+		height: 275px;
+		margin: 10px;
+		width: 450px;
+		margin-top: 20px;
+		margin-right: 20px;
+		background-color: #2C3E50;
+		box-shadow: 10px 10px 5px #283747;
+		padding: 20px;
+}
 input {
 	font-family: "Proxima-Nova-Bold";
 	width: 90%;
@@ -187,7 +230,7 @@ select {
 		font-size: 30px;
 		color: #2C3E50;
 		display: inline-block;
-		float: left;
+		text-align: center;
 }
 
 button {

@@ -15,7 +15,8 @@
     google.charts.load('current', { 'packages': ['map','corechart'] });
     google.charts.setOnLoadCallback(realGoogleMap);
     google.charts.setOnLoadCallback(pieChart);
-    google.charts.setOnLoadCallback(worldMap);
+    google.charts.setOnLoadCallback(lineChart);
+    google.charts.setOnLoadCallback(drawRegionsMap)
 
 //    ____                           _            __  __
 //  / ___|   ___     ___     __ _  | |   ___    |  \/  |   __ _   _ __    _
@@ -40,14 +41,14 @@
 // | |_) | | |  / _ \   | |     | '_ \   / _` | | '__| | __|
 // |  __/  | | |  __/   | |___  | | | | | (_| | | |    | |_
 // |_|     |_|  \___|    \____| |_| |_|  \__,_| |_|     \__|
-function pieChart() {
+      function pieChart() {
         var data = google.visualization.arrayToDataTable([
           ['Country', 'Popularity Percentage'],
-          ['Work',     11],
-          ['Eat',      2],
-          ['Commute',  2],
-          ['Watch TV', 2],
-          ['Sleep',    7]
+          ['United States',  11],
+          ['Canada',      2],
+          ['Mexico',  2],
+          ['Russia', 2],
+          ['Idk',    7]
         ]);
         var options = {
           title: 'My Daily Activities',
@@ -57,11 +58,62 @@ function pieChart() {
         var chart = new google.visualization.PieChart(document.getElementById('pies_div'));
         chart.draw(data, options);
       }
+//  _       _                     ____   _                      _
+// | |     (_)  _ __     ___     / ___| | |__     __ _   _ __  | |_
+// | |     | | | '_ \   / _ \   | |     | '_ \   / _` | | '__| | __|
+// | |___  | | | | | | |  __/   | |___  | | | | | (_| | | |    | |_
+// |_____| |_| |_| |_|  \___|    \____| |_| |_|  \__,_| |_|     \__|
+
+      function lineChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Days', 'Interest'],
+          ['June 1st, 2018',  50],
+          ['June 2nd, 2018',  30],
+          ['June 3rd, 2018',  20],
+          ['June 4th, 2018',  10]
+        ]);
+        var options = {
+          title: 'Interest Over Time',
+          curveType: 'function',
+          legend: { position: 'bottom' },
+          fontName: "Proxima-Nova-Bold"
+        };
+        var linechart = new google.visualization.LineChart(document.getElementById('line_div'));
+        linechart.draw(data, options);
+      }
+//  ____                   _                     __  __                  _
+// |  _ \    ___    __ _  (_)   ___    _ __     |  \/  |   __ _   _ __  | | __   ___   _ __   ___
+// | |_) |  / _ \  / _` | | |  / _ \  | '_ \    | |\/| |  / _` | | '__| | |/ /  / _ \ | '__| / __|
+// |  _ <  |  __/ | (_| | | | | (_) | | | | |   | |  | | | (_| | | |    |   <  |  __/ | |    \__ \
+// |_| \_\  \___|  \__, | |_|  \___/  |_| |_|   |_|  |_|  \__,_| |_|    |_|\_\  \___| |_|    |___/
+//                 |___/
+          function drawRegionsMap() {
+            var data = google.visualization.arrayToDataTable([
+              ['City',   'Provinces', 'Area'],
+              ['Rome',      2761477,    1285.31],
+              ['Milan',     1324110,    181.76],
+              ['Naples',    959574,     117.27],
+              ['Turin',     907563,     130.17],
+              ['Palermo',   655875,     158.9],
+              ['Genoa',     607906,     243.60],
+              ['Bologna',   380181,     140.7],
+              ['Florence',  371282,     102.41],
+              ['Fiumicino', 67370,      213.44],
+              ['Anzio',     52192,      43.43],
+              ['Ciampino',  38262,      11]
+              ]);
+              var options = {
+                displayMode: 'markers',
+                colorAxis: {colors: ['green', 'blue']}
+              };
+              var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+              chart.draw(data, options);
+          };
     </script>
   </head>
   <center>
   <body>
-    <h2> Information Charts: </h2>
+    <h1> Information Charts: </h1>
     <br>
     <div class="black_box">
     <h2> Tweet Information: </h2>
@@ -75,8 +127,8 @@ function pieChart() {
     </table>
   </div>
     <div class="big_black_box">
-    <h2> Chart Requested: </h2>
-    <div id="chartInput" style="width: 800px; float: left; height: 400px;"></div>
+    <h2> requestedChart </h2>
+    <div id="chartInput" style="width: 800px; height: 400px;"></div>
   </div>
   </body>
 </center>
