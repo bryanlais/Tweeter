@@ -1,0 +1,145 @@
+{
+    "status": "OK", 
+    "html_attributions": [], 
+    "result": {
+        "utc_offset": 60, 
+        "name": "Jos", 
+        "reference": "CmRbAAAA7y3g2CIRU5LcbYUKtERs6TFwQ8xCFvTIiL_L0N1cPvqJTYT5U35sAjSO0ubsr-z_JDfAksEmDg5OAr7AbEsdEeXmiy6uVnN_In64BafKLXW20giYIk7uuC5vvikBlZiLEhAQaAi1JHf-Xf7UYY5JJEBtGhROBxNUin1vdXHUpdpwWn1Dd5KGdQ", 
+        "geometry": {
+            "location": {
+                "lat": 9.896527299999999, 
+                "lng": 8.858330899999999
+            }, 
+            "viewport": {
+                "northeast": {
+                    "lat": 10.0072905, 
+                    "lng": 8.9305758
+                }, 
+                "southwest": {
+                    "lat": 9.823418499999999, 
+                    "lng": 8.8160992
+                }
+            }
+        }, 
+        "adr_address": "<span class=\"locality\">Jos</span>, <span class=\"country-name\">Nigeria</span>", 
+        "place_id": "ChIJgxzsaE5yUxARHTjV-wDn6yE", 
+        "vicinity": "Jos", 
+        "photos": [
+            {
+                "photo_reference": "CmRaAAAAgPsDXaN6G7nHG2iVzWd5m0A277nhZvuWMxGLr8hIhh-mV2vNjxVCI1nFwCWQkfrJ83QT3EipJRysbKQLiYD574PZtjeBZTE79UEaE_BcGPU6pN9F4nl4b4ZCv5pDu2agEhDQrDfcVxQl3lZSCEg8pt6VGhT8G9X5TDHeJyBKEzc9Kbx2mQbUtQ", 
+                "width": 4128, 
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/117225657816783330362/photos\">Oluwaseyi Ashiru</a>"
+                ], 
+                "height": 3096
+            }, 
+            {
+                "photo_reference": "CmRaAAAAdQ2E0Mn5JK2EycvHJ48gkm75PlmVHW50mKGM6gDQcF37nLnefqkxaw3HKe6OwTnjFr-jKB9E2poMeDJevbI-mYMJOcBomsyxdCIvhoSlvxxWL8ZPXC5C_QAL5FpydAFuEhABYNas93r_0oPUkxcCKS0FGhS-Z7tS-xv7w3wkrf4Cknr4up_TfQ", 
+                "width": 1728, 
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/104911972683705602738/photos\">Jonathan Janfa</a>"
+                ], 
+                "height": 3072
+            }, 
+            {
+                "photo_reference": "CmRaAAAAr5uWsGeA-J8nV5LGrBwATwRJn2lttB8nxrbuI1Z93ObJRcMWldBmv4uM4WZ0uLujpqrkrEK4s6vnS5f9ytSFVMRTfgw8X4NzdY_mj0pbGB6VdjZtPFuO26AwPL25Qmo4EhAnKcUJ1RipywJ9efglb81YGhSN5TPSO2bsKatXkXroUaVG0QKHvw", 
+                "width": 3264, 
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100176287171644018186/photos\">Nengyi Gombwer</a>"
+                ], 
+                "height": 1932
+            }, 
+            {
+                "photo_reference": "CmRaAAAATYuzXXyibqCiq0YA_4ZaX-gOnCcnoRVmr7ilBOlyGV136UP3Hz39QMmwqIOmr1uCNM8W88SWL3IOjXiJgyFiXDMddANz4bF44VQDd8XXP0zdlOFXqVO2c84Z31P0vRiAEhA0KFdnXQNCXXPrM5QgIGTkGhQAvB1eMfGUlx5w6a-OY482d4pNaA", 
+                "width": 4000, 
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107225518059272139090/photos\">Ovo Derhie</a>"
+                ], 
+                "height": 2250
+            }, 
+            {
+                "photo_reference": "CmRaAAAAHgLEOJaQtZjcsziqrBTzyhWLIPGdwQdorxXd7_pcbyGOSATk-qr2d4jV3k5v3VeacAehW8d-dYpoQ4T1GD2y-e2PIHGgnQlzxXuE8hlKonvVSu2c-xE1rkiK4myMpyWPEhA3kG_MRqt13BuXVkOvVrHyGhR0i3YjS8-nLPd7n6d_GPKQpZk4IQ", 
+                "width": 3264, 
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/101820681277875151861/photos\">Jono B</a>"
+                ], 
+                "height": 1836
+            }, 
+            {
+                "photo_reference": "CmRaAAAAa7gTTZ3QTZmegFK7bC--WNK6qSJ8vyP9pSxIOKPvm7F3QtWuquAsusKaDMbd91CVl_-GEHmUNp3wyy1L1k4C4N39OssaAAUPumPGvR0EsYpybKNoSoOtcBWw43FSFv1yEhBWMcB4RqKlYwt_kKBpupB-GhQLD3tZxL_kEXkgmz54r2_4vVSrkQ", 
+                "width": 3648, 
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112824665816420585502/photos\">Gabriel Gwazah</a>"
+                ], 
+                "height": 2736
+            }, 
+            {
+                "photo_reference": "CmRaAAAAqhF_3VcBJfFeyh8Ehmld1V0Tv8GRaYv2KUCzzPyez6E1FhayBfYPBJHeXZLmJ3Ba9JFSY9Q32ggkByhac5QDA93bMpl4c_r6mxbWhD7L-azyrmVU1rgesFL2BINTcpk0EhBoOmnq69twWRKULERkb7DsGhRmdyofHKxiUMXuPY_6Ds-vq2vnoQ", 
+                "width": 4128, 
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100260895543767644537/photos\">AYO SOBOWALE</a>"
+                ], 
+                "height": 2322
+            }, 
+            {
+                "photo_reference": "CmRaAAAAEZ-vBkVWCU3Z8JsGsru506kghwFVp0RGAN5hGvH6mBBxCUDCan7GLWF8kgfc4ovRXYvN4j1icHr5tXhh-wwGJ8gt8eWLL33XgwQX1x92ils2tc6fBge7djQ4uC6y5ANZEhBRe5Qi4Wg1_XFFzHloSZrfGhQiYOxQdYXHSOfI2GE3MeLnWIkXqw", 
+                "width": 4160, 
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112340564863190846124/photos\">Daniel Godwin</a>"
+                ], 
+                "height": 3120
+            }, 
+            {
+                "photo_reference": "CmRaAAAA2nUbMTvgFJJPnd_OA0WzMMp-2DBdnU992LRAiInFwdS7Wyie2RUNwRgGw_Yr9_jrFQ_Ift3CdQrX0On0nKerT-VTxDt7sGObG0LTOvEHcx4nqEES2Gq3SXurhzNBmL4OEhAv8u4sQ8WN28Hn5rO93vTnGhTYGjuzlBgNESrITFRQd8mXZo0JwQ", 
+                "width": 4912, 
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/103369151954303145275/photos\">Nanfa Kumswa</a>"
+                ], 
+                "height": 3264
+            }, 
+            {
+                "photo_reference": "CmRaAAAA0PfQYYC3LluXU83DTQPZkazVTdQUclD4VnfNu-Qf6sf2ZwQcCjToS5dCCsdWhuAmy5S-RM0IBFV2yoIbtowHnqOHTePqHdNw9Nax3Us61h-jQHqd734MlHNfRFLiB6aGEhDZAxGJ_CQzWOYNl-cJcT5yGhQjBnTjiJV8GUOeJH43WkEoAmtGKg", 
+                "width": 4608, 
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/102348740240710005945/photos\">Joy Ajuluchukwu</a>"
+                ], 
+                "height": 3456
+            }
+        ], 
+        "url": "https://maps.google.com/?q=Jos,+Nigeria&ftid=0x1053724e68ec1c83:0x21ebe700fbd5381d", 
+        "scope": "GOOGLE", 
+        "address_components": [
+            {
+                "long_name": "Jos", 
+                "types": [
+                    "locality", 
+                    "political"
+                ], 
+                "short_name": "Jos"
+            }, 
+            {
+                "long_name": "Plateau", 
+                "types": [
+                    "administrative_area_level_1", 
+                    "political"
+                ], 
+                "short_name": "PL"
+            }, 
+            {
+                "long_name": "Nigeria", 
+                "types": [
+                    "country", 
+                    "political"
+                ], 
+                "short_name": "NG"
+            }
+        ], 
+        "formatted_address": "Jos, Nigeria", 
+        "id": "6661245f86013b47d7953bd3a4130ce4fae320a8", 
+        "types": [
+            "locality", 
+            "political"
+        ], 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png"
+    }
+}

@@ -6,7 +6,7 @@
   | |  | '_ ` _ \  | '_ \   / _ \  | '__| | __| / __|    / _ \/\     | |   \ \ /\ / / | | | __| | __|  / _ \ | '__|
   | |  | | | | | | | |_) | | (_) | | |    | |_  \__ \   | (_>  <     | |    \ V  V /  | | | |_  | |_  |  __/ | |
  |___| |_| |_| |_| | .__/   \___/  |_|     \__| |___/    \___/\/     |_|     \_/\_/   |_|  \__|  \__|  \___| |_|
-                   |_|
+				   |_|
 '''
 
 # We need these library modules to retrieve the user's answers
@@ -21,18 +21,25 @@ try:
 except ImportError:
 	import simplejson as json
 
-#Initializing Twitter API
+#Initialize Twitter API
 from twitter import Twitter, OAuth, TwitterHTTPError, TwitterStream
 
+#Initialize Google Maps API
+import googlemaps
 ACCESS_TOKEN = "908881849962913792-TCiZjs3LLqUxkFAOz4pT2P09MHJcWCD"
 ACCESS_SECRET = "ZMX13DIqztOcjLT9TxpnLV1A4XqVeeeo9OAGDm4OokSUf"
 
 CONSUMER_KEY = "DDWdLGsClAIJs3oujJ1aEIvbw"
 CONSUMER_SECRET = "Qv1fGDVJcT9eRgfYhS7cJRY5IEu4Kr36oVgNBRDkdkdLxlkUp5"
 
+#Google Maps API Key
+MAPS_KEY = "AIzaSyATSAyQy4FCqahfQ0wFI6CdS6liwNeFEUw"
+
 oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 twitter_stream = TwitterStream(auth=oauth)
 twitter = Twitter(auth=oauth)
+print
+gmaps = googlemaps.Client(key=MAPS_KEY)
 
 html = '''
 <!DOCTYPE html>
@@ -42,6 +49,35 @@ html = '''
 </html>
 '''
 
+def dumpToJSON(filehandle, raw):
+	jsonText = json.dumps(raw, indent = 4)
+	jsonFile = open(filehandle, "w")
+	jsonFile.write(jsonText)
+	jsonFile.close()
+
+	jsonFile = open(filehandle, "r")
+	jsonStr = jsonFile.read()
+	JSON = json.loads(jsonStr)
+	jsonFile.close()
+	return JSON
+
+def returnTweetLocations(search_value, tweet_count):
+	global twitter_search
+	output = []
+	for x in range(1):
+		tweets = twitter.search.tweets(q=search_value,count = tweet_count, geocode="0.781157,0.398720,8000mi")
+
+		jsonData = dumpToJSON("tweet_location_names", tweets)
+		
+		for el in jsonData["statuses"]:
+			if el["place"] != None:
+				output.append([str(el["place"]["name"]),str(el["text"])])
+			elif el["user"]["location"] != None:
+				try:
+					output.append([str(el["user"]["location"]),str(el["text"])])
+				except:
+					continue
+	return filter(None, output)
 
 def returnRealtimeTweets(search_value, tweet_count):
 	global twitter_stream
@@ -60,33 +96,6 @@ def returnRealtimeTweets(search_value, tweet_count):
 		if tweet_count <= 0:
 			break
 	return filter(None, locationDataList)
-
-def returnTweetLocations(search_value, tweet_count):
-	global twitter_search
-	output = []
-	for x in range(1):
-		tweets = twitter.search.tweets(q=search_value,count = tweet_count, geocode="0.781157,0.398720,8000mi")
-
-		jsonFile = open("tweets.json", "w")
-		jsonFile.write(json.dumps(tweets, indent = 4))
-		#print tweets[0]
-
-		jsonFile.close()
-
-		jsonFile = open("tweets.json", "r")
-		jsonStr = jsonFile.read()
-		jsonData = json.loads(jsonStr)
-		
-		for el in jsonData["statuses"]:
-			if el["place"] != None:
-				str(output.append(el["place"]["name"]))
-			elif el["user"]["location"] != None:
-				try:
-					output.append(str(el["user"]["location"]))
-				except:
-					continue
-		jsonFile.close()
-	return filter(None, output)
 	
 def returnLocationData():
 	# We use the file saved from last step as example
@@ -116,31 +125,54 @@ def interestByTime(search_value, tweet_count, date):
 	for x in range(1):
 		tweets = twitter.search.tweets(q=search_value,count = tweet_count, until = date, result_type="popular")
 
-		jsonFile = open("tweets.json", "w")
-		jsonFile.write(json.dumps(tweets, indent = 4))
-		#print tweets[0]
+		jsonData = dumpToJSON("interest_by_time_timestamps.json", tweets)
 
-		jsonFile.close()
-
-		jsonFile = open("tweets.json", "r")
-		jsonStr = jsonFile.read()
-		jsonData = json.loads(jsonStr)
-		print len(jsonData["statuses"])
 		for el in jsonData["statuses"]:
-			output.append(el["created_at")]
-		jsonFile.close()
+			output.append(el["created_at"])
 	return output
-    
+
+
+def geocodeTweets(tweets):
+	global gmaps
+	geocodes = []
+	for tweet in tweets:
+		jsonData = gmaps.places_autocomplete(tweet[0])
+
+		geoJSON = dumpToJSON("geodata.json", jsonData)
+
+		try:
+			geocodes.append([str(geoJSON[0]["place_id"]),tweet[1]])
+		except IndexError:
+			continue
+		
+	print geocodes
+	return geocodesToCoordinates(geocodes)
+
+def geocodesToCoordinates(geocodes):
+	global gmaps
+	output = []
+	for geocode in geocodes:
+		print geocode[0]
+		placeID = geocode[0]
+		jsonData = gmaps.place(placeID)
+		placeData = dumpToJSON("placedata.json", jsonData)
+		
+		lat, lng =  placeData["result"]["geometry"]["location"]["lat"], placeData["result"]["geometry"]["location"]["lng"]
+		output.append([lat, lng, geocode[1]])
+		print output	
+	return output
+
+	
 def grabYesterday():
-    today = date.today()
-    return today - timedelta(1)
+	today = date.today()
+	return today - timedelta(1)
 '''
   _____                                  __  __
  | ____|  _ __   _ __    ___    _ __    |  \/  |   __ _   _ __     __ _    __ _    ___   _ __
  |  _|   | '__| | '__|  / _ \  | '__|   | |\/| |  / _` | | '_ \   / _` |  / _` |  / _ \ | '__|
  | |___  | |    | |    | (_) | | |      | |  | | | (_| | | | | | | (_| | | (_| | |  __/ | |
  |_____| |_|    |_|     \___/  |_|      |_|  |_|  \__,_| |_| |_|  \__,_|  \__, |  \___| |_|
-                                                                          |___/
+																		  |___/
 '''
 errorFile = open("../error.html", "r").read()
 
@@ -178,55 +210,55 @@ def toVar():
  | |  _   / _ \   / _ \   / _` | | |  / _ \   | |     | '_ \   / _` | | '__| | __| / __|
  | |_| | | (_) | | (_) | | (_| | | | |  __/   | |___  | | | | | (_| | | |    | |_  \__ \
   \____|  \___/   \___/   \__, | |_|  \___|    \____| |_| |_|  \__,_| |_|     \__| |___/
-                          |___/
+						  |___/
 '''
 
 googleChart = open("../google.html", "r").read()
 
 def createCountryDictionary(matrix):
-    idx = 0
-    output = {}
-    while idx < len(matrix):
-        if matrix[idx][3] not in output:
-            output[matrix[idx][3]] = 1
-        else:
-            output[matrix[idx][3]] += 1
-        idx += 1
-    return output
+	idx = 0
+	output = {}
+	while idx < len(matrix):
+		if matrix[idx][3] not in output:
+			output[matrix[idx][3]] = 1
+		else:
+			output[matrix[idx][3]] += 1
+		idx += 1
+	return output
 
 def chartManager(chartType,countryArray,locationArray):
-    updatedChart = ""
-    if chartType == "realMap":
-        updatedChart = googleChart.replace("chartInput","real_div")
-        updatedChart = updatedChart.replace("requestedChart","Google Map:")
-        idx = 0
-        while idx < len(locationArray):
-            if idx != len(locationArray) - 1:
-                updatedChart = updatedChart.replace("googleMapCoordinates",str(locationArray[idx]) + "," + "googleMapCoordinates")
-            else:
-                updatedChart = updatedChart.replace("googleMapCoordinates",str(locationArray[idx]))
-            idx += 1
-    if chartType == "worldMap":
-        updatedChart = googleChart.replace("chartInput","regions_div")
-        updatedChart = updatedChart.replace("requestedChart","Regions Map:")
-    if chartType == "piechart":
-        updatedChart = googleChart.replace("chartInput","pies_div")
-        updatedChart = updatedChart.replace("requestedChart","Pie Chart:")
-    if chartType == "barGraph":
-        updatedChart = googleChart.replace("chartInput","bargraph_div")
-        updatedChart = updatedChart.replace("requestedChart","Bar Graph:")
-    if chartType == "lineGraph":
-        updatedChart = googleChart.replace("chartInput","line_div")
-        updatedChart = updatedChart.replace("requestedChart","Line Graph:")
-    #Below is used for taking in a dictionary and using it.
-    idx = 0
-    while idx < len(countryArray):
-        if idx != len(countryArray) - 1:
-            updatedChart = updatedChart.replace("tableData",("<tr> <th>" + countryArray.keys()[idx] + "</th> <th>" + countryArray[countryArray.keys()[idx]] + "</th> </tr> tableData"))
-        else:
-            updatedChart = updatedChart.replace("tableData",("<tr> <th>" + countryArray.keys()[idx] + "</th> <th>" + countryArray[countryArray.keys()[idx]] + "</th> </tr>"))
-        idx += 1
-    return updatedChart
+	updatedChart = ""
+	if chartType == "realMap":
+		updatedChart = googleChart.replace("chartInput","real_div")
+		updatedChart = updatedChart.replace("requestedChart","Google Map:")
+		idx = 0
+		while idx < len(locationArray):
+			if idx != len(locationArray) - 1:
+				updatedChart = updatedChart.replace("googleMapCoordinates",str(locationArray[idx]) + "," + "googleMapCoordinates")
+			else:
+				updatedChart = updatedChart.replace("googleMapCoordinates",str(locationArray[idx]))
+			idx += 1
+	if chartType == "worldMap":
+		updatedChart = googleChart.replace("chartInput","regions_div")
+		updatedChart = updatedChart.replace("requestedChart","Regions Map:")
+	if chartType == "piechart":
+		updatedChart = googleChart.replace("chartInput","pies_div")
+		updatedChart = updatedChart.replace("requestedChart","Pie Chart:")
+	if chartType == "barGraph":
+		updatedChart = googleChart.replace("chartInput","bargraph_div")
+		updatedChart = updatedChart.replace("requestedChart","Bar Graph:")
+	if chartType == "lineGraph":
+		updatedChart = googleChart.replace("chartInput","line_div")
+		updatedChart = updatedChart.replace("requestedChart","Line Graph:")
+	#Below is used for taking in a dictionary and using it.
+	idx = 0
+	while idx < len(countryArray):
+		if idx != len(countryArray) - 1:
+			updatedChart = updatedChart.replace("tableData",("<tr> <th>" + countryArray.keys()[idx] + "</th> <th>" + countryArray[countryArray.keys()[idx]] + "</th> </tr> tableData"))
+		else:
+			updatedChart = updatedChart.replace("tableData",("<tr> <th>" + countryArray.keys()[idx] + "</th> <th>" + countryArray[countryArray.keys()[idx]] + "</th> </tr>"))
+		idx += 1
+	return updatedChart
 
 
 '''
@@ -235,22 +267,22 @@ def chartManager(chartType,countryArray,locationArray):
  | |\/| |  / _` | | | | '_ \    | |_) | | '__|  / _ \   / _` | | '__|  / _` | | '_ ` _ \
  | |  | | | (_| | | | | | | |   |  __/  | |    | (_) | | (_| | | |    | (_| | | | | | | |
  |_|  |_|  \__,_| |_| |_| |_|   |_|     |_|     \___/   \__, | |_|     \__,_| |_| |_| |_|
-                                                        |___/
+														|___/
 '''
 
 def main():
-    print "Content-type: text/html\n"
-    global html
-    input = toVar()
-    locationArray = returnRealtimeTweets(input["search"],int(input["tweetNumber"]))
-    countryArray = {"coordinates":"okay","eric":"bryan"}
-    try:
-        if input["chartView"] == "none":
-            print errorHandler("You didn't choose a view option.")
-        elif input["tweetNumber"] == 0:
-            print errorHandler("You only entered 0 tweets.")
-        else:
-            print chartManager(input["chartView"],countryArray,locationArray)
-    except Keyerror:
-        print errorHandler("You didn't enter a search option.")
+	print "Content-type: text/html\n"
+	global html
+	input = toVar()
+	locationArray = returnRealtimeTweets(input["search"],int(input["tweetNumber"]))
+	countryArray = {"coordinates":"okay","eric":"bryan"}
+	try:
+		if input["chartView"] == "none":
+			print errorHandler("You didn't choose a view option.")
+		elif input["tweetNumber"] == 0:
+			print errorHandler("You only entered 0 tweets.")
+		else:
+			print chartManager(input["chartView"],countryArray,locationArray)
+	except Keyerror:
+		print errorHandler("You didn't enter a search option.")
 main()

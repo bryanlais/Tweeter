@@ -1,1 +1,1381 @@
-{"favorited": false, "quote_count": 0, "contributors": null, "truncated": false, "text": "RT @sonic_hedgehog: [game teaser goes here] https://t.co/uQ6cXJu1cz", "possibly_sensitive": false, "is_quote_status": false, "in_reply_to_status_id": null, "reply_count": 0, "user": {"follow_request_sent": null, "profile_use_background_image": true, "default_profile_image": false, "id": 1001642991432462337, "default_profile": true, "verified": false, "profile_image_url_https": "https://pbs.twimg.com/profile_images/1001644510487760896/yYBNU_U__normal.jpg", "profile_sidebar_fill_color": "DDEEF6", "profile_text_color": "333333", "followers_count": 0, "profile_sidebar_border_color": "C0DEED", "id_str": "1001642991432462337", "profile_background_color": "F5F8FA", "listed_count": 0, "profile_background_image_url_https": "", "utc_offset": null, "statuses_count": 2, "description": "Weather Games Movies Pop Tech Professionals & Reporters Fitness & Wellness Celebrity Gamers", "friends_count": 23, "location": "El Paso, TX", "profile_link_color": "1DA1F2", "profile_image_url": "http://pbs.twimg.com/profile_images/1001644510487760896/yYBNU_U__normal.jpg", "following": null, "geo_enabled": false, "profile_background_image_url": "", "name": "TheLastOG", "lang": "en", "profile_background_tile": false, "favourites_count": 0, "screen_name": "OgLast", "notifications": null, "url": null, "created_at": "Wed May 30 01:54:33 +0000 2018", "contributors_enabled": false, "time_zone": null, "protected": false, "translator_type": "none", "is_translator": false}, "filter_level": "low", "geo": null, "id": 1001645018208178177, "favorite_count": 0, "lang": "en", "retweeted_status": {"quote_count": 326, "contributors": null, "truncated": false, "text": "[game teaser goes here] https://t.co/uQ6cXJu1cz", "is_quote_status": false, "in_reply_to_status_id": null, "reply_count": 560, "id": 1001632459862065152, "favorite_count": 4909, "entities": {"user_mentions": [], "symbols": [], "hashtags": [], "urls": [], "media": [{"expanded_url": "https://twitter.com/sonic_hedgehog/status/1001632459862065152/photo/1", "display_url": "pic.twitter.com/uQ6cXJu1cz", "url": "https://t.co/uQ6cXJu1cz", "media_url_https": "https://pbs.twimg.com/media/DeaAejNUQAAKey3.jpg", "id_str": "1001629229472038912", "sizes": {"large": {"h": 628, "resize": "fit", "w": 1200}, "small": {"h": 356, "resize": "fit", "w": 680}, "medium": {"h": 628, "resize": "fit", "w": 1200}, "thumb": {"h": 150, "resize": "crop", "w": 150}}, "indices": [24, 47], "type": "photo", "id": 1001629229472038912, "media_url": "http://pbs.twimg.com/media/DeaAejNUQAAKey3.jpg"}]}, "retweeted": false, "coordinates": null, "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>", "in_reply_to_screen_name": null, "id_str": "1001632459862065152", "display_text_range": [0, 23], "retweet_count": 1397, "in_reply_to_user_id": null, "favorited": false, "user": {"follow_request_sent": null, "profile_use_background_image": true, "default_profile_image": false, "id": 19609162, "default_profile": false, "verified": true, "profile_image_url_https": "https://pbs.twimg.com/profile_images/686613263811907584/Ni3AWru__normal.png", "profile_sidebar_fill_color": "DDFFCC", "profile_text_color": "333333", "followers_count": 5801648, "profile_sidebar_border_color": "FFFFFF", "id_str": "19609162", "profile_background_color": "9AE4E8", "listed_count": 1661, "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", "utc_offset": null, "statuses_count": 3692, "description": "The OFFICIAL Twitter feed for news about all things Sonic. We also like memes.", "friends_count": 63, "location": "Los Angeles and London", "profile_link_color": "0084B4", "profile_image_url": "http://pbs.twimg.com/profile_images/686613263811907584/Ni3AWru__normal.png", "following": null, "geo_enabled": false, "profile_banner_url": "https://pbs.twimg.com/profile_banners/19609162/1466811112", "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", "name": "Sonic the Hedgehog", "lang": "en", "profile_background_tile": true, "favourites_count": 1165, "screen_name": "sonic_hedgehog", "notifications": null, "url": null, "created_at": "Tue Jan 27 19:11:50 +0000 2009", "contributors_enabled": false, "time_zone": null, "protected": false, "translator_type": "none", "is_translator": false}, "geo": null, "in_reply_to_user_id_str": null, "possibly_sensitive": false, "lang": "en", "created_at": "Wed May 30 01:12:42 +0000 2018", "filter_level": "low", "in_reply_to_status_id_str": null, "place": null, "extended_entities": {"media": [{"expanded_url": "https://twitter.com/sonic_hedgehog/status/1001632459862065152/photo/1", "display_url": "pic.twitter.com/uQ6cXJu1cz", "url": "https://t.co/uQ6cXJu1cz", "media_url_https": "https://pbs.twimg.com/media/DeaAejNUQAAKey3.jpg", "id_str": "1001629229472038912", "sizes": {"large": {"h": 628, "resize": "fit", "w": 1200}, "small": {"h": 356, "resize": "fit", "w": 680}, "medium": {"h": 628, "resize": "fit", "w": 1200}, "thumb": {"h": 150, "resize": "crop", "w": 150}}, "indices": [24, 47], "type": "photo", "id": 1001629229472038912, "media_url": "http://pbs.twimg.com/media/DeaAejNUQAAKey3.jpg"}]}}, "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>", "in_reply_to_user_id_str": null, "retweeted": false, "coordinates": null, "timestamp_ms": "1527645756662", "entities": {"user_mentions": [{"id": 19609162, "indices": [3, 18], "id_str": "19609162", "screen_name": "sonic_hedgehog", "name": "Sonic the Hedgehog"}], "symbols": [], "hashtags": [], "urls": [], "media": [{"source_user_id": 19609162, "source_status_id_str": "1001632459862065152", "expanded_url": "https://twitter.com/sonic_hedgehog/status/1001632459862065152/photo/1", "display_url": "pic.twitter.com/uQ6cXJu1cz", "url": "https://t.co/uQ6cXJu1cz", "media_url_https": "https://pbs.twimg.com/media/DeaAejNUQAAKey3.jpg", "source_user_id_str": "19609162", "source_status_id": 1001632459862065152, "id_str": "1001629229472038912", "sizes": {"large": {"h": 628, "resize": "fit", "w": 1200}, "small": {"h": 356, "resize": "fit", "w": 680}, "medium": {"h": 628, "resize": "fit", "w": 1200}, "thumb": {"h": 150, "resize": "crop", "w": 150}}, "indices": [44, 67], "type": "photo", "id": 1001629229472038912, "media_url": "http://pbs.twimg.com/media/DeaAejNUQAAKey3.jpg"}]}, "in_reply_to_status_id_str": null, "in_reply_to_screen_name": null, "id_str": "1001645018208178177", "extended_entities": {"media": [{"source_user_id": 19609162, "source_status_id_str": "1001632459862065152", "expanded_url": "https://twitter.com/sonic_hedgehog/status/1001632459862065152/photo/1", "display_url": "pic.twitter.com/uQ6cXJu1cz", "url": "https://t.co/uQ6cXJu1cz", "media_url_https": "https://pbs.twimg.com/media/DeaAejNUQAAKey3.jpg", "source_user_id_str": "19609162", "source_status_id": 1001632459862065152, "id_str": "1001629229472038912", "sizes": {"large": {"h": 628, "resize": "fit", "w": 1200}, "small": {"h": 356, "resize": "fit", "w": 680}, "medium": {"h": 628, "resize": "fit", "w": 1200}, "thumb": {"h": 150, "resize": "crop", "w": 150}}, "indices": [44, 67], "type": "photo", "id": 1001629229472038912, "media_url": "http://pbs.twimg.com/media/DeaAejNUQAAKey3.jpg"}]}, "place": null, "retweet_count": 0, "created_at": "Wed May 30 02:02:36 +0000 2018", "in_reply_to_user_id": null}
+['USA', 'Texas Hill Country', 'Texas', 'Pacific Northwest', 'US', 'Nigeria', 'Nigeria']
+[{u'terms': [{u'value': u'USA', u'offset': 0}], u'description': u'USA', u'reference': u'CiQbAAAAPPRUspAdjnl1xV163DefexIaFy-bb7q9e7C-g5_kgDESEL0nUFtGznmC2qmWFia2bQYaFIt9LEZ7uOXerddYD9EYqksrXGdi', u'structured_formatting': {u'main_text_matched_substrings': [{u'length': 3, u'offset': 0}], u'main_text': u'USA'}, u'matched_substrings': [{u'length': 3, u'offset': 0}], u'place_id': u'ChIJCzYy5IS16lQRQrfeQ5K5Oxw', u'id': u'88564d30369b045e767b90442f46a1245864c58f', u'types': [u'country', u'political', u'geocode']}, {u'terms': [{u'value': u'USA Diner', u'offset': 0}, {u'value': u'Merrick Boulevard', u'offset': 11}, {u'value': u'Queens', u'offset': 30}, {u'value': u'NY', u'offset': 38}, {u'value': u'USA', u'offset': 42}], u'description': u'USA Diner, Merrick Boulevard, Queens, NY, USA', u'reference': u'CkQ7AAAA62ZnYdxyhyNgFTz4gi8OsbggrzHNoNFkhl6ea_eXXrlq9CbcbrAcGlt8jcncyDknEhs25DwQp-khhhgaDEQOJBIQZicW3fhQ5rgVivf_1n2lrxoUdeWRcAr4zMKFc4JDTBvcFg3nQs8', u'structured_formatting': {u'secondary_text': u'Merrick Boulevard, Queens, NY, USA', u'main_text_matched_substrings': [{u'length': 3, u'offset': 0}], u'main_text': u'USA Diner'}, u'matched_substrings': [{u'length': 3, u'offset': 0}], u'place_id': u'ChIJaUO0AAxkwokRwiYK54CVvhY', u'id': u'e1f38d88666be04c78091f52f17f83be2d2520eb', u'types': [u'establishment']}, {u'terms': [{u'value': u'USA Scrubs', u'offset': 0}, {u'value': u'Jamaica Avenue', u'offset': 12}, {u'value': u'Jamaica', u'offset': 28}, {u'value': u'NY', u'offset': 37}, {u'value': u'USA', u'offset': 41}], u'description': u'USA Scrubs, Jamaica Avenue, Jamaica, NY, USA', u'reference': u'CkQ7AAAAXk3OnWhOUbmaO-B5u6Lw96P2dYxjRa-3cOAT2zB__oDyIEe7Zcelk8qgoN_isHhQJwis4wTsHTFG4rVSXYeyBBIQ5yS8vhi_TMgT22iEEEOupRoUiOVAFmenLcZthzXqb9Bh8T6W1RY', u'structured_formatting': {u'secondary_text': u'Jamaica Avenue, Jamaica, NY, USA', u'main_text_matched_substrings': [{u'length': 3, u'offset': 0}], u'main_text': u'USA Scrubs'}, u'matched_substrings': [{u'length': 3, u'offset': 0}], u'place_id': u'ChIJYx475sdgwokRC6HDXmvi7q0', u'id': u'b5524c2a43f3e30d9ab023503ab9bd6535172fb6', u'types': [u'establishment']}, {u'terms': [{u'value': u'USA Car Wash', u'offset': 0}, {u'value': u'Jamaica Avenue', u'offset': 14}, {u'value': u'Queens Village', u'offset': 30}, {u'value': u'NY', u'offset': 46}, {u'value': u'USA', u'offset': 50}], u'description': u'USA Car Wash, Jamaica Avenue, Queens Village, NY, USA', u'reference': u'ClRDAAAA9ExuyTP2vKyVqhjKPCEWFjxPQ9GnfU5qJgPcBhHyOYopbuPnAZiyLa-iqZp6RLMBjon9TzMioby4PtBsAVBHpmTBCBX0X83SfhEFOamQx0MSEKOWKQd20aW9AWrutv5kZLIaFOLwEtWwIUYQe3z6B9WAqSiFOHLH', u'structured_formatting': {u'secondary_text': u'Jamaica Avenue, Queens Village, NY, USA', u'main_text_matched_substrings': [{u'length': 3, u'offset': 0}], u'main_text': u'USA Car Wash'}, u'matched_substrings': [{u'length': 3, u'offset': 0}], u'place_id': u'ChIJpx3PFNZjwokRYDdkeJzswDw', u'id': u'a579c94a798448bae13a27e96d39dba80f53447a', u'types': [u'establishment']}, {u'terms': [{u'value': u'USA Shaolin Temple', u'offset': 0}, {u'value': u'Allen Street', u'offset': 20}, {u'value': u'New York', u'offset': 34}, {u'value': u'NY', u'offset': 44}, {u'value': u'USA', u'offset': 48}], u'description': u'USA Shaolin Temple, Allen Street, New York, NY, USA', u'reference': u'ClRCAAAAxNDcf_mu7kT44ydf2hS4uoM2mJUoFOjEZBjHlMzOuIr4iXLOAvcq6zerd311Yx7N3vSUEz0WAHUXtilLvHhME84HFsxALx7aZWLCDspYYzYSEP6hlnkTD9bUkfBEYFjjAEQaFLqz2NC-Z7WDFeiN7LRzlAkEG7u2', u'structured_formatting': {u'secondary_text': u'Allen Street, New York, NY, USA', u'main_text_matched_substrings': [{u'length': 3, u'offset': 0}], u'main_text': u'USA Shaolin Temple'}, u'matched_substrings': [{u'length': 3, u'offset': 0}], u'place_id': u'ChIJx6-ILopZwokRNek04EhAQOI', u'id': u'03aa834f11632b27dc2e59c3a542792f8052dda5', u'types': [u'establishment']}]
+[
+    {
+        "terms": [
+            {
+                "value": "USA", 
+                "offset": 0
+            }
+        ], 
+        "description": "USA", 
+        "reference": "CiQbAAAAPPRUspAdjnl1xV163DefexIaFy-bb7q9e7C-g5_kgDESEL0nUFtGznmC2qmWFia2bQYaFIt9LEZ7uOXerddYD9EYqksrXGdi", 
+        "structured_formatting": {
+            "main_text_matched_substrings": [
+                {
+                    "length": 3, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "USA"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 3, 
+                "offset": 0
+            }
+        ], 
+        "place_id": "ChIJCzYy5IS16lQRQrfeQ5K5Oxw", 
+        "id": "88564d30369b045e767b90442f46a1245864c58f", 
+        "types": [
+            "country", 
+            "political", 
+            "geocode"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "USA Diner", 
+                "offset": 0
+            }, 
+            {
+                "value": "Merrick Boulevard", 
+                "offset": 11
+            }, 
+            {
+                "value": "Queens", 
+                "offset": 30
+            }, 
+            {
+                "value": "NY", 
+                "offset": 38
+            }, 
+            {
+                "value": "USA", 
+                "offset": 42
+            }
+        ], 
+        "description": "USA Diner, Merrick Boulevard, Queens, NY, USA", 
+        "reference": "CkQ7AAAA62ZnYdxyhyNgFTz4gi8OsbggrzHNoNFkhl6ea_eXXrlq9CbcbrAcGlt8jcncyDknEhs25DwQp-khhhgaDEQOJBIQZicW3fhQ5rgVivf_1n2lrxoUdeWRcAr4zMKFc4JDTBvcFg3nQs8", 
+        "structured_formatting": {
+            "secondary_text": "Merrick Boulevard, Queens, NY, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 3, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "USA Diner"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 3, 
+                "offset": 0
+            }
+        ], 
+        "place_id": "ChIJaUO0AAxkwokRwiYK54CVvhY", 
+        "id": "e1f38d88666be04c78091f52f17f83be2d2520eb", 
+        "types": [
+            "establishment"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "USA Scrubs", 
+                "offset": 0
+            }, 
+            {
+                "value": "Jamaica Avenue", 
+                "offset": 12
+            }, 
+            {
+                "value": "Jamaica", 
+                "offset": 28
+            }, 
+            {
+                "value": "NY", 
+                "offset": 37
+            }, 
+            {
+                "value": "USA", 
+                "offset": 41
+            }
+        ], 
+        "description": "USA Scrubs, Jamaica Avenue, Jamaica, NY, USA", 
+        "reference": "CkQ7AAAAXk3OnWhOUbmaO-B5u6Lw96P2dYxjRa-3cOAT2zB__oDyIEe7Zcelk8qgoN_isHhQJwis4wTsHTFG4rVSXYeyBBIQ5yS8vhi_TMgT22iEEEOupRoUiOVAFmenLcZthzXqb9Bh8T6W1RY", 
+        "structured_formatting": {
+            "secondary_text": "Jamaica Avenue, Jamaica, NY, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 3, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "USA Scrubs"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 3, 
+                "offset": 0
+            }
+        ], 
+        "place_id": "ChIJYx475sdgwokRC6HDXmvi7q0", 
+        "id": "b5524c2a43f3e30d9ab023503ab9bd6535172fb6", 
+        "types": [
+            "establishment"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "USA Car Wash", 
+                "offset": 0
+            }, 
+            {
+                "value": "Jamaica Avenue", 
+                "offset": 14
+            }, 
+            {
+                "value": "Queens Village", 
+                "offset": 30
+            }, 
+            {
+                "value": "NY", 
+                "offset": 46
+            }, 
+            {
+                "value": "USA", 
+                "offset": 50
+            }
+        ], 
+        "description": "USA Car Wash, Jamaica Avenue, Queens Village, NY, USA", 
+        "reference": "ClRDAAAA9ExuyTP2vKyVqhjKPCEWFjxPQ9GnfU5qJgPcBhHyOYopbuPnAZiyLa-iqZp6RLMBjon9TzMioby4PtBsAVBHpmTBCBX0X83SfhEFOamQx0MSEKOWKQd20aW9AWrutv5kZLIaFOLwEtWwIUYQe3z6B9WAqSiFOHLH", 
+        "structured_formatting": {
+            "secondary_text": "Jamaica Avenue, Queens Village, NY, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 3, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "USA Car Wash"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 3, 
+                "offset": 0
+            }
+        ], 
+        "place_id": "ChIJpx3PFNZjwokRYDdkeJzswDw", 
+        "id": "a579c94a798448bae13a27e96d39dba80f53447a", 
+        "types": [
+            "establishment"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "USA Shaolin Temple", 
+                "offset": 0
+            }, 
+            {
+                "value": "Allen Street", 
+                "offset": 20
+            }, 
+            {
+                "value": "New York", 
+                "offset": 34
+            }, 
+            {
+                "value": "NY", 
+                "offset": 44
+            }, 
+            {
+                "value": "USA", 
+                "offset": 48
+            }
+        ], 
+        "description": "USA Shaolin Temple, Allen Street, New York, NY, USA", 
+        "reference": "ClRCAAAAxNDcf_mu7kT44ydf2hS4uoM2mJUoFOjEZBjHlMzOuIr4iXLOAvcq6zerd311Yx7N3vSUEz0WAHUXtilLvHhME84HFsxALx7aZWLCDspYYzYSEP6hlnkTD9bUkfBEYFjjAEQaFLqz2NC-Z7WDFeiN7LRzlAkEG7u2", 
+        "structured_formatting": {
+            "secondary_text": "Allen Street, New York, NY, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 3, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "USA Shaolin Temple"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 3, 
+                "offset": 0
+            }
+        ], 
+        "place_id": "ChIJx6-ILopZwokRNek04EhAQOI", 
+        "id": "03aa834f11632b27dc2e59c3a542792f8052dda5", 
+        "types": [
+            "establishment"
+        ]
+    }
+]
+[{u'terms': [{u'value': u'Hill Country Boulevard', u'offset': 0}, {u'value': u'Bee Cave', u'offset': 24}, {u'value': u'Texas', u'offset': 34}, {u'value': u'USA', u'offset': 41}], u'description': u'Hill Country Boulevard, Bee Cave, Texas, USA', u'reference': u'CjQwAAAAnlQBtD_adU7ecwZuAywz6GlFvaKsiuMqzo2yLwZolpKT90K7xXgNur0S9NmsML_HEhAe7C3XgjIqqY9JcqGaVxVOGhSyBUV78YhWEbyt7ElS_AFGjo-Dxg', u'structured_formatting': {u'secondary_text_matched_substrings': [{u'length': 5, u'offset': 10}], u'secondary_text': u'Bee Cave, Texas, USA', u'main_text_matched_substrings': [{u'length': 12, u'offset': 0}], u'main_text': u'Hill Country Boulevard'}, u'matched_substrings': [{u'length': 12, u'offset': 0}, {u'length': 5, u'offset': 34}], u'place_id': u'EixIaWxsIENvdW50cnkgQm91bGV2YXJkLCBCZWUgQ2F2ZSwgVGV4YXMsIFVTQQ', u'id': u'24475a27e4d57d82899bec6b903db37a1527a1dd', u'types': [u'route', u'geocode']}, {u'terms': [{u'value': u'Hill Country Galleria', u'offset': 0}, {u'value': u'Bee Cave', u'offset': 23}, {u'value': u'Texas', u'offset': 33}, {u'value': u'USA', u'offset': 40}], u'description': u'Hill Country Galleria, Bee Cave, Texas, USA', u'reference': u'ClRDAAAAu2AZfbVKSlETq2th8P16Rz-3c5fOu82jktYTnoStqZuBWFT_nRYZ-hDtTJrc1hqMj07MWpDMKiVQnGbRnwmEyZrkR4pTeVBGAtIH0k4PZw8SECgDyYzCVNfaWcIChbCYCNsaFBjEJkINou_CX5-_FM4XkYE2t555', u'structured_formatting': {u'secondary_text_matched_substrings': [{u'length': 5, u'offset': 10}], u'secondary_text': u'Bee Cave, Texas, USA', u'main_text_matched_substrings': [{u'length': 12, u'offset': 0}], u'main_text': u'Hill Country Galleria'}, u'matched_substrings': [{u'length': 12, u'offset': 0}, {u'length': 5, u'offset': 33}], u'place_id': u'ChIJXy1GHpU3W4YRVLB1AczWh6Q', u'id': u'7bcb0466d81a597f50c7b37abbcd43d4656ac5a7', u'types': [u'neighborhood', u'political', u'geocode']}, {u'terms': [{u'value': u'Hill Country Village', u'offset': 0}, {u'value': u'Texas', u'offset': 22}, {u'value': u'USA', u'offset': 29}], u'description': u'Hill Country Village, Texas, USA', u'reference': u'CkQ4AAAA62UwqMn05j0oI0wskhgxGYIPLVNXLu6k8Jw-76GLPM4FSnRYJ8oxq9nEw8mxjC4pHu0h4915ELi072xok5W-MRIQ_Sry0KnRDp2xlFXlLgD0JxoU997ilj_-wzAcEVwndJa-NEiMZpY', u'structured_formatting': {u'secondary_text_matched_substrings': [{u'length': 5, u'offset': 0}], u'secondary_text': u'Texas, USA', u'main_text_matched_substrings': [{u'length': 12, u'offset': 0}], u'main_text': u'Hill Country Village'}, u'matched_substrings': [{u'length': 12, u'offset': 0}, {u'length': 5, u'offset': 22}], u'place_id': u'ChIJq8Wm9nGKXIYR9ivIKS0Lz6g', u'id': u'c025fae7460275843fe45058cdc3c174af1411e8', u'types': [u'locality', u'political', u'geocode']}, {u'terms': [{u'value': u'Hill Country Drive', u'offset': 0}, {u'value': u'Kerrville', u'offset': 20}, {u'value': u'Texas', u'offset': 31}, {u'value': u'USA', u'offset': 38}], u'description': u'Hill Country Drive, Kerrville, Texas, USA', u'reference': u'CjQtAAAADnPAWk3pzy0picThToGL0kkZy4OxfsgmJfIgTBYf-QjSAjPZAvIHZilKdGByn3wqEhAec7wyvY_RHCCg1rYdiiLzGhSWza1Kqil1_Qym0lEz_ZAhAyY-DA', u'structured_formatting': {u'secondary_text_matched_substrings': [{u'length': 5, u'offset': 11}], u'secondary_text': u'Kerrville, Texas, USA', u'main_text_matched_substrings': [{u'length': 12, u'offset': 0}], u'main_text': u'Hill Country Drive'}, u'matched_substrings': [{u'length': 12, u'offset': 0}, {u'length': 5, u'offset': 31}], u'place_id': u'EilIaWxsIENvdW50cnkgRHJpdmUsIEtlcnJ2aWxsZSwgVGV4YXMsIFVTQQ', u'id': u'9c75a4fa856c10f0ffced7ecfcdfd929d98afacb', u'types': [u'route', u'geocode']}]
+[
+    {
+        "terms": [
+            {
+                "value": "Hill Country Boulevard", 
+                "offset": 0
+            }, 
+            {
+                "value": "Bee Cave", 
+                "offset": 24
+            }, 
+            {
+                "value": "Texas", 
+                "offset": 34
+            }, 
+            {
+                "value": "USA", 
+                "offset": 41
+            }
+        ], 
+        "description": "Hill Country Boulevard, Bee Cave, Texas, USA", 
+        "reference": "CjQwAAAAnlQBtD_adU7ecwZuAywz6GlFvaKsiuMqzo2yLwZolpKT90K7xXgNur0S9NmsML_HEhAe7C3XgjIqqY9JcqGaVxVOGhSyBUV78YhWEbyt7ElS_AFGjo-Dxg", 
+        "structured_formatting": {
+            "secondary_text_matched_substrings": [
+                {
+                    "length": 5, 
+                    "offset": 10
+                }
+            ], 
+            "secondary_text": "Bee Cave, Texas, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 12, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Hill Country Boulevard"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 12, 
+                "offset": 0
+            }, 
+            {
+                "length": 5, 
+                "offset": 34
+            }
+        ], 
+        "place_id": "EixIaWxsIENvdW50cnkgQm91bGV2YXJkLCBCZWUgQ2F2ZSwgVGV4YXMsIFVTQQ", 
+        "id": "24475a27e4d57d82899bec6b903db37a1527a1dd", 
+        "types": [
+            "route", 
+            "geocode"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "Hill Country Galleria", 
+                "offset": 0
+            }, 
+            {
+                "value": "Bee Cave", 
+                "offset": 23
+            }, 
+            {
+                "value": "Texas", 
+                "offset": 33
+            }, 
+            {
+                "value": "USA", 
+                "offset": 40
+            }
+        ], 
+        "description": "Hill Country Galleria, Bee Cave, Texas, USA", 
+        "reference": "ClRDAAAAu2AZfbVKSlETq2th8P16Rz-3c5fOu82jktYTnoStqZuBWFT_nRYZ-hDtTJrc1hqMj07MWpDMKiVQnGbRnwmEyZrkR4pTeVBGAtIH0k4PZw8SECgDyYzCVNfaWcIChbCYCNsaFBjEJkINou_CX5-_FM4XkYE2t555", 
+        "structured_formatting": {
+            "secondary_text_matched_substrings": [
+                {
+                    "length": 5, 
+                    "offset": 10
+                }
+            ], 
+            "secondary_text": "Bee Cave, Texas, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 12, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Hill Country Galleria"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 12, 
+                "offset": 0
+            }, 
+            {
+                "length": 5, 
+                "offset": 33
+            }
+        ], 
+        "place_id": "ChIJXy1GHpU3W4YRVLB1AczWh6Q", 
+        "id": "7bcb0466d81a597f50c7b37abbcd43d4656ac5a7", 
+        "types": [
+            "neighborhood", 
+            "political", 
+            "geocode"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "Hill Country Village", 
+                "offset": 0
+            }, 
+            {
+                "value": "Texas", 
+                "offset": 22
+            }, 
+            {
+                "value": "USA", 
+                "offset": 29
+            }
+        ], 
+        "description": "Hill Country Village, Texas, USA", 
+        "reference": "CkQ4AAAA62UwqMn05j0oI0wskhgxGYIPLVNXLu6k8Jw-76GLPM4FSnRYJ8oxq9nEw8mxjC4pHu0h4915ELi072xok5W-MRIQ_Sry0KnRDp2xlFXlLgD0JxoU997ilj_-wzAcEVwndJa-NEiMZpY", 
+        "structured_formatting": {
+            "secondary_text_matched_substrings": [
+                {
+                    "length": 5, 
+                    "offset": 0
+                }
+            ], 
+            "secondary_text": "Texas, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 12, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Hill Country Village"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 12, 
+                "offset": 0
+            }, 
+            {
+                "length": 5, 
+                "offset": 22
+            }
+        ], 
+        "place_id": "ChIJq8Wm9nGKXIYR9ivIKS0Lz6g", 
+        "id": "c025fae7460275843fe45058cdc3c174af1411e8", 
+        "types": [
+            "locality", 
+            "political", 
+            "geocode"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "Hill Country Drive", 
+                "offset": 0
+            }, 
+            {
+                "value": "Kerrville", 
+                "offset": 20
+            }, 
+            {
+                "value": "Texas", 
+                "offset": 31
+            }, 
+            {
+                "value": "USA", 
+                "offset": 38
+            }
+        ], 
+        "description": "Hill Country Drive, Kerrville, Texas, USA", 
+        "reference": "CjQtAAAADnPAWk3pzy0picThToGL0kkZy4OxfsgmJfIgTBYf-QjSAjPZAvIHZilKdGByn3wqEhAec7wyvY_RHCCg1rYdiiLzGhSWza1Kqil1_Qym0lEz_ZAhAyY-DA", 
+        "structured_formatting": {
+            "secondary_text_matched_substrings": [
+                {
+                    "length": 5, 
+                    "offset": 11
+                }
+            ], 
+            "secondary_text": "Kerrville, Texas, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 12, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Hill Country Drive"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 12, 
+                "offset": 0
+            }, 
+            {
+                "length": 5, 
+                "offset": 31
+            }
+        ], 
+        "place_id": "EilIaWxsIENvdW50cnkgRHJpdmUsIEtlcnJ2aWxsZSwgVGV4YXMsIFVTQQ", 
+        "id": "9c75a4fa856c10f0ffced7ecfcdfd929d98afacb", 
+        "types": [
+            "route", 
+            "geocode"
+        ]
+    }
+]
+[{u'terms': [{u'value': u'Texas Chicken and Burgers', u'offset': 0}, {u'value': u'Jamaica Avenue', u'offset': 27}, {u'value': u'Jamaica', u'offset': 43}, {u'value': u'NY', u'offset': 52}, {u'value': u'USA', u'offset': 56}], u'description': u'Texas Chicken and Burgers, Jamaica Avenue, Jamaica, NY, USA', u'reference': u'ClRKAAAATdlQ8kQTlWFfbgAWjGejNK1cPw-T-aAVap--T_ya9foml2lXlkU5P0RTELHQcNgxL3xnNANJem7ucZasODw2JQlbWNVsSEfoYbhdom1ZbtYSELtXiKBxA12Ooji1qp0IwpIaFJxSEYh4JTF5oUmaZT3IGAPyPNgZ', u'structured_formatting': {u'secondary_text': u'Jamaica Avenue, Jamaica, NY, USA', u'main_text_matched_substrings': [{u'length': 5, u'offset': 0}], u'main_text': u'Texas Chicken and Burgers'}, u'matched_substrings': [{u'length': 5, u'offset': 0}], u'place_id': u'ChIJuTV5bMVgwokRljSzo6xwR8s', u'id': u'5cdce36dcb7087560e279437566ba1bdbf025058', u'types': [u'establishment']}, {u'terms': [{u'value': u'Texas Chicken and Burgers', u'offset': 0}, {u'value': u'Hillside Avenue', u'offset': 27}, {u'value': u'Glen Oaks', u'offset': 44}, {u'value': u'NY', u'offset': 55}, {u'value': u'USA', u'offset': 59}], u'description': u'Texas Chicken and Burgers, Hillside Avenue, Glen Oaks, NY, USA', u'reference': u'ClRMAAAAwyBPih7XPTc-L4NxVupALzwBrdLXpxgysNUZaLEeXVLi2S3EJKvn9UQRUyfX9L7OEh8GFzIt1A1DJx_ZnPBetMZDJFt-hP2XJ2RoYQTfLW4SEHrlHDSt8V3Y7X-4LPTbju0aFJUo2Nl1uWAhFgd6D0Rd1n2M4yqk', u'structured_formatting': {u'secondary_text': u'Hillside Avenue, Glen Oaks, NY, USA', u'main_text_matched_substrings': [{u'length': 5, u'offset': 0}], u'main_text': u'Texas Chicken and Burgers'}, u'matched_substrings': [{u'length': 5, u'offset': 0}], u'place_id': u'ChIJnbxU42diwokRegCPGLYS40g', u'id': u'43392d2b3c3b6f5f6d9518601b11cc543a27daff', u'types': [u'establishment']}, {u'terms': [{u'value': u'Texas Arizona', u'offset': 0}, {u'value': u'River Street', u'offset': 15}, {u'value': u'Hoboken', u'offset': 29}, {u'value': u'NJ', u'offset': 38}, {u'value': u'USA', u'offset': 42}], u'description': u'Texas Arizona, River Street, Hoboken, NJ, USA', u'reference': u'CkQ7AAAAsAAOyyKPFvY6d3XhG4wC2BB2AyJoC9kC-QsEJ_QwppV-kH7m9DQKrFJYSs7AojtB-NCUxrFvvevD_uGKTAXECRIQCeYw_NCuppE2PWtJjUg3ExoU0Ypm2zcl7f-Sj1Gd6dMxUuL6Y-4', u'structured_formatting': {u'secondary_text': u'River Street, Hoboken, NJ, USA', u'main_text_matched_substrings': [{u'length': 5, u'offset': 0}], u'main_text': u'Texas Arizona'}, u'matched_substrings': [{u'length': 5, u'offset': 0}], u'place_id': u'ChIJPQG_D-JZwokRWKoJ6IkZ5g0', u'id': u'491ff1ddc7abd94a40d991bc38b68cf237333c2c', u'types': [u'establishment']}, {u'terms': [{u'value': u'Texas Fried Chickens', u'offset': 0}, {u'value': u'Cypress Avenue', u'offset': 22}, {u'value': u'Ridgewood', u'offset': 38}, {u'value': u'NY', u'offset': 49}, {u'value': u'USA', u'offset': 53}], u'description': u'Texas Fried Chickens, Cypress Avenue, Ridgewood, NY, USA', u'reference': u'ClRHAAAAnjSPvZ-q2Ydmzl8lJ4uqHOxNbRcZwLNzP00Px1gwkR9F6WcNj8uljq-r-FwQSgjGZyQuQkc-TWtRcvXJmOTHz2TES0vXe9Yse3rqvwyA5rQSECsV47lIQnxJPrXxxbcovOsaFNCberkxGZCRXnTtTnmXsGQ6QghJ', u'structured_formatting': {u'secondary_text': u'Cypress Avenue, Ridgewood, NY, USA', u'main_text_matched_substrings': [{u'length': 5, u'offset': 0}], u'main_text': u'Texas Fried Chickens'}, u'matched_substrings': [{u'length': 5, u'offset': 0}], u'place_id': u'ChIJMSw9siZcwokRit1NSlQx-Zg', u'id': u'535e3d8a29b9d76f02f8993a8f1aa1feba511472', u'types': [u'establishment']}, {u'terms': [{u'value': u'Texas', u'offset': 0}, {u'value': u'USA', u'offset': 7}], u'description': u'Texas, USA', u'reference': u'CjQiAAAAmMjboR9xuMfDiHYVOJOMK7BzYhrbRYPPcKMD1UVu0pG15ynrdBG8jLN2RuCtdqLMEhAWpITfDLqnPHvOT3S9CV8YGhRQU9q6t7i3DKMpCNJDT2ncw9Pv4Q', u'structured_formatting': {u'secondary_text': u'USA', u'main_text_matched_substrings': [{u'length': 5, u'offset': 0}], u'main_text': u'Texas'}, u'matched_substrings': [{u'length': 5, u'offset': 0}], u'place_id': u'ChIJSTKCCzZwQIYRPN4IGI8c6xY', u'id': u'fa1cc982068f7721fcb8400b99e927077f5aa25f', u'types': [u'administrative_area_level_1', u'political', u'geocode']}]
+[
+    {
+        "terms": [
+            {
+                "value": "Texas Chicken and Burgers", 
+                "offset": 0
+            }, 
+            {
+                "value": "Jamaica Avenue", 
+                "offset": 27
+            }, 
+            {
+                "value": "Jamaica", 
+                "offset": 43
+            }, 
+            {
+                "value": "NY", 
+                "offset": 52
+            }, 
+            {
+                "value": "USA", 
+                "offset": 56
+            }
+        ], 
+        "description": "Texas Chicken and Burgers, Jamaica Avenue, Jamaica, NY, USA", 
+        "reference": "ClRKAAAATdlQ8kQTlWFfbgAWjGejNK1cPw-T-aAVap--T_ya9foml2lXlkU5P0RTELHQcNgxL3xnNANJem7ucZasODw2JQlbWNVsSEfoYbhdom1ZbtYSELtXiKBxA12Ooji1qp0IwpIaFJxSEYh4JTF5oUmaZT3IGAPyPNgZ", 
+        "structured_formatting": {
+            "secondary_text": "Jamaica Avenue, Jamaica, NY, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 5, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Texas Chicken and Burgers"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 5, 
+                "offset": 0
+            }
+        ], 
+        "place_id": "ChIJuTV5bMVgwokRljSzo6xwR8s", 
+        "id": "5cdce36dcb7087560e279437566ba1bdbf025058", 
+        "types": [
+            "establishment"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "Texas Chicken and Burgers", 
+                "offset": 0
+            }, 
+            {
+                "value": "Hillside Avenue", 
+                "offset": 27
+            }, 
+            {
+                "value": "Glen Oaks", 
+                "offset": 44
+            }, 
+            {
+                "value": "NY", 
+                "offset": 55
+            }, 
+            {
+                "value": "USA", 
+                "offset": 59
+            }
+        ], 
+        "description": "Texas Chicken and Burgers, Hillside Avenue, Glen Oaks, NY, USA", 
+        "reference": "ClRMAAAAwyBPih7XPTc-L4NxVupALzwBrdLXpxgysNUZaLEeXVLi2S3EJKvn9UQRUyfX9L7OEh8GFzIt1A1DJx_ZnPBetMZDJFt-hP2XJ2RoYQTfLW4SEHrlHDSt8V3Y7X-4LPTbju0aFJUo2Nl1uWAhFgd6D0Rd1n2M4yqk", 
+        "structured_formatting": {
+            "secondary_text": "Hillside Avenue, Glen Oaks, NY, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 5, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Texas Chicken and Burgers"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 5, 
+                "offset": 0
+            }
+        ], 
+        "place_id": "ChIJnbxU42diwokRegCPGLYS40g", 
+        "id": "43392d2b3c3b6f5f6d9518601b11cc543a27daff", 
+        "types": [
+            "establishment"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "Texas Arizona", 
+                "offset": 0
+            }, 
+            {
+                "value": "River Street", 
+                "offset": 15
+            }, 
+            {
+                "value": "Hoboken", 
+                "offset": 29
+            }, 
+            {
+                "value": "NJ", 
+                "offset": 38
+            }, 
+            {
+                "value": "USA", 
+                "offset": 42
+            }
+        ], 
+        "description": "Texas Arizona, River Street, Hoboken, NJ, USA", 
+        "reference": "CkQ7AAAAsAAOyyKPFvY6d3XhG4wC2BB2AyJoC9kC-QsEJ_QwppV-kH7m9DQKrFJYSs7AojtB-NCUxrFvvevD_uGKTAXECRIQCeYw_NCuppE2PWtJjUg3ExoU0Ypm2zcl7f-Sj1Gd6dMxUuL6Y-4", 
+        "structured_formatting": {
+            "secondary_text": "River Street, Hoboken, NJ, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 5, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Texas Arizona"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 5, 
+                "offset": 0
+            }
+        ], 
+        "place_id": "ChIJPQG_D-JZwokRWKoJ6IkZ5g0", 
+        "id": "491ff1ddc7abd94a40d991bc38b68cf237333c2c", 
+        "types": [
+            "establishment"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "Texas Fried Chickens", 
+                "offset": 0
+            }, 
+            {
+                "value": "Cypress Avenue", 
+                "offset": 22
+            }, 
+            {
+                "value": "Ridgewood", 
+                "offset": 38
+            }, 
+            {
+                "value": "NY", 
+                "offset": 49
+            }, 
+            {
+                "value": "USA", 
+                "offset": 53
+            }
+        ], 
+        "description": "Texas Fried Chickens, Cypress Avenue, Ridgewood, NY, USA", 
+        "reference": "ClRHAAAAnjSPvZ-q2Ydmzl8lJ4uqHOxNbRcZwLNzP00Px1gwkR9F6WcNj8uljq-r-FwQSgjGZyQuQkc-TWtRcvXJmOTHz2TES0vXe9Yse3rqvwyA5rQSECsV47lIQnxJPrXxxbcovOsaFNCberkxGZCRXnTtTnmXsGQ6QghJ", 
+        "structured_formatting": {
+            "secondary_text": "Cypress Avenue, Ridgewood, NY, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 5, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Texas Fried Chickens"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 5, 
+                "offset": 0
+            }
+        ], 
+        "place_id": "ChIJMSw9siZcwokRit1NSlQx-Zg", 
+        "id": "535e3d8a29b9d76f02f8993a8f1aa1feba511472", 
+        "types": [
+            "establishment"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "Texas", 
+                "offset": 0
+            }, 
+            {
+                "value": "USA", 
+                "offset": 7
+            }
+        ], 
+        "description": "Texas, USA", 
+        "reference": "CjQiAAAAmMjboR9xuMfDiHYVOJOMK7BzYhrbRYPPcKMD1UVu0pG15ynrdBG8jLN2RuCtdqLMEhAWpITfDLqnPHvOT3S9CV8YGhRQU9q6t7i3DKMpCNJDT2ncw9Pv4Q", 
+        "structured_formatting": {
+            "secondary_text": "USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 5, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Texas"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 5, 
+                "offset": 0
+            }
+        ], 
+        "place_id": "ChIJSTKCCzZwQIYRPN4IGI8c6xY", 
+        "id": "fa1cc982068f7721fcb8400b99e927077f5aa25f", 
+        "types": [
+            "administrative_area_level_1", 
+            "political", 
+            "geocode"
+        ]
+    }
+]
+[{u'terms': [{u'value': u'Pacific Northwest Trail', u'offset': 0}, {u'value': u'Bow', u'offset': 25}, {u'value': u'WA', u'offset': 30}, {u'value': u'USA', u'offset': 34}], u'description': u'Pacific Northwest Trail, Bow, WA, USA', u'reference': u'CjQpAAAAI6VpaxEnlWbq1_MjO5e67o5_sQ4mhsivIxaUfDDCS6n0mOys27fvdpUn_il5g2nXEhBVLOoj2N7ud-0oI7LijFDhGhT3fYNYsfJS5ztZt0E5KGQg_uEIRQ', u'structured_formatting': {u'secondary_text': u'Bow, WA, USA', u'main_text_matched_substrings': [{u'length': 17, u'offset': 0}], u'main_text': u'Pacific Northwest Trail'}, u'matched_substrings': [{u'length': 17, u'offset': 0}], u'place_id': u'EiVQYWNpZmljIE5vcnRod2VzdCBUcmFpbCwgQm93LCBXQSwgVVNB', u'id': u'041e247d23b8f73e9ce4c0fa1587c3e2833e4fd7', u'types': [u'route', u'geocode']}]
+[
+    {
+        "terms": [
+            {
+                "value": "Pacific Northwest Trail", 
+                "offset": 0
+            }, 
+            {
+                "value": "Bow", 
+                "offset": 25
+            }, 
+            {
+                "value": "WA", 
+                "offset": 30
+            }, 
+            {
+                "value": "USA", 
+                "offset": 34
+            }
+        ], 
+        "description": "Pacific Northwest Trail, Bow, WA, USA", 
+        "reference": "CjQpAAAAI6VpaxEnlWbq1_MjO5e67o5_sQ4mhsivIxaUfDDCS6n0mOys27fvdpUn_il5g2nXEhBVLOoj2N7ud-0oI7LijFDhGhT3fYNYsfJS5ztZt0E5KGQg_uEIRQ", 
+        "structured_formatting": {
+            "secondary_text": "Bow, WA, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 17, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Pacific Northwest Trail"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 17, 
+                "offset": 0
+            }
+        ], 
+        "place_id": "EiVQYWNpZmljIE5vcnRod2VzdCBUcmFpbCwgQm93LCBXQSwgVVNB", 
+        "id": "041e247d23b8f73e9ce4c0fa1587c3e2833e4fd7", 
+        "types": [
+            "route", 
+            "geocode"
+        ]
+    }
+]
+[{u'terms': [{u'value': u'USA', u'offset': 0}], u'description': u'USA', u'reference': u'CiQbAAAAfwkM1vPE8pcT2TxH4fyoFFY3qHJTfHLO0UCbjnmyB2sSEAOLDU9F-sLV5LFdGDcUE44aFNz184BQCWQPhKR2YwikUwcDlfyy', u'structured_formatting': {u'main_text_matched_substrings': [{u'length': 2, u'offset': 0}], u'main_text': u'USA'}, u'matched_substrings': [{u'length': 2, u'offset': 0}], u'place_id': u'ChIJCzYy5IS16lQRQrfeQ5K5Oxw', u'id': u'88564d30369b045e767b90442f46a1245864c58f', u'types': [u'country', u'political', u'geocode']}, {u'terms': [{u'value': u'USTA Billie Jean King National Tennis Center', u'offset': 0}, {u'value': u'Flushing', u'offset': 46}, {u'value': u'NY', u'offset': 56}, {u'value': u'USA', u'offset': 60}], u'description': u'USTA Billie Jean King National Tennis Center, Flushing, NY, USA', u'reference': u'ClROAAAAz3DX97naa-XbYPRbWxYkdXvvSuNs-b-WopZLOs2tWQOBom2v6rvU76NHWXRDcAaRU0Vvp5WSJeJYjIqMG-_6x3zPY_Qk1BnTVnKjue7D7MgSECrSbLIem2hefKnpf02mX00aFKcmdJkMtNCov7KqgfbujR1ChSEP', u'structured_formatting': {u'secondary_text': u'Flushing, NY, USA', u'main_text_matched_substrings': [{u'length': 2, u'offset': 0}], u'main_text': u'USTA Billie Jean King National Tennis Center'}, u'matched_substrings': [{u'length': 2, u'offset': 0}], u'place_id': u'ChIJA77QN9lfwokRRmMsefeNEbA', u'id': u'30104674e715f10525863a56c98c166704e78470', u'types': [u'establishment']}, {u'terms': [{u'value': u'US Supermarket', u'offset': 0}, {u'value': u'Broadway', u'offset': 16}, {u'value': u'Queens', u'offset': 26}, {u'value': u'NY', u'offset': 34}, {u'value': u'USA', u'offset': 38}], u'description': u'US Supermarket, Broadway, Queens, NY, USA', u'reference': u'CkQ3AAAALR2YVAPqLtT_TBPFC_IdvmW1THPUUgkqB1LI3ofjc23bFqNPLnzRfsQPmi6a6yiAfX0gWqSrXvSiAopFllZf1BIQ8Ygq3j-eWS1T96J8-pEv0xoUrCeUnO7s1mHNeScIrFWTeel6428', u'structured_formatting': {u'secondary_text': u'Broadway, Queens, NY, USA', u'main_text_matched_substrings': [{u'length': 2, u'offset': 0}], u'main_text': u'US Supermarket'}, u'matched_substrings': [{u'length': 2, u'offset': 0}], u'place_id': u'ChIJ_yZSxKxfwokRPey0TCSF2XQ', u'id': u'5c85b498396a7b1dc5d4b72a7dd32090a05f350a', u'types': [u'establishment']}, {u'terms': [{u'value': u'USPS', u'offset': 0}, {u'value': u'Union Street', u'offset': 6}, {u'value': u'Flushing', u'offset': 20}, {u'value': u'NY', u'offset': 30}, {u'value': u'USA', u'offset': 34}], u'description': u'USPS, Union Street, Flushing, NY, USA', u'reference': u'CkQ0AAAACExDVTzLFoNCL4EEZkwG8ER51sj7oqNOcghzGc0rjtw5-b2rmz_6C-YUMwZl78b-JEUYO-YWVuv4OxylFNnwIhIQL7XYtA0h_TshMJkQ1smQvhoUGA3-P9VZQmmIZot7g_3w4msh47M', u'structured_formatting': {u'secondary_text': u'Union Street, Flushing, NY, USA', u'main_text_matched_substrings': [{u'length': 2, u'offset': 0}], u'main_text': u'USPS'}, u'matched_substrings': [{u'length': 2, u'offset': 0}], u'place_id': u'ChIJD6zdoB1gwokRyklrzhVc15c', u'id': u'5c5b1e0e0cc2b1b0dffcc92200a825ef947a2546', u'types': [u'establishment']}, {u'terms': [{u'value': u'Usha Foods', u'offset': 0}, {u'value': u'Hillside Avenue', u'offset': 12}, {u'value': u'Queens', u'offset': 29}, {u'value': u'NY', u'offset': 37}, {u'value': u'USA', u'offset': 41}], u'description': u'Usha Foods, Hillside Avenue, Queens, NY, USA', u'reference': u'CkQ7AAAAZSW25CdDRUqfbpiLUTPsFE1lbaoDXJnRbbR6fvSCStZfgEwmoWS49tk-yg6S_Cc3TtPOI0xnbjspEBfQo7MIDxIQsh4yKhJytBEH3hWx5uR6ShoUyqbxyn0sKbzdrniA_eqY_-yjM5A', u'structured_formatting': {u'secondary_text': u'Hillside Avenue, Queens, NY, USA', u'main_text_matched_substrings': [{u'length': 2, u'offset': 0}], u'main_text': u'Usha Foods'}, u'matched_substrings': [{u'length': 2, u'offset': 0}], u'place_id': u'ChIJg0z5BmhiwokR2ZXMS-mNjZU', u'id': u'15fcef6616e6761e23b5b2fc3df716d5c08fcf65', u'types': [u'establishment']}]
+[
+    {
+        "terms": [
+            {
+                "value": "USA", 
+                "offset": 0
+            }
+        ], 
+        "description": "USA", 
+        "reference": "CiQbAAAAfwkM1vPE8pcT2TxH4fyoFFY3qHJTfHLO0UCbjnmyB2sSEAOLDU9F-sLV5LFdGDcUE44aFNz184BQCWQPhKR2YwikUwcDlfyy", 
+        "structured_formatting": {
+            "main_text_matched_substrings": [
+                {
+                    "length": 2, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "USA"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 2, 
+                "offset": 0
+            }
+        ], 
+        "place_id": "ChIJCzYy5IS16lQRQrfeQ5K5Oxw", 
+        "id": "88564d30369b045e767b90442f46a1245864c58f", 
+        "types": [
+            "country", 
+            "political", 
+            "geocode"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "USTA Billie Jean King National Tennis Center", 
+                "offset": 0
+            }, 
+            {
+                "value": "Flushing", 
+                "offset": 46
+            }, 
+            {
+                "value": "NY", 
+                "offset": 56
+            }, 
+            {
+                "value": "USA", 
+                "offset": 60
+            }
+        ], 
+        "description": "USTA Billie Jean King National Tennis Center, Flushing, NY, USA", 
+        "reference": "ClROAAAAz3DX97naa-XbYPRbWxYkdXvvSuNs-b-WopZLOs2tWQOBom2v6rvU76NHWXRDcAaRU0Vvp5WSJeJYjIqMG-_6x3zPY_Qk1BnTVnKjue7D7MgSECrSbLIem2hefKnpf02mX00aFKcmdJkMtNCov7KqgfbujR1ChSEP", 
+        "structured_formatting": {
+            "secondary_text": "Flushing, NY, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 2, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "USTA Billie Jean King National Tennis Center"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 2, 
+                "offset": 0
+            }
+        ], 
+        "place_id": "ChIJA77QN9lfwokRRmMsefeNEbA", 
+        "id": "30104674e715f10525863a56c98c166704e78470", 
+        "types": [
+            "establishment"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "US Supermarket", 
+                "offset": 0
+            }, 
+            {
+                "value": "Broadway", 
+                "offset": 16
+            }, 
+            {
+                "value": "Queens", 
+                "offset": 26
+            }, 
+            {
+                "value": "NY", 
+                "offset": 34
+            }, 
+            {
+                "value": "USA", 
+                "offset": 38
+            }
+        ], 
+        "description": "US Supermarket, Broadway, Queens, NY, USA", 
+        "reference": "CkQ3AAAALR2YVAPqLtT_TBPFC_IdvmW1THPUUgkqB1LI3ofjc23bFqNPLnzRfsQPmi6a6yiAfX0gWqSrXvSiAopFllZf1BIQ8Ygq3j-eWS1T96J8-pEv0xoUrCeUnO7s1mHNeScIrFWTeel6428", 
+        "structured_formatting": {
+            "secondary_text": "Broadway, Queens, NY, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 2, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "US Supermarket"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 2, 
+                "offset": 0
+            }
+        ], 
+        "place_id": "ChIJ_yZSxKxfwokRPey0TCSF2XQ", 
+        "id": "5c85b498396a7b1dc5d4b72a7dd32090a05f350a", 
+        "types": [
+            "establishment"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "USPS", 
+                "offset": 0
+            }, 
+            {
+                "value": "Union Street", 
+                "offset": 6
+            }, 
+            {
+                "value": "Flushing", 
+                "offset": 20
+            }, 
+            {
+                "value": "NY", 
+                "offset": 30
+            }, 
+            {
+                "value": "USA", 
+                "offset": 34
+            }
+        ], 
+        "description": "USPS, Union Street, Flushing, NY, USA", 
+        "reference": "CkQ0AAAACExDVTzLFoNCL4EEZkwG8ER51sj7oqNOcghzGc0rjtw5-b2rmz_6C-YUMwZl78b-JEUYO-YWVuv4OxylFNnwIhIQL7XYtA0h_TshMJkQ1smQvhoUGA3-P9VZQmmIZot7g_3w4msh47M", 
+        "structured_formatting": {
+            "secondary_text": "Union Street, Flushing, NY, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 2, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "USPS"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 2, 
+                "offset": 0
+            }
+        ], 
+        "place_id": "ChIJD6zdoB1gwokRyklrzhVc15c", 
+        "id": "5c5b1e0e0cc2b1b0dffcc92200a825ef947a2546", 
+        "types": [
+            "establishment"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "Usha Foods", 
+                "offset": 0
+            }, 
+            {
+                "value": "Hillside Avenue", 
+                "offset": 12
+            }, 
+            {
+                "value": "Queens", 
+                "offset": 29
+            }, 
+            {
+                "value": "NY", 
+                "offset": 37
+            }, 
+            {
+                "value": "USA", 
+                "offset": 41
+            }
+        ], 
+        "description": "Usha Foods, Hillside Avenue, Queens, NY, USA", 
+        "reference": "CkQ7AAAAZSW25CdDRUqfbpiLUTPsFE1lbaoDXJnRbbR6fvSCStZfgEwmoWS49tk-yg6S_Cc3TtPOI0xnbjspEBfQo7MIDxIQsh4yKhJytBEH3hWx5uR6ShoUyqbxyn0sKbzdrniA_eqY_-yjM5A", 
+        "structured_formatting": {
+            "secondary_text": "Hillside Avenue, Queens, NY, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 2, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Usha Foods"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 2, 
+                "offset": 0
+            }
+        ], 
+        "place_id": "ChIJg0z5BmhiwokR2ZXMS-mNjZU", 
+        "id": "15fcef6616e6761e23b5b2fc3df716d5c08fcf65", 
+        "types": [
+            "establishment"
+        ]
+    }
+]
+[{u'terms': [{u'value': u'Nigeria', u'offset': 0}], u'description': u'Nigeria', u'reference': u'CiQfAAAAQbqyilvRV8wYwNzwChOyHOMUHyKpcYhB9o_C42Jh38USEHSbCZajWr59UuOComqKNREaFAYFsFfWlEOHtOml8l_nkhyGLShv', u'structured_formatting': {u'main_text_matched_substrings': [{u'length': 7, u'offset': 0}], u'main_text': u'Nigeria'}, u'matched_substrings': [{u'length': 7, u'offset': 0}], u'place_id': u'ChIJDY2kfa8LThARyAvFaEH-qJk', u'id': u'dffd1b1d292387e03aa1c750e4517350c76c567b', u'types': [u'country', u'political', u'geocode']}, {u'terms': [{u'value': u'Consulate General of Nigeria', u'offset': 0}, {u'value': u'2nd Avenue', u'offset': 30}, {u'value': u'New York', u'offset': 42}, {u'value': u'NY', u'offset': 52}, {u'value': u'USA', u'offset': 56}], u'description': u'Consulate General of Nigeria, 2nd Avenue, New York, NY, USA', u'reference': u'ClRKAAAAI41lDVqUsZ9U3RaDeBtJev-va12QSDSvBOa02-as8ZcPbZMkSKHMSzrsp4t6a_FfnDhdGu8DqiHFCKg7Zwaqs9qxQLYSzCutmOLixNvG898SENlmVw432sdlceOIgLqeZOIaFIFKTvDkspBkd5jGMvQmbPhH2xeX', u'structured_formatting': {u'secondary_text': u'2nd Avenue, New York, NY, USA', u'main_text_matched_substrings': [{u'length': 7, u'offset': 21}], u'main_text': u'Consulate General of Nigeria'}, u'matched_substrings': [{u'length': 7, u'offset': 21}], u'place_id': u'ChIJ9_hTKR1ZwokRtletPfvSBf8', u'id': u'6e97d642761fcb79792bcefaab962159debd9569', u'types': [u'establishment']}, {u'terms': [{u'value': u'Nigerian Food Truck', u'offset': 0}, {u'value': u'2nd Avenue', u'offset': 21}, {u'value': u'New York', u'offset': 33}, {u'value': u'NY', u'offset': 43}, {u'value': u'USA', u'offset': 47}], u'description': u'Nigerian Food Truck, 2nd Avenue, New York, NY, USA', u'reference': u'ClRBAAAA-eDOdNCiKyEhTYz9AnFTgfe1v0kfLVaDGEk7nG8FJ6F1uStQe0rFZDDB8g6oAhpmmmh8PKPrt8_CY-6-X3sUQ8IpuNLhJpdt9QpK_-kPNVYSEO0SpCr9Vq9Vl1RDFAHcqewaFB_FJCAlrXuiWGJhrqbSalIT-udU', u'structured_formatting': {u'secondary_text': u'2nd Avenue, New York, NY, USA', u'main_text_matched_substrings': [{u'length': 7, u'offset': 0}], u'main_text': u'Nigerian Food Truck'}, u'matched_substrings': [{u'length': 7, u'offset': 0}], u'place_id': u'ChIJsd56Kx1ZwokRIyBkQXkEyss', u'id': u'df5e2debc64e1b2e8990660cb76b6c5e62e4b4a1', u'types': [u'establishment']}, {u'terms': [{u'value': u'Nigerian American Muslim', u'offset': 0}, {u'value': u'Dean Street', u'offset': 26}, {u'value': u'Brooklyn', u'offset': 39}, {u'value': u'NY', u'offset': 49}, {u'value': u'USA', u'offset': 53}], u'description': u'Nigerian American Muslim, Dean Street, Brooklyn, NY, USA', u'reference': u'ClRHAAAArFf0MbBl-TiQpb4GqQRUOVV_dHwPHio0dKFMbNRdE5o0rroVUkt7hB6f5epSu8Y7Rv0pKaBRJpgZN6rGUZHCfCYpLICsRuyB6Szl0Go60JUSEAWj3ofCaPOUXQdCbE619tYaFFYpARI74eCfqOB4zf_pMavy6BqK', u'structured_formatting': {u'secondary_text': u'Dean Street, Brooklyn, NY, USA', u'main_text_matched_substrings': [{u'length': 7, u'offset': 0}], u'main_text': u'Nigerian American Muslim'}, u'matched_substrings': [{u'length': 7, u'offset': 0}], u'place_id': u'ChIJD41tx6NbwokREbaF9_UkX5g', u'id': u'0527ad8213e702ba291953394c0454edd77c2cd8', u'types': [u'establishment']}, {u'terms': [{u'value': u'Nigeria is A Kakistocracy', u'offset': 0}, {u'value': u'127th Street', u'offset': 27}, {u'value': u'South Ozone Park', u'offset': 41}, {u'value': u'NY', u'offset': 59}, {u'value': u'USA', u'offset': 63}], u'description': u'Nigeria is A Kakistocracy, 127th Street, South Ozone Park, NY, USA', u'reference': u'CmRRAAAA2PPcbnZDK8ERplcRJYiNkaalI83eHzgFpzlzm36jbs8PLj4yfZh-I1G8-4X-25XJfrujKr2f6PT-2t6S49jo0XRNso6yXr9gwh8FpF99xxNBOv39Nc0jZHeqVCXTt1S_EhDTK2JGl1dHPV0H2qlJOgoKGhSwDlBMDodgNdjpFBryK4zO7avWyg', u'structured_formatting': {u'secondary_text': u'127th Street, South Ozone Park, NY, USA', u'main_text_matched_substrings': [{u'length': 7, u'offset': 0}], u'main_text': u'Nigeria is A Kakistocracy'}, u'matched_substrings': [{u'length': 7, u'offset': 0}], u'place_id': u'ChIJEUUk6C1nwokRuzw6Uuvuy-I', u'id': u'688bca955c0ae51af5fd614d60c3e5f8591814bd', u'types': [u'establishment']}]
+[
+    {
+        "terms": [
+            {
+                "value": "Nigeria", 
+                "offset": 0
+            }
+        ], 
+        "description": "Nigeria", 
+        "reference": "CiQfAAAAQbqyilvRV8wYwNzwChOyHOMUHyKpcYhB9o_C42Jh38USEHSbCZajWr59UuOComqKNREaFAYFsFfWlEOHtOml8l_nkhyGLShv", 
+        "structured_formatting": {
+            "main_text_matched_substrings": [
+                {
+                    "length": 7, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Nigeria"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 7, 
+                "offset": 0
+            }
+        ], 
+        "place_id": "ChIJDY2kfa8LThARyAvFaEH-qJk", 
+        "id": "dffd1b1d292387e03aa1c750e4517350c76c567b", 
+        "types": [
+            "country", 
+            "political", 
+            "geocode"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "Consulate General of Nigeria", 
+                "offset": 0
+            }, 
+            {
+                "value": "2nd Avenue", 
+                "offset": 30
+            }, 
+            {
+                "value": "New York", 
+                "offset": 42
+            }, 
+            {
+                "value": "NY", 
+                "offset": 52
+            }, 
+            {
+                "value": "USA", 
+                "offset": 56
+            }
+        ], 
+        "description": "Consulate General of Nigeria, 2nd Avenue, New York, NY, USA", 
+        "reference": "ClRKAAAAI41lDVqUsZ9U3RaDeBtJev-va12QSDSvBOa02-as8ZcPbZMkSKHMSzrsp4t6a_FfnDhdGu8DqiHFCKg7Zwaqs9qxQLYSzCutmOLixNvG898SENlmVw432sdlceOIgLqeZOIaFIFKTvDkspBkd5jGMvQmbPhH2xeX", 
+        "structured_formatting": {
+            "secondary_text": "2nd Avenue, New York, NY, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 7, 
+                    "offset": 21
+                }
+            ], 
+            "main_text": "Consulate General of Nigeria"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 7, 
+                "offset": 21
+            }
+        ], 
+        "place_id": "ChIJ9_hTKR1ZwokRtletPfvSBf8", 
+        "id": "6e97d642761fcb79792bcefaab962159debd9569", 
+        "types": [
+            "establishment"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "Nigerian Food Truck", 
+                "offset": 0
+            }, 
+            {
+                "value": "2nd Avenue", 
+                "offset": 21
+            }, 
+            {
+                "value": "New York", 
+                "offset": 33
+            }, 
+            {
+                "value": "NY", 
+                "offset": 43
+            }, 
+            {
+                "value": "USA", 
+                "offset": 47
+            }
+        ], 
+        "description": "Nigerian Food Truck, 2nd Avenue, New York, NY, USA", 
+        "reference": "ClRBAAAA-eDOdNCiKyEhTYz9AnFTgfe1v0kfLVaDGEk7nG8FJ6F1uStQe0rFZDDB8g6oAhpmmmh8PKPrt8_CY-6-X3sUQ8IpuNLhJpdt9QpK_-kPNVYSEO0SpCr9Vq9Vl1RDFAHcqewaFB_FJCAlrXuiWGJhrqbSalIT-udU", 
+        "structured_formatting": {
+            "secondary_text": "2nd Avenue, New York, NY, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 7, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Nigerian Food Truck"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 7, 
+                "offset": 0
+            }
+        ], 
+        "place_id": "ChIJsd56Kx1ZwokRIyBkQXkEyss", 
+        "id": "df5e2debc64e1b2e8990660cb76b6c5e62e4b4a1", 
+        "types": [
+            "establishment"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "Nigerian American Muslim", 
+                "offset": 0
+            }, 
+            {
+                "value": "Dean Street", 
+                "offset": 26
+            }, 
+            {
+                "value": "Brooklyn", 
+                "offset": 39
+            }, 
+            {
+                "value": "NY", 
+                "offset": 49
+            }, 
+            {
+                "value": "USA", 
+                "offset": 53
+            }
+        ], 
+        "description": "Nigerian American Muslim, Dean Street, Brooklyn, NY, USA", 
+        "reference": "ClRHAAAArFf0MbBl-TiQpb4GqQRUOVV_dHwPHio0dKFMbNRdE5o0rroVUkt7hB6f5epSu8Y7Rv0pKaBRJpgZN6rGUZHCfCYpLICsRuyB6Szl0Go60JUSEAWj3ofCaPOUXQdCbE619tYaFFYpARI74eCfqOB4zf_pMavy6BqK", 
+        "structured_formatting": {
+            "secondary_text": "Dean Street, Brooklyn, NY, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 7, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Nigerian American Muslim"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 7, 
+                "offset": 0
+            }
+        ], 
+        "place_id": "ChIJD41tx6NbwokREbaF9_UkX5g", 
+        "id": "0527ad8213e702ba291953394c0454edd77c2cd8", 
+        "types": [
+            "establishment"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "Nigeria is A Kakistocracy", 
+                "offset": 0
+            }, 
+            {
+                "value": "127th Street", 
+                "offset": 27
+            }, 
+            {
+                "value": "South Ozone Park", 
+                "offset": 41
+            }, 
+            {
+                "value": "NY", 
+                "offset": 59
+            }, 
+            {
+                "value": "USA", 
+                "offset": 63
+            }
+        ], 
+        "description": "Nigeria is A Kakistocracy, 127th Street, South Ozone Park, NY, USA", 
+        "reference": "CmRRAAAA2PPcbnZDK8ERplcRJYiNkaalI83eHzgFpzlzm36jbs8PLj4yfZh-I1G8-4X-25XJfrujKr2f6PT-2t6S49jo0XRNso6yXr9gwh8FpF99xxNBOv39Nc0jZHeqVCXTt1S_EhDTK2JGl1dHPV0H2qlJOgoKGhSwDlBMDodgNdjpFBryK4zO7avWyg", 
+        "structured_formatting": {
+            "secondary_text": "127th Street, South Ozone Park, NY, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 7, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Nigeria is A Kakistocracy"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 7, 
+                "offset": 0
+            }
+        ], 
+        "place_id": "ChIJEUUk6C1nwokRuzw6Uuvuy-I", 
+        "id": "688bca955c0ae51af5fd614d60c3e5f8591814bd", 
+        "types": [
+            "establishment"
+        ]
+    }
+]
+[{u'terms': [{u'value': u'Nigeria', u'offset': 0}], u'description': u'Nigeria', u'reference': u'CiQfAAAAQeFa0G2HsQJA2rRo5fc25II8MeGqqqNQ1jWSjo47g1cSEF-4QxUo418J-yPZ6wQFY90aFB9sSUTZ_Q9RiaTbGeQsUOXiJADG', u'structured_formatting': {u'main_text_matched_substrings': [{u'length': 7, u'offset': 0}], u'main_text': u'Nigeria'}, u'matched_substrings': [{u'length': 7, u'offset': 0}], u'place_id': u'ChIJDY2kfa8LThARyAvFaEH-qJk', u'id': u'dffd1b1d292387e03aa1c750e4517350c76c567b', u'types': [u'country', u'political', u'geocode']}, {u'terms': [{u'value': u'Consulate General of Nigeria', u'offset': 0}, {u'value': u'2nd Avenue', u'offset': 30}, {u'value': u'New York', u'offset': 42}, {u'value': u'NY', u'offset': 52}, {u'value': u'USA', u'offset': 56}], u'description': u'Consulate General of Nigeria, 2nd Avenue, New York, NY, USA', u'reference': u'ClRKAAAAOcREu6RtYID-n_vP9N3baDVZIt2i5pCU-1swhJ7bng2wVbWyVqPuuCi1u_d7o-9DpjCSJNzN5mLfVdDFqg_I2OGJboD5hc2nkXI1XyUoYyQSEO0OaJvAkjEhDyjs25uWIJ8aFFgbWqB5UqUHkBr_HDSbFb80AH_P', u'structured_formatting': {u'secondary_text': u'2nd Avenue, New York, NY, USA', u'main_text_matched_substrings': [{u'length': 7, u'offset': 21}], u'main_text': u'Consulate General of Nigeria'}, u'matched_substrings': [{u'length': 7, u'offset': 21}], u'place_id': u'ChIJ9_hTKR1ZwokRtletPfvSBf8', u'id': u'6e97d642761fcb79792bcefaab962159debd9569', u'types': [u'establishment']}, {u'terms': [{u'value': u'Nigerian Food Truck', u'offset': 0}, {u'value': u'2nd Avenue', u'offset': 21}, {u'value': u'New York', u'offset': 33}, {u'value': u'NY', u'offset': 43}, {u'value': u'USA', u'offset': 47}], u'description': u'Nigerian Food Truck, 2nd Avenue, New York, NY, USA', u'reference': u'ClRBAAAA_49CLRrnqLEXT9xMX2seeVLmfbrH3kDi5pfNBp_GsAkxgb4mtFWFJlu2rhWZXoScYLqS8HjLjrfURV3T0RyNyl1VWpHmz71gimpzn8S9T4ISEP3xOY8DhUmQeC2xUNP6FjMaFHVsWOYrhQqGkd6s3ltbQmHdp60a', u'structured_formatting': {u'secondary_text': u'2nd Avenue, New York, NY, USA', u'main_text_matched_substrings': [{u'length': 7, u'offset': 0}], u'main_text': u'Nigerian Food Truck'}, u'matched_substrings': [{u'length': 7, u'offset': 0}], u'place_id': u'ChIJsd56Kx1ZwokRIyBkQXkEyss', u'id': u'df5e2debc64e1b2e8990660cb76b6c5e62e4b4a1', u'types': [u'establishment']}, {u'terms': [{u'value': u'Nigerian American Muslim', u'offset': 0}, {u'value': u'Dean Street', u'offset': 26}, {u'value': u'Brooklyn', u'offset': 39}, {u'value': u'NY', u'offset': 49}, {u'value': u'USA', u'offset': 53}], u'description': u'Nigerian American Muslim, Dean Street, Brooklyn, NY, USA', u'reference': u'ClRHAAAAwlrs25d0T5r5TdCwlp_Jp36hiMbehOHWODTYCBkmU02rgh6PPmenjdNfQFeLE694A3cw1JXcuZmHTxTEoewgN3yks2s5l-pWTpyR0LL3VoYSEEW7y4pX9O1VZzZQcYoYtC8aFNf4GeAIPTY2vKCNOxmQc9TYlKKP', u'structured_formatting': {u'secondary_text': u'Dean Street, Brooklyn, NY, USA', u'main_text_matched_substrings': [{u'length': 7, u'offset': 0}], u'main_text': u'Nigerian American Muslim'}, u'matched_substrings': [{u'length': 7, u'offset': 0}], u'place_id': u'ChIJD41tx6NbwokREbaF9_UkX5g', u'id': u'0527ad8213e702ba291953394c0454edd77c2cd8', u'types': [u'establishment']}, {u'terms': [{u'value': u'Nigeria is A Kakistocracy', u'offset': 0}, {u'value': u'127th Street', u'offset': 27}, {u'value': u'South Ozone Park', u'offset': 41}, {u'value': u'NY', u'offset': 59}, {u'value': u'USA', u'offset': 63}], u'description': u'Nigeria is A Kakistocracy, 127th Street, South Ozone Park, NY, USA', u'reference': u'CmRRAAAAERFxtaC9F0gMP2jK0MWqUw3jcR60F2jwQYgbr9M-XYo7Z_FB62K5e8XFZnqH7cSGE7GOgtWQ1p0FQHE5VtNArFyWCU_zePQu0bsSH-FaD2nOTPXDuc_iUfGfUSeX6EtuEhBphzQy2E8vjaxz203VHnlIGhRLA_7f6IXI0cpJQG0bbyWC5Uw2HQ', u'structured_formatting': {u'secondary_text': u'127th Street, South Ozone Park, NY, USA', u'main_text_matched_substrings': [{u'length': 7, u'offset': 0}], u'main_text': u'Nigeria is A Kakistocracy'}, u'matched_substrings': [{u'length': 7, u'offset': 0}], u'place_id': u'ChIJEUUk6C1nwokRuzw6Uuvuy-I', u'id': u'688bca955c0ae51af5fd614d60c3e5f8591814bd', u'types': [u'establishment']}]
+[
+    {
+        "terms": [
+            {
+                "value": "Nigeria", 
+                "offset": 0
+            }
+        ], 
+        "description": "Nigeria", 
+        "reference": "CiQfAAAAQeFa0G2HsQJA2rRo5fc25II8MeGqqqNQ1jWSjo47g1cSEF-4QxUo418J-yPZ6wQFY90aFB9sSUTZ_Q9RiaTbGeQsUOXiJADG", 
+        "structured_formatting": {
+            "main_text_matched_substrings": [
+                {
+                    "length": 7, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Nigeria"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 7, 
+                "offset": 0
+            }
+        ], 
+        "place_id": "ChIJDY2kfa8LThARyAvFaEH-qJk", 
+        "id": "dffd1b1d292387e03aa1c750e4517350c76c567b", 
+        "types": [
+            "country", 
+            "political", 
+            "geocode"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "Consulate General of Nigeria", 
+                "offset": 0
+            }, 
+            {
+                "value": "2nd Avenue", 
+                "offset": 30
+            }, 
+            {
+                "value": "New York", 
+                "offset": 42
+            }, 
+            {
+                "value": "NY", 
+                "offset": 52
+            }, 
+            {
+                "value": "USA", 
+                "offset": 56
+            }
+        ], 
+        "description": "Consulate General of Nigeria, 2nd Avenue, New York, NY, USA", 
+        "reference": "ClRKAAAAOcREu6RtYID-n_vP9N3baDVZIt2i5pCU-1swhJ7bng2wVbWyVqPuuCi1u_d7o-9DpjCSJNzN5mLfVdDFqg_I2OGJboD5hc2nkXI1XyUoYyQSEO0OaJvAkjEhDyjs25uWIJ8aFFgbWqB5UqUHkBr_HDSbFb80AH_P", 
+        "structured_formatting": {
+            "secondary_text": "2nd Avenue, New York, NY, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 7, 
+                    "offset": 21
+                }
+            ], 
+            "main_text": "Consulate General of Nigeria"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 7, 
+                "offset": 21
+            }
+        ], 
+        "place_id": "ChIJ9_hTKR1ZwokRtletPfvSBf8", 
+        "id": "6e97d642761fcb79792bcefaab962159debd9569", 
+        "types": [
+            "establishment"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "Nigerian Food Truck", 
+                "offset": 0
+            }, 
+            {
+                "value": "2nd Avenue", 
+                "offset": 21
+            }, 
+            {
+                "value": "New York", 
+                "offset": 33
+            }, 
+            {
+                "value": "NY", 
+                "offset": 43
+            }, 
+            {
+                "value": "USA", 
+                "offset": 47
+            }
+        ], 
+        "description": "Nigerian Food Truck, 2nd Avenue, New York, NY, USA", 
+        "reference": "ClRBAAAA_49CLRrnqLEXT9xMX2seeVLmfbrH3kDi5pfNBp_GsAkxgb4mtFWFJlu2rhWZXoScYLqS8HjLjrfURV3T0RyNyl1VWpHmz71gimpzn8S9T4ISEP3xOY8DhUmQeC2xUNP6FjMaFHVsWOYrhQqGkd6s3ltbQmHdp60a", 
+        "structured_formatting": {
+            "secondary_text": "2nd Avenue, New York, NY, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 7, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Nigerian Food Truck"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 7, 
+                "offset": 0
+            }
+        ], 
+        "place_id": "ChIJsd56Kx1ZwokRIyBkQXkEyss", 
+        "id": "df5e2debc64e1b2e8990660cb76b6c5e62e4b4a1", 
+        "types": [
+            "establishment"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "Nigerian American Muslim", 
+                "offset": 0
+            }, 
+            {
+                "value": "Dean Street", 
+                "offset": 26
+            }, 
+            {
+                "value": "Brooklyn", 
+                "offset": 39
+            }, 
+            {
+                "value": "NY", 
+                "offset": 49
+            }, 
+            {
+                "value": "USA", 
+                "offset": 53
+            }
+        ], 
+        "description": "Nigerian American Muslim, Dean Street, Brooklyn, NY, USA", 
+        "reference": "ClRHAAAAwlrs25d0T5r5TdCwlp_Jp36hiMbehOHWODTYCBkmU02rgh6PPmenjdNfQFeLE694A3cw1JXcuZmHTxTEoewgN3yks2s5l-pWTpyR0LL3VoYSEEW7y4pX9O1VZzZQcYoYtC8aFNf4GeAIPTY2vKCNOxmQc9TYlKKP", 
+        "structured_formatting": {
+            "secondary_text": "Dean Street, Brooklyn, NY, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 7, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Nigerian American Muslim"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 7, 
+                "offset": 0
+            }
+        ], 
+        "place_id": "ChIJD41tx6NbwokREbaF9_UkX5g", 
+        "id": "0527ad8213e702ba291953394c0454edd77c2cd8", 
+        "types": [
+            "establishment"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "Nigeria is A Kakistocracy", 
+                "offset": 0
+            }, 
+            {
+                "value": "127th Street", 
+                "offset": 27
+            }, 
+            {
+                "value": "South Ozone Park", 
+                "offset": 41
+            }, 
+            {
+                "value": "NY", 
+                "offset": 59
+            }, 
+            {
+                "value": "USA", 
+                "offset": 63
+            }
+        ], 
+        "description": "Nigeria is A Kakistocracy, 127th Street, South Ozone Park, NY, USA", 
+        "reference": "CmRRAAAAERFxtaC9F0gMP2jK0MWqUw3jcR60F2jwQYgbr9M-XYo7Z_FB62K5e8XFZnqH7cSGE7GOgtWQ1p0FQHE5VtNArFyWCU_zePQu0bsSH-FaD2nOTPXDuc_iUfGfUSeX6EtuEhBphzQy2E8vjaxz203VHnlIGhRLA_7f6IXI0cpJQG0bbyWC5Uw2HQ", 
+        "structured_formatting": {
+            "secondary_text": "127th Street, South Ozone Park, NY, USA", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 7, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Nigeria is A Kakistocracy"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 7, 
+                "offset": 0
+            }
+        ], 
+        "place_id": "ChIJEUUk6C1nwokRuzw6Uuvuy-I", 
+        "id": "688bca955c0ae51af5fd614d60c3e5f8591814bd", 
+        "types": [
+            "establishment"
+        ]
+    }
+]

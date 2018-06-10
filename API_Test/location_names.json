@@ -1,0 +1,1570 @@
+{
+    "search_metadata": {
+        "count": 9, 
+        "completed_in": 0.053, 
+        "max_id_str": "1005708044100087808", 
+        "since_id_str": "0", 
+        "next_results": "?max_id=1005707929599856639&q=trump&geocode=0.781157%2C0.398720%2C8000mi&count=9&include_entities=1", 
+        "refresh_url": "?since_id=1005708044100087808&q=trump&geocode=0.781157%2C0.398720%2C8000mi&include_entities=1", 
+        "since_id": 0, 
+        "query": "trump", 
+        "max_id": 1005708044100087808
+    }, 
+    "statuses": [
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "\"Trump and Kim May Define \u2018Korea Denuclearization\u2019 Quite Differently\" by RICK GLADSTONE via NYT The New York Times https://t.co/bcEMyDblrC", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 1005708044100087808, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [], 
+                "urls": [
+                    {
+                        "url": "https://t.co/bcEMyDblrC", 
+                        "indices": [
+                            115, 
+                            138
+                        ], 
+                        "expanded_url": "https://ift.tt/2JAyFQM", 
+                        "display_url": "ift.tt/2JAyFQM"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"https://ifttt.com\" rel=\"nofollow\">IFTTT</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 0, 
+            "id_str": "1005708044100087808", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": true, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 926460303965122562, 
+                "profile_background_image_url_https": null, 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/987679275439591425/b8sO2KAI_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/h3ELPWkbLP", 
+                                "indices": [
+                                    0, 
+                                    23
+                                ], 
+                                "expanded_url": "https://bit.ly/TalkTalkTwins", 
+                                "display_url": "bit.ly/TalkTalkTwins"
+                            }
+                        ]
+                    }, 
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 2132, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "926460303965122562", 
+                "profile_background_color": "F5F8FA", 
+                "listed_count": 1, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 6975, 
+                "description": "A rare specie, one of the @TalkTalkTwins that doesn't talk much like @Chimaizuobi *lol! I co-founded @TheReporter247 | @InfoGuideAfrica!", 
+                "friends_count": 2169, 
+                "location": "Owerri", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/987679275439591425/b8sO2KAI_normal.jpg", 
+                "following": false, 
+                "geo_enabled": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/926460303965122562/1523640609", 
+                "profile_background_image_url": null, 
+                "screen_name": "Onyemaizuchi", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 266, 
+                "name": "Igbo Stanford", 
+                "notifications": false, 
+                "url": "https://t.co/h3ELPWkbLP", 
+                "created_at": "Fri Nov 03 14:45:24 +0000 2017", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "en", 
+            "created_at": "Sun Jun 10 07:07:37 +0000 2018", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "Caption this photo of Trump with other world leaders https://t.co/94gBQigcI4", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 1005707988026494978, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [], 
+                "urls": [
+                    {
+                        "url": "https://t.co/94gBQigcI4", 
+                        "indices": [
+                            53, 
+                            76
+                        ], 
+                        "expanded_url": "https://www.lindaikejisblog.com/2018/6/caption-this-photo-of-trump-with-other-world-leaders-2.html", 
+                        "display_url": "lindaikejisblog.com/2018/6/caption\u2026"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"https://ifttt.com\" rel=\"nofollow\">IFTTT</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 0, 
+            "id_str": "1005707988026494978", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": true, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 2938206663, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/963816687932932096/GuCF8f7r_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/Ph5BR6TK4h", 
+                                "indices": [
+                                    0, 
+                                    23
+                                ], 
+                                "expanded_url": "http://www.k3music.wordpress.com", 
+                                "display_url": "k3music.wordpress.com"
+                            }
+                        ]
+                    }, 
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 4421, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "2938206663", 
+                "profile_background_color": "C0DEED", 
+                "listed_count": 36, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 419569, 
+                "description": "ONLINE PROMOTER Trend & Hype Music,Brand,Website traffic CALL NOW:+2349070685959 Or \nSend DM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.\n.\n\n\n\n\n\n\n\n\n\n\n\n.\n\n\n.", 
+                "friends_count": 2325, 
+                "location": "Jos, Nigeria", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/963816687932932096/GuCF8f7r_normal.jpg", 
+                "following": false, 
+                "geo_enabled": true, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2938206663/1513202945", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "screen_name": "VEK_TOH", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 4795, 
+                "name": "VEK_TOH", 
+                "notifications": false, 
+                "url": "https://t.co/Ph5BR6TK4h", 
+                "created_at": "Tue Dec 23 12:38:15 +0000 2014", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "en", 
+            "created_at": "Sun Jun 10 07:07:24 +0000 2018", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "RT @dumptrump33: I know this is completely off topic, but Mrs. Trudeau must be way happier than Mrs. Trump. #IStandWithCanada https://t.co/\u2026", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 1005707986852024320, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [
+                    {
+                        "id": 744252001572233216, 
+                        "indices": [
+                            3, 
+                            15
+                        ], 
+                        "id_str": "744252001572233216", 
+                        "screen_name": "dumptrump33", 
+                        "name": "ImpeachTrump"
+                    }
+                ], 
+                "hashtags": [
+                    {
+                        "indices": [
+                            108, 
+                            125
+                        ], 
+                        "text": "IStandWithCanada"
+                    }
+                ], 
+                "urls": []
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Lite</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 136, 
+            "id_str": "1005707986852024320", 
+            "favorited": false, 
+            "retweeted_status": {
+                "contributors": null, 
+                "truncated": false, 
+                "text": "I know this is completely off topic, but Mrs. Trudeau must be way happier than Mrs. Trump. #IStandWithCanada https://t.co/Qa9l7ckl1y", 
+                "is_quote_status": false, 
+                "in_reply_to_status_id": null, 
+                "id": 1005669575277596672, 
+                "favorite_count": 448, 
+                "entities": {
+                    "symbols": [], 
+                    "user_mentions": [], 
+                    "hashtags": [
+                        {
+                            "indices": [
+                                91, 
+                                108
+                            ], 
+                            "text": "IStandWithCanada"
+                        }
+                    ], 
+                    "urls": [], 
+                    "media": [
+                        {
+                            "expanded_url": "https://twitter.com/dumptrump33/status/1005669575277596672/photo/1", 
+                            "display_url": "pic.twitter.com/Qa9l7ckl1y", 
+                            "url": "https://t.co/Qa9l7ckl1y", 
+                            "media_url_https": "https://pbs.twimg.com/media/DfTbJPHW0AEuanu.jpg", 
+                            "id_str": "1005669568533155841", 
+                            "sizes": {
+                                "small": {
+                                    "h": 440, 
+                                    "resize": "fit", 
+                                    "w": 660
+                                }, 
+                                "large": {
+                                    "h": 440, 
+                                    "resize": "fit", 
+                                    "w": 660
+                                }, 
+                                "medium": {
+                                    "h": 440, 
+                                    "resize": "fit", 
+                                    "w": 660
+                                }, 
+                                "thumb": {
+                                    "h": 150, 
+                                    "resize": "crop", 
+                                    "w": 150
+                                }
+                            }, 
+                            "indices": [
+                                109, 
+                                132
+                            ], 
+                            "type": "photo", 
+                            "id": 1005669568533155841, 
+                            "media_url": "http://pbs.twimg.com/media/DfTbJPHW0AEuanu.jpg"
+                        }
+                    ]
+                }, 
+                "retweeted": false, 
+                "coordinates": null, 
+                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+                "in_reply_to_screen_name": null, 
+                "in_reply_to_user_id": null, 
+                "retweet_count": 136, 
+                "id_str": "1005669575277596672", 
+                "favorited": false, 
+                "user": {
+                    "follow_request_sent": false, 
+                    "has_extended_profile": false, 
+                    "profile_use_background_image": true, 
+                    "default_profile_image": false, 
+                    "id": 744252001572233216, 
+                    "profile_background_image_url_https": null, 
+                    "verified": false, 
+                    "translator_type": "none", 
+                    "profile_text_color": "333333", 
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/984895945140850688/rq2htf3c_normal.jpg", 
+                    "profile_sidebar_fill_color": "DDEEF6", 
+                    "entities": {
+                        "description": {
+                            "urls": []
+                        }
+                    }, 
+                    "followers_count": 56368, 
+                    "profile_sidebar_border_color": "C0DEED", 
+                    "id_str": "744252001572233216", 
+                    "profile_background_color": "F5F8FA", 
+                    "listed_count": 251, 
+                    "is_translation_enabled": false, 
+                    "utc_offset": null, 
+                    "statuses_count": 46841, 
+                    "description": "Proud Democrat. #ImpeachTrump #TheResistance #TrumpRussia #TreasonGate #TrumpRussiaConspiracy #Impeach45 #TrumpCrimeFamily #HandsOffOurSocialSecurity", 
+                    "friends_count": 4319, 
+                    "location": "Deep Red South", 
+                    "profile_link_color": "1DA1F2", 
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/984895945140850688/rq2htf3c_normal.jpg", 
+                    "following": false, 
+                    "geo_enabled": false, 
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/744252001572233216/1528577598", 
+                    "profile_background_image_url": null, 
+                    "screen_name": "dumptrump33", 
+                    "lang": "en", 
+                    "profile_background_tile": false, 
+                    "favourites_count": 204514, 
+                    "name": "ImpeachTrump", 
+                    "notifications": false, 
+                    "url": null, 
+                    "created_at": "Sat Jun 18 19:34:39 +0000 2016", 
+                    "contributors_enabled": false, 
+                    "time_zone": null, 
+                    "protected": false, 
+                    "default_profile": true, 
+                    "is_translator": false
+                }, 
+                "geo": null, 
+                "in_reply_to_user_id_str": null, 
+                "possibly_sensitive": true, 
+                "lang": "en", 
+                "created_at": "Sun Jun 10 04:34:45 +0000 2018", 
+                "in_reply_to_status_id_str": null, 
+                "place": null, 
+                "extended_entities": {
+                    "media": [
+                        {
+                            "expanded_url": "https://twitter.com/dumptrump33/status/1005669575277596672/photo/1", 
+                            "display_url": "pic.twitter.com/Qa9l7ckl1y", 
+                            "url": "https://t.co/Qa9l7ckl1y", 
+                            "media_url_https": "https://pbs.twimg.com/media/DfTbJPHW0AEuanu.jpg", 
+                            "id_str": "1005669568533155841", 
+                            "sizes": {
+                                "small": {
+                                    "h": 440, 
+                                    "resize": "fit", 
+                                    "w": 660
+                                }, 
+                                "large": {
+                                    "h": 440, 
+                                    "resize": "fit", 
+                                    "w": 660
+                                }, 
+                                "medium": {
+                                    "h": 440, 
+                                    "resize": "fit", 
+                                    "w": 660
+                                }, 
+                                "thumb": {
+                                    "h": 150, 
+                                    "resize": "crop", 
+                                    "w": 150
+                                }
+                            }, 
+                            "indices": [
+                                109, 
+                                132
+                            ], 
+                            "type": "photo", 
+                            "id": 1005669568533155841, 
+                            "media_url": "http://pbs.twimg.com/media/DfTbJPHW0AEuanu.jpg"
+                        }
+                    ]
+                }, 
+                "metadata": {
+                    "iso_language_code": "en", 
+                    "result_type": "recent"
+                }
+            }, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 898869304623599617, 
+                "profile_background_image_url_https": null, 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/995362476781797376/LWjw8IWM_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 78, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "898869304623599617", 
+                "profile_background_color": "F5F8FA", 
+                "listed_count": 0, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 2644, 
+                "description": "I fight fire with words... words are hotter than flames, words are wetter than water.", 
+                "friends_count": 84, 
+                "location": "", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/995362476781797376/LWjw8IWM_normal.jpg", 
+                "following": false, 
+                "geo_enabled": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/898869304623599617/1525011068", 
+                "profile_background_image_url": null, 
+                "screen_name": "MeSoOrnery47289", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 3742, 
+                "name": "Jennifer Burke", 
+                "notifications": false, 
+                "url": null, 
+                "created_at": "Sat Aug 19 11:28:37 +0000 2017", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "lang": "en", 
+            "created_at": "Sun Jun 10 07:07:23 +0000 2018", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "RT @catbirdx: Inside the chaos of Donald Trump\u2019s trade wars\nhttps://t.co/BlIeWUo0Te via @financialtimes https://t.co/aIqNKjizgH", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 1005707985199423490, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [
+                    {
+                        "id": 1308152041, 
+                        "indices": [
+                            3, 
+                            12
+                        ], 
+                        "id_str": "1308152041", 
+                        "screen_name": "catbirdx", 
+                        "name": "catbird \ud83c\udf0a"
+                    }, 
+                    {
+                        "id": 4898091, 
+                        "indices": [
+                            88, 
+                            103
+                        ], 
+                        "id_str": "4898091", 
+                        "screen_name": "FinancialTimes", 
+                        "name": "Financial Times"
+                    }
+                ], 
+                "hashtags": [], 
+                "urls": [
+                    {
+                        "url": "https://t.co/BlIeWUo0Te", 
+                        "indices": [
+                            60, 
+                            83
+                        ], 
+                        "expanded_url": "https://www.ft.com/content/f8affed8-6b02-11e8-b6eb-4acfcfb08c11", 
+                        "display_url": "ft.com/content/f8affe\u2026"
+                    }
+                ], 
+                "media": [
+                    {
+                        "source_user_id": 1308152041, 
+                        "source_status_id_str": "1005705964576624640", 
+                        "expanded_url": "https://twitter.com/catbirdx/status/1005705964576624640/photo/1", 
+                        "display_url": "pic.twitter.com/aIqNKjizgH", 
+                        "url": "https://t.co/aIqNKjizgH", 
+                        "media_url_https": "https://pbs.twimg.com/media/DfT8OOnVAAAAYfs.jpg", 
+                        "source_user_id_str": "1308152041", 
+                        "source_status_id": 1005705964576624640, 
+                        "id_str": "1005705938181881856", 
+                        "sizes": {
+                            "large": {
+                                "h": 1219, 
+                                "resize": "fit", 
+                                "w": 1173
+                            }, 
+                            "small": {
+                                "h": 680, 
+                                "resize": "fit", 
+                                "w": 654
+                            }, 
+                            "medium": {
+                                "h": 1200, 
+                                "resize": "fit", 
+                                "w": 1155
+                            }, 
+                            "thumb": {
+                                "h": 150, 
+                                "resize": "crop", 
+                                "w": 150
+                            }
+                        }, 
+                        "indices": [
+                            104, 
+                            127
+                        ], 
+                        "type": "photo", 
+                        "id": 1005705938181881856, 
+                        "media_url": "http://pbs.twimg.com/media/DfT8OOnVAAAAYfs.jpg"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 1, 
+            "id_str": "1005707985199423490", 
+            "favorited": false, 
+            "retweeted_status": {
+                "contributors": null, 
+                "truncated": false, 
+                "text": "Inside the chaos of Donald Trump\u2019s trade wars\nhttps://t.co/BlIeWUo0Te via @financialtimes https://t.co/aIqNKjizgH", 
+                "is_quote_status": false, 
+                "in_reply_to_status_id": null, 
+                "id": 1005705964576624640, 
+                "favorite_count": 1, 
+                "entities": {
+                    "symbols": [], 
+                    "user_mentions": [
+                        {
+                            "id": 4898091, 
+                            "indices": [
+                                74, 
+                                89
+                            ], 
+                            "id_str": "4898091", 
+                            "screen_name": "FinancialTimes", 
+                            "name": "Financial Times"
+                        }
+                    ], 
+                    "hashtags": [], 
+                    "urls": [
+                        {
+                            "url": "https://t.co/BlIeWUo0Te", 
+                            "indices": [
+                                46, 
+                                69
+                            ], 
+                            "expanded_url": "https://www.ft.com/content/f8affed8-6b02-11e8-b6eb-4acfcfb08c11", 
+                            "display_url": "ft.com/content/f8affe\u2026"
+                        }
+                    ], 
+                    "media": [
+                        {
+                            "expanded_url": "https://twitter.com/catbirdx/status/1005705964576624640/photo/1", 
+                            "display_url": "pic.twitter.com/aIqNKjizgH", 
+                            "url": "https://t.co/aIqNKjizgH", 
+                            "media_url_https": "https://pbs.twimg.com/media/DfT8OOnVAAAAYfs.jpg", 
+                            "id_str": "1005705938181881856", 
+                            "sizes": {
+                                "large": {
+                                    "h": 1219, 
+                                    "resize": "fit", 
+                                    "w": 1173
+                                }, 
+                                "small": {
+                                    "h": 680, 
+                                    "resize": "fit", 
+                                    "w": 654
+                                }, 
+                                "medium": {
+                                    "h": 1200, 
+                                    "resize": "fit", 
+                                    "w": 1155
+                                }, 
+                                "thumb": {
+                                    "h": 150, 
+                                    "resize": "crop", 
+                                    "w": 150
+                                }
+                            }, 
+                            "indices": [
+                                90, 
+                                113
+                            ], 
+                            "type": "photo", 
+                            "id": 1005705938181881856, 
+                            "media_url": "http://pbs.twimg.com/media/DfT8OOnVAAAAYfs.jpg"
+                        }
+                    ]
+                }, 
+                "retweeted": false, 
+                "coordinates": null, 
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>", 
+                "in_reply_to_screen_name": null, 
+                "in_reply_to_user_id": null, 
+                "retweet_count": 1, 
+                "id_str": "1005705964576624640", 
+                "favorited": false, 
+                "user": {
+                    "follow_request_sent": false, 
+                    "has_extended_profile": false, 
+                    "profile_use_background_image": true, 
+                    "default_profile_image": false, 
+                    "id": 1308152041, 
+                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                    "verified": false, 
+                    "translator_type": "none", 
+                    "profile_text_color": "333333", 
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/3440170628/7242d88bcb096ab6e844837039c43a46_normal.jpeg", 
+                    "profile_sidebar_fill_color": "DDEEF6", 
+                    "entities": {
+                        "description": {
+                            "urls": []
+                        }
+                    }, 
+                    "followers_count": 6613, 
+                    "profile_sidebar_border_color": "FFFFFF", 
+                    "id_str": "1308152041", 
+                    "profile_background_color": "EBE49B", 
+                    "listed_count": 1, 
+                    "is_translation_enabled": false, 
+                    "utc_offset": null, 
+                    "statuses_count": 3842, 
+                    "description": "Astrophysicist, Brain Surgeon, Archeologist, Bee Removal Expert, Coal Miner & Special Forces Commando", 
+                    "friends_count": 6836, 
+                    "location": "Pacific Northwest", 
+                    "profile_link_color": "E81C4F", 
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/3440170628/7242d88bcb096ab6e844837039c43a46_normal.jpeg", 
+                    "following": false, 
+                    "geo_enabled": false, 
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1308152041/1516492802", 
+                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                    "screen_name": "catbirdx", 
+                    "lang": "en", 
+                    "profile_background_tile": true, 
+                    "favourites_count": 67893, 
+                    "name": "catbird \ud83c\udf0a", 
+                    "notifications": false, 
+                    "url": null, 
+                    "created_at": "Wed Mar 27 17:48:24 +0000 2013", 
+                    "contributors_enabled": false, 
+                    "time_zone": null, 
+                    "protected": false, 
+                    "default_profile": false, 
+                    "is_translator": false
+                }, 
+                "geo": null, 
+                "in_reply_to_user_id_str": null, 
+                "possibly_sensitive": false, 
+                "lang": "en", 
+                "created_at": "Sun Jun 10 06:59:21 +0000 2018", 
+                "in_reply_to_status_id_str": null, 
+                "place": null, 
+                "extended_entities": {
+                    "media": [
+                        {
+                            "expanded_url": "https://twitter.com/catbirdx/status/1005705964576624640/photo/1", 
+                            "display_url": "pic.twitter.com/aIqNKjizgH", 
+                            "url": "https://t.co/aIqNKjizgH", 
+                            "media_url_https": "https://pbs.twimg.com/media/DfT8OOnVAAAAYfs.jpg", 
+                            "id_str": "1005705938181881856", 
+                            "sizes": {
+                                "large": {
+                                    "h": 1219, 
+                                    "resize": "fit", 
+                                    "w": 1173
+                                }, 
+                                "small": {
+                                    "h": 680, 
+                                    "resize": "fit", 
+                                    "w": 654
+                                }, 
+                                "medium": {
+                                    "h": 1200, 
+                                    "resize": "fit", 
+                                    "w": 1155
+                                }, 
+                                "thumb": {
+                                    "h": 150, 
+                                    "resize": "crop", 
+                                    "w": 150
+                                }
+                            }, 
+                            "indices": [
+                                90, 
+                                113
+                            ], 
+                            "type": "photo", 
+                            "id": 1005705938181881856, 
+                            "media_url": "http://pbs.twimg.com/media/DfT8OOnVAAAAYfs.jpg"
+                        }
+                    ]
+                }, 
+                "metadata": {
+                    "iso_language_code": "en", 
+                    "result_type": "recent"
+                }
+            }, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": true, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 818977509983162368, 
+                "profile_background_image_url_https": null, 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/985380488704438274/GZhpEDzd_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 4389, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "818977509983162368", 
+                "profile_background_color": "F5F8FA", 
+                "listed_count": 0, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 43192, 
+                "description": "\ud83c\udf0a#LiberalDem #ArmyVet #LGBTQ #BlackLivesMatter #LegalizeIt\n\n\ud83c\udfadStage actor/Singer/Musician/Radio&VO. Fluid \ud83c\udf3cchild who \u2764 people, \ud83d\udc31, our \ud83c\udf0e & RuPaul\ud83d\udc8b\ud83c\udf08\ud83c\uddfa\ud83c\uddf8\ud83d\udd2f\ud83c\udf0a", 
+                "friends_count": 4997, 
+                "location": "Alaskan potato", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/985380488704438274/GZhpEDzd_normal.jpg", 
+                "following": false, 
+                "geo_enabled": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/818977509983162368/1523767943", 
+                "profile_background_image_url": null, 
+                "screen_name": "HeatherGaultier", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 46235, 
+                "name": "Heather Singletary", 
+                "notifications": false, 
+                "url": null, 
+                "created_at": "Wed Jan 11 00:27:09 +0000 2017", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "en", 
+            "created_at": "Sun Jun 10 07:07:23 +0000 2018", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "extended_entities": {
+                "media": [
+                    {
+                        "source_user_id": 1308152041, 
+                        "source_status_id_str": "1005705964576624640", 
+                        "expanded_url": "https://twitter.com/catbirdx/status/1005705964576624640/photo/1", 
+                        "display_url": "pic.twitter.com/aIqNKjizgH", 
+                        "url": "https://t.co/aIqNKjizgH", 
+                        "media_url_https": "https://pbs.twimg.com/media/DfT8OOnVAAAAYfs.jpg", 
+                        "source_user_id_str": "1308152041", 
+                        "source_status_id": 1005705964576624640, 
+                        "id_str": "1005705938181881856", 
+                        "sizes": {
+                            "large": {
+                                "h": 1219, 
+                                "resize": "fit", 
+                                "w": 1173
+                            }, 
+                            "small": {
+                                "h": 680, 
+                                "resize": "fit", 
+                                "w": 654
+                            }, 
+                            "medium": {
+                                "h": 1200, 
+                                "resize": "fit", 
+                                "w": 1155
+                            }, 
+                            "thumb": {
+                                "h": 150, 
+                                "resize": "crop", 
+                                "w": 150
+                            }
+                        }, 
+                        "indices": [
+                            104, 
+                            127
+                        ], 
+                        "type": "photo", 
+                        "id": 1005705938181881856, 
+                        "media_url": "http://pbs.twimg.com/media/DfT8OOnVAAAAYfs.jpg"
+                    }
+                ]
+            }, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "Donald Trump\u00c2\u00a0describes Canadian Prime Minister,\u00c2\u00a0Justin Trudeau as 'very dishonest and weak' https://t.co/rzpeTYym0x", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 1005707977255477249, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [], 
+                "urls": [
+                    {
+                        "url": "https://t.co/rzpeTYym0x", 
+                        "indices": [
+                            94, 
+                            117
+                        ], 
+                        "expanded_url": "https://www.lindaikejisblog.com/2018/6/donald-trump-describes-canadian-prime-minister-justin-trudeau-as-very-dishonest-and-weak.html", 
+                        "display_url": "lindaikejisblog.com/2018/6/donald-\u2026"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"https://ifttt.com\" rel=\"nofollow\">IFTTT</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 0, 
+            "id_str": "1005707977255477249", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": true, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 2938206663, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/963816687932932096/GuCF8f7r_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/Ph5BR6TK4h", 
+                                "indices": [
+                                    0, 
+                                    23
+                                ], 
+                                "expanded_url": "http://www.k3music.wordpress.com", 
+                                "display_url": "k3music.wordpress.com"
+                            }
+                        ]
+                    }, 
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 4421, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "2938206663", 
+                "profile_background_color": "C0DEED", 
+                "listed_count": 36, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 419569, 
+                "description": "ONLINE PROMOTER Trend & Hype Music,Brand,Website traffic CALL NOW:+2349070685959 Or \nSend DM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.\n.\n\n\n\n\n\n\n\n\n\n\n\n.\n\n\n.", 
+                "friends_count": 2325, 
+                "location": "Jos, Nigeria", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/963816687932932096/GuCF8f7r_normal.jpg", 
+                "following": false, 
+                "geo_enabled": true, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2938206663/1513202945", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "screen_name": "VEK_TOH", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 4795, 
+                "name": "VEK_TOH", 
+                "notifications": false, 
+                "url": "https://t.co/Ph5BR6TK4h", 
+                "created_at": "Tue Dec 23 12:38:15 +0000 2014", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "en", 
+            "created_at": "Sun Jun 10 07:07:21 +0000 2018", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "Time cover gets Trump just right | By Michael D'Antonio via CNNOpinion https://t.co/nOKVQNzLTn https://t.co/awWlyy6qFg", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 1005707945542344704, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [], 
+                "urls": [
+                    {
+                        "url": "https://t.co/nOKVQNzLTn", 
+                        "indices": [
+                            71, 
+                            94
+                        ], 
+                        "expanded_url": "https://cnn.it/2xXKzTk", 
+                        "display_url": "cnn.it/2xXKzTk"
+                    }
+                ], 
+                "media": [
+                    {
+                        "source_user_id": 759251, 
+                        "source_status_id_str": "1005676193113395205", 
+                        "expanded_url": "https://twitter.com/CNN/status/1005676193113395205/photo/1", 
+                        "display_url": "pic.twitter.com/awWlyy6qFg", 
+                        "url": "https://t.co/awWlyy6qFg", 
+                        "media_url_https": "https://pbs.twimg.com/media/DfThKteW4AAMBGb.jpg", 
+                        "source_user_id_str": "759251", 
+                        "source_status_id": 1005676193113395205, 
+                        "id_str": "1005676190932328448", 
+                        "sizes": {
+                            "small": {
+                                "h": 383, 
+                                "resize": "fit", 
+                                "w": 680
+                            }, 
+                            "large": {
+                                "h": 619, 
+                                "resize": "fit", 
+                                "w": 1100
+                            }, 
+                            "medium": {
+                                "h": 619, 
+                                "resize": "fit", 
+                                "w": 1100
+                            }, 
+                            "thumb": {
+                                "h": 150, 
+                                "resize": "crop", 
+                                "w": 150
+                            }
+                        }, 
+                        "indices": [
+                            95, 
+                            118
+                        ], 
+                        "type": "photo", 
+                        "id": 1005676190932328448, 
+                        "media_url": "http://pbs.twimg.com/media/DfThKteW4AAMBGb.jpg"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"https://ifttt.com\" rel=\"nofollow\">IFTTT</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 0, 
+            "id_str": "1005707945542344704", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": true, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 2938206663, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/963816687932932096/GuCF8f7r_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/Ph5BR6TK4h", 
+                                "indices": [
+                                    0, 
+                                    23
+                                ], 
+                                "expanded_url": "http://www.k3music.wordpress.com", 
+                                "display_url": "k3music.wordpress.com"
+                            }
+                        ]
+                    }, 
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 4421, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "2938206663", 
+                "profile_background_color": "C0DEED", 
+                "listed_count": 36, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 419569, 
+                "description": "ONLINE PROMOTER Trend & Hype Music,Brand,Website traffic CALL NOW:+2349070685959 Or \nSend DM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.\n.\n\n\n\n\n\n\n\n\n\n\n\n.\n\n\n.", 
+                "friends_count": 2325, 
+                "location": "Jos, Nigeria", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/963816687932932096/GuCF8f7r_normal.jpg", 
+                "following": false, 
+                "geo_enabled": true, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2938206663/1513202945", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "screen_name": "VEK_TOH", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 4795, 
+                "name": "VEK_TOH", 
+                "notifications": false, 
+                "url": "https://t.co/Ph5BR6TK4h", 
+                "created_at": "Tue Dec 23 12:38:15 +0000 2014", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "en", 
+            "created_at": "Sun Jun 10 07:07:14 +0000 2018", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "extended_entities": {
+                "media": [
+                    {
+                        "source_user_id": 759251, 
+                        "source_status_id_str": "1005676193113395205", 
+                        "expanded_url": "https://twitter.com/CNN/status/1005676193113395205/photo/1", 
+                        "display_url": "pic.twitter.com/awWlyy6qFg", 
+                        "url": "https://t.co/awWlyy6qFg", 
+                        "media_url_https": "https://pbs.twimg.com/media/DfThKteW4AAMBGb.jpg", 
+                        "source_user_id_str": "759251", 
+                        "source_status_id": 1005676193113395205, 
+                        "id_str": "1005676190932328448", 
+                        "sizes": {
+                            "small": {
+                                "h": 383, 
+                                "resize": "fit", 
+                                "w": 680
+                            }, 
+                            "large": {
+                                "h": 619, 
+                                "resize": "fit", 
+                                "w": 1100
+                            }, 
+                            "medium": {
+                                "h": 619, 
+                                "resize": "fit", 
+                                "w": 1100
+                            }, 
+                            "thumb": {
+                                "h": 150, 
+                                "resize": "crop", 
+                                "w": 150
+                            }
+                        }, 
+                        "indices": [
+                            95, 
+                            118
+                        ], 
+                        "type": "photo", 
+                        "id": 1005676190932328448, 
+                        "media_url": "http://pbs.twimg.com/media/DfThKteW4AAMBGb.jpg"
+                    }
+                ]
+            }, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "The Trump administration's latest attack on Obamacare would gut protections for the sick https://t.co/b7bjMkzAXz https://t.co/27vOUGcbxp", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 1005707934242926592, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [], 
+                "urls": [
+                    {
+                        "url": "https://t.co/b7bjMkzAXz", 
+                        "indices": [
+                            89, 
+                            112
+                        ], 
+                        "expanded_url": "https://cnn.it/2JrKk8a", 
+                        "display_url": "cnn.it/2JrKk8a"
+                    }
+                ], 
+                "media": [
+                    {
+                        "source_user_id": 759251, 
+                        "source_status_id_str": "1005653303110324224", 
+                        "expanded_url": "https://twitter.com/CNN/status/1005653303110324224/photo/1", 
+                        "display_url": "pic.twitter.com/27vOUGcbxp", 
+                        "url": "https://t.co/27vOUGcbxp", 
+                        "media_url_https": "https://pbs.twimg.com/media/DfTMWWfW4AEeosJ.jpg", 
+                        "source_user_id_str": "759251", 
+                        "source_status_id": 1005653303110324224, 
+                        "id_str": "1005653301176754177", 
+                        "sizes": {
+                            "small": {
+                                "h": 383, 
+                                "resize": "fit", 
+                                "w": 680
+                            }, 
+                            "large": {
+                                "h": 439, 
+                                "resize": "fit", 
+                                "w": 780
+                            }, 
+                            "medium": {
+                                "h": 439, 
+                                "resize": "fit", 
+                                "w": 780
+                            }, 
+                            "thumb": {
+                                "h": 150, 
+                                "resize": "crop", 
+                                "w": 150
+                            }
+                        }, 
+                        "indices": [
+                            113, 
+                            136
+                        ], 
+                        "type": "photo", 
+                        "id": 1005653301176754177, 
+                        "media_url": "http://pbs.twimg.com/media/DfTMWWfW4AEeosJ.jpg"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"https://ifttt.com\" rel=\"nofollow\">IFTTT</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 0, 
+            "id_str": "1005707934242926592", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": true, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 2938206663, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/963816687932932096/GuCF8f7r_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/Ph5BR6TK4h", 
+                                "indices": [
+                                    0, 
+                                    23
+                                ], 
+                                "expanded_url": "http://www.k3music.wordpress.com", 
+                                "display_url": "k3music.wordpress.com"
+                            }
+                        ]
+                    }, 
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 4421, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "2938206663", 
+                "profile_background_color": "C0DEED", 
+                "listed_count": 36, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 419569, 
+                "description": "ONLINE PROMOTER Trend & Hype Music,Brand,Website traffic CALL NOW:+2349070685959 Or \nSend DM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.\n.\n\n\n\n\n\n\n\n\n\n\n\n.\n\n\n.", 
+                "friends_count": 2325, 
+                "location": "Jos, Nigeria", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/963816687932932096/GuCF8f7r_normal.jpg", 
+                "following": false, 
+                "geo_enabled": true, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2938206663/1513202945", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "screen_name": "VEK_TOH", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 4795, 
+                "name": "VEK_TOH", 
+                "notifications": false, 
+                "url": "https://t.co/Ph5BR6TK4h", 
+                "created_at": "Tue Dec 23 12:38:15 +0000 2014", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "en", 
+            "created_at": "Sun Jun 10 07:07:11 +0000 2018", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "extended_entities": {
+                "media": [
+                    {
+                        "source_user_id": 759251, 
+                        "source_status_id_str": "1005653303110324224", 
+                        "expanded_url": "https://twitter.com/CNN/status/1005653303110324224/photo/1", 
+                        "display_url": "pic.twitter.com/27vOUGcbxp", 
+                        "url": "https://t.co/27vOUGcbxp", 
+                        "media_url_https": "https://pbs.twimg.com/media/DfTMWWfW4AEeosJ.jpg", 
+                        "source_user_id_str": "759251", 
+                        "source_status_id": 1005653303110324224, 
+                        "id_str": "1005653301176754177", 
+                        "sizes": {
+                            "small": {
+                                "h": 383, 
+                                "resize": "fit", 
+                                "w": 680
+                            }, 
+                            "large": {
+                                "h": 439, 
+                                "resize": "fit", 
+                                "w": 780
+                            }, 
+                            "medium": {
+                                "h": 439, 
+                                "resize": "fit", 
+                                "w": 780
+                            }, 
+                            "thumb": {
+                                "h": 150, 
+                                "resize": "crop", 
+                                "w": 150
+                            }
+                        }, 
+                        "indices": [
+                            113, 
+                            136
+                        ], 
+                        "type": "photo", 
+                        "id": 1005653301176754177, 
+                        "media_url": "http://pbs.twimg.com/media/DfTMWWfW4AEeosJ.jpg"
+                    }
+                ]
+            }, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": true, 
+            "text": "The week began with news of Trump canceling the Philadelphia Eagles' visit to the White House, and ended with news\u2026 https://t.co/u5YKQQxF2Q", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 1005707931973816321, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [], 
+                "urls": [
+                    {
+                        "url": "https://t.co/u5YKQQxF2Q", 
+                        "indices": [
+                            116, 
+                            139
+                        ], 
+                        "expanded_url": "https://twitter.com/i/web/status/1005707931973816321", 
+                        "display_url": "twitter.com/i/web/status/1\u2026"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"https://ifttt.com\" rel=\"nofollow\">IFTTT</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 0, 
+            "id_str": "1005707931973816321", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": true, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 2938206663, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/963816687932932096/GuCF8f7r_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/Ph5BR6TK4h", 
+                                "indices": [
+                                    0, 
+                                    23
+                                ], 
+                                "expanded_url": "http://www.k3music.wordpress.com", 
+                                "display_url": "k3music.wordpress.com"
+                            }
+                        ]
+                    }, 
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 4421, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "2938206663", 
+                "profile_background_color": "C0DEED", 
+                "listed_count": 36, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 419569, 
+                "description": "ONLINE PROMOTER Trend & Hype Music,Brand,Website traffic CALL NOW:+2349070685959 Or \nSend DM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.\n.\n\n\n\n\n\n\n\n\n\n\n\n.\n\n\n.", 
+                "friends_count": 2325, 
+                "location": "Jos, Nigeria", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/963816687932932096/GuCF8f7r_normal.jpg", 
+                "following": false, 
+                "geo_enabled": true, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2938206663/1513202945", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "screen_name": "VEK_TOH", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 4795, 
+                "name": "VEK_TOH", 
+                "notifications": false, 
+                "url": "https://t.co/Ph5BR6TK4h", 
+                "created_at": "Tue Dec 23 12:38:15 +0000 2014", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "en", 
+            "created_at": "Sun Jun 10 07:07:10 +0000 2018", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": true, 
+            "text": "President Trump says his relationships with other Western leaders are perfect, but the truth is the transatlantic a\u2026 https://t.co/BAY6Inctsf", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 1005707929599856640, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [], 
+                "urls": [
+                    {
+                        "url": "https://t.co/BAY6Inctsf", 
+                        "indices": [
+                            117, 
+                            140
+                        ], 
+                        "expanded_url": "https://twitter.com/i/web/status/1005707929599856640", 
+                        "display_url": "twitter.com/i/web/status/1\u2026"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"https://ifttt.com\" rel=\"nofollow\">IFTTT</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 0, 
+            "id_str": "1005707929599856640", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": true, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 2938206663, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/963816687932932096/GuCF8f7r_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/Ph5BR6TK4h", 
+                                "indices": [
+                                    0, 
+                                    23
+                                ], 
+                                "expanded_url": "http://www.k3music.wordpress.com", 
+                                "display_url": "k3music.wordpress.com"
+                            }
+                        ]
+                    }, 
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 4421, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "2938206663", 
+                "profile_background_color": "C0DEED", 
+                "listed_count": 36, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 419569, 
+                "description": "ONLINE PROMOTER Trend & Hype Music,Brand,Website traffic CALL NOW:+2349070685959 Or \nSend DM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.\n.\n\n\n\n\n\n\n\n\n\n\n\n.\n\n\n.", 
+                "friends_count": 2325, 
+                "location": "Jos, Nigeria", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/963816687932932096/GuCF8f7r_normal.jpg", 
+                "following": false, 
+                "geo_enabled": true, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2938206663/1513202945", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "screen_name": "VEK_TOH", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 4795, 
+                "name": "VEK_TOH", 
+                "notifications": false, 
+                "url": "https://t.co/Ph5BR6TK4h", 
+                "created_at": "Tue Dec 23 12:38:15 +0000 2014", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "en", 
+            "created_at": "Sun Jun 10 07:07:10 +0000 2018", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }
+    ]
+}

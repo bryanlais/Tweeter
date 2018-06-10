@@ -1,0 +1,1595 @@
+{
+    "search_metadata": {
+        "count": 9, 
+        "completed_in": 0.031, 
+        "max_id_str": "1005687948841570305", 
+        "since_id_str": "0", 
+        "refresh_url": "?since_id=1005687948841570305&q=trump&geocode=0.781157%2C0.398720%2C8000mi&include_entities=1", 
+        "since_id": 0, 
+        "query": "trump", 
+        "max_id": 1005687948841570305
+    }, 
+    "statuses": [
+        {
+            "contributors": null, 
+            "truncated": true, 
+            "text": "Who is Minister for Tourism again? Trump has nothing on PMB, like POTUS ought be 1 of the most traveled Pres. in th\u2026 https://t.co/0AX6H2S3DB", 
+            "is_quote_status": true, 
+            "in_reply_to_status_id": null, 
+            "id": 1005687948841570305, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [], 
+                "urls": [
+                    {
+                        "url": "https://t.co/0AX6H2S3DB", 
+                        "indices": [
+                            117, 
+                            140
+                        ], 
+                        "expanded_url": "https://twitter.com/i/web/status/1005687948841570305", 
+                        "display_url": "twitter.com/i/web/status/1\u2026"
+                    }
+                ]
+            }, 
+            "quoted_status_id": 1005474452455460867, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "quoted_status": {
+                "contributors": null, 
+                "truncated": false, 
+                "text": "President @MBuhari will on Sunday, June 10, embark on a two-day working visit to the Kingdom of Morocco. #PMBinMorocco", 
+                "is_quote_status": false, 
+                "in_reply_to_status_id": null, 
+                "id": 1005474452455460867, 
+                "favorite_count": 395, 
+                "entities": {
+                    "symbols": [], 
+                    "user_mentions": [
+                        {
+                            "id": 2936714848, 
+                            "indices": [
+                                10, 
+                                18
+                            ], 
+                            "id_str": "2936714848", 
+                            "screen_name": "MBuhari", 
+                            "name": "Muhammadu Buhari"
+                        }
+                    ], 
+                    "hashtags": [
+                        {
+                            "indices": [
+                                105, 
+                                118
+                            ], 
+                            "text": "PMBinMorocco"
+                        }
+                    ], 
+                    "urls": []
+                }, 
+                "retweeted": false, 
+                "coordinates": null, 
+                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+                "in_reply_to_screen_name": null, 
+                "in_reply_to_user_id": null, 
+                "retweet_count": 163, 
+                "id_str": "1005474452455460867", 
+                "favorited": false, 
+                "user": {
+                    "follow_request_sent": false, 
+                    "has_extended_profile": false, 
+                    "profile_use_background_image": true, 
+                    "default_profile_image": false, 
+                    "id": 2964950313, 
+                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                    "verified": true, 
+                    "translator_type": "none", 
+                    "profile_text_color": "333333", 
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/841565973094236160/YyOPjaGV_normal.jpg", 
+                    "profile_sidebar_fill_color": "DDEEF6", 
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/FARMQNRTSN", 
+                                    "indices": [
+                                        0, 
+                                        23
+                                    ], 
+                                    "expanded_url": "https://statehouse.gov.ng", 
+                                    "display_url": "statehouse.gov.ng"
+                                }
+                            ]
+                        }, 
+                        "description": {
+                            "urls": []
+                        }
+                    }, 
+                    "followers_count": 1012612, 
+                    "profile_sidebar_border_color": "C0DEED", 
+                    "id_str": "2964950313", 
+                    "profile_background_color": "C0DEED", 
+                    "listed_count": 669, 
+                    "is_translation_enabled": false, 
+                    "utc_offset": null, 
+                    "statuses_count": 7885, 
+                    "description": "Follow for the latest information from the Presidency of the Federal Republic of Nigeria", 
+                    "friends_count": 26, 
+                    "location": "Federal Capital Territory, Nigeria", 
+                    "profile_link_color": "1DA1F2", 
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/841565973094236160/YyOPjaGV_normal.jpg", 
+                    "following": false, 
+                    "geo_enabled": false, 
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/2964950313/1458194827", 
+                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                    "screen_name": "NGRPresident", 
+                    "lang": "en", 
+                    "profile_background_tile": false, 
+                    "favourites_count": 159, 
+                    "name": "Presidency Nigeria", 
+                    "notifications": false, 
+                    "url": "https://t.co/FARMQNRTSN", 
+                    "created_at": "Tue Jan 06 21:25:28 +0000 2015", 
+                    "contributors_enabled": false, 
+                    "time_zone": null, 
+                    "protected": false, 
+                    "default_profile": true, 
+                    "is_translator": false
+                }, 
+                "geo": null, 
+                "in_reply_to_user_id_str": null, 
+                "lang": "en", 
+                "created_at": "Sat Jun 09 15:39:24 +0000 2018", 
+                "in_reply_to_status_id_str": null, 
+                "place": null, 
+                "metadata": {
+                    "iso_language_code": "en", 
+                    "result_type": "recent"
+                }
+            }, 
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 0, 
+            "id_str": "1005687948841570305", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": true, 
+                "profile_use_background_image": false, 
+                "default_profile_image": false, 
+                "id": 73595033, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme19/bg.gif", 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "000000", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/994095120894058496/mBsjjYUW_normal.jpg", 
+                "profile_sidebar_fill_color": "000000", 
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/jRGiWpoYyR", 
+                                "indices": [
+                                    0, 
+                                    23
+                                ], 
+                                "expanded_url": "http://aryora.wordpress.com", 
+                                "display_url": "aryora.wordpress.com"
+                            }
+                        ]
+                    }, 
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 2254, 
+                "profile_sidebar_border_color": "000000", 
+                "id_str": "73595033", 
+                "profile_background_color": "000000", 
+                "listed_count": 34, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 66507, 
+                "description": "Nigerian, RMFC, Writer, Content creator, Editor, aspiring graphix artist, fungai. Speak nothing but the truth", 
+                "friends_count": 2530, 
+                "location": "Nigeria", 
+                "profile_link_color": "E81C4F", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/994095120894058496/mBsjjYUW_normal.jpg", 
+                "following": false, 
+                "geo_enabled": true, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/73595033/1467484094", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme19/bg.gif", 
+                "screen_name": "Author_Pendrago", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 17105, 
+                "name": "llario", 
+                "notifications": false, 
+                "url": "https://t.co/jRGiWpoYyR", 
+                "created_at": "Sat Sep 12 07:35:39 +0000 2009", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": false, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "en", 
+            "created_at": "Sun Jun 10 05:47:46 +0000 2018", 
+            "quoted_status_id_str": "1005474452455460867", 
+            "in_reply_to_status_id_str": null, 
+            "place": {
+                "full_name": "Abuja, Nigeria", 
+                "url": "https://api.twitter.com/1.1/geo/id/00e55e2b4c491c5f.json", 
+                "country": "Nigeria", 
+                "place_type": "city", 
+                "bounding_box": {
+                    "type": "Polygon", 
+                    "coordinates": [
+                        [
+                            [
+                                7.3045544, 
+                                8.961887
+                            ], 
+                            [
+                                7.5436339, 
+                                8.961887
+                            ], 
+                            [
+                                7.5436339, 
+                                9.1854407
+                            ], 
+                            [
+                                7.3045544, 
+                                9.1854407
+                            ]
+                        ]
+                    ]
+                }, 
+                "contained_within": [], 
+                "country_code": "NG", 
+                "attributes": {}, 
+                "id": "00e55e2b4c491c5f", 
+                "name": "Abuja"
+            }, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "RT @dumptrump33: I know this is completely off topic, but Mrs. Trudeau must be way happier than Mrs. Trump. #IStandWithCanada https://t.co/\u2026", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 1005687861960695808, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [
+                    {
+                        "id": 744252001572233216, 
+                        "indices": [
+                            3, 
+                            15
+                        ], 
+                        "id_str": "744252001572233216", 
+                        "screen_name": "dumptrump33", 
+                        "name": "ImpeachTrump"
+                    }
+                ], 
+                "hashtags": [
+                    {
+                        "indices": [
+                            108, 
+                            125
+                        ], 
+                        "text": "IStandWithCanada"
+                    }
+                ], 
+                "urls": []
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 95, 
+            "id_str": "1005687861960695808", 
+            "favorited": false, 
+            "retweeted_status": {
+                "contributors": null, 
+                "truncated": false, 
+                "text": "I know this is completely off topic, but Mrs. Trudeau must be way happier than Mrs. Trump. #IStandWithCanada https://t.co/Qa9l7ckl1y", 
+                "is_quote_status": false, 
+                "in_reply_to_status_id": null, 
+                "id": 1005669575277596672, 
+                "favorite_count": 308, 
+                "entities": {
+                    "symbols": [], 
+                    "user_mentions": [], 
+                    "hashtags": [
+                        {
+                            "indices": [
+                                91, 
+                                108
+                            ], 
+                            "text": "IStandWithCanada"
+                        }
+                    ], 
+                    "urls": [], 
+                    "media": [
+                        {
+                            "expanded_url": "https://twitter.com/dumptrump33/status/1005669575277596672/photo/1", 
+                            "display_url": "pic.twitter.com/Qa9l7ckl1y", 
+                            "url": "https://t.co/Qa9l7ckl1y", 
+                            "media_url_https": "https://pbs.twimg.com/media/DfTbJPHW0AEuanu.jpg", 
+                            "id_str": "1005669568533155841", 
+                            "sizes": {
+                                "small": {
+                                    "h": 440, 
+                                    "resize": "fit", 
+                                    "w": 660
+                                }, 
+                                "large": {
+                                    "h": 440, 
+                                    "resize": "fit", 
+                                    "w": 660
+                                }, 
+                                "medium": {
+                                    "h": 440, 
+                                    "resize": "fit", 
+                                    "w": 660
+                                }, 
+                                "thumb": {
+                                    "h": 150, 
+                                    "resize": "crop", 
+                                    "w": 150
+                                }
+                            }, 
+                            "indices": [
+                                109, 
+                                132
+                            ], 
+                            "type": "photo", 
+                            "id": 1005669568533155841, 
+                            "media_url": "http://pbs.twimg.com/media/DfTbJPHW0AEuanu.jpg"
+                        }
+                    ]
+                }, 
+                "retweeted": false, 
+                "coordinates": null, 
+                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+                "in_reply_to_screen_name": null, 
+                "in_reply_to_user_id": null, 
+                "retweet_count": 95, 
+                "id_str": "1005669575277596672", 
+                "favorited": false, 
+                "user": {
+                    "follow_request_sent": false, 
+                    "has_extended_profile": false, 
+                    "profile_use_background_image": true, 
+                    "default_profile_image": false, 
+                    "id": 744252001572233216, 
+                    "profile_background_image_url_https": null, 
+                    "verified": false, 
+                    "translator_type": "none", 
+                    "profile_text_color": "333333", 
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/984895945140850688/rq2htf3c_normal.jpg", 
+                    "profile_sidebar_fill_color": "DDEEF6", 
+                    "entities": {
+                        "description": {
+                            "urls": []
+                        }
+                    }, 
+                    "followers_count": 56367, 
+                    "profile_sidebar_border_color": "C0DEED", 
+                    "id_str": "744252001572233216", 
+                    "profile_background_color": "F5F8FA", 
+                    "listed_count": 247, 
+                    "is_translation_enabled": false, 
+                    "utc_offset": null, 
+                    "statuses_count": 46841, 
+                    "description": "Proud Democrat. #ImpeachTrump #TheResistance #TrumpRussia #TreasonGate #TrumpRussiaConspiracy #Impeach45 #TrumpCrimeFamily #HandsOffOurSocialSecurity", 
+                    "friends_count": 4319, 
+                    "location": "Deep Red South", 
+                    "profile_link_color": "1DA1F2", 
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/984895945140850688/rq2htf3c_normal.jpg", 
+                    "following": false, 
+                    "geo_enabled": false, 
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/744252001572233216/1528577598", 
+                    "profile_background_image_url": null, 
+                    "screen_name": "dumptrump33", 
+                    "lang": "en", 
+                    "profile_background_tile": false, 
+                    "favourites_count": 204514, 
+                    "name": "ImpeachTrump", 
+                    "notifications": false, 
+                    "url": null, 
+                    "created_at": "Sat Jun 18 19:34:39 +0000 2016", 
+                    "contributors_enabled": false, 
+                    "time_zone": null, 
+                    "protected": false, 
+                    "default_profile": true, 
+                    "is_translator": false
+                }, 
+                "geo": null, 
+                "in_reply_to_user_id_str": null, 
+                "possibly_sensitive": true, 
+                "lang": "en", 
+                "created_at": "Sun Jun 10 04:34:45 +0000 2018", 
+                "in_reply_to_status_id_str": null, 
+                "place": null, 
+                "extended_entities": {
+                    "media": [
+                        {
+                            "expanded_url": "https://twitter.com/dumptrump33/status/1005669575277596672/photo/1", 
+                            "display_url": "pic.twitter.com/Qa9l7ckl1y", 
+                            "url": "https://t.co/Qa9l7ckl1y", 
+                            "media_url_https": "https://pbs.twimg.com/media/DfTbJPHW0AEuanu.jpg", 
+                            "id_str": "1005669568533155841", 
+                            "sizes": {
+                                "small": {
+                                    "h": 440, 
+                                    "resize": "fit", 
+                                    "w": 660
+                                }, 
+                                "large": {
+                                    "h": 440, 
+                                    "resize": "fit", 
+                                    "w": 660
+                                }, 
+                                "medium": {
+                                    "h": 440, 
+                                    "resize": "fit", 
+                                    "w": 660
+                                }, 
+                                "thumb": {
+                                    "h": 150, 
+                                    "resize": "crop", 
+                                    "w": 150
+                                }
+                            }, 
+                            "indices": [
+                                109, 
+                                132
+                            ], 
+                            "type": "photo", 
+                            "id": 1005669568533155841, 
+                            "media_url": "http://pbs.twimg.com/media/DfTbJPHW0AEuanu.jpg"
+                        }
+                    ]
+                }, 
+                "metadata": {
+                    "iso_language_code": "en", 
+                    "result_type": "recent"
+                }
+            }, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": true, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 896496644656685056, 
+                "profile_background_image_url_https": null, 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/897236970820292608/KnX7CSnO_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 2078, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "896496644656685056", 
+                "profile_background_color": "F5F8FA", 
+                "listed_count": 16, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 122229, 
+                "description": "Government & Politics,Reasonable Liberal, Gourmet cooking, Reading,Loving&helping animals, Helping people in need.Resist with all my might.", 
+                "friends_count": 897, 
+                "location": "Shelton, WA", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/897236970820292608/KnX7CSnO_normal.jpg", 
+                "following": false, 
+                "geo_enabled": true, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/896496644656685056/1502752937", 
+                "profile_background_image_url": null, 
+                "screen_name": "straitarrow10", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 112875, 
+                "name": "Georgia Garrison", 
+                "notifications": false, 
+                "url": null, 
+                "created_at": "Sat Aug 12 22:20:30 +0000 2017", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "lang": "en", 
+            "created_at": "Sun Jun 10 05:47:25 +0000 2018", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "RT @dumptrump33: I know this is completely off topic, but Mrs. Trudeau must be way happier than Mrs. Trump. #IStandWithCanada https://t.co/\u2026", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 1005687856411676672, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [
+                    {
+                        "id": 744252001572233216, 
+                        "indices": [
+                            3, 
+                            15
+                        ], 
+                        "id_str": "744252001572233216", 
+                        "screen_name": "dumptrump33", 
+                        "name": "ImpeachTrump"
+                    }
+                ], 
+                "hashtags": [
+                    {
+                        "indices": [
+                            108, 
+                            125
+                        ], 
+                        "text": "IStandWithCanada"
+                    }
+                ], 
+                "urls": []
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 95, 
+            "id_str": "1005687856411676672", 
+            "favorited": false, 
+            "retweeted_status": {
+                "contributors": null, 
+                "truncated": false, 
+                "text": "I know this is completely off topic, but Mrs. Trudeau must be way happier than Mrs. Trump. #IStandWithCanada https://t.co/Qa9l7ckl1y", 
+                "is_quote_status": false, 
+                "in_reply_to_status_id": null, 
+                "id": 1005669575277596672, 
+                "favorite_count": 312, 
+                "entities": {
+                    "symbols": [], 
+                    "user_mentions": [], 
+                    "hashtags": [
+                        {
+                            "indices": [
+                                91, 
+                                108
+                            ], 
+                            "text": "IStandWithCanada"
+                        }
+                    ], 
+                    "urls": [], 
+                    "media": [
+                        {
+                            "expanded_url": "https://twitter.com/dumptrump33/status/1005669575277596672/photo/1", 
+                            "display_url": "pic.twitter.com/Qa9l7ckl1y", 
+                            "url": "https://t.co/Qa9l7ckl1y", 
+                            "media_url_https": "https://pbs.twimg.com/media/DfTbJPHW0AEuanu.jpg", 
+                            "id_str": "1005669568533155841", 
+                            "sizes": {
+                                "small": {
+                                    "h": 440, 
+                                    "resize": "fit", 
+                                    "w": 660
+                                }, 
+                                "large": {
+                                    "h": 440, 
+                                    "resize": "fit", 
+                                    "w": 660
+                                }, 
+                                "medium": {
+                                    "h": 440, 
+                                    "resize": "fit", 
+                                    "w": 660
+                                }, 
+                                "thumb": {
+                                    "h": 150, 
+                                    "resize": "crop", 
+                                    "w": 150
+                                }
+                            }, 
+                            "indices": [
+                                109, 
+                                132
+                            ], 
+                            "type": "photo", 
+                            "id": 1005669568533155841, 
+                            "media_url": "http://pbs.twimg.com/media/DfTbJPHW0AEuanu.jpg"
+                        }
+                    ]
+                }, 
+                "retweeted": false, 
+                "coordinates": null, 
+                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+                "in_reply_to_screen_name": null, 
+                "in_reply_to_user_id": null, 
+                "retweet_count": 95, 
+                "id_str": "1005669575277596672", 
+                "favorited": false, 
+                "user": {
+                    "follow_request_sent": false, 
+                    "has_extended_profile": false, 
+                    "profile_use_background_image": true, 
+                    "default_profile_image": false, 
+                    "id": 744252001572233216, 
+                    "profile_background_image_url_https": null, 
+                    "verified": false, 
+                    "translator_type": "none", 
+                    "profile_text_color": "333333", 
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/984895945140850688/rq2htf3c_normal.jpg", 
+                    "profile_sidebar_fill_color": "DDEEF6", 
+                    "entities": {
+                        "description": {
+                            "urls": []
+                        }
+                    }, 
+                    "followers_count": 56367, 
+                    "profile_sidebar_border_color": "C0DEED", 
+                    "id_str": "744252001572233216", 
+                    "profile_background_color": "F5F8FA", 
+                    "listed_count": 247, 
+                    "is_translation_enabled": false, 
+                    "utc_offset": null, 
+                    "statuses_count": 46841, 
+                    "description": "Proud Democrat. #ImpeachTrump #TheResistance #TrumpRussia #TreasonGate #TrumpRussiaConspiracy #Impeach45 #TrumpCrimeFamily #HandsOffOurSocialSecurity", 
+                    "friends_count": 4319, 
+                    "location": "Deep Red South", 
+                    "profile_link_color": "1DA1F2", 
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/984895945140850688/rq2htf3c_normal.jpg", 
+                    "following": false, 
+                    "geo_enabled": false, 
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/744252001572233216/1528577598", 
+                    "profile_background_image_url": null, 
+                    "screen_name": "dumptrump33", 
+                    "lang": "en", 
+                    "profile_background_tile": false, 
+                    "favourites_count": 204514, 
+                    "name": "ImpeachTrump", 
+                    "notifications": false, 
+                    "url": null, 
+                    "created_at": "Sat Jun 18 19:34:39 +0000 2016", 
+                    "contributors_enabled": false, 
+                    "time_zone": null, 
+                    "protected": false, 
+                    "default_profile": true, 
+                    "is_translator": false
+                }, 
+                "geo": null, 
+                "in_reply_to_user_id_str": null, 
+                "possibly_sensitive": true, 
+                "lang": "en", 
+                "created_at": "Sun Jun 10 04:34:45 +0000 2018", 
+                "in_reply_to_status_id_str": null, 
+                "place": null, 
+                "extended_entities": {
+                    "media": [
+                        {
+                            "expanded_url": "https://twitter.com/dumptrump33/status/1005669575277596672/photo/1", 
+                            "display_url": "pic.twitter.com/Qa9l7ckl1y", 
+                            "url": "https://t.co/Qa9l7ckl1y", 
+                            "media_url_https": "https://pbs.twimg.com/media/DfTbJPHW0AEuanu.jpg", 
+                            "id_str": "1005669568533155841", 
+                            "sizes": {
+                                "small": {
+                                    "h": 440, 
+                                    "resize": "fit", 
+                                    "w": 660
+                                }, 
+                                "large": {
+                                    "h": 440, 
+                                    "resize": "fit", 
+                                    "w": 660
+                                }, 
+                                "medium": {
+                                    "h": 440, 
+                                    "resize": "fit", 
+                                    "w": 660
+                                }, 
+                                "thumb": {
+                                    "h": 150, 
+                                    "resize": "crop", 
+                                    "w": 150
+                                }
+                            }, 
+                            "indices": [
+                                109, 
+                                132
+                            ], 
+                            "type": "photo", 
+                            "id": 1005669568533155841, 
+                            "media_url": "http://pbs.twimg.com/media/DfTbJPHW0AEuanu.jpg"
+                        }
+                    ]
+                }, 
+                "metadata": {
+                    "iso_language_code": "en", 
+                    "result_type": "recent"
+                }
+            }, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": true, 
+                "profile_use_background_image": false, 
+                "default_profile_image": false, 
+                "id": 706666581741318144, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme17/bg.gif", 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "000000", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/987822429576708096/nqF2mLAm_normal.jpg", 
+                "profile_sidebar_fill_color": "000000", 
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/QP7znOIU4T", 
+                                "indices": [
+                                    0, 
+                                    23
+                                ], 
+                                "expanded_url": "http://trumpisnotabovethelaw.org", 
+                                "display_url": "trumpisnotabovethelaw.org"
+                            }
+                        ]
+                    }, 
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 24536, 
+                "profile_sidebar_border_color": "000000", 
+                "id_str": "706666581741318144", 
+                "profile_background_color": "000000", 
+                "listed_count": 101, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 52995, 
+                "description": "BUCKLE UP\ud83c\udf3c KAKISTOCRACY=Govt by Worst\ud83e\udd2e #NeverAgain\ud83e\udd40 #BanWeaponsOfWar\ud83d\udd4a #Basta\u270a\ud83c\udffc l AM #theResistance\u270a\ud83c\udffc 10", 
+                "friends_count": 26392, 
+                "location": "", 
+                "profile_link_color": "1B95E0", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/987822429576708096/nqF2mLAm_normal.jpg", 
+                "following": false, 
+                "geo_enabled": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/706666581741318144/1528259688", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme17/bg.gif", 
+                "screen_name": "BadASSSery", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 91085, 
+                "name": "\ud83d\ude0e\ud835\udd39\ud835\udd52\ud835\udd55\ud835\udd38\ud835\udd4a\ud835\udd4a\ud835\udd4a\ud835\udd56\ud835\udd63\ud835\udd6a\ud83c\udfc4\ud83c\udffc\u200d\u2640\ufe0f\ud83c\udf0a #BlueWave2018 #FBR", 
+                "notifications": false, 
+                "url": "https://t.co/QP7znOIU4T", 
+                "created_at": "Mon Mar 07 02:23:37 +0000 2016", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": false, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "lang": "en", 
+            "created_at": "Sun Jun 10 05:47:24 +0000 2018", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "Trump Kim summit: Stop romanticising a dictator, say North Korea artists https://t.co/3UV4gtcY7W", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 1005687753613299712, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [], 
+                "urls": [
+                    {
+                        "url": "https://t.co/3UV4gtcY7W", 
+                        "indices": [
+                            73, 
+                            96
+                        ], 
+                        "expanded_url": "http://dlvr.it/QWnWrm", 
+                        "display_url": "dlvr.it/QWnWrm"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"https://dlvrit.com/\" rel=\"nofollow\">dlvr.it</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 0, 
+            "id_str": "1005687753613299712", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 121446843, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme8/bg.gif", 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/709995365215444993/BHA6u-s7_normal.jpg", 
+                "profile_sidebar_fill_color": "EADEAA", 
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/PFC1j7Y9i3", 
+                                "indices": [
+                                    0, 
+                                    23
+                                ], 
+                                "expanded_url": "http://hypehitt.blogspot.com", 
+                                "display_url": "hypehitt.blogspot.com"
+                            }
+                        ]
+                    }, 
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 357, 
+                "profile_sidebar_border_color": "D9B17E", 
+                "id_str": "121446843", 
+                "profile_background_color": "8B542B", 
+                "listed_count": 12, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 94599, 
+                "description": "online PR|| Blogger...", 
+                "friends_count": 227, 
+                "location": "Nigeria", 
+                "profile_link_color": "9D582E", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/709995365215444993/BHA6u-s7_normal.jpg", 
+                "following": false, 
+                "geo_enabled": true, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/121446843/1458111065", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme8/bg.gif", 
+                "screen_name": "Ade_b", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 74, 
+                "name": "CEO hypehitt", 
+                "notifications": false, 
+                "url": "https://t.co/PFC1j7Y9i3", 
+                "created_at": "Tue Mar 09 14:38:00 +0000 2010", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": false, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "en", 
+            "created_at": "Sun Jun 10 05:46:59 +0000 2018", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "\u2018Trudeau said nothing at G7 he hasn\u2019t told Trump in person\u2019", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 1005687749565747200, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [], 
+                "urls": []
+            }, 
+            "retweeted": false, 
+            "coordinates": {
+                "type": "Point", 
+                "coordinates": [
+                    7.07519531, 
+                    4.76667816
+                ]
+            }, 
+            "source": "<a href=\"https://dlvrit.com/\" rel=\"nofollow\">dlvr.it</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 0, 
+            "id_str": "1005687749565747200", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 778413279777591296, 
+                "profile_background_image_url_https": null, 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/878215643589488640/wAe7vv8T_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 720, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "778413279777591296", 
+                "profile_background_color": "F5F8FA", 
+                "listed_count": 12, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 64187, 
+                "description": "Lion No Dey Value Ship Opinion.", 
+                "friends_count": 802, 
+                "location": "Nigeria", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/878215643589488640/wAe7vv8T_normal.jpg", 
+                "following": false, 
+                "geo_enabled": true, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/778413279777591296/1498218014", 
+                "profile_background_image_url": null, 
+                "screen_name": "akudinogu", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 79, 
+                "name": "Ojukwu", 
+                "notifications": false, 
+                "url": null, 
+                "created_at": "Wed Sep 21 01:59:22 +0000 2016", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": {
+                "type": "Point", 
+                "coordinates": [
+                    4.76667816, 
+                    7.07519531
+                ]
+            }, 
+            "in_reply_to_user_id_str": null, 
+            "lang": "en", 
+            "created_at": "Sun Jun 10 05:46:58 +0000 2018", 
+            "in_reply_to_status_id_str": null, 
+            "place": {
+                "full_name": "Rivers, Nigeria", 
+                "url": "https://api.twitter.com/1.1/geo/id/01ca6d740243aa31.json", 
+                "country": "Nigeria", 
+                "place_type": "admin", 
+                "bounding_box": {
+                    "type": "Polygon", 
+                    "coordinates": [
+                        [
+                            [
+                                6.351687, 
+                                4.3176116
+                            ], 
+                            [
+                                7.5957889, 
+                                4.3176116
+                            ], 
+                            [
+                                7.5957889, 
+                                5.7275834
+                            ], 
+                            [
+                                6.351687, 
+                                5.7275834
+                            ]
+                        ]
+                    ]
+                }, 
+                "contained_within": [], 
+                "country_code": "NG", 
+                "attributes": {}, 
+                "id": "01ca6d740243aa31", 
+                "name": "Rivers"
+            }, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": true, 
+            "text": "As you are feeling like crap today as Trump embarrasses the entire country. Know there are beautiful places in the\u2026 https://t.co/PzfoPX4Nh0", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 1005687428999536640, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [], 
+                "urls": [
+                    {
+                        "url": "https://t.co/PzfoPX4Nh0", 
+                        "indices": [
+                            116, 
+                            139
+                        ], 
+                        "expanded_url": "https://twitter.com/i/web/status/1005687428999536640", 
+                        "display_url": "twitter.com/i/web/status/1\u2026"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 0, 
+            "id_str": "1005687428999536640", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 258626160, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme12/bg.gif", 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "0C3E53", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/936017169325867008/oFuv7LVP_normal.jpg", 
+                "profile_sidebar_fill_color": "FFF7CC", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 6064, 
+                "profile_sidebar_border_color": "FFFFFF", 
+                "id_str": "258626160", 
+                "profile_background_color": "BADFCD", 
+                "listed_count": 18, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 24868, 
+                "description": "#TheResistance Smug Liberal. Proud supporter of @ACLU and yes, I do want to take all your guns away. Married mom of 2. \u2764\ufe0f", 
+                "friends_count": 5828, 
+                "location": "Pacific Northwest", 
+                "profile_link_color": "1B95E0", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/936017169325867008/oFuv7LVP_normal.jpg", 
+                "following": false, 
+                "geo_enabled": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/258626160/1485653108", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme12/bg.gif", 
+                "screen_name": "debimuch", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 13453, 
+                "name": "Deb Resists \ud83c\udf0a\ud83c\udf0a\ud83c\udf0a", 
+                "notifications": false, 
+                "url": null, 
+                "created_at": "Mon Feb 28 03:34:53 +0000 2011", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": false, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "en", 
+            "created_at": "Sun Jun 10 05:45:42 +0000 2018", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "RT @dumptrump33: I know this is completely off topic, but Mrs. Trudeau must be way happier than Mrs. Trump. #IStandWithCanada https://t.co/\u2026", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 1005687405645565953, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [
+                    {
+                        "id": 744252001572233216, 
+                        "indices": [
+                            3, 
+                            15
+                        ], 
+                        "id_str": "744252001572233216", 
+                        "screen_name": "dumptrump33", 
+                        "name": "ImpeachTrump"
+                    }
+                ], 
+                "hashtags": [
+                    {
+                        "indices": [
+                            108, 
+                            125
+                        ], 
+                        "text": "IStandWithCanada"
+                    }
+                ], 
+                "urls": []
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 95, 
+            "id_str": "1005687405645565953", 
+            "favorited": false, 
+            "retweeted_status": {
+                "contributors": null, 
+                "truncated": false, 
+                "text": "I know this is completely off topic, but Mrs. Trudeau must be way happier than Mrs. Trump. #IStandWithCanada https://t.co/Qa9l7ckl1y", 
+                "is_quote_status": false, 
+                "in_reply_to_status_id": null, 
+                "id": 1005669575277596672, 
+                "favorite_count": 312, 
+                "entities": {
+                    "symbols": [], 
+                    "user_mentions": [], 
+                    "hashtags": [
+                        {
+                            "indices": [
+                                91, 
+                                108
+                            ], 
+                            "text": "IStandWithCanada"
+                        }
+                    ], 
+                    "urls": [], 
+                    "media": [
+                        {
+                            "expanded_url": "https://twitter.com/dumptrump33/status/1005669575277596672/photo/1", 
+                            "display_url": "pic.twitter.com/Qa9l7ckl1y", 
+                            "url": "https://t.co/Qa9l7ckl1y", 
+                            "media_url_https": "https://pbs.twimg.com/media/DfTbJPHW0AEuanu.jpg", 
+                            "id_str": "1005669568533155841", 
+                            "sizes": {
+                                "small": {
+                                    "h": 440, 
+                                    "resize": "fit", 
+                                    "w": 660
+                                }, 
+                                "large": {
+                                    "h": 440, 
+                                    "resize": "fit", 
+                                    "w": 660
+                                }, 
+                                "medium": {
+                                    "h": 440, 
+                                    "resize": "fit", 
+                                    "w": 660
+                                }, 
+                                "thumb": {
+                                    "h": 150, 
+                                    "resize": "crop", 
+                                    "w": 150
+                                }
+                            }, 
+                            "indices": [
+                                109, 
+                                132
+                            ], 
+                            "type": "photo", 
+                            "id": 1005669568533155841, 
+                            "media_url": "http://pbs.twimg.com/media/DfTbJPHW0AEuanu.jpg"
+                        }
+                    ]
+                }, 
+                "retweeted": false, 
+                "coordinates": null, 
+                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+                "in_reply_to_screen_name": null, 
+                "in_reply_to_user_id": null, 
+                "retweet_count": 95, 
+                "id_str": "1005669575277596672", 
+                "favorited": false, 
+                "user": {
+                    "follow_request_sent": false, 
+                    "has_extended_profile": false, 
+                    "profile_use_background_image": true, 
+                    "default_profile_image": false, 
+                    "id": 744252001572233216, 
+                    "profile_background_image_url_https": null, 
+                    "verified": false, 
+                    "translator_type": "none", 
+                    "profile_text_color": "333333", 
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/984895945140850688/rq2htf3c_normal.jpg", 
+                    "profile_sidebar_fill_color": "DDEEF6", 
+                    "entities": {
+                        "description": {
+                            "urls": []
+                        }
+                    }, 
+                    "followers_count": 56367, 
+                    "profile_sidebar_border_color": "C0DEED", 
+                    "id_str": "744252001572233216", 
+                    "profile_background_color": "F5F8FA", 
+                    "listed_count": 247, 
+                    "is_translation_enabled": false, 
+                    "utc_offset": null, 
+                    "statuses_count": 46841, 
+                    "description": "Proud Democrat. #ImpeachTrump #TheResistance #TrumpRussia #TreasonGate #TrumpRussiaConspiracy #Impeach45 #TrumpCrimeFamily #HandsOffOurSocialSecurity", 
+                    "friends_count": 4319, 
+                    "location": "Deep Red South", 
+                    "profile_link_color": "1DA1F2", 
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/984895945140850688/rq2htf3c_normal.jpg", 
+                    "following": false, 
+                    "geo_enabled": false, 
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/744252001572233216/1528577598", 
+                    "profile_background_image_url": null, 
+                    "screen_name": "dumptrump33", 
+                    "lang": "en", 
+                    "profile_background_tile": false, 
+                    "favourites_count": 204514, 
+                    "name": "ImpeachTrump", 
+                    "notifications": false, 
+                    "url": null, 
+                    "created_at": "Sat Jun 18 19:34:39 +0000 2016", 
+                    "contributors_enabled": false, 
+                    "time_zone": null, 
+                    "protected": false, 
+                    "default_profile": true, 
+                    "is_translator": false
+                }, 
+                "geo": null, 
+                "in_reply_to_user_id_str": null, 
+                "possibly_sensitive": true, 
+                "lang": "en", 
+                "created_at": "Sun Jun 10 04:34:45 +0000 2018", 
+                "in_reply_to_status_id_str": null, 
+                "place": null, 
+                "extended_entities": {
+                    "media": [
+                        {
+                            "expanded_url": "https://twitter.com/dumptrump33/status/1005669575277596672/photo/1", 
+                            "display_url": "pic.twitter.com/Qa9l7ckl1y", 
+                            "url": "https://t.co/Qa9l7ckl1y", 
+                            "media_url_https": "https://pbs.twimg.com/media/DfTbJPHW0AEuanu.jpg", 
+                            "id_str": "1005669568533155841", 
+                            "sizes": {
+                                "small": {
+                                    "h": 440, 
+                                    "resize": "fit", 
+                                    "w": 660
+                                }, 
+                                "large": {
+                                    "h": 440, 
+                                    "resize": "fit", 
+                                    "w": 660
+                                }, 
+                                "medium": {
+                                    "h": 440, 
+                                    "resize": "fit", 
+                                    "w": 660
+                                }, 
+                                "thumb": {
+                                    "h": 150, 
+                                    "resize": "crop", 
+                                    "w": 150
+                                }
+                            }, 
+                            "indices": [
+                                109, 
+                                132
+                            ], 
+                            "type": "photo", 
+                            "id": 1005669568533155841, 
+                            "media_url": "http://pbs.twimg.com/media/DfTbJPHW0AEuanu.jpg"
+                        }
+                    ]
+                }, 
+                "metadata": {
+                    "iso_language_code": "en", 
+                    "result_type": "recent"
+                }
+            }, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 14752262, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme6/bg.gif", 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "5A5247", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/813812306400395265/_WtNhw5A_normal.jpg", 
+                "profile_sidebar_fill_color": "1D130D", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 1131, 
+                "profile_sidebar_border_color": "794725", 
+                "id_str": "14752262", 
+                "profile_background_color": "000000", 
+                "listed_count": 20, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 10111, 
+                "description": "Books, cofeve \u2615\ufe0f, dogs, cats, reluctant empty-nester, Navy spouse, evidence-based rational thinker. Pretentious Twitter Hag.", 
+                "friends_count": 2433, 
+                "location": "Houston, TX", 
+                "profile_link_color": "AA642E", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/813812306400395265/_WtNhw5A_normal.jpg", 
+                "following": false, 
+                "geo_enabled": true, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/14752262/1522604971", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme6/bg.gif", 
+                "screen_name": "Seaborne", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 48206, 
+                "name": "Robyn With A 'Y'", 
+                "notifications": false, 
+                "url": null, 
+                "created_at": "Tue May 13 00:38:15 +0000 2008", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": false, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "lang": "en", 
+            "created_at": "Sun Jun 10 05:45:36 +0000 2018", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "RT @dumptrump33: I'm willing to speculate that more of us are behind Justin Trudeau than with Trump. #IStandWithCanada", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 1005687331028979713, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [
+                    {
+                        "id": 744252001572233216, 
+                        "indices": [
+                            3, 
+                            15
+                        ], 
+                        "id_str": "744252001572233216", 
+                        "screen_name": "dumptrump33", 
+                        "name": "ImpeachTrump"
+                    }
+                ], 
+                "hashtags": [
+                    {
+                        "indices": [
+                            101, 
+                            118
+                        ], 
+                        "text": "IStandWithCanada"
+                    }
+                ], 
+                "urls": []
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 342, 
+            "id_str": "1005687331028979713", 
+            "favorited": false, 
+            "retweeted_status": {
+                "contributors": null, 
+                "truncated": false, 
+                "text": "I'm willing to speculate that more of us are behind Justin Trudeau than with Trump. #IStandWithCanada", 
+                "is_quote_status": false, 
+                "in_reply_to_status_id": null, 
+                "id": 1005601331078418432, 
+                "favorite_count": 1026, 
+                "entities": {
+                    "symbols": [], 
+                    "user_mentions": [], 
+                    "hashtags": [
+                        {
+                            "indices": [
+                                84, 
+                                101
+                            ], 
+                            "text": "IStandWithCanada"
+                        }
+                    ], 
+                    "urls": []
+                }, 
+                "retweeted": false, 
+                "coordinates": null, 
+                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+                "in_reply_to_screen_name": null, 
+                "in_reply_to_user_id": null, 
+                "retweet_count": 342, 
+                "id_str": "1005601331078418432", 
+                "favorited": false, 
+                "user": {
+                    "follow_request_sent": false, 
+                    "has_extended_profile": false, 
+                    "profile_use_background_image": true, 
+                    "default_profile_image": false, 
+                    "id": 744252001572233216, 
+                    "profile_background_image_url_https": null, 
+                    "verified": false, 
+                    "translator_type": "none", 
+                    "profile_text_color": "333333", 
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/984895945140850688/rq2htf3c_normal.jpg", 
+                    "profile_sidebar_fill_color": "DDEEF6", 
+                    "entities": {
+                        "description": {
+                            "urls": []
+                        }
+                    }, 
+                    "followers_count": 56367, 
+                    "profile_sidebar_border_color": "C0DEED", 
+                    "id_str": "744252001572233216", 
+                    "profile_background_color": "F5F8FA", 
+                    "listed_count": 247, 
+                    "is_translation_enabled": false, 
+                    "utc_offset": null, 
+                    "statuses_count": 46841, 
+                    "description": "Proud Democrat. #ImpeachTrump #TheResistance #TrumpRussia #TreasonGate #TrumpRussiaConspiracy #Impeach45 #TrumpCrimeFamily #HandsOffOurSocialSecurity", 
+                    "friends_count": 4319, 
+                    "location": "Deep Red South", 
+                    "profile_link_color": "1DA1F2", 
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/984895945140850688/rq2htf3c_normal.jpg", 
+                    "following": false, 
+                    "geo_enabled": false, 
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/744252001572233216/1528577598", 
+                    "profile_background_image_url": null, 
+                    "screen_name": "dumptrump33", 
+                    "lang": "en", 
+                    "profile_background_tile": false, 
+                    "favourites_count": 204514, 
+                    "name": "ImpeachTrump", 
+                    "notifications": false, 
+                    "url": null, 
+                    "created_at": "Sat Jun 18 19:34:39 +0000 2016", 
+                    "contributors_enabled": false, 
+                    "time_zone": null, 
+                    "protected": false, 
+                    "default_profile": true, 
+                    "is_translator": false
+                }, 
+                "geo": null, 
+                "in_reply_to_user_id_str": null, 
+                "lang": "en", 
+                "created_at": "Sun Jun 10 00:03:35 +0000 2018", 
+                "in_reply_to_status_id_str": null, 
+                "place": null, 
+                "metadata": {
+                    "iso_language_code": "en", 
+                    "result_type": "recent"
+                }
+            }, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 797250788825382912, 
+                "profile_background_image_url_https": null, 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/797882750443409409/TSWBcHSD_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 102, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "797250788825382912", 
+                "profile_background_color": "F5F8FA", 
+                "listed_count": 2, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 12369, 
+                "description": "", 
+                "friends_count": 197, 
+                "location": "", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/797882750443409409/TSWBcHSD_normal.jpg", 
+                "following": false, 
+                "geo_enabled": false, 
+                "profile_background_image_url": null, 
+                "screen_name": "kapj218", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 21789, 
+                "name": "Kris", 
+                "notifications": false, 
+                "url": null, 
+                "created_at": "Sat Nov 12 01:32:55 +0000 2016", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "lang": "en", 
+            "created_at": "Sun Jun 10 05:45:19 +0000 2018", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }
+    ]
+}

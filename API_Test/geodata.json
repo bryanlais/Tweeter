@@ -1,0 +1,249 @@
+[
+    {
+        "terms": [
+            {
+                "value": "Jos", 
+                "offset": 0
+            }, 
+            {
+                "value": "Nigeria", 
+                "offset": 5
+            }
+        ], 
+        "description": "Jos, Nigeria", 
+        "reference": "CjQkAAAAQI4fqadohq8OjcTYzk1NBnMewE9jyqVRI2GjGXMBtBDps2knOpY3gJYKaAeD6dGKEhAyjGzruaygyoUgS7xvttU9GhQ_ruB5huvRKhqlRVwWQCr_z_j0hQ", 
+        "structured_formatting": {
+            "secondary_text_matched_substrings": [
+                {
+                    "length": 7, 
+                    "offset": 0
+                }
+            ], 
+            "secondary_text": "Nigeria", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 3, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Jos"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 3, 
+                "offset": 0
+            }, 
+            {
+                "length": 7, 
+                "offset": 5
+            }
+        ], 
+        "place_id": "ChIJgxzsaE5yUxARHTjV-wDn6yE", 
+        "id": "6661245f86013b47d7953bd3a4130ce4fae320a8", 
+        "types": [
+            "locality", 
+            "political", 
+            "geocode"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "Jos Street", 
+                "offset": 0
+            }, 
+            {
+                "value": "Abuja", 
+                "offset": 12
+            }, 
+            {
+                "value": "Nigeria", 
+                "offset": 19
+            }
+        ], 
+        "description": "Jos Street, Abuja, Nigeria", 
+        "reference": "CiQeAAAA43okd8HecIiuxCnCEUgVhO2-Z1_CvhBeqEd_M4NIF04SELMM9c95f-5tK8PKmSeR7PcaFAqVUceXJNBU0QrVUQLt6mXhkSyZ", 
+        "structured_formatting": {
+            "secondary_text_matched_substrings": [
+                {
+                    "length": 7, 
+                    "offset": 7
+                }
+            ], 
+            "secondary_text": "Abuja, Nigeria", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 3, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Jos Street"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 3, 
+                "offset": 0
+            }, 
+            {
+                "length": 7, 
+                "offset": 19
+            }
+        ], 
+        "place_id": "EhpKb3MgU3RyZWV0LCBBYnVqYSwgTmlnZXJpYQ", 
+        "id": "60cc0ce9b46cd21d8ef376247ccf9c848e2cb02e", 
+        "types": [
+            "route", 
+            "geocode"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "Jos Close", 
+                "offset": 0
+            }, 
+            {
+                "value": "Agbara", 
+                "offset": 11
+            }, 
+            {
+                "value": "Nigeria", 
+                "offset": 19
+            }
+        ], 
+        "description": "Jos Close, Agbara, Nigeria", 
+        "reference": "CiQeAAAAt87w2eZzusbP2HgvMOODPuAKp4DE7Ph2ZQFGe2BK3fESEAqVXo8Vk66e5thLPwVhnJgaFIE1BnlwFSUaAKtAx5jDDEDE3uPJ", 
+        "structured_formatting": {
+            "secondary_text_matched_substrings": [
+                {
+                    "length": 7, 
+                    "offset": 8
+                }
+            ], 
+            "secondary_text": "Agbara, Nigeria", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 3, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Jos Close"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 3, 
+                "offset": 0
+            }, 
+            {
+                "length": 7, 
+                "offset": 19
+            }
+        ], 
+        "place_id": "EhpKb3MgQ2xvc2UsIEFnYmFyYSwgTmlnZXJpYQ", 
+        "id": "1e1304ca9dbf61f78a2d165bfeec03d09c47ec7b", 
+        "types": [
+            "route", 
+            "geocode"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "Jos Road", 
+                "offset": 0
+            }, 
+            {
+                "value": "Kaduna", 
+                "offset": 10
+            }, 
+            {
+                "value": "Nigeria", 
+                "offset": 18
+            }
+        ], 
+        "description": "Jos Road, Kaduna, Nigeria", 
+        "reference": "CiQdAAAAx4ErcGPAUjydeRDnW0h3voQ_fLM43vxadv4J8-nXIikSEAWLg39N8BxPqOi7Fy7B-icaFOPe34ADmyrQaFSJXlCda1ohawOE", 
+        "structured_formatting": {
+            "secondary_text_matched_substrings": [
+                {
+                    "length": 7, 
+                    "offset": 8
+                }
+            ], 
+            "secondary_text": "Kaduna, Nigeria", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 3, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Jos Road"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 3, 
+                "offset": 0
+            }, 
+            {
+                "length": 7, 
+                "offset": 18
+            }
+        ], 
+        "place_id": "EhlKb3MgUm9hZCwgS2FkdW5hLCBOaWdlcmlh", 
+        "id": "4f6e361dbb9dcfa5d79973090eb01ede478d7b31", 
+        "types": [
+            "route", 
+            "geocode"
+        ]
+    }, 
+    {
+        "terms": [
+            {
+                "value": "Old Jos Road", 
+                "offset": 0
+            }, 
+            {
+                "value": "Bauchi", 
+                "offset": 14
+            }, 
+            {
+                "value": "Nigeria", 
+                "offset": 22
+            }
+        ], 
+        "description": "Old Jos Road, Bauchi, Nigeria", 
+        "reference": "CjQhAAAAIdiJWZK45-D5X4C-NocH2LycgO0rZAYNkb8-oUR14j65vlcVEs10St1oAfxIXQq6EhCSSVhGvKJJfzrvLzmAI0_6GhT7P49XaRg1_9gRCWRpXW--neTC2A", 
+        "structured_formatting": {
+            "secondary_text_matched_substrings": [
+                {
+                    "length": 7, 
+                    "offset": 8
+                }
+            ], 
+            "secondary_text": "Bauchi, Nigeria", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 3, 
+                    "offset": 4
+                }
+            ], 
+            "main_text": "Old Jos Road"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 3, 
+                "offset": 4
+            }, 
+            {
+                "length": 7, 
+                "offset": 22
+            }
+        ], 
+        "place_id": "Eh1PbGQgSm9zIFJvYWQsIEJhdWNoaSwgTmlnZXJpYQ", 
+        "id": "61172cebd7078dee6f06a7346509eb9a534b4e1f", 
+        "types": [
+            "route", 
+            "geocode"
+        ]
+    }
+]
