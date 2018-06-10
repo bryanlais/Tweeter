@@ -32,7 +32,7 @@ CONSUMER_SECRET = "Qv1fGDVJcT9eRgfYhS7cJRY5IEu4Kr36oVgNBRDkdkdLxlkUp5"
 
 oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 twitter_stream = TwitterStream(auth=oauth)
-twitter_search = Twitter(auth=oauth)
+twitter = Twitter(auth=oauth)
 
 html = '''
 <!DOCTYPE html>
@@ -41,6 +41,7 @@ html = '''
 	<body>{body}</body>
 </html>
 '''
+
 
 def returnRealtimeTweets(search_value, tweet_count):
 	global twitter_stream
@@ -60,10 +61,33 @@ def returnRealtimeTweets(search_value, tweet_count):
 			break
 	return filter(None, locationDataList)
 
-def returnFilteredTweets(search_value):
+def returnTweetLocations(search_value, tweet_count):
 	global twitter_search
-	twitter_search.search.tweets(q=search_value,count=100)
+	output = []
+	for x in range(1):
+		tweets = twitter.search.tweets(q=search_value,count = tweet_count, geocode="0.781157,0.398720,8000mi")
 
+		jsonFile = open("tweets.json", "w")
+		jsonFile.write(json.dumps(tweets, indent = 4))
+		#print tweets[0]
+
+		jsonFile.close()
+
+		jsonFile = open("tweets.json", "r")
+		jsonStr = jsonFile.read()
+		jsonData = json.loads(jsonStr)
+		
+		for el in jsonData["statuses"]:
+			if el["place"] != None:
+				str(output.append(el["place"]["name"]))
+			elif el["user"]["location"] != None:
+				try:
+					output.append(str(el["user"]["location"]))
+				except:
+					continue
+		jsonFile.close()
+	return filter(None, output)
+	
 def returnLocationData():
 	# We use the file saved from last step as example
 	tweetFile = open("tweets.txt", "r")
