@@ -141,7 +141,9 @@ def geocodeTweets(tweets):
 		geoJSON = dumpToJSON("json-bin/geodata.json", jsonData)
 
 		try:
-			geocodes.append([str(geoJSON[0]["place_id"]),tweet[1]])
+			placeID = geoJSN[0]["place_id"].encode('utf-8')
+			country = geoJSN[0]["terms"][-1]
+			geocodes.append([placeID, tweet[1] + " , " + tweet[0], country])
 		except IndexError:
 			continue
 		
@@ -156,9 +158,14 @@ def geocodesToCoordinates(geocodes):
 		placeData = dumpToJSON("json-bin/placedata.json", jsonData)
 		
 		lat, lng =  placeData["result"]["geometry"]["location"]["lat"], placeData["result"]["geometry"]["location"]["lng"]
-		output.append([lat, lng, geocode[1]])	
+		output.append([lat, lng, geocode[1], geocode[2]])	
 	return output
 
+def removeCountryCodes(locationArray):
+	output = []
+	for el in locationArray:
+		output.append(el[:3])
+	return output
 
 def grabYesterday():
     yesterday = date.today() - timedelta(1)
@@ -319,6 +326,7 @@ def main():
     global html
     input = toVar()
     locationArray = geocodeTweets(returnTweetLocations(input["search"],int(input["tweetNumber"])))
+	locationArray = removeCountryCodes(locationArray)
     countryArray = {"coordinates":"okay","eric":"bryan"}
     interestArray = interestByTime(input["search"],input["tweetNumber"],previousDaysManager(input["timeSelector"]))
     try:
