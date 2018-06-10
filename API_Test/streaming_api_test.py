@@ -7,22 +7,22 @@ except ImportError:
 
 from twitter import Twitter, OAuth, TwitterHTTPError, TwitterStream
 
-ACCESS_TOKEN = "917612981311229952-fAzjd6ZXJH55WPIFjBXn3YbGUqthZQW"
-ACCESS_SECRET = "4p0TUtBD6natIqvFkPAw3NKdnuthmLofBPSrwzqlCxIDO"
+ACCESS_TOKEN = "908881849962913792-TCiZjs3LLqUxkFAOz4pT2P09MHJcWCD"
+ACCESS_SECRET = "ZMX13DIqztOcjLT9TxpnLV1A4XqVeeeo9OAGDm4OokSUf"
 
-CONSUMER_KEY = "8tTrc4OOKie2lCxWztVWeheKt"
-CONSUMER_SECRET = "m1BpwQOP08HQmAUm4BNDZs6luNWmWZLtx6iqatdEZqPWGfXCcG"
+CONSUMER_KEY = "DDWdLGsClAIJs3oujJ1aEIvbw"
+CONSUMER_SECRET = "Qv1fGDVJcT9eRgfYhS7cJRY5IEu4Kr36oVgNBRDkdkdLxlkUp5"
 
 oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 
 twitter_stream = TwitterStream(auth=oauth)
 
-iterator = twitter_stream.statuses.sample()
+iterator = twitter_stream.statuses.filter(track=hi, language="en", locations="-180,-90,180,90")
 output = []
 tweet_count = 2
 for tweet in iterator:
     tweet_count -= 1
-    output.append(json.dumps(tweet))
+    output.append(json.dumps(tweet,indent=4))
 
     if tweet_count <= 0:
         break

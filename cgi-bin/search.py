@@ -42,29 +42,50 @@ html = '''
 </html>
 '''
 
-def returnRealtimeTweets(search_value):
+def returnRealtimeTweets(search_value, tweet_count):
 	global twitter_stream
-	tweets = twitter_stream.statuses.filter(track=search_value, language="en", locations="-180,-90,180,90")
-	output = []
-	tweet_count = 1
+	locationDataList = []
+
+	tweets = twitter_stream.statuses.filter(track=search_value, locations="-180,-90,180,90")
+
 	for tweet in tweets:
+		tweetFile = open("tweets.txt","w")
+		tweetFile.write(str(json.dumps(tweet)))
+		tweetFile.close()
+
+		locationDataList.append(returnLocationData())
+
 		tweet_count -= 1
-		output.append(json.dumps(tweet))
 		if tweet_count <= 0:
 			break
-	return output
+	return filter(None, locationDataList)
 
 def returnFilteredTweets(search_value):
 	global twitter_search
 	twitter_search.search.tweets(q=search_value,count=100)
 
-def returnTweetLocation(tweets):
-	output = {}
-	for tweet in tweets:
-		text = tweet["tweet"]["text"]
-		country = tweet["tweet"]["place"]["country"]
-		output[text] = country #Returns country of tweet
-	return output
+def returnLocationData():
+	# We use the file saved from last step as example
+	tweetFile = open("tweets.txt", "r")
+
+	for line in tweetFile:
+		try:
+			# Read in one line of the file, convert it into a json object
+			tweet = json.loads(line.strip())
+
+			if 'text' in tweet:
+				name =  str(tweet["place"]["full_name"])
+				text = str(tweet["text"])
+				locationData = [tweet["place"]["bounding_box"]["coordinates"][0][0][1],tweet["place"]["bounding_box"]["coordinates"][0][0][0]]
+
+				locationData.append(name + " " + text)
+				return locationData
+
+		except:
+			# Sometimes an error occurs when a line is not in json format
+			continue
+	tweetFile.close()
+
 '''
   _____                                  __  __
  | ____|  _ __   _ __    ___    _ __    |  \/  |   __ _   _ __     __ _    __ _    ___   _ __
@@ -114,16 +135,24 @@ def toVar():
 
 googleChart = open("../google.html", "r").read()
 
-def chartManager(chartType,dict):
+def chartManager(chartType,dict,locationArray):
     updatedChart = ""
     if chartType == "realMap":
         updatedChart = googleChart.replace("chartInput","real_div")
+        idx = 0
+        while idx < len(locationArray):
+            if idx != len(locationArray) - 1:
+                updatedChart = updatedChart.replace("googleMapCoordinates",str(locationArray[idx]) + "," + "googleMapCoordinates")
+            else:
+                updatedChart = updatedChart.replace("googleMapCoordinates",str(locationArray[idx]))
+            idx += 1
     if chartType == "worldMap":
         updatedChart = googleChart.replace("chartInput","regions_div")
     if chartType == "piechart":
         updatedChart = googleChart.replace("chartInput","pies_div")
     if chartType == "barGraph":
         updatedChart = googleChart.replace("chartInput","bargraph_div")
+    #Below is used for taking in a dictionary and using it.
     idx = 0
     while idx < len(dict):
         if idx != len(dict) - 1:
@@ -146,13 +175,13 @@ def main():
 	print "Content-type: text/html\n"
 	global html
 	input = toVar()
-	twitterInfo = returnRealtimeTweets(input["search"])
+	locationArray = returnRealtimeTweets(input["search"],int(input["tweetNumber"]))
     #print input
 	dict = {"coordinates":"okay","eric":"bryan"}
 	if input["chartView"] == "none":
 	    print errorHandler("You didn't choose a view option.")
 	else:
-	    print chartManager(input["chartView"],dict)
+	    print chartManager(input["chartView"],dict,locationArray)
 	#except KeyError:
 	#    print errorHandler("Technical Difficulties")
 

@@ -26,7 +26,7 @@
     function realGoogleMap() {
     var data = google.visualization.arrayToDataTable([
       ['Lat', 'Long', 'Name'],
-      {googleMapCoordinates}
+      googleMapCoordinates
     ]);
     var options = {
     showTooltip: true,
@@ -42,7 +42,7 @@
 // |_|     |_|  \___|    \____| |_| |_|  \__,_| |_|     \__|
 function pieChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Task', 'Hours per Day'],
+          ['Country', 'Popularity Percentage'],
           ['Work',     11],
           ['Eat',      2],
           ['Commute',  2],
