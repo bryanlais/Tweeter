@@ -1,0 +1,128 @@
+{
+    "status": "OK", 
+    "html_attributions": [], 
+    "result": {
+        "utc_offset": 60, 
+        "name": "Nigeria", 
+        "reference": "CmRbAAAAP27wibTyVjV-UhwtXiA8JtFqdH3qsIPL4fnzw0_Iryipa-EWwsVDr2jVxzxW-tLlYxA6rkZyNTr1Q5wzz7h4C9t4gZoMxXd8ZpFGMZ4rxcSJWRMePUfDu_wTglD6t_OQEhB5FaqbkzoL9xUq8xH5Z7fYGhQewPuAlrX5GMsh6Yt1BWp6_Sr_Fg", 
+        "geometry": {
+            "location": {
+                "lat": 9.081999000000001, 
+                "lng": 8.675277
+            }, 
+            "viewport": {
+                "northeast": {
+                    "lat": 13.8856449, 
+                    "lng": 14.677982
+                }, 
+                "southwest": {
+                    "lat": 4.1821001, 
+                    "lng": 2.676932
+                }
+            }
+        }, 
+        "adr_address": "<span class=\"country-name\">Nigeria</span>", 
+        "place_id": "ChIJDY2kfa8LThARyAvFaEH-qJk", 
+        "photos": [
+            {
+                "photo_reference": "CmRaAAAAyOqU3cGvEYCeidBD1N1d98h536Im8ld2afETiJyTi5NJWb9Y1k675BA3EpfUbWOZbDVSdQlSiJru7E-SaQrDzmuhF1Bv6AnAKuswjt51-I81Ee3SeAMa_yYpP366gOzQEhCzniiZoLODkzZz7ETkXdLmGhRngsPMSvk0_XWvBjxHesd1mD3Lig", 
+                "width": 720, 
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100881122112270400196/photos\">OLAWALE MOSHOOD</a>"
+                ], 
+                "height": 538
+            }, 
+            {
+                "photo_reference": "CmRaAAAAkcoTidHDuNhlAIjPr5nQ4pu8Tu31IO3StA4Hh2sB-NaIgQ__6CNlYrttigx8prQhJpS5le5fWFfc8Tu7_1VtOCdhBJKeAj8eIAuhLt-RUzTjFhb68x3GvglC0opnauWZEhBQ233xtkeZ_QPQAWvu6iyHGhQ5o172c2S7e2yK82smiW9MUx3Qww", 
+                "width": 800, 
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114656893589068085390/photos\">henry precious</a>"
+                ], 
+                "height": 600
+            }, 
+            {
+                "photo_reference": "CmRaAAAAY94GxWtscrDI7-6WUCP65yzGD7rY3-RY2Y3PrgnpYcU6LfEUioaNDt6WsWFpE2GiUmqZjQCYilgLm8NrujfM9GXv1bcINyx7dP40vxvBBixXfnBoEggsf71KGrzEq2xzEhC1tLlhbYegiyatyAV6WU_IGhQffWhpg6jXRtXMa9D00oeovOwktw", 
+                "width": 2592, 
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/117639452495119018096/photos\">CHIJIOKE PETER</a>"
+                ], 
+                "height": 1944
+            }, 
+            {
+                "photo_reference": "CmRaAAAACCBlnz0hTHnD8HTgQdUL5qjZqRnz9zw24-iWWFH5eZ1tQYFxxhFA_TRxe5DaLyN0-GbqjYPs30XGZPqcAwJSpM9YbBQygVpS3_uXaq2_XpkxxkRBgc-SJld7HXcvxNyLEhAxCJx4-qCrAtuBaWeWPOlmGhTOc0CYCRpcIJIQCKfkWpSGjzfWmA", 
+                "width": 1216, 
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/101137077970821027699/photos\">nwachukwu Chikezie</a>"
+                ], 
+                "height": 684
+            }, 
+            {
+                "photo_reference": "CmRaAAAA6SyqCGfoiC8icEGliLY1a4V0fx49qkO-MB0ObaXnEnWexo0jMkO_WnaQlmE5c-7377ThT8L8BHiBYkKSrPGQ2ZOh4riOJBgx1uWKx-mCuivbsY11Y9uckgZeh8UtvcL0EhDjKY1idQJoFj9WBYs9ixa5GhTP-oWMWa9_U14pqPeixe_fo0HVmQ", 
+                "width": 1200, 
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112628578337233292316/photos\">Omoghiboria Ikponmwosa</a>"
+                ], 
+                "height": 721
+            }, 
+            {
+                "photo_reference": "CmRaAAAABTKw_Th0kf3YqW2AAnWdP72mh6BKb77mJ1hLLNAttTi0R6dfWsMQmJuw82n4mfZktjIHJ8y2rRjcqEqvxWnr5mZ9ZqtSCDMjhyRps1gdaJjVxsj3dA9nSsNiZ2OQQ04LEhAlb3NiM576VFO7qLCbzi75GhSZgmavTzLRYMPoocztFRvp-KDXHA", 
+                "width": 720, 
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/117474875725472245930/photos\">Komolafe Olubunmi</a>"
+                ], 
+                "height": 540
+            }, 
+            {
+                "photo_reference": "CmRaAAAARJg5YHGYqNUYL2HPuHt2E4Yaju1c8Ko2XBRkSnagaJvX6W9l1eyQEdqHltdj3V-qN13OUi9DXIC8MrcexPPM2hxeg91h9qDf7n5cfD-Vi5OxEXKLAOYkVCaoTFI_rVrzEhBBC8EOM_yJ1Z021r8YmaGJGhRytyK1MTrJPkE72k3WvHLlzyYc5w", 
+                "width": 1090, 
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/115953318536404046726/photos\">joseph abayomi</a>"
+                ], 
+                "height": 630
+            }, 
+            {
+                "photo_reference": "CmRaAAAAzrCerhzbBnY5BY9tImfJPE0hX61uCZJ4T0eFTOspZy3kAJHQf6DyTsPF9ggicdDFD01U2AeKD9YNf7fsdh_8R4kBul22_D1qaMhzdrYVUrxaqIXtz0x92zxB25qLfjuAEhCDnQxKC9KVrWrk3ru2ssoeGhRk0fDg_cM_v1gULGedMfR5VeeTXQ", 
+                "width": 4618, 
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/101461038332085069286/photos\">Mary Manzo</a>"
+                ], 
+                "height": 3464
+            }, 
+            {
+                "photo_reference": "CmRaAAAAxidyVkyUgPiMuaQv9u4jUBg0hNkauZXqaGOQcC02TM7UYhS3O6UJEEgrY1rqCcLBtC1Rmrox-uqFl4YFoz5lU3l6yShfaHOA5_4dysQ8SLtCBCYY7Hu_VETIzS8iwwRNEhBY268LXwCgXVQe-Iy7hfPaGhSVA0S-4E4SenvaO6k0fql9a4HMYg", 
+                "width": 865, 
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105516601282263283543/photos\">Ishaku Chollom</a>"
+                ], 
+                "height": 487
+            }, 
+            {
+                "photo_reference": "CmRaAAAAeImciBuKCL1dgr5nEietaVgJs74ZNQLqp-IxMjYDc-OnhzWUWcRTHEn3XJu9Mei9auy4AtzdokWuM7ZqSBB5veERJ19bGRy1Dl6qlT0bDHxrpCr8eWK4WgkqauKYKNC_EhCih9ZWRZhGU5E_61oekRXrGhSnGHwtTUjV9Yy1X55d6UiNrlpbRw", 
+                "width": 1024, 
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116662697761646261507/photos\">Iloka Bornfree</a>"
+                ], 
+                "height": 768
+            }
+        ], 
+        "url": "https://maps.google.com/?q=Nigeria&ftid=0x104e0baf7da48d0d:0x99a8fe4168c50bc8", 
+        "scope": "GOOGLE", 
+        "address_components": [
+            {
+                "long_name": "Nigeria", 
+                "types": [
+                    "country", 
+                    "political"
+                ], 
+                "short_name": "NG"
+            }
+        ], 
+        "formatted_address": "Nigeria", 
+        "id": "dffd1b1d292387e03aa1c750e4517350c76c567b", 
+        "types": [
+            "country", 
+            "political"
+        ], 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png"
+    }
+}

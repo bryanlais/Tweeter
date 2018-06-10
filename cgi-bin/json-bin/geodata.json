@@ -1,0 +1,49 @@
+[
+    {
+        "terms": [
+            {
+                "value": "Lagos", 
+                "offset": 0
+            }, 
+            {
+                "value": "Nigeria", 
+                "offset": 7
+            }
+        ], 
+        "description": "Lagos, Nigeria", 
+        "reference": "CjQmAAAAbR_j0F2_YmEA6OH1YjnH2rqJ0UEZSsSafL6IOkW24jVT_UL6PkIu4msQJ5xiPr-YEhCsXySWXue_cYGSOmKdTilEGhQr4CdjFzPNVbdzDsaEj56F3_G5GA", 
+        "structured_formatting": {
+            "secondary_text_matched_substrings": [
+                {
+                    "length": 7, 
+                    "offset": 0
+                }
+            ], 
+            "secondary_text": "Nigeria", 
+            "main_text_matched_substrings": [
+                {
+                    "length": 5, 
+                    "offset": 0
+                }
+            ], 
+            "main_text": "Lagos"
+        }, 
+        "matched_substrings": [
+            {
+                "length": 5, 
+                "offset": 0
+            }, 
+            {
+                "length": 7, 
+                "offset": 7
+            }
+        ], 
+        "place_id": "ChIJwYCC5iqLOxARy9nDZ6OHntw", 
+        "id": "f5e45a1cb67f5581896d92388b6402c552e4d5f0", 
+        "types": [
+            "locality", 
+            "political", 
+            "geocode"
+        ]
+    }
+]
