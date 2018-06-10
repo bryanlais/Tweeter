@@ -110,6 +110,27 @@ def returnLocationData():
 			continue
 	tweetFile.close()
 
+def interestByTime(search_value, tweet_count, date):
+	global twitter_search
+	output = []
+	for x in range(1):
+		tweets = twitter.search.tweets(q=search_value,count = tweet_count, until = date, result_type="popular")
+
+		jsonFile = open("tweets.json", "w")
+		jsonFile.write(json.dumps(tweets, indent = 4))
+		#print tweets[0]
+
+		jsonFile.close()
+
+		jsonFile = open("tweets.json", "r")
+		jsonStr = jsonFile.read()
+		jsonData = json.loads(jsonStr)
+		print len(jsonData["statuses"])
+		for el in jsonData["statuses"]:
+			output.append(el["created_at")]
+		jsonFile.close()
+	return output
+    
 def grabYesterday():
     today = date.today()
     return today - timedelta(1)
