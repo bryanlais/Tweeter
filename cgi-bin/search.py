@@ -38,7 +38,7 @@ MAPS_KEY = "AIzaSyATSAyQy4FCqahfQ0wFI6CdS6liwNeFEUw"
 oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 twitter_stream = TwitterStream(auth=oauth)
 twitter = Twitter(auth=oauth)
-print
+
 gmaps = googlemaps.Client(key=MAPS_KEY)
 
 html = '''
@@ -61,24 +61,6 @@ def dumpToJSON(filehandle, raw):
 	jsonFile.close()
 	return JSON
 
-def returnTweetLocations(search_value, tweet_count):
-	global twitter_search
-	output = []
-	for x in range(1):
-		tweets = twitter.search.tweets(q=search_value,count = tweet_count, geocode="0.781157,0.398720,8000mi")
-
-		jsonData = dumpToJSON("tweet_location_names", tweets)
-		
-		for el in jsonData["statuses"]:
-			if el["place"] != None:
-				output.append([str(el["place"]["name"]),str(el["text"])])
-			elif el["user"]["location"] != None:
-				try:
-					output.append([str(el["user"]["location"]),str(el["text"])])
-				except:
-					continue
-	return filter(None, output)
-
 def returnRealtimeTweets(search_value, tweet_count):
 	global twitter_stream
 	locationDataList = []
@@ -86,7 +68,7 @@ def returnRealtimeTweets(search_value, tweet_count):
 	tweets = twitter_stream.statuses.filter(track=search_value, locations="-180,-90,180,90")
 
 	for tweet in tweets:
-		tweetFile = open("tweets.txt","w")
+		tweetFile = open("json-bin/tweets.json","w")
 		tweetFile.write(str(json.dumps(tweet)))
 		tweetFile.close()
 
@@ -99,7 +81,7 @@ def returnRealtimeTweets(search_value, tweet_count):
 	
 def returnLocationData():
 	# We use the file saved from last step as example
-	tweetFile = open("tweets.txt", "r")
+	tweetFile = open("json-bin/tweets.json", "r")
 
 	for line in tweetFile:
 		try:
@@ -119,12 +101,30 @@ def returnLocationData():
 			continue
 	tweetFile.close()
 
+def returnTweetLocations(search_value, tweet_count):
+	global twitter_search
+	output = []
+	for x in range(1):
+		tweets = twitter.search.tweets(q=search_value,count = tweet_count, geocode="0.781157,0.398720,8000mi")
+
+		jsonData = dumpToJSON("json-bin/tweet_location_names.json", tweets)
+		
+		for el in jsonData["statuses"]:
+			if el["place"] != None:
+				output.append([str(el["place"]["name"]),str(el["text"])])
+			elif el["user"]["location"] != None:
+				try:
+					output.append([str(el["user"]["location"]),str(el["text"])])
+				except:
+					continue
+	return filter(None, output)
+
 def interestByTime(search_value, tweet_count, date):
     global twitter
     output = []
     for x in range(1,10):
         tweets = twitter.search.tweets(q=search_value,count = tweet_count, until = date, result_type="popular")
-        jsonData = dumpToJSON("twitter_interest_by_time_timestamps.json", tweets)
+        jsonData = dumpToJSON("json-bin/twitter_interest_by_time_timestamps.json", tweets)
         for el in jsonData["statuses"]:
             output.append(str(el["created_at"]))
     return output
@@ -133,30 +133,28 @@ def geocodeTweets(tweets):
 	global gmaps
 	geocodes = []
 	for tweet in tweets:
+		print tweet[0]
 		jsonData = gmaps.places_autocomplete(tweet[0])
 
-		geoJSON = dumpToJSON("geodata.json", jsonData)
+		geoJSON = dumpToJSON("json-bin/geodata.json", jsonData)
 
-		try:
+		try:ch
 			geocodes.append([str(geoJSON[0]["place_id"]),tweet[1]])
 		except IndexError:
 			continue
 		
-	print geocodes
 	return geocodesToCoordinates(geocodes)
 
 def geocodesToCoordinates(geocodes):
 	global gmaps
 	output = []
 	for geocode in geocodes:
-		print geocode[0]
 		placeID = geocode[0]
 		jsonData = gmaps.place(placeID)
-		placeData = dumpToJSON("placedata.json", jsonData)
+		placeData = dumpToJSON("json-bin/placedata.json", jsonData)
 		
 		lat, lng =  placeData["result"]["geometry"]["location"]["lat"], placeData["result"]["geometry"]["location"]["lng"]
-		output.append([lat, lng, geocode[1]])
-		print output	
+		output.append([lat, lng, geocode[1]])	
 	return output
 
 
@@ -317,7 +315,7 @@ def main():
     print "Content-type: text/html\n"
     global html
     input = toVar()
-    locationArray = returnRealtimeTweets(input["search"],int(input["tweetNumber"]))
+    locationArray = geocodeTweets(returnTweetLocations(input["search"],int(input["tweetNumber"])))
     countryArray = {"coordinates":"okay","eric":"bryan"}
     interestArray = interestByTime(input["search"],input["tweetNumber"],previousDaysManager(input["timeSelector"]))
     try:
