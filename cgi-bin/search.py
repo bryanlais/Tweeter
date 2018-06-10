@@ -134,11 +134,14 @@ def geocodeTweets(tweets):
 	geocodes = []
 	for tweet in tweets:
 		print tweet[0]
-		jsonData = gmaps.places_autocomplete(tweet[0])
-
+		try:
+			jsonData = gmaps.places_autocomplete(tweet[0])
+		except googlemaps.exceptions.ApiError:
+			continue
+			
 		geoJSON = dumpToJSON("json-bin/geodata.json", jsonData)
 
-		try:ch
+		try:
 			geocodes.append([str(geoJSON[0]["place_id"]),tweet[1]])
 		except IndexError:
 			continue
