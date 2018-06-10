@@ -45,11 +45,7 @@
       function pieChart() {
         var data = google.visualization.arrayToDataTable([
           ['Country', 'Popularity Percentage'],
-          ['United States',  11],
-          ['Canada',      2],
-          ['Mexico',  2],
-          ['Russia', 2],
-          ['Idk',    7]
+          pieChartPopularity
         ]);
         var options = {
           title: 'My Daily Activities',
@@ -113,20 +109,20 @@
   <body>
     <h1> Information Charts: </h1>
     <br>
-    <div class="black_box">
+    <div class="big_black_box">
+    <h2> requestedChart </h2>
+    <div id="chartInput" style="width: 800px; height: 400px;"></div>
+    </div>
+    <div class="application_box">
     <h2> Tweet Information: </h2>
       <br>
     <table>
       <tr>
-        <th>Keys:</th>
-        <th>Values:</th>
+        <th>Countries:</th>
+        <th>Popularity:</th>
       </tr>
       tableData
     </table>
-  </div>
-    <div class="big_black_box">
-    <h2> requestedChart </h2>
-    <div id="chartInput" style="width: 800px; height: 400px;"></div>
   </div>
   </body>
 </center>
