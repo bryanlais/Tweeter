@@ -27,7 +27,7 @@ twitter = Twitter(auth=oauth)
 #Returns the locations of tweets that the user searches for
 #search_value: search input (string)
 #tweet_count: number of tweets to search for. Max 100 (int)
-    #Note: Not all tweets are geotagged so not all will appear on the twitter map. Only about 2% of tweets are geotagged. 
+	#Note: Not all tweets are geotagged so not all will appear on the twitter map. Only about 2% of tweets are geotagged. 
 #Returns a matrix of tweets in the format [[location name, tweet text],[location name, tweet text]]
 #input_lang: filter by language using the ISO 639-1 format. 
 def returnTweetLocations(search_value, tweet_count, input_lang):
@@ -50,7 +50,7 @@ def returnTweetLocations(search_value, tweet_count, input_lang):
 						output.append([el["user"]["location"].encode('utf-8'), el["text"].encode('utf-8')])
 					except: #Occasionally there will be blank locations so in that case, the loop will just continue
 						continue
-        
+		
 		except TwitterHTTPError: #Sometimes when there are too many requests, twitter will return a HTTP error.
 			print search.errorHandler("Twitter Error 420. Please wait. Too many requests")
 	return filter(None, output)
@@ -59,7 +59,7 @@ def returnTweetLocations(search_value, tweet_count, input_lang):
 #Returns a list timestamps of tweets searched for in the format "DAY MON DD HH:MM:SS +GMT YYYY" "Sun Feb 25 19:31:07 +0000 2018"
 #search_value: search input (string)
 #date: Searches for tweets up to a certain date. Unfortunately, on the standard free plan of the Twitter API, seach results can only go up to seven days back
-    #The date has to be at least 2 days before the current date for best resutls. 
+	#The date has to be at least 2 days before the current date for best resutls. 
 def interestByTime(search_value, date):
 	global twitter
 	output = []

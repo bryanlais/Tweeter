@@ -139,63 +139,63 @@ def dictToMatrix(dict):
 	return output
 
 def sortDateMatrix(matrix):
-    month = {"Jan":1,"Feb":2,"Mar":3,"Apr":4,"May":5,"Jun":6,"Jul":7,"Aug":8,"Sep":9,"Oct":10,"Nov":11,"Dec":12}
-    idx = 0
-    while idx < len(matrix):
-        yearString = matrix[idx][0][0:3]
-        monthString = matrix[idx][0][4:7]
-        matrix[idx][0] = matrix[idx][0].replace(yearString,("2018" + "-"))
-        matrix[idx][0] = matrix[idx][0].replace(monthString,(str(month[monthString]) + "-"))
-        matrix[idx][0] = matrix[idx][0].replace(" ","")
-        idx += 1
-    matrix.sort()
-    return matrix
+	month = {"Jan":1,"Feb":2,"Mar":3,"Apr":4,"May":5,"Jun":6,"Jul":7,"Aug":8,"Sep":9,"Oct":10,"Nov":11,"Dec":12}
+	idx = 0
+	while idx < len(matrix):
+		yearString = matrix[idx][0][0:3]
+		monthString = matrix[idx][0][4:7]
+		matrix[idx][0] = matrix[idx][0].replace(yearString,("2018" + "-"))
+		matrix[idx][0] = matrix[idx][0].replace(monthString,(str(month[monthString]) + "-"))
+		matrix[idx][0] = matrix[idx][0].replace(" ","")
+		idx += 1
+	matrix.sort()
+	return matrix
 	
 def chartManager(chartType,countryArray,locationArray,interestArray):
-    updatedChart = ""
-    if chartType == "realMap":
-        updatedChart = googleChart.replace("chartInput","real_div")
-        updatedChart = updatedChart.replace("requestedChart","Google Map:")
-        idx = 0
-        while idx < len(locationArray):
-            if idx != len(locationArray) - 1:
-                updatedChart = updatedChart.replace("googleMapCoordinates",str(locationArray[idx]) + "," + "googleMapCoordinates")
-            else:
-                updatedChart = updatedChart.replace("googleMapCoordinates",str(locationArray[idx]))
-            idx += 1
-    if chartType == "worldMap":
-        updatedChart = googleChart.replace("chartInput","regions_div")
-        updatedChart = updatedChart.replace("requestedChart","Regions Map:")
-    if chartType == "piechart":
-        updatedChart = googleChart.replace("chartInput","pies_div")
-        updatedChart = updatedChart.replace("requestedChart","Pie Chart:")
-        idx = 0
-        while idx < len(dictToMatrix(countryArray)):
-            if idx != len(dictToMatrix(countryArray)) - 1:
-                updatedChart = updatedChart.replace("pieChartPopularity",str(dictToMatrix(countryArray)[idx]) + "," + "pieChartPopularity")
-            else:
-                updatedChart = updatedChart.replace("pieChartPopularity",str(dictToMatrix(countryArray)[idx]) + ",")
-            idx += 1
-    if chartType == "lineGraph":
-        updatedChart = googleChart.replace("chartInput","line_div")
-        updatedChart = updatedChart.replace("requestedChart","Line Graph:")
-        matrixOfDates = sortDateMatrix(dictToMatrix(dateToDict(interestArray)))
-        idx = 0
-        while idx < len(matrixOfDates):
-            if idx != len(matrixOfDates) - 1:
-                updatedChart = updatedChart.replace("lineChartInterest",str(matrixOfDates[idx]) + "," + "lineChartInterest")
-            else:
-                updatedChart = updatedChart.replace("lineChartInterest",str(matrixOfDates[idx]) + ",")
-            idx += 1
-    #Below is used for taking in a dictionary and using it.
-    idx = 0
-    while idx < len(countryArray):
-        if idx != len(countryArray) - 1:
-            updatedChart = updatedChart.replace("tableData",("<tr> <th>" + countryArray.keys()[idx] + "</th> <th>" + str(countryArray[countryArray.keys()[idx]]) + "</th> </tr> tableData"))
-        else:
-            updatedChart = updatedChart.replace("tableData",("<tr> <th>" + countryArray.keys()[idx] + "</th> <th>" + str(countryArray[countryArray.keys()[idx]]) + "</th> </tr>"))
-        idx += 1
-    return updatedChart
+	updatedChart = ""
+	if chartType == "realMap":
+		updatedChart = googleChart.replace("chartInput","real_div")
+		updatedChart = updatedChart.replace("requestedChart","Google Map:")
+		idx = 0
+		while idx < len(locationArray):
+			if idx != len(locationArray) - 1:
+				updatedChart = updatedChart.replace("googleMapCoordinates",str(locationArray[idx]) + "," + "googleMapCoordinates")
+			else:
+				updatedChart = updatedChart.replace("googleMapCoordinates",str(locationArray[idx]))
+			idx += 1
+	if chartType == "worldMap":
+		updatedChart = googleChart.replace("chartInput","regions_div")
+		updatedChart = updatedChart.replace("requestedChart","Regions Map:")
+	if chartType == "piechart":
+		updatedChart = googleChart.replace("chartInput","pies_div")
+		updatedChart = updatedChart.replace("requestedChart","Pie Chart:")
+		idx = 0
+		while idx < len(dictToMatrix(countryArray)):
+			if idx != len(dictToMatrix(countryArray)) - 1:
+				updatedChart = updatedChart.replace("pieChartPopularity",str(dictToMatrix(countryArray)[idx]) + "," + "pieChartPopularity")
+			else:
+				updatedChart = updatedChart.replace("pieChartPopularity",str(dictToMatrix(countryArray)[idx]) + ",")
+			idx += 1
+	if chartType == "lineGraph":
+		updatedChart = googleChart.replace("chartInput","line_div")
+		updatedChart = updatedChart.replace("requestedChart","Line Graph:")
+		matrixOfDates = sortDateMatrix(dictToMatrix(dateToDict(interestArray)))
+		idx = 0
+		while idx < len(matrixOfDates):
+			if idx != len(matrixOfDates) - 1:
+				updatedChart = updatedChart.replace("lineChartInterest",str(matrixOfDates[idx]) + "," + "lineChartInterest")
+			else:
+				updatedChart = updatedChart.replace("lineChartInterest",str(matrixOfDates[idx]) + ",")
+			idx += 1
+	#Below is used for taking in a dictionary and using it.
+	idx = 0
+	while idx < len(countryArray):
+		if idx != len(countryArray) - 1:
+			updatedChart = updatedChart.replace("tableData",("<tr> <th>" + countryArray.keys()[idx] + "</th> <th>" + str(countryArray[countryArray.keys()[idx]]) + "</th> </tr> tableData"))
+		else:
+			updatedChart = updatedChart.replace("tableData",("<tr> <th>" + countryArray.keys()[idx] + "</th> <th>" + str(countryArray[countryArray.keys()[idx]]) + "</th> </tr>"))
+		idx += 1
+	return updatedChart
 
 
 '''
