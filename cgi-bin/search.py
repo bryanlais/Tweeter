@@ -9,14 +9,13 @@ print "Content-type: text/html\n"
  |___| |_| |_| |_| | .__/   \___/  |_|     \__| |___/  
 				   |_|
 '''
-
 # We need these library modules to retrieve the user's answers
 from datetime import date,timedelta
 import cgi
 #Helps you see errors
 import cgitb
 cgitb.enable()
-
+import error_handler
 import twitter_handler as twit
 import gmaps_handler as maps
 
@@ -35,21 +34,6 @@ def removeCountryCodes(locationArray):
 def grabYesterday():
 	yesterday = date.today() - timedelta(1)
 	return str(yesterday.year) + "-" + str(yesterday.month) + "-" + str(yesterday.day)
-'''
-  _____                                  __  __
- | ____|  _ __   _ __    ___    _ __    |  \/  |   __ _   _ __     __ _    __ _    ___   _ __
- |  _|   | '__| | '__|  / _ \  | '__|   | |\/| |  / _` | | '_ \   / _` |  / _` |  / _ \ | '__|
- | |___  | |    | |    | (_) | | |      | |  | | | (_| | | | | | | (_| | | (_| | |  __/ | |
- |_____| |_|    |_|     \___/  |_|      |_|  |_|  \__,_| |_| |_|  \__,_|  \__, |  \___| |_|
-																		  |___/
-'''
-
-
-errorFile = open("../error.html", "r").read()
-
-def errorHandler(message):
-	return errorFile.format(insert = message)
-
 
 
 
@@ -86,23 +70,6 @@ def toVar():
 
 googleChart = open("../google.html", "r").read()
 
-def previousDaysManager(input):
-	if input == "today":
-		return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day)
-	if input == "yesterday":
-		grabYesterday()
-	if input == "2daysago":
-		return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 2)
-	if input == "3daysago":
-		return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 3)
-	if input == "4daysago":
-		return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 4)
-	if input == "5daysago":
-		return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 5)
-	if input == "6daysago":
-		return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 6)
-	if input == "week":
-		return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 7)
 
 #Takes in the locationDataArray and takes the last value of each list, then puts them in a dictionary. 
 #matrix: locationDataArray (list)
@@ -118,6 +85,7 @@ def createCountryDictionary(matrix):
 		idx += 1
 	return output
 
+#Converts python formatted dates to dictionaries to sort timestamps
 def dateToDict(arr):
 	output = {}
 	idx = 0
@@ -129,6 +97,8 @@ def dateToDict(arr):
 		idx += 1
 	return output
 
+#converts the dictionary from createCountryDictionary to a matrix to ouse with the Pie Chart
+#Format: [[Country Name, frequency],[Country Name, frequency]]
 def dictToMatrix(dict):
 	output = []
 	sum = 0.0
@@ -137,7 +107,7 @@ def dictToMatrix(dict):
 	for key in dict.keys():
 		output.append([key,((dict[key] / sum) * 10)])
 	return output
-
+#Sorts Months of the year from the Interest over time line graph
 def sortDateMatrix(matrix):
 	month = {"Jan":1,"Feb":2,"Mar":3,"Apr":4,"May":5,"Jun":6,"Jul":7,"Aug":8,"Sep":9,"Oct":10,"Nov":11,"Dec":12}
 	idx = 0
@@ -150,7 +120,8 @@ def sortDateMatrix(matrix):
 		idx += 1
 	matrix.sort()
 	return matrix
-	
+
+#Main chart manager. Takes in all the processed Twitter and Google Maps data and converts them into charts
 def chartManager(chartType,countryArray,locationArray,interestArray):
 	updatedChart = ""
 	if chartType == "realMap":
@@ -166,6 +137,7 @@ def chartManager(chartType,countryArray,locationArray,interestArray):
 	if chartType == "worldMap":
 		updatedChart = googleChart.replace("chartInput","regions_div")
 		updatedChart = updatedChart.replace("requestedChart","Regions Map:")
+
 	if chartType == "piechart":
 		updatedChart = googleChart.replace("chartInput","pies_div")
 		updatedChart = updatedChart.replace("requestedChart","Pie Chart:")
@@ -174,7 +146,7 @@ def chartManager(chartType,countryArray,locationArray,interestArray):
 			if idx != len(dictToMatrix(countryArray)) - 1:
 				updatedChart = updatedChart.replace("pieChartPopularity",str(dictToMatrix(countryArray)[idx]) + "," + "pieChartPopularity")
 			else:
-				updatedChart = updatedChart.replace("pieChartPopularity",str(dictToMatrix(countryArray)[idx]) + ",")
+				updatedChart = updatedChart.replace("pieChartPopularity",str(dictToMatrix(countryArray)[idx]))
 			idx += 1
 	if chartType == "lineGraph":
 		updatedChart = googleChart.replace("chartInput","line_div")
@@ -207,23 +179,29 @@ def chartManager(chartType,countryArray,locationArray,interestArray):
 														|___/
 '''
 
+#Main function
 def main():
-	input = toVar()
-	rawTweetLocationData = (twit.returnTweetLocations(input["search"],int(input["tweetNumber"]),input["languageSelector"]))
-	geocodedLocationData = maps.geocodeTweets(rawTweetLocationData)
+	input = toVar() #converts form inputs into a variable
+	rawTweetLocationData = twit.returnTweetLocations(input["search"],int(input["tweetNumber"]),input["languageSelector"]) #List of location data
+	geocodedLocationData = maps.geocodeTweets(rawTweetLocationData) #Converts location data into coordinates to use with Google Charts
 
-	locationArray = removeCountryCodes(geocodedLocationData)
-	countryArray = createCountryDictionary(geocodedLocationData)
-	interestArray = twit.interestByTime(input["search"],previousDaysManager(input["timeSelector"]))
+	locationArray = removeCountryCodes(geocodedLocationData) #Removes Country Names from the end of each array element
+	countryArray = createCountryDictionary(geocodedLocationData) #Creates an array of just country names
 
+	twoDaysAgo = str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 2) #String of date two days ago. Tweet search results are best before at least 2 days prior
+	interestArray = twit.interestByTime(input["search"],twoDaysAgo) #Array of data points for interest over time
+
+#Main error handler for the form elements
 	try:
 		if input["chartView"] == "none":
-			print errorHandler("You didn't choose a view option.")
+			print error_handler.errorRedirect("You didn't choose a view option.")
 		elif input["tweetNumber"] == 0:
-			print errorHandler("You only entered 0 tweets.")
+			print error_handler.errorRedirect("You only entered 0 tweets.")
+		elif locationArray == []:
+			print error_handler.errorRedirect("No results. Please try again")
 		else:
 			print chartManager(input["chartView"],countryArray,locationArray,interestArray)
 	except KeyError:
-		print errorHandler("You didn't enter a search option.")
+		print error_handler.errorRedirect("You didn't enter a search option.")
 
-main()
+main() #Runs file

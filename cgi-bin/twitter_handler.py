@@ -7,7 +7,8 @@ except ImportError:
 
 import json_handler as j
 
-import search 
+import error_handler 
+
 #Initialize Twitter API
 from twitter import Twitter, OAuth, TwitterHTTPError, TwitterStream
 
@@ -52,7 +53,7 @@ def returnTweetLocations(search_value, tweet_count, input_lang):
 						continue
 		
 		except TwitterHTTPError: #Sometimes when there are too many requests, twitter will return a HTTP error.
-			print search.errorHandler("Twitter Error 420. Please wait. Too many requests")
+			print error_handler.errorRedirect("Twitter Error 420. Please wait. Too many requests")
 	return filter(None, output)
 
 
@@ -72,10 +73,11 @@ def interestByTime(search_value, date):
 
 
 
+
 #Returns realtime location data of tweets around the world
 #search value: search input (string)
 #tweet_count: number of tweets to search for. Max 100 (int)
-def returnRealtimeTweets(search_value, tweet_count):
+def returnRealtimeTweets(search_value, tweet_count): #Deprecated. Early test funciton
 	global twitter_stream
 	locationDataList = []
 
@@ -96,7 +98,7 @@ def returnRealtimeTweets(search_value, tweet_count):
 
 #Helper function for returnRealtimeTweets
 #Reads the realtime_tweets.json file for location data
-def returnLocationData():
+def returnLocationData(): #Deprecated
 	# We use the file saved from last step as example
 	tweetFile = open("json-bin/realtime_tweets.json", "r")
 

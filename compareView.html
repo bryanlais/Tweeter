@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<body>
+<title> Tweeter </title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/styles.css">
+<h1><img src="pictures/tweetbird.png" width="80px;" height="80px;" display="inline-block;"> </img>
+   Compare View <img src="pictures/tweetbird.png" width="80px;" height="80px;" display="inline-block;"> </img> </h1>
+   <center>
+<form method="GET" action="cgi-bin/search.py">
+  <div class="application_box">
+  <h2> First Term </h2> <input type="text" placeholder="1st Term.." name="firstSearch">
+  <h2> Second Term </h2> <input type="text" placeholder="2nd Term..." name="secondSearch">
+
+    <br>
+    <br>
+    <div class="left_box">
+    <u><h2> Chart View? </h2></u>
+    <select name="chartView">
+      <option value="none"> Choose a View Option: </option>
+      <option value="realMap"> Interactive Google Map </option>
+      <option value="worldMap"> World Regions Map </option>
+      <option value="piechart"> Pie Chart </option>
+      <option value="lineGraph"> Line Graph </option>
+    </select>
+  </div>
+    <div class="right_box">
+    <u> <h2> Number of Tweets? </h2> </u>
+    <input id="number" name="tweetNumber" pattern="[0-9]*" type="number" value="0" placeholder="MAX VALUE: 100 Tweets">
+    </div>
+    <div class="left_box">
+      <u><h2> Language for Tweets? </h2> </u>
+      <select name="languageSelector">
+        <option value="all"> Default: All Languages </option>
+        <option value="en"> English </option>
+        <option value="es"> Spanish </option>
+        <option value="ko"> Korean </option>
+        <option value="de"> German </option>
+        <option value="it"> Italian </option>
+        <option value="ja"> Japanese </option>
+        <option value="ru"> Russian </option>
+      </select>
+    </div>
+  <div class="right_box">
+    <u><h2> Single View? </h2> </u>
+    <div class="button button2" onclick="document.location='http://marge.stuy.edu/~blai00/Tweeter/index.html'"> Enable </div>
+  </div>
+  <div class="middle_box">
+  </div>
+</form>
+</div>
+</center>

@@ -2,48 +2,38 @@
     {
         "terms": [
             {
-                "value": "Bengaluru", 
+                "value": "Baltimore", 
                 "offset": 0
             }, 
             {
-                "value": "Karnataka", 
+                "value": "MD", 
                 "offset": 11
             }, 
             {
-                "value": "India", 
-                "offset": 22
+                "value": "USA", 
+                "offset": 15
             }
         ], 
-        "description": "Bengaluru, Karnataka, India", 
-        "reference": "CkQzAAAAV0aC0cyJKo0gKylp37LoQM44zzGXTQfR3Q4reKvVE9NNSXdnoqNvHhV3QM7-oAwoFzjH80gitmfarsBnqzsmphIQTzPCuHsx6zWQMJPyg6OYrhoUV71Mh46wWFfTn_szhEFvxFEhrq0", 
+        "description": "Baltimore, MD, USA", 
+        "reference": "CjQqAAAAMcJl4Fh90F5CQU2eqRpl2i3xR19DUUS5zUPeWmmEQ8wtInH_2LSaVzRhUkN27CVXEhBhJ3eAj_Qfn6T-j-UiZEioGhQMKV0ajaXZdoif3jWx--fw4g6UGQ", 
         "structured_formatting": {
-            "secondary_text_matched_substrings": [
-                {
-                    "length": 5, 
-                    "offset": 11
-                }
-            ], 
-            "secondary_text": "Karnataka, India", 
+            "secondary_text": "MD, USA", 
             "main_text_matched_substrings": [
                 {
                     "length": 9, 
                     "offset": 0
                 }
             ], 
-            "main_text": "Bengaluru"
+            "main_text": "Baltimore"
         }, 
         "matched_substrings": [
             {
                 "length": 9, 
                 "offset": 0
-            }, 
-            {
-                "length": 5, 
-                "offset": 22
             }
         ], 
-        "place_id": "ChIJbU60yXAWrjsR4E9-UejD3_g", 
-        "id": "0862832923832bfb1e46cbe843cdaa03a9ee8aa1", 
+        "place_id": "ChIJt4P01q4DyIkRWOcjQqiWSAQ", 
+        "id": "da4c4d60c400bbd46697651fa8a55dd00f992015", 
         "types": [
             "locality", 
             "political", 
@@ -53,225 +43,176 @@
     {
         "terms": [
             {
-                "value": "Indian Express Circle", 
+                "value": "Baltimore Pike", 
                 "offset": 0
             }, 
             {
-                "value": "Vasanth Nagar", 
-                "offset": 23
+                "value": "East Lansdowne", 
+                "offset": 16
             }, 
             {
-                "value": "Bengaluru", 
-                "offset": 38
+                "value": "PA", 
+                "offset": 32
             }, 
             {
-                "value": "Karnataka", 
-                "offset": 49
+                "value": "USA", 
+                "offset": 36
             }
         ], 
-        "description": "Indian Express Circle, Vasanth Nagar, Bengaluru, Karnataka", 
-        "reference": "CmRSAAAA75bZNyQ4z5fBBOX1e88DGtqJPaaUrnUTtmgLpHVNNHKjcBJ3IMwIdO8xPjh0KwgkWCmOcggQS1nDyiCTgKf6qeV_X4xZ6A7q2pCtQeSHeVj2k-_1Sv-RsYB8ILwdFJ28EhDB8j5ep4_nGevFQysQqJB_GhS9z7u2AaLUoZVKs-TW_TIxGc8YDg", 
+        "description": "Baltimore Pike, East Lansdowne, PA, USA", 
+        "reference": "CjQrAAAA-_knpDvZ2Xix40hbheDKv8E9RaNUy-6_YA1DUuCe0sxyfJoWO6y9oVPoa3xTnKxwEhBOjtRlAiNADQo0syYwQO11GhQ17z0h-2kf4Clv_GXGKc2FMEDv1w", 
         "structured_formatting": {
-            "secondary_text_matched_substrings": [
-                {
-                    "length": 9, 
-                    "offset": 15
-                }
-            ], 
-            "secondary_text": "Vasanth Nagar, Bengaluru, Karnataka", 
+            "secondary_text": "East Lansdowne, PA, USA", 
             "main_text_matched_substrings": [
                 {
-                    "length": 5, 
+                    "length": 9, 
                     "offset": 0
                 }
             ], 
-            "main_text": "Indian Express Circle"
+            "main_text": "Baltimore Pike"
         }, 
         "matched_substrings": [
             {
-                "length": 5, 
-                "offset": 0
-            }, 
-            {
                 "length": 9, 
-                "offset": 38
+                "offset": 0
             }
         ], 
-        "place_id": "ChIJ7QK74mUWrjsRp9RaB0GSLjM", 
-        "id": "1515f35da3859001c7b6b71e81976944183aafa5", 
+        "place_id": "EidCYWx0aW1vcmUgUGlrZSwgRWFzdCBMYW5zZG93bmUsIFBBLCBVU0E", 
+        "id": "79f58ebd6995ef966a5b45b378246f2c2d3dbae2", 
         "types": [
+            "route", 
             "geocode"
         ]
     }, 
     {
         "terms": [
             {
-                "value": "Indian Express", 
+                "value": "Baltimore Avenue", 
                 "offset": 0
             }, 
             {
-                "value": "Swamy Shivanandapuram", 
-                "offset": 16
+                "value": "Riverdale", 
+                "offset": 18
             }, 
             {
-                "value": "Shivaji Nagar", 
-                "offset": 39
+                "value": "MD", 
+                "offset": 29
             }, 
             {
-                "value": "Bengaluru", 
-                "offset": 54
-            }, 
-            {
-                "value": "Karnataka", 
-                "offset": 65
+                "value": "USA", 
+                "offset": 33
             }
         ], 
-        "description": "Indian Express, Swamy Shivanandapuram, Shivaji Nagar, Bengaluru, Karnataka", 
-        "reference": "CmRZAAAA1pttSU6_059MHF__XGgeW339DYgP1eWywX-p3YKr_maGKWkmAYWoigkw8yg8Nycw2cpm_EMEZE3uMikIzxyB1w3qNFHhZGpRT4zT0elut4n-LxNFpGKPnHKBsfWGnsy8EhC0OmxMK-LzgtpTizN6YiL7GhR4n0hnBLl14wSMsgZr0a2GxRbiYA", 
+        "description": "Baltimore Avenue, Riverdale, MD, USA", 
+        "reference": "CjQoAAAAeuoaI1Hspx32C6kDZ2WPbfvBUPCOpk40BmIXsIQivFLRn9D7ijrPi3F1FpMkcbHxEhAmeVaIQe7xAa1ZAieG7E8hGhQOgcK42rticnT70rSJhk6qN30RDQ", 
         "structured_formatting": {
-            "secondary_text_matched_substrings": [
-                {
-                    "length": 9, 
-                    "offset": 38
-                }
-            ], 
-            "secondary_text": "Swamy Shivanandapuram, Shivaji Nagar, Bengaluru, Karnataka", 
+            "secondary_text": "Riverdale, MD, USA", 
             "main_text_matched_substrings": [
                 {
-                    "length": 5, 
+                    "length": 9, 
                     "offset": 0
                 }
             ], 
-            "main_text": "Indian Express"
+            "main_text": "Baltimore Avenue"
         }, 
         "matched_substrings": [
             {
-                "length": 5, 
-                "offset": 0
-            }, 
-            {
                 "length": 9, 
-                "offset": 54
+                "offset": 0
             }
         ], 
-        "place_id": "ChIJ-aJf4GUWrjsRkLwZ5FdpEYs", 
-        "id": "6816a7cc2b8d2492368bb06a08bf02275af67eba", 
+        "place_id": "EiRCYWx0aW1vcmUgQXZlbnVlLCBSaXZlcmRhbGUsIE1ELCBVU0E", 
+        "id": "6410fd6488248b18d63ae5e714eea97a210517f8", 
         "types": [
-            "transit_station", 
-            "point_of_interest", 
-            "establishment", 
+            "route", 
             "geocode"
         ]
     }, 
     {
         "terms": [
             {
-                "value": "Indian Express", 
+                "value": "Baltimore National Pike", 
                 "offset": 0
             }, 
             {
-                "value": "Vasanth Nagar", 
-                "offset": 16
+                "value": "Ellicott City", 
+                "offset": 25
             }, 
             {
-                "value": "Bengaluru", 
-                "offset": 31
+                "value": "MD", 
+                "offset": 40
             }, 
             {
-                "value": "Karnataka", 
-                "offset": 42
+                "value": "USA", 
+                "offset": 44
             }
         ], 
-        "description": "Indian Express, Vasanth Nagar, Bengaluru, Karnataka", 
-        "reference": "ClRCAAAApQjOxhAj4fHQAloTT23_n7gZ_AwKER9LXxnBt6yVyoNj8wOEHLbzRxQzvMi3-IjXbq5WsUEFWMIPZGredfftsWR8X_M7y0NR1pweSfHRf6sSEADHPCd1mpbIUxyTsTuvLTIaFI9dNKMZ9PpjhYjJSVSuAguuZO8z", 
+        "description": "Baltimore National Pike, Ellicott City, MD, USA", 
+        "reference": "CkQzAAAAty4PbUZdH3Xeqls5yfDH0wfJlpoPKnjmXSbAQ7H1yLfdZ_YEzbKcV_SLDRBxU-fYaMOHRSyD8xSKAc4fj6nZThIQUvg3_Rs7GkmTWziqcBS3HxoU6UuyLST9nE_BsOokyCxpdFBlGl8", 
         "structured_formatting": {
-            "secondary_text_matched_substrings": [
-                {
-                    "length": 9, 
-                    "offset": 15
-                }
-            ], 
-            "secondary_text": "Vasanth Nagar, Bengaluru, Karnataka", 
+            "secondary_text": "Ellicott City, MD, USA", 
             "main_text_matched_substrings": [
                 {
-                    "length": 5, 
+                    "length": 9, 
                     "offset": 0
                 }
             ], 
-            "main_text": "Indian Express"
+            "main_text": "Baltimore National Pike"
         }, 
         "matched_substrings": [
             {
-                "length": 5, 
-                "offset": 0
-            }, 
-            {
                 "length": 9, 
-                "offset": 31
+                "offset": 0
             }
         ], 
-        "place_id": "ChIJw3OS-GUWrjsRj0n_WXPbCJI", 
-        "id": "eb6ad82457b040337ae7fbfbbadcc87a9de4dc92", 
+        "place_id": "Ei9CYWx0aW1vcmUgTmF0aW9uYWwgUGlrZSwgRWxsaWNvdHQgQ2l0eSwgTUQsIFVTQQ", 
+        "id": "58dff1358bb7b9f462bdfa27132f7b01ad2cf78c", 
         "types": [
-            "transit_station", 
-            "point_of_interest", 
-            "establishment", 
+            "route", 
             "geocode"
         ]
     }, 
     {
         "terms": [
             {
-                "value": "Indian Express", 
+                "value": "Baltimore Avenue", 
                 "offset": 0
             }, 
             {
-                "value": "Shivaji Nagar", 
-                "offset": 16
+                "value": "Philadelphia", 
+                "offset": 18
             }, 
             {
-                "value": "Bengaluru", 
-                "offset": 31
+                "value": "PA", 
+                "offset": 32
             }, 
             {
-                "value": "Karnataka", 
-                "offset": 42
+                "value": "USA", 
+                "offset": 36
             }
         ], 
-        "description": "Indian Express, Shivaji Nagar, Bengaluru, Karnataka", 
-        "reference": "ClRBAAAA0AJI0OIUEc8ZG9TrOfqhafxU3DI5jBzWB182XOxMhUdviIGQcJJBDhPwRKjs2GohdpTyj0vaqW5SsyLCMr3uJZGvt78G3OOXrNANM19cC5sSEI2yeWeki66iWr_EL4HfwugaFNj_2MmeMHOmxNvzP0w7ipgwzopP", 
+        "description": "Baltimore Avenue, Philadelphia, PA, USA", 
+        "reference": "CjQrAAAAQfkjosI-a3pkZsuyt4rOvGeWsaJOkLKo0DXw8SNGb2XSykyniWTvO13KIhl7gJEkEhDx_VXX0v9q_BgswTVnGPs5GhTsEOD5eDM5q-uegmR8gxN-uXMu6Q", 
         "structured_formatting": {
-            "secondary_text_matched_substrings": [
-                {
-                    "length": 9, 
-                    "offset": 15
-                }
-            ], 
-            "secondary_text": "Shivaji Nagar, Bengaluru, Karnataka", 
+            "secondary_text": "Philadelphia, PA, USA", 
             "main_text_matched_substrings": [
                 {
-                    "length": 5, 
+                    "length": 9, 
                     "offset": 0
                 }
             ], 
-            "main_text": "Indian Express"
+            "main_text": "Baltimore Avenue"
         }, 
         "matched_substrings": [
             {
-                "length": 5, 
-                "offset": 0
-            }, 
-            {
                 "length": 9, 
-                "offset": 31
+                "offset": 0
             }
         ], 
-        "place_id": "ChIJV0ih72UWrjsRZt24TbIU4VM", 
-        "id": "44e79e64c4ac46d6084b9ce9c01716e519c05d88", 
+        "place_id": "EidCYWx0aW1vcmUgQXZlbnVlLCBQaGlsYWRlbHBoaWEsIFBBLCBVU0E", 
+        "id": "204f04836b045cb7a9b5c5e40d3b65af81093377", 
         "types": [
-            "transit_station", 
-            "point_of_interest", 
-            "establishment", 
+            "route", 
             "geocode"
         ]
     }
