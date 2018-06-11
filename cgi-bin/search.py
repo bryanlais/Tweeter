@@ -245,15 +245,14 @@ def previousDaysManager(input):
 	if input == "week":
 		return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 7)
 
-
 def createCountryDictionary(matrix):
 	idx = 0
 	output = {}
 	while idx < len(matrix):
-		if matrix[idx][0] not in output:
-			output[matrix[idx][0]] = 1
+		if matrix[idx][3] not in output:
+			output[matrix[idx][3]] = 1
 		else:
-			output[matrix[idx][0]] += 1
+			output[matrix[idx][3]] += 1
 		idx += 1
 	return output
 
@@ -306,15 +305,12 @@ def chartManager(chartType,countryArray,locationArray,interestArray):
         updatedChart = googleChart.replace("chartInput","pies_div")
         updatedChart = updatedChart.replace("requestedChart","Pie Chart:")
         idx = 0
-        while idx < len(countryArray):
-            if idx != len(countryArray):
-                updatedChart = updatedChart.replace("pieChartPopularity",str(countryArray[idx]) + "," + "pieChartPopularity")
+        while idx < len(dictToMatrix(countryArray)):
+            if idx != len(dictToMatrix(countryArray)) - 1:
+                updatedChart = updatedChart.replace("pieChartPopularity",str(dictToMatrix(countryArray)[idx]) + "," + "pieChartPopularity")
             else:
-                updatedChart = updatedChart.replace("pieChartPopularity",str(countryArray[idx]) + ",")
+                updatedChart = updatedChart.replace("pieChartPopularity",str(dictToMatrix(countryArray)[idx]) + ",")
             idx += 1
-    if chartType == "barGraph":
-        updatedChart = googleChart.replace("chartInput","bargraph_div")
-        updatedChart = updatedChart.replace("requestedChart","Bar Graph:")
     if chartType == "lineGraph":
         updatedChart = googleChart.replace("chartInput","line_div")
         updatedChart = updatedChart.replace("requestedChart","Line Graph:")
@@ -351,7 +347,7 @@ def main():
 	global html
 	input = toVar()
 	locationArray = removeCountryCodes(geocodeTweets(returnTweetLocations(input["search"],int(input["tweetNumber"]),input["languageSelector"])))
-	countryArray = createCountryDictionary(returnTweetLocations(input["search"],int(input["tweetNumber"]),input["languageSelector"]))
+	countryArray = createCountryDictionary(geocodeTweets(returnTweetLocations(input["search"],int(input["tweetNumber"]),input["languageSelector"])))
 	interestArray = interestByTime(input["search"],input["tweetNumber"],previousDaysManager(input["timeSelector"]))
 	try:
 		if input["chartView"] == "none":

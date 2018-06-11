@@ -46,6 +46,13 @@ h3 {
 	display: inline-block;
 }
 
+.term {
+	float: left;
+	font-size: 50px;
+	color: #A2D9CE;
+	font-family: "Proxima-Nova-Bold";
+	display: inline-block;
+}
 
 .black_box {
 		float: middle;
@@ -215,12 +222,21 @@ h3 {
 		float: middle;
 		height: 1500px;
 		margin: 10px;
-		width: 800px;
+		width: 900px;
 		margin-top: 20px;
 		margin-right: 20px;
 		background-color: #2C3E50;
 		box-shadow: 10px 10px 5px #283747;
 		padding: 20px;
+		display: inline-block;
+}
+
+p {
+	font-family: "Proxima-Nova-Bold";
+	font-size: 30px;
+  color: #D6EAF8;
+	float: left;
+	display: inline-block;
 }
 input {
 	font-family: "Proxima-Nova-Bold";
