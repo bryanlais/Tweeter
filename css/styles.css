@@ -210,6 +210,18 @@ h3 {
 		box-shadow: 10px 10px 5px #283747;
 		padding: 20px;
 }
+
+.middle_box {
+		float: middle;
+		height: 1500px;
+		margin: 10px;
+		width: 800px;
+		margin-top: 20px;
+		margin-right: 20px;
+		background-color: #2C3E50;
+		box-shadow: 10px 10px 5px #283747;
+		padding: 20px;
+}
 input {
 	font-family: "Proxima-Nova-Bold";
 	width: 90%;
