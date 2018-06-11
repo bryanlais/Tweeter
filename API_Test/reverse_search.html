@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
     <head>
@@ -44,4 +45,52 @@
 
             
     </body>
+=======
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reverse Search</title>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+        <meta charset="utf-8">
+        
+        <style>
+            #map{
+                height: 50%;
+            }
+
+            html, body {
+                height: 50%;
+            }
+
+            #map {
+                width: 440px;
+            }
+
+            #autocomplete {
+                width: 40%
+            }
+        </style>
+        
+    </head>
+    <body>
+
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuTib5je6N9uKYKk-WOCp8b5EDIdVv9zU&libraries=places"></script> 
+        <form method="GET" action="formhandler.py">
+            <input type="text" id="autocomplete"/> 
+            <button type="submit">
+                    <i class="fa fa-arrow-circle-right fa-lg"></i> Submit
+            </button>
+        </form>   
+        <script>
+            var input = document.getElementById("autocomplete");
+            var autocomplete = new google.maps.places.Autocomplete(input);   
+            google.maps.event.addListener(autocomplete, 'place_changed', function(){
+                var place = autocomplete.getPlace();
+                console.log(place.geometry.location);
+            })
+        </script>
+
+            
+    </body>
+>>>>>>> e7ae0b81f80ca00bd5e1387e629d4b0c6476ef43
 </html>

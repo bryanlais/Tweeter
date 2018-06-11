@@ -64,7 +64,7 @@ def returnTweetLocations(search_value, tweet_count, input_lang):
 def interestByTime(search_value, date):
 	global twitter
 	output = []
-	for x in range(1,10):
+	for x in range(1,5):
 		tweets = twitter.search.tweets(q=search_value, count = 15, until = date, result_type="popular")
 		jsonData = j.dumpToJSON("json-bin/twitter_interest_by_time_timestamps.json", tweets)
 		for el in jsonData["statuses"]:
