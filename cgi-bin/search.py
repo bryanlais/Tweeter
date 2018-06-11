@@ -85,6 +85,7 @@ def createCountryDictionary(matrix):
 		idx += 1
 	return output
 
+#Converts python formatted dates to dictionaries to sort timestamps
 def dateToDict(arr):
 	output = {}
 	idx = 0
@@ -96,6 +97,8 @@ def dateToDict(arr):
 		idx += 1
 	return output
 
+#converts the dictionary from createCountryDictionary to a matrix to ouse with the Pie Chart
+#Format: [[Country Name, frequency],[Country Name, frequency]]
 def dictToMatrix(dict):
 	output = []
 	sum = 0.0
@@ -104,7 +107,7 @@ def dictToMatrix(dict):
 	for key in dict.keys():
 		output.append([key,((dict[key] / sum) * 10)])
 	return output
-
+#Sorts Months of the year from the Interest over time line graph
 def sortDateMatrix(matrix):
 	month = {"Jan":1,"Feb":2,"Mar":3,"Apr":4,"May":5,"Jun":6,"Jul":7,"Aug":8,"Sep":9,"Oct":10,"Nov":11,"Dec":12}
 	idx = 0
@@ -117,7 +120,8 @@ def sortDateMatrix(matrix):
 		idx += 1
 	matrix.sort()
 	return matrix
-	
+
+#Main chart manager. Takes in all the processed Twitter and Google Maps data and converts them into charts
 def chartManager(chartType,countryArray,locationArray,interestArray):
 	updatedChart = ""
 	if chartType == "realMap":
@@ -175,17 +179,19 @@ def chartManager(chartType,countryArray,locationArray,interestArray):
 														|___/
 '''
 
+#Main function
 def main():
-	input = toVar()
-	rawTweetLocationData = twit.returnTweetLocations(input["search"],int(input["tweetNumber"]),input["languageSelector"])
-	geocodedLocationData = maps.geocodeTweets(rawTweetLocationData)
+	input = toVar() #converts form inputs into a variable
+	rawTweetLocationData = twit.returnTweetLocations(input["search"],int(input["tweetNumber"]),input["languageSelector"]) #List of location data
+	geocodedLocationData = maps.geocodeTweets(rawTweetLocationData) #Converts location data into coordinates to use with Google Charts
 
-	locationArray = removeCountryCodes(geocodedLocationData)
-	countryArray = createCountryDictionary(geocodedLocationData)
+	locationArray = removeCountryCodes(geocodedLocationData) #Removes Country Names from the end of each array element
+	countryArray = createCountryDictionary(geocodedLocationData) #Creates an array of just country names
 
-	twoDaysAgo = str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 2)
-	interestArray = twit.interestByTime(input["search"],twoDaysAgo)
+	twoDaysAgo = str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 2) #String of date two days ago. Tweet search results are best before at least 2 days prior
+	interestArray = twit.interestByTime(input["search"],twoDaysAgo) #Array of data points for interest over time
 
+#Main error handler for the form elements
 	try:
 		if input["chartView"] == "none":
 			print error_handler.errorRedirect("You didn't choose a view option.")
@@ -198,4 +204,4 @@ def main():
 	except KeyError:
 		print error_handler.errorRedirect("You didn't enter a search option.")
 
-main()
+main() #Runs file

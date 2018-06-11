@@ -11,7 +11,7 @@ body{
 background-color: #2E4053;
 }
 
-a {
+a, {
 	color: #D6EAF8;
 	text-decoration: none;
 }
@@ -230,10 +230,17 @@ h3 {
 		padding: 20px;
 		display: inline-block;
 }
-
+ol {
+	font-family: "Proxima-Nova-Bold";
+	font-size: 36px;
+	color: #D6EAF8;
+	float: left;
+	display: inline-block;
+	text-align: left;
+}
 p {
 	font-family: "Proxima-Nova-Bold";
-	font-size: 30px;
+	font-size: 36px;
   color: #D6EAF8;
 	float: left;
 	display: inline-block;

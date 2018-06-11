@@ -8,8 +8,10 @@
                      -->
 <!DOCTYPE HTML>
 <html>
-  <head>
+  <head> 
+    <!--Initial html setup-->
     <link rel="stylesheet" href="../css/styles.css">
+    <!-- Import API key for the Google Maps JS API-->
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuTib5je6N9uKYKk-WOCp8b5EDIdVv9zU&callback=initMap" type="text/javascript"></script> type="text/javascript"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
@@ -25,7 +27,8 @@
 // | |_| | | (_) | | (_) | | (_| | | | |  __/   | |  | | | (_| | | |_) |  _
 //  \____|  \___/   \___/   \__, | |_|  \___|   |_|  |_|  \__,_| | .__/  (_)
 //                          |___/                                |_|
-    function realGoogleMap() {
+    function realGoogleMap() { 
+    //Displays a map of tweets
     var data = google.visualization.arrayToDataTable([
       ['Lat', 'Long', 'Name'],
       googleMapCoordinates
@@ -42,7 +45,8 @@
 // | |_) | | |  / _ \   | |     | '_ \   / _` | | '__| | __|
 // |  __/  | | |  __/   | |___  | | | | | (_| | | |    | |_
 // |_|     |_|  \___|    \____| |_| |_|  \__,_| |_|     \__|
-      function pieChart() {
+      function pieChart() { 
+        //Visualizes the country break down of tweets
         var data = google.visualization.arrayToDataTable([
           ['Country', 'Popularity Percentage'],
           pieChartPopularity
@@ -61,7 +65,8 @@
 // | |___  | | | | | | |  __/   | |___  | | | | | (_| | | |    | |_
 // |_____| |_| |_| |_|  \___|    \____| |_| |_|  \__,_| |_|     \__|
 
-      function lineChart() {
+      function lineChart() { 
+        //Visualizes a graph for interest over time of a search term
         var data = google.visualization.arrayToDataTable([
           ['Days', '% Interest'],
           lineChartInterest
@@ -81,8 +86,8 @@
 // |  _ <  |  __/ | (_| | | | | (_) | | | | |   | |  | | | (_| | | |    |   <  |  __/ | |    \__ \
 // |_| \_\  \___|  \__, | |_|  \___/  |_| |_|   |_|  |_|  \__,_| |_|    |_|\_\  \___| |_|    |___/
 //                 |___/
-          function drawRegionsMap() {
-            var data = google.visualization.arrayToDataTable([
+          function drawRegionsMap() { //Deprecated. Old test map which is no longer in use
+            var data = google.visualization.arrayToDataTable([ //Example locations 
               ['City',   'Provinces', 'Area'],
               ['Rome',      2761477,    1285.31],
               ['Milan',     1324110,    181.76],

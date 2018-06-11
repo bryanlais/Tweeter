@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <body>
-<title> Tweeter </title>
+<title> Twitter Stats</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/styles.css">
 <h1><img src="pictures/tweetbird.png" width="80px;" height="80px;" display="inline-block;"> </img>
    Twitter Stats <img src="pictures/tweetbird.png" width="80px;" height="80px;" display="inline-block;"> </img> </h1>
    <center>
-<form method="GET" action="cgi-bin/search.py">
+<form method="GET" action="cgi-bin/search.py"> 
+  <!-- Main search options-->
   <div class="application_box">
   <input type="text" placeholder="Search.." name="search">
   <button type="submit">
@@ -30,6 +31,10 @@
     </div>
     <div class="left_box">
       <h2> Language for Tweets? </h2> 
+      <!--
+        Twitter takes ISO 169-1 Language Codes. Twitter's language detection is not that great.
+        Sometimes emojis, which are in UTF-16 format will crash the language option
+      -->
       <select name="languageSelector">
         <option value="all"> Default: All Languages </option>
         <option value="en"> English </option>
@@ -49,6 +54,14 @@
     <br>
     <div class="middle_box">
       <h2> How do I use this website? </h2>
+      <p>Welcome to Twitter Stats! You can use this website to analyze trends on Twitter!</p>
+      <ol>
+        <li>Type in a search term to track</li>
+        <li>Choose a chart view. There are many ways to visualize data in maps, graphs, etc.</li>
+        <li>Choose any number of tweets to search from 1-100. <br> Note: Only around 2% of all Tweets are geotagged so not all the tweets searched will show up on the map</li>
+        <li>Choose a language</li>
+        <li>(Optional) You can compare two search terms by choosing compare view</li>
+      </ol>
     </div>
   </div>
     <h2> © 2018 All Rights Reserved. </h2>
