@@ -7,7 +7,8 @@ except ImportError:
 
 import json_handler as j
 
-import search 
+import error_handler 
+
 #Initialize Twitter API
 from twitter import Twitter, OAuth, TwitterHTTPError, TwitterStream
 
@@ -52,7 +53,7 @@ def returnTweetLocations(search_value, tweet_count, input_lang):
 						continue
 		
 		except TwitterHTTPError: #Sometimes when there are too many requests, twitter will return a HTTP error.
-			print search.errorHandler("Twitter Error 420. Please wait. Too many requests")
+			print error_handler.errorRedirect("Twitter Error 420. Please wait. Too many requests")
 	return filter(None, output)
 
 

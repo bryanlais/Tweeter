@@ -9,14 +9,13 @@ print "Content-type: text/html\n"
  |___| |_| |_| |_| | .__/   \___/  |_|     \__| |___/  
 				   |_|
 '''
-
 # We need these library modules to retrieve the user's answers
 from datetime import date,timedelta
 import cgi
 #Helps you see errors
 import cgitb
 cgitb.enable()
-
+import error_handler
 import twitter_handler as twit
 import gmaps_handler as maps
 
@@ -35,21 +34,6 @@ def removeCountryCodes(locationArray):
 def grabYesterday():
 	yesterday = date.today() - timedelta(1)
 	return str(yesterday.year) + "-" + str(yesterday.month) + "-" + str(yesterday.day)
-'''
-  _____                                  __  __
- | ____|  _ __   _ __    ___    _ __    |  \/  |   __ _   _ __     __ _    __ _    ___   _ __
- |  _|   | '__| | '__|  / _ \  | '__|   | |\/| |  / _` | | '_ \   / _` |  / _` |  / _ \ | '__|
- | |___  | |    | |    | (_) | | |      | |  | | | (_| | | | | | | (_| | | (_| | |  __/ | |
- |_____| |_|    |_|     \___/  |_|      |_|  |_|  \__,_| |_| |_|  \__,_|  \__, |  \___| |_|
-																		  |___/
-'''
-
-
-errorFile = open("../error.html", "r").read()
-
-def errorHandler(message):
-	return errorFile.format(insert = message)
-
 
 
 
@@ -209,7 +193,7 @@ def chartManager(chartType,countryArray,locationArray,interestArray):
 
 def main():
 	input = toVar()
-	rawTweetLocationData = (twit.returnTweetLocations(input["search"],int(input["tweetNumber"]),input["languageSelector"]))
+	rawTweetLocationData = twit.returnTweetLocations(input["search"],int(input["tweetNumber"]),input["languageSelector"])
 	geocodedLocationData = maps.geocodeTweets(rawTweetLocationData)
 
 	locationArray = removeCountryCodes(geocodedLocationData)
@@ -218,12 +202,12 @@ def main():
 
 	try:
 		if input["chartView"] == "none":
-			print errorHandler("You didn't choose a view option.")
+			print error_handler.errorRedirect("You didn't choose a view option.")
 		elif input["tweetNumber"] == 0:
-			print errorHandler("You only entered 0 tweets.")
+			print error_handler.errorRedirect("You only entered 0 tweets.")
 		else:
 			print chartManager(input["chartView"],countryArray,locationArray,interestArray)
 	except KeyError:
-		print errorHandler("You didn't enter a search option.")
+		print error_handler.errorRedirect("You didn't enter a search option.")
 
 main()
