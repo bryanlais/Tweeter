@@ -1,11 +1,12 @@
 #!/usr/bin/python
+print "Content-type: text/html\n"
 
 '''
-  ___                                      _              ___       _____              _   _     _
- |_ _|  _ __ ___    _ __     ___    _ __  | |_   ___     ( _ )     |_   _| __      __ (_) | |_  | |_    ___   _ __
-  | |  | '_ ` _ \  | '_ \   / _ \  | '__| | __| / __|    / _ \/\     | |   \ \ /\ / / | | | __| | __|  / _ \ | '__|
-  | |  | | | | | | | |_) | | (_) | | |    | |_  \__ \   | (_>  <     | |    \ V  V /  | | | |_  | |_  |  __/ | |
- |___| |_| |_| |_| | .__/   \___/  |_|     \__| |___/    \___/\/     |_|     \_/\_/   |_|  \__|  \__|  \___| |_|
+  ___                                      _           
+ |_ _|  _ __ ___    _ __     ___    _ __  | |_   ___   
+  | |  | '_ ` _ \  | '_ \   / _ \  | '__| | __| / __|  
+  | |  | | | | | | | |_) | | (_) | | |    | |_  \__ \    
+ |___| |_| |_| |_| | .__/   \___/  |_|     \__| |___/  
 				   |_|
 '''
 
@@ -16,165 +17,21 @@ import cgi
 import cgitb
 cgitb.enable()
 
-try:
-	import json
-except ImportError:
-	import simplejson as json
-
-#Initialize Twitter API
-from twitter import Twitter, OAuth, TwitterHTTPError, TwitterStream
-
-#Initialize Google Maps API
-import googlemaps
-ACCESS_TOKEN = "908881849962913792-TCiZjs3LLqUxkFAOz4pT2P09MHJcWCD"
-ACCESS_SECRET = "ZMX13DIqztOcjLT9TxpnLV1A4XqVeeeo9OAGDm4OokSUf"
-
-CONSUMER_KEY = "DDWdLGsClAIJs3oujJ1aEIvbw"
-CONSUMER_SECRET = "Qv1fGDVJcT9eRgfYhS7cJRY5IEu4Kr36oVgNBRDkdkdLxlkUp5"
-
-#Google Maps API Key
-MAPS_KEY = "AIzaSyATSAyQy4FCqahfQ0wFI6CdS6liwNeFEUw"
-CLIENT_ID = "249626440675-7oks77sqjjv07k7nkq42p8urj545t8k6"
-CLIENT_SECRET = "Ln7P7GwVRphnuZTeEE7CPRwC"
-oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
-twitter_stream = TwitterStream(auth=oauth)
-twitter = Twitter(auth=oauth)
-
-gmaps = googlemaps.Client(key=MAPS_KEY)
-
-html = '''
-<!DOCTYPE html>
-<html>
-	<head></head>
-	<body>{body}</body>
-</html>
-'''
-
-def dumpToJSON(filehandle, raw):
-	jsonText = json.dumps(raw, indent = 4)
-	jsonFile = open(filehandle, "w")
-	jsonFile.write(jsonText)
-	jsonFile.close()
-
-	jsonFile = open(filehandle, "r")
-	jsonStr = jsonFile.read()
-	JSON = json.loads(jsonStr)
-	jsonFile.close()
-	return JSON
-
-def returnRealtimeTweets(search_value, tweet_count):
-	global twitter_stream
-	locationDataList = []
-
-	tweets = twitter_stream.statuses.filter(track=search_value, locations="-180,-90,180,90")
-
-	for tweet in tweets:
-		tweetFile = open("json-bin/tweets.json","w")
-		tweetFile.write(str(json.dumps(tweet)))
-		tweetFile.close()
-
-		locationDataList.append(returnLocationData())
-
-		tweet_count -= 1
-		if tweet_count <= 0:
-			break
-	return filter(None, locationDataList)
-
-def returnLocationData():
-	# We use the file saved from last step as example
-	tweetFile = open("json-bin/tweets.json", "r")
-
-	for line in tweetFile:
-		try:
-			# Read in one line of the file, convert it into a json object
-			tweet = json.loads(line.strip())
-
-			if 'text' in tweet:
-				name =  str(tweet["place"]["full_name"])
-				text = str(tweet["text"])
-				locationData = [tweet["place"]["bounding_box"]["coordinates"][0][0][1],tweet["place"]["bounding_box"]["coordinates"][0][0][0]]
-
-				locationData.append(name + " " + text)
-				return locationData
-
-		except:
-			# Sometimes an error occurs when a line is not in json format
-			continue
-	tweetFile.close()
-
-def returnTweetLocations(search_value, tweet_count, input_lang):
-	global twitter
-	output = []
-	for x in range(2):
-		try:
-			if input_lang != None:
-				tweets = twitter.search.tweets(q=search_value, count=tweet_count, lang=input_lang,geocode="0.781157,0.398720,8000mi")
-			else:
-				tweets = twitter.search.tweets(q=search_value,count = tweet_count,geocode="0.781157,0.398720,8000mi")
-
-			jsonData = dumpToJSON("json-bin/tweet_location_names.json", tweets)
-
-			for el in jsonData["statuses"]:
-				if el["place"] != None:
-					output.append([el["place"]["name"].encode('utf-8'), el["text"].encode('utf-8')])
-				elif el["user"]["location"] != None:
-					try:
-						output.append([str(el["user"]["location"]),str(el["text"])])
-					except:
-						continue
-		except TwitterHTTPError:
-			print errorHandler("Twitter Error 420. Please wait. Too many requests")
-	return filter(None, output)
-
-def interestByTime(search_value, tweet_count, date):
-	global twitter
-	output = []
-	for x in range(1,10):
-		tweets = twitter.search.tweets(q=search_value,count = tweet_count, until = date, result_type="popular")
-		jsonData = dumpToJSON("json-bin/twitter_interest_by_time_timestamps.json", tweets)
-		for el in jsonData["statuses"]:
-			output.append(str(el["created_at"]))
-	return output
-
-def geocodeTweets(tweets):
-	global gmaps
-	geocodes = []
-	for tweet in tweets:
-		try:
-			jsonData = gmaps.places_autocomplete(tweet[0])
-		except:
-			continue
-
-		geoJSON = dumpToJSON("json-bin/geodata.json", jsonData)
-
-		try:
-			placeID = geoJSON[0]["place_id"].encode('utf-8')
-			country = geoJSON[0]["terms"][-1]["value"]
-			geocodes.append([placeID, tweet[1] + " , " + tweet[0], country])
-		except IndexError:
-			continue
-
-	return geocodesToCoordinates(geocodes)
-
-def geocodesToCoordinates(geocodes):
-	global gmaps
-	output = []
-	for geocode in geocodes:
-		placeID = geocode[0]
-		jsonData = gmaps.place(placeID)
-		placeData = dumpToJSON("json-bin/placedata.json", jsonData)
-
-		lat, lng =  placeData["result"]["geometry"]["location"]["lat"], placeData["result"]["geometry"]["location"]["lng"]
-		output.append([lat, lng, geocode[1], geocode[2]])
-	return output
+import twitter_handler as twit
+import gmaps_handler as maps
 
 
+
+#Takes in the array of location array and removes the country codes, which are the third element of each array. 
+# [[34.45,90.12,"Hello World! , New York, NY", "USA"]] ----> [[34.45,90.12,"Hello World! , New York, NY"]]
+#locationArray: (list)
 def removeCountryCodes(locationArray):
 	output = []
 	for el in locationArray:
 		output.append(el[:3])
 	return output
 
+#Takes in the current date and returns the date of yesterday. The twitter search api timestamps work best with tweets at least 2 days old
 def grabYesterday():
 	yesterday = date.today() - timedelta(1)
 	return str(yesterday.year) + "-" + str(yesterday.month) + "-" + str(yesterday.day)
@@ -186,6 +43,8 @@ def grabYesterday():
  |_____| |_|    |_|     \___/  |_|      |_|  |_|  \__,_| |_| |_|  \__,_|  \__, |  \___| |_|
 																		  |___/
 '''
+
+
 errorFile = open("../error.html", "r").read()
 
 def errorHandler(message):
@@ -245,6 +104,9 @@ def previousDaysManager(input):
 	if input == "week":
 		return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 7)
 
+#Takes in the locationDataArray and takes the last value of each list, then puts them in a dictionary. 
+#matrix: locationDataArray (list)
+#Returns a frequency dictionary of countries. Ex: {"US": 3, "Nigeria": 5, "India": 2}
 def createCountryDictionary(matrix):
 	idx = 0
 	output = {}
@@ -266,6 +128,7 @@ def dateToDict(arr):
 			output[arr[idx][0:10]] += 1
 		idx += 1
 	return output
+
 def dictToMatrix(dict):
 	output = []
 	sum = 0.0
@@ -274,6 +137,7 @@ def dictToMatrix(dict):
 	for key in dict.keys():
 		output.append([key,((dict[key] / sum) * 10)])
 	return output
+
 def sortDateMatrix(matrix):
     month = {"Jan":1,"Feb":2,"Mar":3,"Apr":4,"May":5,"Jun":6,"Jul":7,"Aug":8,"Sep":9,"Oct":10,"Nov":11,"Dec":12}
     idx = 0
@@ -286,6 +150,7 @@ def sortDateMatrix(matrix):
         idx += 1
     matrix.sort()
     return matrix
+	
 def chartManager(chartType,countryArray,locationArray,interestArray):
     updatedChart = ""
     if chartType == "realMap":
@@ -343,12 +208,14 @@ def chartManager(chartType,countryArray,locationArray,interestArray):
 '''
 
 def main():
-	print "Content-type: text/html\n"
-	global html
 	input = toVar()
-	locationArray = removeCountryCodes(geocodeTweets(returnTweetLocations(input["search"],int(input["tweetNumber"]),input["languageSelector"])))
-	countryArray = createCountryDictionary(geocodeTweets(returnTweetLocations(input["search"],int(input["tweetNumber"]),input["languageSelector"])))
-	interestArray = interestByTime(input["search"],input["tweetNumber"],previousDaysManager(input["timeSelector"]))
+	rawTweetLocationData = (twit.returnTweetLocations(input["search"],int(input["tweetNumber"]),input["languageSelector"]))
+	geocodedLocationData = maps.geocodeTweets(rawTweetLocationData)
+
+	locationArray = removeCountryCodes(geocodedLocationData)
+	countryArray = createCountryDictionary(geocodedLocationData)
+	interestArray = twit.interestByTime(input["search"],previousDaysManager(input["timeSelector"]))
+
 	try:
 		if input["chartView"] == "none":
 			print errorHandler("You didn't choose a view option.")
@@ -358,4 +225,5 @@ def main():
 			print chartManager(input["chartView"],countryArray,locationArray,interestArray)
 	except KeyError:
 		print errorHandler("You didn't enter a search option.")
+
 main()
