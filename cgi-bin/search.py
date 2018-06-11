@@ -70,23 +70,6 @@ def toVar():
 
 googleChart = open("../google.html", "r").read()
 
-def previousDaysManager(input):
-	if input == "today":
-		return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day)
-	if input == "yesterday":
-		grabYesterday()
-	if input == "2daysago":
-		return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 2)
-	if input == "3daysago":
-		return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 3)
-	if input == "4daysago":
-		return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 4)
-	if input == "5daysago":
-		return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 5)
-	if input == "6daysago":
-		return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 6)
-	if input == "week":
-		return str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 7)
 
 #Takes in the locationDataArray and takes the last value of each list, then puts them in a dictionary. 
 #matrix: locationDataArray (list)
@@ -150,6 +133,7 @@ def chartManager(chartType,countryArray,locationArray,interestArray):
 	if chartType == "worldMap":
 		updatedChart = googleChart.replace("chartInput","regions_div")
 		updatedChart = updatedChart.replace("requestedChart","Regions Map:")
+
 	if chartType == "piechart":
 		updatedChart = googleChart.replace("chartInput","pies_div")
 		updatedChart = updatedChart.replace("requestedChart","Pie Chart:")
@@ -158,7 +142,7 @@ def chartManager(chartType,countryArray,locationArray,interestArray):
 			if idx != len(dictToMatrix(countryArray)) - 1:
 				updatedChart = updatedChart.replace("pieChartPopularity",str(dictToMatrix(countryArray)[idx]) + "," + "pieChartPopularity")
 			else:
-				updatedChart = updatedChart.replace("pieChartPopularity",str(dictToMatrix(countryArray)[idx]) + ",")
+				updatedChart = updatedChart.replace("pieChartPopularity",str(dictToMatrix(countryArray)[idx]))
 			idx += 1
 	if chartType == "lineGraph":
 		updatedChart = googleChart.replace("chartInput","line_div")
@@ -198,13 +182,17 @@ def main():
 
 	locationArray = removeCountryCodes(geocodedLocationData)
 	countryArray = createCountryDictionary(geocodedLocationData)
-	interestArray = twit.interestByTime(input["search"],previousDaysManager(input["timeSelector"]))
+
+	twoDaysAgo = str(date.today().year) + "-" + str(date.today().month) + "-" + str(date.today().day - 2)
+	interestArray = twit.interestByTime(input["search"],twoDaysAgo)
 
 	try:
 		if input["chartView"] == "none":
 			print error_handler.errorRedirect("You didn't choose a view option.")
 		elif input["tweetNumber"] == 0:
 			print error_handler.errorRedirect("You only entered 0 tweets.")
+		elif locationArray == []:
+			print error_handler.errorRedirect("No results. Please try again")
 		else:
 			print chartManager(input["chartView"],countryArray,locationArray,interestArray)
 	except KeyError:

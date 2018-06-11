@@ -64,7 +64,7 @@ def returnTweetLocations(search_value, tweet_count, input_lang):
 def interestByTime(search_value, date):
 	global twitter
 	output = []
-	for x in range(1,10):
+	for x in range(1,5):
 		tweets = twitter.search.tweets(q=search_value, count = 15, until = date, result_type="popular")
 		jsonData = j.dumpToJSON("json-bin/twitter_interest_by_time_timestamps.json", tweets)
 		for el in jsonData["statuses"]:
@@ -73,10 +73,11 @@ def interestByTime(search_value, date):
 
 
 
+
 #Returns realtime location data of tweets around the world
 #search value: search input (string)
 #tweet_count: number of tweets to search for. Max 100 (int)
-def returnRealtimeTweets(search_value, tweet_count):
+def returnRealtimeTweets(search_value, tweet_count): #Deprecated. Early test funciton
 	global twitter_stream
 	locationDataList = []
 
@@ -97,7 +98,7 @@ def returnRealtimeTweets(search_value, tweet_count):
 
 #Helper function for returnRealtimeTweets
 #Reads the realtime_tweets.json file for location data
-def returnLocationData():
+def returnLocationData(): #Deprecated
 	# We use the file saved from last step as example
 	tweetFile = open("json-bin/realtime_tweets.json", "r")
 

@@ -25,7 +25,7 @@ def geocodeTweets(tweets):
 
 		try:
 			placeID = geoJSON[0]["place_id"].encode('utf-8')
-			country = geoJSON[0]["terms"][-1]["value"]
+			country = geoJSON[0]["terms"][-1]["value"].encode('utf-8')
 			geocodes.append([placeID, tweet[1] + " , " + tweet[0], country])
 		except IndexError:
 			continue
