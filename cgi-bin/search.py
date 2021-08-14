@@ -1,5 +1,5 @@
 #!/usr/bin/python
-print "Content-type: text/html\n"
+print("Content-type: text/html\n")
 
 '''
   ___                                      _           
@@ -194,14 +194,14 @@ def main():
 #Main error handler for the form elements
 	try:
 		if input["chartView"] == "none":
-			print error_handler.errorRedirect("You didn't choose a view option.")
+			print(error_handler.errorRedirect("You didn't choose a view option."))
 		elif input["tweetNumber"] == 0:
-			print error_handler.errorRedirect("You only entered 0 tweets.")
+			print(error_handler.errorRedirect("You only entered 0 tweets."))
 		elif locationArray == []:
-			print error_handler.errorRedirect("No results. Please try again")
+			print(error_handler.errorRedirect("No results. Please try again"))
 		else:
-			print chartManager(input["chartView"],countryArray,locationArray,interestArray)
+			print(chartManager(input["chartView"],countryArray,locationArray,interestArray))
 	except KeyError:
-		print error_handler.errorRedirect("You didn't enter a search option.")
+		print (error_handler.errorRedirect("You didn't enter a search option."))
 
 main() #Runs file

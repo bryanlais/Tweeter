@@ -6,7 +6,7 @@ import googlemaps
 import json_handler as j
 #Dictionary of all the API keys
 config = {}
-execfile("config.py", config)
+exec(open("config.py").read(), config)
 
 gmaps = googlemaps.Client(key=config["MAPS_KEY"])
 

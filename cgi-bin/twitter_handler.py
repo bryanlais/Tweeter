@@ -17,7 +17,7 @@ from twitter import Twitter, OAuth, TwitterHTTPError, TwitterStream
 
 #Dictionary of all the API keys
 config = {}
-execfile("config.py", config)
+exec(open("config.py").read(), config)
 
 oauth = OAuth(config["ACCESS_TOKEN"], config["ACCESS_SECRET"], config["CONSUMER_KEY"], config["CONSUMER_SECRET"])
 twitter_stream = TwitterStream(auth=oauth)
@@ -53,7 +53,7 @@ def returnTweetLocations(search_value, tweet_count, input_lang):
 						continue
 		
 		except TwitterHTTPError: #Sometimes when there are too many requests, twitter will return a HTTP error.
-			print error_handler.errorRedirect("Twitter Error 420. Please wait. Too many requests")
+			print(error_handler.errorRedirect("Twitter Error 420. Please wait. Too many requests"))
 	return filter(None, output)
 
 
